@@ -1,0 +1,122 @@
+[
+ {
+  "tid": 0,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "FAILED: right object, not placed",
+  "e2e": "FAILED: grabbed salad dressing",
+  "saycan": "FAILED: grabbed salad dressing",
+  "hamster": "FAILED: grabbed milk",
+  "vla": "FAILED: grabbed salad dressing"
+ },
+ {
+  "tid": 1,
+  "ep": 5,
+  "kind": "never-grasped location",
+  "ours": "FAILED: right object, not placed",
+  "e2e": "FAILED: grabbed butter",
+  "saycan": "FAILED: grabbed butter",
+  "hamster": "FAILED: grabbed butter",
+  "vla": "FAILED: grabbed orange juice"
+ },
+ {
+  "tid": 2,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed milk",
+  "saycan": "FAILED: grabbed milk",
+  "hamster": "FAILED: grabbed milk",
+  "vla": "FAILED: grabbed cream cheese"
+ },
+ {
+  "tid": 3,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed alphabet soup",
+  "saycan": "FAILED: grabbed alphabet soup",
+  "hamster": "FAILED: grabbed alphabet soup",
+  "vla": "FAILED: grabbed chocolate pudding"
+ },
+ {
+  "tid": 4,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed cream cheese",
+  "saycan": "FAILED: grabbed cream cheese",
+  "hamster": "FAILED: grabbed salad dressing",
+  "vla": "FAILED: grabbed cream cheese"
+ },
+ {
+  "tid": 5,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed orange juice",
+  "saycan": "FAILED: grabbed orange juice",
+  "hamster": "FAILED: nothing picked up",
+  "vla": "FAILED: right object, not placed"
+ },
+ {
+  "tid": 6,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "FAILED: right object, not placed",
+  "e2e": "FAILED: grabbed ketchup",
+  "saycan": "FAILED: grabbed ketchup",
+  "hamster": "FAILED: grabbed bbq sauce",
+  "vla": "FAILED: grabbed bbq sauce"
+ },
+ {
+  "tid": 7,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed butter",
+  "saycan": "FAILED: grabbed butter",
+  "hamster": "FAILED: grabbed tomato sauce",
+  "vla": "FAILED: grabbed butter"
+ },
+ {
+  "tid": 8,
+  "ep": 2,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed orange juice",
+  "saycan": "FAILED: nothing picked up",
+  "hamster": "FAILED: grabbed orange juice",
+  "vla": "FAILED: grabbed orange juice"
+ },
+ {
+  "tid": 9,
+  "ep": 1,
+  "kind": "never-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed chocolate pudding",
+  "saycan": "FAILED: nothing picked up",
+  "hamster": "FAILED: grabbed chocolate pudding",
+  "vla": "FAILED: grabbed bbq sauce"
+ },
+ {
+  "tid": 0,
+  "ep": 4,
+  "kind": "previously-grasped location",
+  "ours": "FAILED: nothing picked up",
+  "e2e": "FAILED: grabbed cream cheese",
+  "saycan": "FAILED: grabbed cream cheese",
+  "hamster": "SUCCESS: target in basket",
+  "vla": "FAILED: grabbed cream cheese"
+ },
+ {
+  "tid": 1,
+  "ep": 1,
+  "kind": "previously-grasped location",
+  "ours": "SUCCESS: target in basket",
+  "e2e": "FAILED: grabbed milk",
+  "saycan": "FAILED: grabbed milk",
+  "hamster": "SUCCESS: target in basket",
+  "vla": "FAILED: grabbed milk"
+ }
+]

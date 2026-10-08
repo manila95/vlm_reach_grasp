@@ -1,0 +1,2002 @@
+[
+ {
+  "tid": 0,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.701642990112305,
+  "moved": "milk_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.65794587135315,
+  "moved": "tomato_sauce_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.122568607330322,
+  "moved": "milk_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 4.8467912673950195,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 177,
+  "sec": 6.229089021682739,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.074771165847778,
+  "moved": "butter_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.84168291091919,
+  "moved": "tomato_sauce_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.035199403762817,
+  "moved": null,
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.11036729812622,
+  "moved": "tomato_sauce_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.139444589614868,
+  "moved": "butter_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 178,
+  "sec": 6.281038522720337,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.984598159790039,
+  "moved": "salad_dressing_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.732582092285156,
+  "moved": "milk_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.267889976501465,
+  "moved": "milk_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 6.360246419906616,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 5.949310779571533,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.694160223007202,
+  "moved": "salad_dressing_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.125404357910156,
+  "moved": "cream_cheese_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.781248092651367,
+  "moved": null,
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 147,
+  "sec": 6.241587162017822,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 1,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 159,
+  "sec": 5.1131367683410645,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 161,
+  "sec": 4.730181694030762,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 160,
+  "sec": 4.699397802352905,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.762468814849854,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.829278945922852,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.65938925743103,
+  "moved": "milk_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.088795900344849,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.496493101119995,
+  "moved": "tomato_sauce_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.090993404388428,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.7965726852417,
+  "moved": "alphabet_soup_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.870546817779541,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.121880769729614,
+  "moved": null,
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.757042169570923,
+  "moved": "milk_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.574995994567871,
+  "moved": "tomato_sauce_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.663929462432861,
+  "moved": "tomato_sauce_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.750000953674316,
+  "moved": "tomato_sauce_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.27410364151001,
+  "moved": "alphabet_soup_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.292562484741211,
+  "moved": "alphabet_soup_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.015644550323486,
+  "moved": "milk_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.574962615966797,
+  "moved": "butter_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 2,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.705212593078613,
+  "moved": "milk_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.427531480789185,
+  "moved": "ketchup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.41113805770874,
+  "moved": "alphabet_soup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.989071130752563,
+  "moved": "alphabet_soup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.974355459213257,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.96291708946228,
+  "moved": "tomato_sauce_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.292052984237671,
+  "moved": "tomato_sauce_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.041061401367188,
+  "moved": "tomato_sauce_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.638016700744629,
+  "moved": null,
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 178,
+  "sec": 6.02639102935791,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.28465461730957,
+  "moved": "tomato_sauce_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.824114799499512,
+  "moved": "milk_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.167773962020874,
+  "moved": "ketchup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.37550163269043,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.074732542037964,
+  "moved": null,
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.65544080734253,
+  "moved": "alphabet_soup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.19381046295166,
+  "moved": "ketchup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.449724674224854,
+  "moved": "milk_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.3917555809021,
+  "moved": "ketchup_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.931474208831787,
+  "moved": "tomato_sauce_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 3,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.244593143463135,
+  "moved": "alphabet_soup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.995921611785889,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.126571655273438,
+  "moved": "chocolate_pudding_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 155,
+  "sec": 4.5464699268341064,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.186148405075073,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.12742018699646,
+  "moved": "alphabet_soup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.85724925994873,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.293756484985352,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.944289207458496,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.876750946044922,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.16395378112793,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 205,
+  "sec": 6.196289300918579,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.869919538497925,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.702917575836182,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.216668605804443,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.763873815536499,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.17822003364563,
+  "moved": "chocolate_pudding_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.910477638244629,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.13818883895874,
+  "moved": "ketchup_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.556780576705933,
+  "moved": "salad_dressing_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 4,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.4507155418396,
+  "moved": "salad_dressing_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.335764408111572,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.134594440460205,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.69631028175354,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.034100532531738,
+  "moved": "salad_dressing_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.302982091903687,
+  "moved": "alphabet_soup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.233332633972168,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.823498725891113,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.017024040222168,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.882008075714111,
+  "moved": "salad_dressing_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.160099267959595,
+  "moved": "alphabet_soup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.90906286239624,
+  "moved": "cream_cheese_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.965586185455322,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.229854345321655,
+  "moved": "salad_dressing_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.861773252487183,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.401362657546997,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.693504810333252,
+  "moved": "cream_cheese_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.920557498931885,
+  "moved": "cream_cheese_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.538610458374023,
+  "moved": "milk_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.700387001037598,
+  "moved": "salad_dressing_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 5,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.59670877456665,
+  "moved": "bbq_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 154,
+  "sec": 4.2833592891693115,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.206928730010986,
+  "moved": "orange_juice_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 7.806407451629639,
+  "moved": "bbq_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.059019804000854,
+  "moved": "milk_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 148,
+  "sec": 3.9905991554260254,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 145,
+  "sec": 4.509477615356445,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.33720588684082,
+  "moved": "chocolate_pudding_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.425979137420654,
+  "moved": "milk_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.226891994476318,
+  "moved": "orange_juice_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 7.82396125793457,
+  "moved": "bbq_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 7.938204526901245,
+  "moved": "milk_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.226112127304077,
+  "moved": "butter_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.028945922851562,
+  "moved": "chocolate_pudding_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 159,
+  "sec": 4.624119520187378,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.871809720993042,
+  "moved": "milk_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.636228561401367,
+  "moved": "chocolate_pudding_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.958072185516357,
+  "moved": "chocolate_pudding_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 160,
+  "sec": 5.578956127166748,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.274794340133667,
+  "moved": "milk_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 6,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.557936429977417,
+  "moved": "bbq_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.285779476165771,
+  "moved": "bbq_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.227398157119751,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.033613920211792,
+  "moved": "bbq_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 143,
+  "sec": 4.966667652130127,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.298283576965332,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.2092444896698,
+  "moved": "chocolate_pudding_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.126933097839355,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 143,
+  "sec": 4.886292934417725,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.166007280349731,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.212227582931519,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.951194524765015,
+  "moved": "ketchup_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.826772928237915,
+  "moved": "ketchup_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.737587690353394,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.672253370285034,
+  "moved": "ketchup_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.521281003952026,
+  "moved": "tomato_sauce_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.438822031021118,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 145,
+  "sec": 6.059588670730591,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.975953340530396,
+  "moved": "chocolate_pudding_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.295255422592163,
+  "moved": "orange_juice_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 7,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.209049701690674,
+  "moved": "tomato_sauce_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.736294031143188,
+  "moved": "chocolate_pudding_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.151440858840942,
+  "moved": "butter_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 3.4810545444488525,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.942661046981812,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.435265302658081,
+  "moved": "orange_juice_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.686479330062866,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.993884563446045,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.250924348831177,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.916330099105835,
+  "moved": "chocolate_pudding_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.131389141082764,
+  "moved": "butter_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 198,
+  "sec": 5.681726694107056,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.877734899520874,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.455596446990967,
+  "moved": "orange_juice_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.489056825637817,
+  "moved": "chocolate_pudding_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.849756479263306,
+  "moved": "chocolate_pudding_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.893057823181152,
+  "moved": "cream_cheese_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.074756860733032,
+  "moved": null,
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.171609163284302,
+  "moved": "chocolate_pudding_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.85099482536316,
+  "moved": "tomato_sauce_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 8,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 147,
+  "sec": 5.423168420791626,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.892812013626099,
+  "moved": "orange_juice_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.95314073562622,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.244285106658936,
+  "moved": "alphabet_soup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.173367023468018,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.246418952941895,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 4.529534816741943,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.135612487792969,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.329074382781982,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.225177526473999,
+  "moved": "ketchup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 12,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.000745296478271,
+  "moved": "ketchup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.982077836990356,
+  "moved": "ketchup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.8537118434906,
+  "moved": "bbq_sauce_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.207692623138428,
+  "moved": "orange_juice_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 16,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.6278076171875,
+  "moved": "salad_dressing_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 13.34422516822815,
+  "moved": "ketchup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.994919776916504,
+  "moved": "ketchup_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 12.49667501449585,
+  "moved": null,
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 11.873051881790161,
+  "moved": "bbq_sauce_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 5.490902662277222,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 9,
+  "ep": 1,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.632734298706055,
+  "moved": "chocolate_pudding_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 2,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.097553968429565,
+  "moved": null,
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 3,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.228042125701904,
+  "moved": null,
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 4,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 7.975786447525024,
+  "moved": "ketchup_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 5,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.096690654754639,
+  "moved": "bbq_sauce_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 6,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.301997184753418,
+  "moved": "ketchup_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 7,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.411616802215576,
+  "moved": "butter_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 8,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.04542088508606,
+  "moved": null,
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 9,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.440439462661743,
+  "moved": "ketchup_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 11,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.368496894836426,
+  "moved": "salad_dressing_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 144,
+  "sec": 4.08242392539978,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 13,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.468231439590454,
+  "moved": "chocolate_pudding_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 14,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.001386642456055,
+  "moved": "bbq_sauce_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 15,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 8.993698835372925,
+  "moved": "butter_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 144,
+  "sec": 4.920537948608398,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 17,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.448769569396973,
+  "moved": "bbq_sauce_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 18,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.63901138305664,
+  "moved": "ketchup_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 19,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.427997589111328,
+  "moved": null,
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 21,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 9.896279573440552,
+  "moved": "salad_dressing_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 22,
+  "success": false,
+  "fail": null,
+  "steps": 300,
+  "sec": 10.434037208557129,
+  "moved": "chocolate_pudding_1",
+  "target": "orange_juice_1"
+ }
+]

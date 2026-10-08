@@ -1,0 +1,10 @@
+{
+ "method": "hier_vlm",
+ "success": 0.9,
+ "per_task": {
+  "7": 0.9
+ },
+ "fails": {
+  "place": 2
+ }
+}

@@ -1,0 +1,1602 @@
+[
+ {
+  "tid": 0,
+  "ep": 1,
+  "success": false,
+  "fail": "place",
+  "steps": 136,
+  "sec": 1.8130998611450195
+ },
+ {
+  "tid": 0,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.4821722507476807
+ },
+ {
+  "tid": 0,
+  "ep": 3,
+  "success": false,
+  "fail": "grasp",
+  "steps": 206,
+  "sec": 2.270329475402832
+ },
+ {
+  "tid": 0,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.3777005672454834
+ },
+ {
+  "tid": 0,
+  "ep": 5,
+  "success": false,
+  "fail": "place",
+  "steps": 230,
+  "sec": 2.283658266067505
+ },
+ {
+  "tid": 0,
+  "ep": 6,
+  "success": false,
+  "fail": "grasp",
+  "steps": 173,
+  "sec": 1.80438232421875
+ },
+ {
+  "tid": 0,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 121,
+  "sec": 1.32826566696167
+ },
+ {
+  "tid": 0,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 172,
+  "sec": 1.7679905891418457
+ },
+ {
+  "tid": 0,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 123,
+  "sec": 1.2006144523620605
+ },
+ {
+  "tid": 0,
+  "ep": 11,
+  "success": false,
+  "fail": "grasp",
+  "steps": 213,
+  "sec": 2.203998565673828
+ },
+ {
+  "tid": 0,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 110,
+  "sec": 0.9487419128417969
+ },
+ {
+  "tid": 0,
+  "ep": 13,
+  "success": false,
+  "fail": "grasp",
+  "steps": 189,
+  "sec": 1.9551270008087158
+ },
+ {
+  "tid": 0,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 169,
+  "sec": 1.8502671718597412
+ },
+ {
+  "tid": 0,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 210,
+  "sec": 2.443551778793335
+ },
+ {
+  "tid": 0,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 123,
+  "sec": 1.326188087463379
+ },
+ {
+  "tid": 0,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 123,
+  "sec": 1.3353793621063232
+ },
+ {
+  "tid": 0,
+  "ep": 18,
+  "success": false,
+  "fail": "grasp",
+  "steps": 227,
+  "sec": 2.483621597290039
+ },
+ {
+  "tid": 0,
+  "ep": 19,
+  "success": false,
+  "fail": "place",
+  "steps": 143,
+  "sec": 1.3957619667053223
+ },
+ {
+  "tid": 0,
+  "ep": 21,
+  "success": false,
+  "fail": "grasp",
+  "steps": 221,
+  "sec": 2.1713898181915283
+ },
+ {
+  "tid": 0,
+  "ep": 22,
+  "success": false,
+  "fail": "grasp",
+  "steps": 230,
+  "sec": 1.803976058959961
+ },
+ {
+  "tid": 1,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 176,
+  "sec": 1.9665627479553223
+ },
+ {
+  "tid": 1,
+  "ep": 2,
+  "success": false,
+  "fail": "grasp",
+  "steps": 231,
+  "sec": 2.232872247695923
+ },
+ {
+  "tid": 1,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.1666204929351807
+ },
+ {
+  "tid": 1,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.4397392272949219
+ },
+ {
+  "tid": 1,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.372833490371704
+ },
+ {
+  "tid": 1,
+  "ep": 6,
+  "success": false,
+  "fail": "place",
+  "steps": 129,
+  "sec": 1.2228491306304932
+ },
+ {
+  "tid": 1,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 190,
+  "sec": 2.1500306129455566
+ },
+ {
+  "tid": 1,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 152,
+  "sec": 1.5994200706481934
+ },
+ {
+  "tid": 1,
+  "ep": 9,
+  "success": false,
+  "fail": "grasp",
+  "steps": 226,
+  "sec": 2.1739184856414795
+ },
+ {
+  "tid": 1,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 1.1508374214172363
+ },
+ {
+  "tid": 1,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.2066841125488281
+ },
+ {
+  "tid": 1,
+  "ep": 13,
+  "success": false,
+  "fail": "grasp",
+  "steps": 227,
+  "sec": 2.5067193508148193
+ },
+ {
+  "tid": 1,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.239356517791748
+ },
+ {
+  "tid": 1,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.1314682960510254
+ },
+ {
+  "tid": 1,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 121,
+  "sec": 1.185718059539795
+ },
+ {
+  "tid": 1,
+  "ep": 17,
+  "success": false,
+  "fail": "place",
+  "steps": 127,
+  "sec": 1.1299216747283936
+ },
+ {
+  "tid": 1,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 154,
+  "sec": 1.4802212715148926
+ },
+ {
+  "tid": 1,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 117,
+  "sec": 1.0232596397399902
+ },
+ {
+  "tid": 1,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 181,
+  "sec": 1.710911750793457
+ },
+ {
+  "tid": 1,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 182,
+  "sec": 1.7848145961761475
+ },
+ {
+  "tid": 2,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.3105685710906982
+ },
+ {
+  "tid": 2,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.1132464408874512
+ },
+ {
+  "tid": 2,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 107,
+  "sec": 1.268704891204834
+ },
+ {
+  "tid": 2,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 107,
+  "sec": 0.9900035858154297
+ },
+ {
+  "tid": 2,
+  "ep": 5,
+  "success": false,
+  "fail": "grasp",
+  "steps": 129,
+  "sec": 1.0941545963287354
+ },
+ {
+  "tid": 2,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 174,
+  "sec": 1.672067403793335
+ },
+ {
+  "tid": 2,
+  "ep": 7,
+  "success": false,
+  "fail": "grasp",
+  "steps": 127,
+  "sec": 1.1178538799285889
+ },
+ {
+  "tid": 2,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.6774866580963135
+ },
+ {
+  "tid": 2,
+  "ep": 9,
+  "success": false,
+  "fail": "grasp",
+  "steps": 227,
+  "sec": 2.435976266860962
+ },
+ {
+  "tid": 2,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 106,
+  "sec": 1.0143404006958008
+ },
+ {
+  "tid": 2,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 105,
+  "sec": 1.010725498199463
+ },
+ {
+  "tid": 2,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 110,
+  "sec": 1.0057165622711182
+ },
+ {
+  "tid": 2,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 111,
+  "sec": 1.0830278396606445
+ },
+ {
+  "tid": 2,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 111,
+  "sec": 1.316890001296997
+ },
+ {
+  "tid": 2,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 106,
+  "sec": 1.1005504131317139
+ },
+ {
+  "tid": 2,
+  "ep": 17,
+  "success": false,
+  "fail": "grasp",
+  "steps": 131,
+  "sec": 1.219402551651001
+ },
+ {
+  "tid": 2,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 107,
+  "sec": 1.1141841411590576
+ },
+ {
+  "tid": 2,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 110,
+  "sec": 1.0438315868377686
+ },
+ {
+  "tid": 2,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 109,
+  "sec": 1.0258874893188477
+ },
+ {
+  "tid": 2,
+  "ep": 22,
+  "success": false,
+  "fail": "grasp",
+  "steps": 210,
+  "sec": 1.577739953994751
+ },
+ {
+  "tid": 3,
+  "ep": 1,
+  "success": false,
+  "fail": "place",
+  "steps": 135,
+  "sec": 1.6308135986328125
+ },
+ {
+  "tid": 3,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 111,
+  "sec": 1.120079755783081
+ },
+ {
+  "tid": 3,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 111,
+  "sec": 1.2002525329589844
+ },
+ {
+  "tid": 3,
+  "ep": 4,
+  "success": false,
+  "fail": "grasp",
+  "steps": 173,
+  "sec": 1.6250789165496826
+ },
+ {
+  "tid": 3,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 115,
+  "sec": 1.0357677936553955
+ },
+ {
+  "tid": 3,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.2384228706359863
+ },
+ {
+  "tid": 3,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 115,
+  "sec": 1.1725997924804688
+ },
+ {
+  "tid": 3,
+  "ep": 8,
+  "success": false,
+  "fail": "grasp",
+  "steps": 227,
+  "sec": 2.3390331268310547
+ },
+ {
+  "tid": 3,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.3687019348144531
+ },
+ {
+  "tid": 3,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.2997617721557617
+ },
+ {
+  "tid": 3,
+  "ep": 12,
+  "success": false,
+  "fail": "grasp",
+  "steps": 153,
+  "sec": 1.504992961883545
+ },
+ {
+  "tid": 3,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 130,
+  "sec": 1.2848453521728516
+ },
+ {
+  "tid": 3,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 1.306687593460083
+ },
+ {
+  "tid": 3,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.3487060070037842
+ },
+ {
+  "tid": 3,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.0858416557312012
+ },
+ {
+  "tid": 3,
+  "ep": 17,
+  "success": false,
+  "fail": "grasp",
+  "steps": 139,
+  "sec": 1.0992472171783447
+ },
+ {
+  "tid": 3,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.0830905437469482
+ },
+ {
+  "tid": 3,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 163,
+  "sec": 1.677924394607544
+ },
+ {
+  "tid": 3,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.303957462310791
+ },
+ {
+  "tid": 3,
+  "ep": 22,
+  "success": false,
+  "fail": "place",
+  "steps": 228,
+  "sec": 2.069631338119507
+ },
+ {
+  "tid": 4,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.4325032234191895
+ },
+ {
+  "tid": 4,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 121,
+  "sec": 1.0802645683288574
+ },
+ {
+  "tid": 4,
+  "ep": 3,
+  "success": false,
+  "fail": "grasp",
+  "steps": 219,
+  "sec": 2.3856797218322754
+ },
+ {
+  "tid": 4,
+  "ep": 4,
+  "success": false,
+  "fail": "grasp",
+  "steps": 234,
+  "sec": 2.4836151599884033
+ },
+ {
+  "tid": 4,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 121,
+  "sec": 1.1856629848480225
+ },
+ {
+  "tid": 4,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 144,
+  "sec": 1.6866309642791748
+ },
+ {
+  "tid": 4,
+  "ep": 7,
+  "success": false,
+  "fail": "place",
+  "steps": 240,
+  "sec": 2.6164355278015137
+ },
+ {
+  "tid": 4,
+  "ep": 8,
+  "success": false,
+  "fail": "place",
+  "steps": 246,
+  "sec": 2.5164763927459717
+ },
+ {
+  "tid": 4,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.1896891593933105
+ },
+ {
+  "tid": 4,
+  "ep": 11,
+  "success": false,
+  "fail": "place",
+  "steps": 226,
+  "sec": 2.2074389457702637
+ },
+ {
+  "tid": 4,
+  "ep": 12,
+  "success": false,
+  "fail": "grasp",
+  "steps": 226,
+  "sec": 2.4635441303253174
+ },
+ {
+  "tid": 4,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.4429595470428467
+ },
+ {
+  "tid": 4,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.2430903911590576
+ },
+ {
+  "tid": 4,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.2273080348968506
+ },
+ {
+  "tid": 4,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.1457433700561523
+ },
+ {
+  "tid": 4,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.1291041374206543
+ },
+ {
+  "tid": 4,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 0.9680376052856445
+ },
+ {
+  "tid": 4,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 117,
+  "sec": 0.9987225532531738
+ },
+ {
+  "tid": 4,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 1.0877084732055664
+ },
+ {
+  "tid": 4,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 0.896700382232666
+ },
+ {
+  "tid": 5,
+  "ep": 1,
+  "success": false,
+  "fail": "grasp",
+  "steps": 229,
+  "sec": 2.471564292907715
+ },
+ {
+  "tid": 5,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 172,
+  "sec": 1.9248366355895996
+ },
+ {
+  "tid": 5,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.2472219467163086
+ },
+ {
+  "tid": 5,
+  "ep": 4,
+  "success": false,
+  "fail": "grasp",
+  "steps": 236,
+  "sec": 2.3163137435913086
+ },
+ {
+  "tid": 5,
+  "ep": 5,
+  "success": false,
+  "fail": "place",
+  "steps": 227,
+  "sec": 2.1392877101898193
+ },
+ {
+  "tid": 5,
+  "ep": 6,
+  "success": false,
+  "fail": "grasp",
+  "steps": 224,
+  "sec": 2.1996548175811768
+ },
+ {
+  "tid": 5,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.0820326805114746
+ },
+ {
+  "tid": 5,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 114,
+  "sec": 1.1980600357055664
+ },
+ {
+  "tid": 5,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 171,
+  "sec": 1.862051248550415
+ },
+ {
+  "tid": 5,
+  "ep": 11,
+  "success": false,
+  "fail": "grasp",
+  "steps": 139,
+  "sec": 1.1937520503997803
+ },
+ {
+  "tid": 5,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.1998631954193115
+ },
+ {
+  "tid": 5,
+  "ep": 13,
+  "success": false,
+  "fail": "place",
+  "steps": 216,
+  "sec": 2.2914512157440186
+ },
+ {
+  "tid": 5,
+  "ep": 14,
+  "success": false,
+  "fail": "grasp",
+  "steps": 225,
+  "sec": 2.257713556289673
+ },
+ {
+  "tid": 5,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.2166481018066406
+ },
+ {
+  "tid": 5,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 115,
+  "sec": 1.1586894989013672
+ },
+ {
+  "tid": 5,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 119,
+  "sec": 1.1707098484039307
+ },
+ {
+  "tid": 5,
+  "ep": 18,
+  "success": false,
+  "fail": "grasp",
+  "steps": 220,
+  "sec": 2.0802032947540283
+ },
+ {
+  "tid": 5,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 119,
+  "sec": 1.0111770629882812
+ },
+ {
+  "tid": 5,
+  "ep": 21,
+  "success": false,
+  "fail": "place",
+  "steps": 301,
+  "sec": 2.3929007053375244
+ },
+ {
+  "tid": 5,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 191,
+  "sec": 1.6286725997924805
+ },
+ {
+  "tid": 6,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.347144603729248
+ },
+ {
+  "tid": 6,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 125,
+  "sec": 1.1749317646026611
+ },
+ {
+  "tid": 6,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 192,
+  "sec": 2.177593231201172
+ },
+ {
+  "tid": 6,
+  "ep": 4,
+  "success": false,
+  "fail": "grasp",
+  "steps": 221,
+  "sec": 2.422820806503296
+ },
+ {
+  "tid": 6,
+  "ep": 5,
+  "success": false,
+  "fail": "grasp",
+  "steps": 150,
+  "sec": 1.5413165092468262
+ },
+ {
+  "tid": 6,
+  "ep": 6,
+  "success": false,
+  "fail": "grasp",
+  "steps": 230,
+  "sec": 2.2977683544158936
+ },
+ {
+  "tid": 6,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.3085496425628662
+ },
+ {
+  "tid": 6,
+  "ep": 8,
+  "success": false,
+  "fail": "grasp",
+  "steps": 144,
+  "sec": 1.5446014404296875
+ },
+ {
+  "tid": 6,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.1925983428955078
+ },
+ {
+  "tid": 6,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 183,
+  "sec": 1.8101367950439453
+ },
+ {
+  "tid": 6,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 123,
+  "sec": 1.0890698432922363
+ },
+ {
+  "tid": 6,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 142,
+  "sec": 1.2322354316711426
+ },
+ {
+  "tid": 6,
+  "ep": 14,
+  "success": false,
+  "fail": "grasp",
+  "steps": 235,
+  "sec": 2.4972000122070312
+ },
+ {
+  "tid": 6,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.0646724700927734
+ },
+ {
+  "tid": 6,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.0819694995880127
+ },
+ {
+  "tid": 6,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.1334443092346191
+ },
+ {
+  "tid": 6,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.3442647457122803
+ },
+ {
+  "tid": 6,
+  "ep": 19,
+  "success": false,
+  "fail": "grasp",
+  "steps": 156,
+  "sec": 1.5134263038635254
+ },
+ {
+  "tid": 6,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.1825451850891113
+ },
+ {
+  "tid": 6,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 0.9198908805847168
+ },
+ {
+  "tid": 7,
+  "ep": 1,
+  "success": false,
+  "fail": "place",
+  "steps": 132,
+  "sec": 1.6070332527160645
+ },
+ {
+  "tid": 7,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.3626067638397217
+ },
+ {
+  "tid": 7,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.229600429534912
+ },
+ {
+  "tid": 7,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 123,
+  "sec": 1.0505754947662354
+ },
+ {
+  "tid": 7,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 119,
+  "sec": 1.2875885963439941
+ },
+ {
+  "tid": 7,
+  "ep": 6,
+  "success": false,
+  "fail": "grasp",
+  "steps": 205,
+  "sec": 1.985335111618042
+ },
+ {
+  "tid": 7,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.284458875656128
+ },
+ {
+  "tid": 7,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 117,
+  "sec": 1.2471024990081787
+ },
+ {
+  "tid": 7,
+  "ep": 9,
+  "success": false,
+  "fail": "grasp",
+  "steps": 236,
+  "sec": 2.4889299869537354
+ },
+ {
+  "tid": 7,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.087247610092163
+ },
+ {
+  "tid": 7,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 166,
+  "sec": 1.616697072982788
+ },
+ {
+  "tid": 7,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.001816749572754
+ },
+ {
+  "tid": 7,
+  "ep": 14,
+  "success": false,
+  "fail": "grasp",
+  "steps": 234,
+  "sec": 2.191131591796875
+ },
+ {
+  "tid": 7,
+  "ep": 15,
+  "success": false,
+  "fail": "grasp",
+  "steps": 130,
+  "sec": 1.0816521644592285
+ },
+ {
+  "tid": 7,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 121,
+  "sec": 1.0169849395751953
+ },
+ {
+  "tid": 7,
+  "ep": 17,
+  "success": false,
+  "fail": "grasp",
+  "steps": 134,
+  "sec": 1.1491854190826416
+ },
+ {
+  "tid": 7,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 162,
+  "sec": 1.552659273147583
+ },
+ {
+  "tid": 7,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.2051715850830078
+ },
+ {
+  "tid": 7,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.2716560363769531
+ },
+ {
+  "tid": 7,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.0448157787322998
+ },
+ {
+  "tid": 8,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.8777899742126465
+ },
+ {
+  "tid": 8,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.2642180919647217
+ },
+ {
+  "tid": 8,
+  "ep": 3,
+  "success": false,
+  "fail": "grasp",
+  "steps": 229,
+  "sec": 2.5549395084381104
+ },
+ {
+  "tid": 8,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 130,
+  "sec": 1.216902732849121
+ },
+ {
+  "tid": 8,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.0951285362243652
+ },
+ {
+  "tid": 8,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.1007978916168213
+ },
+ {
+  "tid": 8,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 122,
+  "sec": 1.2352442741394043
+ },
+ {
+  "tid": 8,
+  "ep": 8,
+  "success": false,
+  "fail": "grasp",
+  "steps": 164,
+  "sec": 1.9734439849853516
+ },
+ {
+  "tid": 8,
+  "ep": 9,
+  "success": false,
+  "fail": "grasp",
+  "steps": 198,
+  "sec": 2.3836824893951416
+ },
+ {
+  "tid": 8,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.2094478607177734
+ },
+ {
+  "tid": 8,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.1447288990020752
+ },
+ {
+  "tid": 8,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 124,
+  "sec": 1.2152550220489502
+ },
+ {
+  "tid": 8,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 143,
+  "sec": 1.5421042442321777
+ },
+ {
+  "tid": 8,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 177,
+  "sec": 2.0174672603607178
+ },
+ {
+  "tid": 8,
+  "ep": 16,
+  "success": false,
+  "fail": "grasp",
+  "steps": 130,
+  "sec": 1.124751091003418
+ },
+ {
+  "tid": 8,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 177,
+  "sec": 1.809870719909668
+ },
+ {
+  "tid": 8,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.1144108772277832
+ },
+ {
+  "tid": 8,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 125,
+  "sec": 1.3490827083587646
+ },
+ {
+  "tid": 8,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 181,
+  "sec": 2.129608631134033
+ },
+ {
+  "tid": 8,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.0577383041381836
+ },
+ {
+  "tid": 9,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 101,
+  "sec": 1.3076257705688477
+ },
+ {
+  "tid": 9,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.1899042129516602
+ },
+ {
+  "tid": 9,
+  "ep": 3,
+  "success": false,
+  "fail": "place",
+  "steps": 129,
+  "sec": 1.2513039112091064
+ },
+ {
+  "tid": 9,
+  "ep": 4,
+  "success": false,
+  "fail": "place",
+  "steps": 123,
+  "sec": 1.008800983428955
+ },
+ {
+  "tid": 9,
+  "ep": 5,
+  "success": false,
+  "fail": "place",
+  "steps": 129,
+  "sec": 1.3374426364898682
+ },
+ {
+  "tid": 9,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 113,
+  "sec": 1.2442951202392578
+ },
+ {
+  "tid": 9,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 1.1543281078338623
+ },
+ {
+  "tid": 9,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 118,
+  "sec": 1.1337049007415771
+ },
+ {
+  "tid": 9,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 116,
+  "sec": 0.9729957580566406
+ },
+ {
+  "tid": 9,
+  "ep": 11,
+  "success": false,
+  "fail": "grasp",
+  "steps": 149,
+  "sec": 1.4995901584625244
+ },
+ {
+  "tid": 9,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 138,
+  "sec": 1.3378417491912842
+ },
+ {
+  "tid": 9,
+  "ep": 13,
+  "success": false,
+  "fail": "grasp",
+  "steps": 152,
+  "sec": 1.3924171924591064
+ },
+ {
+  "tid": 9,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 108,
+  "sec": 0.9345803260803223
+ },
+ {
+  "tid": 9,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 173,
+  "sec": 1.7501990795135498
+ },
+ {
+  "tid": 9,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 112,
+  "sec": 1.1213130950927734
+ },
+ {
+  "tid": 9,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.354598045349121
+ },
+ {
+  "tid": 9,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.2606604099273682
+ },
+ {
+  "tid": 9,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 119,
+  "sec": 1.183788537979126
+ },
+ {
+  "tid": 9,
+  "ep": 21,
+  "success": false,
+  "fail": "place",
+  "steps": 232,
+  "sec": 2.349639892578125
+ },
+ {
+  "tid": 9,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 120,
+  "sec": 1.3278696537017822
+ }
+]

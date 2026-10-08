@@ -1,0 +1,202 @@
+[
+ {
+  "tid": 5,
+  "ep": 1,
+  "success": false,
+  "fail": "grasp",
+  "steps": 140,
+  "sec": 2.9562201499938965,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 2,
+  "success": false,
+  "fail": "grasp",
+  "steps": 137,
+  "sec": 2.3695712089538574,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 3,
+  "success": false,
+  "fail": "grasp",
+  "steps": 140,
+  "sec": 2.562817335128784,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 4,
+  "success": false,
+  "fail": "grasp",
+  "steps": 139,
+  "sec": 2.5520317554473877,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 5,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 2.573279857635498,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 6,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 2.2990634441375732,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 7,
+  "success": false,
+  "fail": "grasp",
+  "steps": 135,
+  "sec": 2.3758575916290283,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 8,
+  "success": false,
+  "fail": "grasp",
+  "steps": 137,
+  "sec": 2.370105028152466,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 9,
+  "success": false,
+  "fail": "grasp",
+  "steps": 137,
+  "sec": 2.3120386600494385,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 11,
+  "success": false,
+  "fail": "grasp",
+  "steps": 137,
+  "sec": 2.109614849090576,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 12,
+  "success": false,
+  "fail": "grasp",
+  "steps": 137,
+  "sec": 1.9599580764770508,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 13,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 1.6409940719604492,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 14,
+  "success": false,
+  "fail": "grasp",
+  "steps": 136,
+  "sec": 1.97568678855896,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 15,
+  "success": false,
+  "fail": "grasp",
+  "steps": 136,
+  "sec": 2.4240591526031494,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 16,
+  "success": false,
+  "fail": "grasp",
+  "steps": 135,
+  "sec": 2.404383659362793,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 17,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 2.418494701385498,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 18,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 2.3345754146575928,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 19,
+  "success": false,
+  "fail": "grasp",
+  "steps": 138,
+  "sec": 2.235053062438965,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 21,
+  "success": false,
+  "fail": "grasp",
+  "steps": 136,
+  "sec": 2.2408621311187744,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 22,
+  "success": false,
+  "fail": "grasp",
+  "steps": 139,
+  "sec": 2.327562093734741,
+  "moved": null,
+  "target": "tomato_sauce_1"
+ }
+]

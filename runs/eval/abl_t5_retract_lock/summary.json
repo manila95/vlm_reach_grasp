@@ -1,0 +1,10 @@
+{
+ "method": "hier_vlm",
+ "success": 0.0,
+ "per_task": {
+  "5": 0.0
+ },
+ "fails": {
+  "grasp": 20
+ }
+}

@@ -1,0 +1,2002 @@
+[
+ {
+  "tid": 0,
+  "ep": 1,
+  "success": false,
+  "fail": "place",
+  "steps": 212,
+  "sec": 2.9031360149383545,
+  "moved": null,
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6540803909301758,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.4708847999572754,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.4540417194366455,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 161,
+  "sec": 1.8853356838226318,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5477774143218994,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.793104887008667,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.929335355758667,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.8080253601074219,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.5572898387908936,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6755990982055664,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 13,
+  "success": false,
+  "fail": "grasp",
+  "steps": 328,
+  "sec": 4.014181137084961,
+  "moved": "salad_dressing_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.8199529647827148,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.7898588180541992,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 138,
+  "sec": 1.8113977909088135,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.5240693092346191,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.75874924659729,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.9819695949554443,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5332412719726562,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 0,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.184274435043335,
+  "moved": "alphabet_soup_1",
+  "target": "alphabet_soup_1"
+ },
+ {
+  "tid": 1,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 2.175676107406616,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.6097910404205322,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.56978440284729,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.6226637363433838,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.5233995914459229,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5453193187713623,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.4721174240112305,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.3504698276519775,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.4028990268707275,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.5512034893035889,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.468519687652588,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.417414903640747,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.7218985557556152,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.3790843486785889,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.339118242263794,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.3815813064575195,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.4824035167694092,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6317715644836426,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.3713088035583496,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 1,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.4435052871704102,
+  "moved": "cream_cheese_1",
+  "target": "cream_cheese_1"
+ },
+ {
+  "tid": 2,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 172,
+  "sec": 2.5361945629119873,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.3627698421478271,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 168,
+  "sec": 1.6919069290161133,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 234,
+  "sec": 2.653336763381958,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 235,
+  "sec": 2.7297608852386475,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 170,
+  "sec": 2.106626272201538,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 245,
+  "sec": 3.005312919616699,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 174,
+  "sec": 2.259509325027466,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 168,
+  "sec": 1.8296380043029785,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 169,
+  "sec": 1.7556219100952148,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 168,
+  "sec": 2.0286219120025635,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 169,
+  "sec": 2.168686628341675,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 170,
+  "sec": 2.151900291442871,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 171,
+  "sec": 2.083359718322754,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 170,
+  "sec": 1.9904000759124756,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 172,
+  "sec": 1.7103400230407715,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 170,
+  "sec": 1.5977213382720947,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 168,
+  "sec": 1.696284294128418,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 168,
+  "sec": 1.6905665397644043,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 2,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 170,
+  "sec": 1.620255470275879,
+  "moved": "salad_dressing_1",
+  "target": "salad_dressing_1"
+ },
+ {
+  "tid": 3,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 2.148505687713623,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.4062483310699463,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.530402660369873,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.5798439979553223,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.4234750270843506,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.3981220722198486,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.3743643760681152,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.2929966449737549,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.5540380477905273,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.5799126625061035,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.2925021648406982,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.4869000911712646,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.746748685836792,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.2495992183685303,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.3347761631011963,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.3879475593566895,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.45208740234375,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.524634599685669,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.3282215595245361,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 3,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 138,
+  "sec": 1.5054686069488525,
+  "moved": "bbq_sauce_1",
+  "target": "bbq_sauce_1"
+ },
+ {
+  "tid": 4,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 2.117485523223877,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.2344274520874023,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.6678211688995361,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.6035735607147217,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.3195784091949463,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 126,
+  "sec": 1.351858139038086,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.1776230335235596,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.343125820159912,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.5440082550048828,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.5174214839935303,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.2590055465698242,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.3541724681854248,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.73610520362854,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.208512544631958,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.216231346130371,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.515209674835205,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.6251647472381592,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.2577815055847168,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.538896083831787,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 4,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.7077968120574951,
+  "moved": "ketchup_1",
+  "target": "ketchup_1"
+ },
+ {
+  "tid": 5,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 2.149169445037842,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5794410705566406,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.4491331577301025,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.7362537384033203,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.6768019199371338,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6294338703155518,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.656055212020874,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.3379230499267578,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6360478401184082,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.6618878841400146,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5683932304382324,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.6281259059906006,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.5429730415344238,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.7055656909942627,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.73628830909729,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.6816301345825195,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.4174959659576416,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.5934505462646484,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.6113941669464111,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 5,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 137,
+  "sec": 1.3624515533447266,
+  "moved": "tomato_sauce_1",
+  "target": "tomato_sauce_1"
+ },
+ {
+  "tid": 6,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 257,
+  "sec": 3.4211437702178955,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 2,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 2.5943355560302734,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 3,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 2.5309131145477295,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 4,
+  "success": false,
+  "fail": "place",
+  "steps": 225,
+  "sec": 2.3657760620117188,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 5,
+  "success": false,
+  "fail": "place",
+  "steps": 224,
+  "sec": 2.1903445720672607,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 6,
+  "success": false,
+  "fail": "place",
+  "steps": 224,
+  "sec": 2.2181828022003174,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 7,
+  "success": false,
+  "fail": "place",
+  "steps": 220,
+  "sec": 2.0872819423675537,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 8,
+  "success": false,
+  "fail": "place",
+  "steps": 221,
+  "sec": 2.423401355743408,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 9,
+  "success": false,
+  "fail": "place",
+  "steps": 226,
+  "sec": 2.6369895935058594,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 11,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 2.743833065032959,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 265,
+  "sec": 3.3738186359405518,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 13,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 2.2084193229675293,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 14,
+  "success": false,
+  "fail": "place",
+  "steps": 224,
+  "sec": 2.263046979904175,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 15,
+  "success": false,
+  "fail": "place",
+  "steps": 222,
+  "sec": 2.5715157985687256,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 16,
+  "success": false,
+  "fail": "place",
+  "steps": 222,
+  "sec": 2.6292989253997803,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 17,
+  "success": false,
+  "fail": "place",
+  "steps": 224,
+  "sec": 2.158334255218506,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 18,
+  "success": false,
+  "fail": "place",
+  "steps": 221,
+  "sec": 2.0097641944885254,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 19,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 1.9172539710998535,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 255,
+  "sec": 2.0761120319366455,
+  "moved": "butter_1",
+  "target": "butter_1"
+ },
+ {
+  "tid": 6,
+  "ep": 22,
+  "success": false,
+  "fail": "place",
+  "steps": 223,
+  "sec": 1.737868309020996,
+  "moved": null,
+  "target": "butter_1"
+ },
+ {
+  "tid": 7,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.999831199645996,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 139,
+  "sec": 1.4938547611236572,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.4430584907531738,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.6841216087341309,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5672450065612793,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.4772601127624512,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.607668399810791,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.517305850982666,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 143,
+  "sec": 1.5392510890960693,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.5192809104919434,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.4842000007629395,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.5273377895355225,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.4049835205078125,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.602302074432373,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.7042832374572754,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.5644035339355469,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.4017033576965332,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.572169542312622,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.5420198440551758,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 7,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.3665587902069092,
+  "moved": "milk_1",
+  "target": "milk_1"
+ },
+ {
+  "tid": 8,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 265,
+  "sec": 3.6173653602600098,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 210,
+  "sec": 2.6003482341766357,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 288,
+  "sec": 3.566199541091919,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 265,
+  "sec": 3.2007410526275635,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 268,
+  "sec": 3.278501510620117,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 206,
+  "sec": 2.592195510864258,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 265,
+  "sec": 3.2609188556671143,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 204,
+  "sec": 2.4205617904663086,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 216,
+  "sec": 3.067164182662964,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 11,
+  "success": true,
+  "fail": null,
+  "steps": 212,
+  "sec": 2.685764789581299,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 215,
+  "sec": 2.848515748977661,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 277,
+  "sec": 3.4480109214782715,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 279,
+  "sec": 3.451920747756958,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 207,
+  "sec": 2.538766384124756,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 259,
+  "sec": 2.565601110458374,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 290,
+  "sec": 2.6601812839508057,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 269,
+  "sec": 2.3111557960510254,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 205,
+  "sec": 1.6361939907073975,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 21,
+  "success": true,
+  "fail": null,
+  "steps": 276,
+  "sec": 2.1845312118530273,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 8,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 268,
+  "sec": 2.143187999725342,
+  "moved": "chocolate_pudding_1",
+  "target": "chocolate_pudding_1"
+ },
+ {
+  "tid": 9,
+  "ep": 1,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.9140126705169678,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 2,
+  "success": true,
+  "fail": null,
+  "steps": 134,
+  "sec": 1.605480670928955,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 3,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.3212053775787354,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 4,
+  "success": true,
+  "fail": null,
+  "steps": 131,
+  "sec": 1.6095614433288574,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 5,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.5878472328186035,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 6,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.5140228271484375,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 7,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.648033618927002,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 8,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.5093202590942383,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 9,
+  "success": true,
+  "fail": null,
+  "steps": 136,
+  "sec": 1.513817548751831,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 11,
+  "success": false,
+  "fail": "place",
+  "steps": 141,
+  "sec": 1.5664033889770508,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 12,
+  "success": true,
+  "fail": null,
+  "steps": 135,
+  "sec": 1.4899179935455322,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 13,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.3578641414642334,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 14,
+  "success": true,
+  "fail": null,
+  "steps": 127,
+  "sec": 1.3626539707183838,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 15,
+  "success": true,
+  "fail": null,
+  "steps": 128,
+  "sec": 1.5553309917449951,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 16,
+  "success": true,
+  "fail": null,
+  "steps": 133,
+  "sec": 1.7669155597686768,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 17,
+  "success": true,
+  "fail": null,
+  "steps": 130,
+  "sec": 1.556697130203247,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 18,
+  "success": true,
+  "fail": null,
+  "steps": 277,
+  "sec": 3.3336358070373535,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 19,
+  "success": true,
+  "fail": null,
+  "steps": 129,
+  "sec": 1.3894307613372803,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 21,
+  "success": false,
+  "fail": "grasp",
+  "steps": 249,
+  "sec": 2.6536242961883545,
+  "moved": null,
+  "target": "orange_juice_1"
+ },
+ {
+  "tid": 9,
+  "ep": 22,
+  "success": true,
+  "fail": null,
+  "steps": 132,
+  "sec": 1.1996803283691406,
+  "moved": "orange_juice_1",
+  "target": "orange_juice_1"
+ }
+]

@@ -1,0 +1,20 @@
+# large / regenerable data (rebuild with vrg.build_dataset, vrg.build_hamster, vrg.cache_scenes)
+data/*
+!data/libero_object_meta.json
+!data/grounding*.pkl
+!data/saycan_plans*.pkl
+!data/demo_episodes.json
+!data/agentview_cam.npy
+!data/demo_stats.pkl
+# checkpoints (too large for GitHub; reproduce with the commands in README)
+runs/*/ckpt.pt
+runs/demo/
+# logs: keep only the figures the report uses
+logs/*
+!logs/grounding/
+!logs/hamster_paths.png
+# misc
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+MUJOCO_LOG.TXT

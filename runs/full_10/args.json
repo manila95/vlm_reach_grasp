@@ -1,0 +1,11 @@
+{
+ "mode": "full",
+ "demos_per_task": 10,
+ "steps": 60000,
+ "bs": 128,
+ "lr": 0.0001,
+ "cams": "agent,wrist",
+ "post": 6,
+ "out": "runs/full_10",
+ "device": "cuda:1"
+}

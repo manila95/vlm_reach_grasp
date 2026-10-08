@@ -1,0 +1,13 @@
+{
+ "mode": "local",
+ "demos_per_task": 10,
+ "steps": 40000,
+ "bs": 128,
+ "lr": 0.0001,
+ "cams": "wrist",
+ "pre": null,
+ "post": 6,
+ "mask_xy": true,
+ "out": "runs/local_ego_10",
+ "device": "cuda:1"
+}

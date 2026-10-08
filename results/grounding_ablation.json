@@ -1,0 +1,12 @@
+{
+ "_source": "offline eval on 50 cached LIBERO-Object scenes (10 tasks x init states 0,10,20,30,40); logs from vrg/eval_grounding.py and vrg/eval_grounding_pv.py. Hit = lifted 3D point is nearest (xy) to the target object.",
+ "rows": [
+  {"strategy": "Point, full image (512px)", "model": "Qwen3-VL-8B", "hits": 21, "n": 50},
+  {"strategy": "Point, workspace crop (512px)", "model": "Qwen3-VL-8B", "hits": 25, "n": 50},
+  {"strategy": "BBox, workspace crop (512px)", "model": "Qwen3-VL-8B", "hits": 29, "n": 50},
+  {"strategy": "BBox, workspace crop (1024px)", "model": "Qwen3-VL-8B", "hits": 32, "n": 50},
+  {"strategy": "Detect-all then choose (1024px)", "model": "Qwen3-VL-8B", "hits": 27, "n": 50},
+  {"strategy": "BBox, workspace crop (1024px)", "model": "Qwen3-VL-32B", "hits": 31, "n": 50},
+  {"strategy": "Depth proposals + zoomed VLM yes/no verify", "model": "Qwen3-VL-8B", "hits": 50, "n": 50}
+ ]
+}

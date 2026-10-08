@@ -1,0 +1,12 @@
+{
+ "mode": "hamster",
+ "demos_per_task": 50,
+ "steps": 100000,
+ "bs": 128,
+ "lr": 0.0001,
+ "cams": "agent,wrist",
+ "post": 6,
+ "mask_xy": false,
+ "out": "runs/hamster_50",
+ "device": "cuda:1"
+}
