@@ -9,6 +9,17 @@ Benchmark: LIBERO-Object. Write-up: `report/VLM_Reach_LocalGrasp_Report.ipynb` (
 - The VLA baseline runs in the separate `spatialforcing` env from `~/projects/Spatial-Forcing/openvla-SF` (see `vrg/vla_eval.py` docstring).
 - The machine is shared with other users: keep GPU jobs reasonable and check `nvidia-smi` before launching many.
 
+## Launching long jobs (budget first)
+Before launching any batch of runs, write down each job's peak host RAM and GPU memory and check the total fits: 123 GB RAM, 2×96 GB GPUs, other users, and ≥24 GB of headroom. If it doesn't fit, queue the jobs rather than start them together. Then launch every job with `tools/launch_job.sh NAME PEAK_GB GPU GPU_GB LOG READY_REGEX -- cmd...`. It waits for room, runs the job in its own systemd unit `vrg-NAME` with `MemoryMax=PEAK_GB`, and returns only once the job is loaded, so data loads never overlap. Never use `nohup`/`setsid`/`&` for long jobs: they stay in the session's cgroup, and on 2026-10-10 one OOM kill there took down every job plus the Claude session. Long jobs must also be resumable (trainers save `<out>/state.pt`).
+
+Measured peaks (update when you measure a new job type; `systemctl --user show vrg-NAME -p MemoryPeak`):
+
+| Job | Peak host RAM | Steady RAM | GPU |
+|---|---|---|---|
+| `vrg.bench.rc_train` (3 cams: e2e/saycan/hamster) | 40 GB while loading | ~5 GB | ~27 GB |
+| `vrg.bench.rc_ground_episodes` (VLM) | 17 GB | ~10 GB | ~17 GB |
+| `vrg.bench.col_ground` (VLM) | 4 GB | 4 GB | ~17 GB |
+
 ## Conventions
 - Raw robosuite images are upside down (OpenGL convention). Policies train and run on raw 128 px obs; anything shown to the VLM or in videos is flipped `[::-1]`.
 - Actions are LIBERO OSC_POSE deltas `[dx,dy,dz (×5 cm), drot axis-angle (×0.5 rad), gripper ±1]` at 20 Hz. Policies predict 16-step chunks and execute 8.
