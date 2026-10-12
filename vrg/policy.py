@@ -89,12 +89,13 @@ class UNet1D(nn.Module):
 
 
 class DiffusionPolicy(nn.Module):
-    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist")):
+    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist"), text_dim=0):
         super().__init__()
         self.n_obs, self.horizon, self.n_act, self.cams = n_obs, horizon, n_act, cams
         self.enc = nn.ModuleDict({c: ImageEncoder() for c in cams})
         self.task_emb = nn.Embedding(n_tasks, 64) if n_tasks else None
-        cdim = n_obs * (128 * len(cams) + pdim) + (64 if n_tasks else 0)
+        self.text_proj = nn.Sequential(nn.Linear(text_dim, 128), nn.Mish(), nn.Linear(128, 64)) if text_dim else None
+        cdim = n_obs * (128 * len(cams) + pdim) + (64 if n_tasks else 0) + (64 if text_dim else 0)
         self.unet = UNet1D(adim, cdim)
         for k, v in stats.items(): self.register_buffer(k, torch.as_tensor(v, dtype=torch.float32))
         self.train_sched = DDPMScheduler(100, beta_schedule="squaredcos_cap_v2", prediction_type="epsilon", clip_sample=True)
@@ -108,6 +109,7 @@ class DiffusionPolicy(nn.Module):
         f = [self.enc[c](obs[c].flatten(0, 1)).view(B, self.n_obs, -1) for c in self.cams]
         f = torch.cat(f + [self.norm(obs["proprio"], "proprio")], -1).flatten(1)
         if self.task_emb is not None: f = torch.cat([f, self.task_emb(obs["tid"])], -1)
+        if self.text_proj is not None: f = torch.cat([f, self.text_proj(obs["text"].float())], -1)
         return f
 
     def loss(self, obs, action):

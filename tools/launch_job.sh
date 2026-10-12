@@ -15,6 +15,7 @@
 set -u
 NAME=$1 PEAK=$2 GPU=$3 GPU_GB=$4 LOG=$5 READY=$6; shift 6; [ "$1" = "--" ] && shift
 HEADROOM_GB=${HEADROOM_GB:-24}   # kept free for other users, page cache and estimation error
+READY_MIN=${READY_MIN:-60}       # give up waiting for READY after this long (exit 2); the RAM gate still guards later launches
 P=$HOME/projects/vlm_reach_grasp; S=/scratch/kaustubh/vlm_reach_grasp
 log(){ echo "[$(date +%H:%M)] launch $NAME: $*"; }
 
@@ -32,7 +33,10 @@ systemd-run --user --unit=vrg-$NAME --collect --working-directory=$P -p MemoryMa
   -E HF_HOME=$S/cache/hf $([ "$GPU" -ge 0 ] && echo "-E CUDA_VISIBLE_DEVICES=$GPU") \
   /bin/bash -c "$(printf '%q ' "$@") >> $(printf '%q' "$LOG") 2>&1" || exit 1
 [ -z "$READY" ] && exit 0
+T0=$(date +%s)
 until tail -n +$((L0 + 1)) "$LOG" | grep -q -E "$READY"; do
-  systemctl --user is-active -q vrg-$NAME || { log "unit exited before ready; see $LOG"; exit 1; }; sleep 20
+  systemctl --user is-active -q vrg-$NAME || { log "unit exited before ready; see $LOG"; exit 1; }
+  [ $(( $(date +%s) - T0 )) -gt $((READY_MIN * 60)) ] && { log "WARNING: not ready after ${READY_MIN} min, moving on (check it)"; exit 2; }
+  sleep 20
 done
 log "ready"

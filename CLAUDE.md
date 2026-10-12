@@ -19,6 +19,8 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 | `vrg.bench.rc_train` (3 cams: e2e/saycan/hamster) | 40 GB while loading | ~5 GB | ~27 GB |
 | `vrg.bench.rc_ground_episodes` (VLM) | 17 GB | ~10 GB | ~17 GB |
 | `vrg.bench.col_ground` (VLM) | 4 GB | 4 GB | ~17 GB |
+| `vrg.bench.col_train` (ego) | 22 GB while loading | — | — |
+| `vrg.bench.rc_rollout` (one eval process) | 3.2 GB | 3.2 GB | ~2 GB |
 
 ## Conventions
 - Raw robosuite images are upside down (OpenGL convention). Policies train and run on raw 128 px obs; anything shown to the VLM or in videos is flipped `[::-1]`.
