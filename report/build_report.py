@@ -106,7 +106,11 @@ cells.append(md(r"""**Headline findings** (numbers in the table above; brackets 
 3. **Where the decomposition happens matters more than whether there is one.** SayCan decomposes *semantically*: its VLM planner chose the right skill in 98.5% of shuffled episodes, but each skill still has to solve the spatial search, and fails. HAMSTER passes spatial guidance as an image-space path, and its policy does follow it, but only to locations some demo visited (79–91% there, 0% elsewhere, §4.1c). Only when the VLM's output is turned into **explicit control (reach to a handoff pose)** and the learned part is **restricted to egocentric inputs** does the system survive the shift: ≈75–78% shuffled (strictly zero-shot), moving the right object in >90% of episodes.
 4. **The VLM handles *where* reliably, given the right interface.** Asking the VLM directly for a box or point finds the right object only 42–64% of the time, while *depth proposals + zoomed yes/no verification* gets 97–100% on every split.
 5. **Learning the last centimetres pays off under localization error, but the skill's basin is small.** With 2–4 cm of noise the learned grasp degrades far more gracefully than a scripted one. Yet starting the skill 10 cm higher, or 6 cm to the side, of its training handoff roughly halves its success, so the VLM-driven reach is load-bearing.
-6. **Hierarchical systems are debuggable.** The remaining shuffled failures were traced to a kinematic singularity (elbow at its joint limit near the workspace edge) and fixed with a posture-aware wrist constraint (v5). The fix was confirmed on a held-out split of 250 untouched episodes: shuffled 66% → 75%, with no in-distribution cost."""))
+6. **Hierarchical systems are debuggable.** The remaining shuffled failures were traced to a kinematic singularity (elbow at its joint limit near the workspace edge) and fixed with a posture-aware wrist constraint (v5). The fix was confirmed on a held-out split of 250 untouched episodes: shuffled 66% → 75%, with no in-distribution cost.
+7. **Beyond LIBERO the picture is mixed (§6).**
+   * **RoboCasa (5 kitchen pick-and-place tasks, 500 demos):** ours is the best in-house method in seen kitchens (17% vs 10% end-to-end), and alone solves counter → stove. In unseen kitchens it is tied with end-to-end and HAMSTER-style (≈11%), and most of its failures are grasps from a mean handoff pose that doesn't fit varied objects.
+   * **Colosseum (12 tasks × 9 perturbations):** end-to-end wins overall (25% vs 9%) because zero-shot grounding of object *parts* (handles, lid edges, knobs) is 8–50 cm off on most tasks. Where grounding works, ours loses less under perturbation.
+"""))
 
 # ------------------------------------------------------------------ method
 cells.append(md(r"""---
@@ -528,9 +532,13 @@ cells.append(code(r"""vids = sorted(glob.glob(f'{EVAL}/ego_v5_vlm_shuf/videos/*f
 display(Markdown('**5.3 Failure cases** (raw evaluation videos, 128 px): ' + ', '.join(os.path.relpath(v, EVAL) for v in vids)))
 for v in vids: show(v, w=420)"""))
 
+# ------------------------------------------------------------------ RoboCasa + Colosseum
+import sys; sys.path.insert(0, 'report'); from bench_section import cells as bench_cells
+cells += bench_cells()
+
 # ------------------------------------------------------------------ discussion
 cells.append(md(r"""---
-## 6. Discussion
+## 7. Discussion
 
 **What the PoC supports**
 * A VLM is good at the part imitation learning is worst at: *which object, where*. It does this zero-shot, with no robot data, and it is unaffected by layout shift.
@@ -546,7 +554,10 @@ cells.append(md(r"""---
 * Transport/release is scripted. The interesting next step is a second local skill (place) with its own handoff, i.e. a VLM-sequenced library of local skills — this is where SayCan-style selection would come in.
 * Grounding uses a depth camera and known extrinsics; the 1.6 cm systematic bias (camera sees the front face) is removed with a constant calibrated on held-out scenes.
 
+* RoboCasa and Colosseum (§6) use single training seeds and 500 / 1,080 evaluation episodes per method. Per-task differences of a few episodes are noise. Ours was developed on LIBERO and adapted with only a small dev set, while the baselines needed no adaptation.
+
 **Suggested next steps**
+0. From §6: a handoff that fits the object (VLM- or grasp-model-predicted approach orientation instead of the per-task mean pose) is the main RoboCasa bottleneck. Part-level grounding (handles, edges, knobs) is the main Colosseum bottleneck.
 1. Learned *place* skill + VLM-chosen handoff for it (removes the remaining hand-coded part; place failures are a large share of hierarchical errors).
 2. Harder suites: LIBERO-90 / LIBERO-Long (multi-step, articulated objects) and RoboCasa kitchens, where the reach phase is long and the search space genuinely large.
 3. Retrain the baselines (diffusion, HAMSTER-style, VLA fine-tune) on layout-randomized demos and measure how many demos they need to match the hierarchy under shuffle: the data-cost of *not* decomposing.
@@ -554,7 +565,7 @@ cells.append(md(r"""---
 5. A learned arbitration between the policy and the posture constraint (v5 uses a hand-set joint-4 threshold), or training the skill with the constraint active.
 
 ---
-## 7. Reproduce
+## 8. Reproduce
 
 ```bash
 cd ~/projects/vlm_reach_grasp && source env.sh          # conda env: vlmrg

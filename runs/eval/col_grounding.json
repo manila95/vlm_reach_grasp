@@ -1,0 +1,7492 @@
+[
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.014802013385158215
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.00418966364450662
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.005432617495393562
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.2346351620164899
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.00642727784278082
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.00812477001443403
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.3929624329967108
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.009178612507889745
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.010599092017951485
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.23965005814544194
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.03339532743583559
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.023120910813267267
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.014332451652020982
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.012155834886930053
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.473688357441382
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.009006867778067197
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.4774705038747431
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.011847797755432364
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.012351984717511724
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.012744770433634846
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.011697634010011955
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.38382770130544075
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.006163356895025065
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.00834633932027605
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.00832583868809024
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.0012195428485662547
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.11964142995580904
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.005841635926177569
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.4601952823175756
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.384906594423936
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.1936741627858044
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.807050079060243
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.02987027804000802
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.02481124424723165
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.011541329061028364
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.008551619076919264
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.04725225106733847
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.11216836349057605
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.11335680178274035
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.11816792086300416
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.11321172336585718
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.11991181145807371
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.06715755250029623
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.050290859112085105
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.06573075238266361
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.10641532575958984
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.12053185626413478
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.08807181267188505
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.042449109723750704
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.06306066547329321
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.030846851058365633
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.05438770574182107
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.0420170365917181
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.15148593712268513
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.07846964865715252
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.20880549832571074
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.05549251794107188
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.13494759365009734
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.12909020490769743
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.15216863455590338
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.10710761864306458
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.129270041791499
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.07164418838032158
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.18527173942430683
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.09535850928310291
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.06841397517360034
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.08753616618542137
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.10262665683735876
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.1005185840080245
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.04041326337448722
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.06074531224891623
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.032951037033742483
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.1891110542390379
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.035707049233792025
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.039221554315234865
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.18100131853686102
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.043364324369455136
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.06822026749171335
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.03385225302340773
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.10601620129046109
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.09625714010707684
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.08756809360398762
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.12786347174118184
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.13410435403871598
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.04678126102267208
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.07056138175205476
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.07712562941241807
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.12287515892682792
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.10377048205045944
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.09356969202378337
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.12003676438108532
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.03935077233983597
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.042917219155953965
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.04354808858606035
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.0966325730400142
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.03981783143852175
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.050950321135789026
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.07187839689983955
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.12446401388775533
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.10543341378971752
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.0717027728223723
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.10868370734159441
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.10459648997092519
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.11055701021406694
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.10556318565690193
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.07009847947957436
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.14105152631999232
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.10595791637573103
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.10166734335591786
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.12606676661469832
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.1855831624033518
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.06986956822456679
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.059663601340292596
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.0520757289419673
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.10454317320877922
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.04280525356503818
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.042459884567388854
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.16044789408916235
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.15151108205182312
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.08738641370397342
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.052684881297774384
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.04097004984233969
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.09044512336296674
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.08041004266768514
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.0688324376098003
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.08113733308759981
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.3605189612926998
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.2634886054525297
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.4038927941160512
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.29958406726985604
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.1696165388968564
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.13684079191868168
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.3011163030637128
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.14126734170540295
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.16235707824445567
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.1215672034847139
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.416593912872216
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.16377314280480398
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.4053677399799706
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.259435920820075
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.3218470646854287
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.3444799352989497
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.23870780985363002
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.2924754920333141
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.1401692761640927
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.34631693134069935
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.35941900795895515
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.33913054691352035
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.4282587047322012
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.4188191003784757
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.3415423173328442
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.38502923655276255
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.31889472774411426
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.43989980844369836
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.4098374553469831
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.37151234996043825
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.40543757894130295
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.37137357398069587
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.4260548699996382
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.38058714354785866
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.3107435223942532
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.10777494037942999
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.32895323333830856
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.33108708515451407
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.13373542814363845
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.15794472510730173
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.22471896062562635
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.2588799466431814
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.12864728219525962
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.15512540731395097
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.39939821803771863
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.15170764403266707
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.3664889025831473
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.3405369761990335
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.3340163511192332
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.4040668401972333
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.12185035936555255
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.2387777613053188
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.41841661017093223
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.09837395365091468
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.13867092143390924
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.15515060915882178
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.3063935689415491
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.39915574031108264
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.11473290412629888
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.3248756796073773
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.3393670908221384
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.3506017733917316
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.3003299585622314
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.1649715123855929
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.1870695376608876
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.14057390093047312
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.33744168602824026
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.4038060138071735
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.24091055806156944
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.14304992598063265
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.2429940157100253
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.2809343935053952
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.1745689894937407
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.1404136088764243
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.2551535947453222
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.26668648213824203
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.36030073553821257
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.15085627684817537
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.17491129249622095
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.2709391096971684
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.12305501049952451
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.4101085612732252
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.20533648929276213
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.3405141127102763
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.20573069526493065
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.18776777008482262
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.3894075480454549
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.35808645027242364
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.11753678092374244
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.1308888852922299
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.32562624710646476
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.07361738768218758
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.26162198281962284
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.0564121194731035
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.31151481715288226
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 1.2381434837006144
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.4110515846578806
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.09004435240374851
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.11862016657778224
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.03551073995343605
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 3.0625251212327953
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.22794367766648607
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.09154414513124254
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.22905095307227508
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.12136003351976607
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.35225108450872844
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.252945246746526
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.3470744918740992
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.10036434074275298
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.06782279794072991
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.049417752133847886
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.13355644642797876
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.31130622224069054
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.088389785173791
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.2811780151645404
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.06906485297340266
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.09374583765425525
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.21434267435077853
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.24447791998242902
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.3209765859541208
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.12923092765663316
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.11295500741713232
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.3792378050995832
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.14383949934008813
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.11148592715067165
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.05970923278352092
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.2257925801139808
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.09919551046755196
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.03936502479568221
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.09707733310099237
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.06756156743462993
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.03738719775601021
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.02190311828471998
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.21474410032718957
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.11233385307193568
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.38300085498769726
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.38537006228261655
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.06382870203214881
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.06067013222625337
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.09198296896706323
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.08936763593865464
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.06068283851038036
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.09796263716931224
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.10266987143889411
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.09396292115241583
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.06209624968228897
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.08989618541342088
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.09026398876195495
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.08925203527388004
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.17807682420571466
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.08995393496733418
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.08700442356253263
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.08842453798479948
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.09725174111426275
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.08944771883318672
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.09751580688398921
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.09863458198752642
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.09354864608500778
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.05394467551028319
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.05642667575746426
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.05736769696153521
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.0898395303385647
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.08889504586897619
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.09334408724565917
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.10257332939316754
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.059529891611208564
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.0606737945733002
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.08976896286998956
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.08842077525616793
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.09373474222332273
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.09341661954726192
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.086883066959797
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.062020687033634544
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.09605701593678162
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.05828410836713934
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.08664871623013685
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.05821035575803423
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.05511202844708833
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.06064107489377898
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.058795040855580086
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.05891987386431397
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.08807484940025638
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.09213911743143965
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.09303377996602676
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.059175257064208966
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.09137009510567157
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.09084136530233027
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.09595249824235863
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.05987444028198895
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.1275213285939479
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.05432558158122626
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.06100692800717009
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.10018762501508914
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.05862036621835755
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.05794498411434276
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.05960226337038889
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.04794022999464942
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.08819623901640387
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.08920516745528531
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.09806263146968275
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.08966610963809632
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.08757825029242577
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.08893623275530987
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.06109691493036102
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.055858864080905894
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.058137636011748595
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.09853078231143542
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.06021146037862152
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.05799155396685005
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.09047063866016833
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.05872949433843664
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.09909275207209389
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.056612328192515576
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.06340819267186214
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.0941342186326486
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.060341900066699636
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.06041125609499978
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.025842453171147316
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.01736583458873246
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.025749636306887206
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.01879505366985266
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.02574055437487254
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.019045700278883443
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.02579159574772459
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.018221131779342085
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.02578186582237285
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.017353924625465967
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.025718252446460307
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.02867884168912677
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.025790617227954
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.03075348791214607
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.022271288511003098
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.029558220101775032
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.031213802440408632
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.0218803168579559
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.0198590826457201
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.03121418320230018
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.02123022512652501
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.039828857228795485
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.021597834255279353
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.020260131876107347
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.021306388352774704
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.02116695825410274
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.026443012256183406
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.022181656859368733
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.023780352685356446
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.019432973114345765
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.024359052901460353
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.024162357725482128
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.025431355850818536
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.02578186582237285
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.02573949152743198
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.028700446986287823
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.01873960925326986
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.030741889681829296
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.029192971270143607
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.022803274921447854
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.0395567257026305
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.02315401962889966
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.02693927496665618
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.02416987256628857
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.019838823709767143
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.025477718094488514
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.026946004957159136
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.020242805276886485
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.017955719850245803
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.025391171027889847
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.02228351550956711
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.021180180834146998
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.018228028358915502
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.019434220573885445
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.023809092754323847
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.02013163416108612
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.02525983750539148
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.6949066393290653
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.02543986227575345
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.19334458457280282
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.15441112332034423
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.19853324181335502
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.16520832077637257
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.04251583626819349
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.16293048676759989
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.19827504788716402
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.07666727388386087
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.09561508832875346
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.2123256124498717
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.08656390475280847
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.04924666606954413
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.06324669669643833
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.05235604086021545
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.13257068239460199
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.1443957246026677
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.23629626059863623
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.2211636820371547
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.10234293759202305
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.08719042707374408
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.11808259819027006
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.1979279072514381
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.12357022647816793
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.18558245051893776
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.18199570377694596
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.5227086341310914
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.13842220364213992
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.1556073815022701
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.2216388410827031
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.20022670978685167
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.1619855511839984
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.17434307324836487
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.5488096984798496
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.18155367640445855
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.09495736790732294
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.13925481894873118
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.46043887656940197
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.1032386652538465
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.10194758064707302
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.31380504224674943
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.4562439657051056
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.16116191751022657
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.15048978454030484
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.1291603854401544
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.5544623196242964
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.19365102937453468
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.13837170116427597
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.07870998082531505
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.4614918924328356
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.1281734306044733
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.1940014305731336
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.03488617187462136
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.165188299012386
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.10374567485321368
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.12399583174182274
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.1515476805680582
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.4227053380031843
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.07521078758704462
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.07823187952552597
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.08456458122335728
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.07465925854152203
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.07440842334673195
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.07891878180017553
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.07489548648575796
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.07748855251483973
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.07694029850586943
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.07620364882042266
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.0751062864302178
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.07465181150975107
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.07511528360998442
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.07443386641379825
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.07964755489787016
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.0777632729300601
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.07484219194218451
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.07697101227479235
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.07471216353487267
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.07679839398966676
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.07907014661052847
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.0690473297621331
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.0731308085597958
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.08756467086213678
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.07078052408716166
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.06910555331567096
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.07251003645301479
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.11725340581442702
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.07437262535404056
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.07890918474222942
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.07433804419890369
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.07488525812693034
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.07757905220042223
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.07568607136442078
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.07689088183612663
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.07536661166921103
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.07544761915706846
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.07655501115558347
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.07614096168183951
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.07953409137327283
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.07663442523455338
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.07879458506942813
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.07553321546397593
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.07706839723532248
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.07875065072425191
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.0753201752301374
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.0748866722724925
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.07472247869381726
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.07807668378739732
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.07550584722901198
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.07552431025894722
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.07527589426257994
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.07522009114849648
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.07576091256566793
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.07461234338128173
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.07596088150442909
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.07662348465989605
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.0773047954790744
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.07472278326678639
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.0787242231740723
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.07534287256300805
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.07689811848998664
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.07465969923331872
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.07643882218073311
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.13474607198973473
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.07768119497841768
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.07789194788506537
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.07730691576078247
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.07737214045374505
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.0750248313364966
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.07707539281212418
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.07756170386012678
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.07674015509022926
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.07938786219648128
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.07904282946642853
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.07552882017314395
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.07542396343150955
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.07481260340490688
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.07874540420047324
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.07579423133735838
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.07786406410549516
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.09096998803506395
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.07460566775905046
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.07585839497216751
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.07751107915782449
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.0747451742118742
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.07609590848517658
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.07742130305857992
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.07706720853376912
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.3886451238469498
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.22200328866169727
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.3340928489201294
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.39815730759308543
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.2866608761940134
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.25019781776039457
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.2421446348908949
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.3429224251848438
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.36928355929484696
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.31769429542420385
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.22076920264030944
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.3238709762278797
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.34199660843405516
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.28732629660698056
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.4616007812617224
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.22122023462780518
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.2719266445492339
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.2537657680198997
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.141481405210734
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.22412678753870804
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.34018029756101986
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.35290243873952204
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.27902161520011065
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.18856162293467488
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.2687314420077477
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.24379039263277122
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.3827204386881974
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.23959857993146141
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.28748135385508206
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.18756055106458056
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.4126463803596768
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.2680860853075907
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.38335234763292014
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.21032804413613074
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.2712627342578854
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.25571789526699096
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.13615484291997937
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.2539686280235669
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.1474838804905111
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.1944486478282528
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.26359114789474974
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.2473925039604656
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.27949468670573335
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.31123668974480784
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.30849237346483016
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.3306869133858974
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.1967181855681062
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.23680314290204915
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.22240402986197266
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.20702520884062456
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.220940425942152
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.2355385131106834
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.1872426200843432
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.255403452436929
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.2303583068061492
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.3221604803276493
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.22301861085711377
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.3480118194914447
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.2884623701434031
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.3018079422205723
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.318947088540099
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.22970013764331895
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.2479575811913292
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.13374695158155311
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.3993409402686288
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.24115449823618318
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.2879412097577172
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.25479717610682845
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.25734746671879544
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.2679834680486397
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.2680310713043347
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.2821407355328007
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.24134189516378482
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.2758477589894631
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.1899235875150242
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.22981390681878894
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.2833972195578008
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.25037201468055076
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.3317819546144982
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.3542237660844835
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.3579973180831639
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.23767298957846242
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.28668445489017297
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.2718006777088997
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.3304961480336647
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.3794707515789913
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.28168394901211274
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.3739643748291253
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.22800546563956964
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.1653618411119102
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.2074385465906644
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.15635555239297536
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.1204363602766197
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.15872527438147802
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.11875083965025181
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.21665260911346415
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.16096456120494979
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.11764365600320334
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.1634286845734397
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.16394984265384818
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.1608762683780717
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.16154564241982436
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.16601696901588223
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.16210103758584474
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.16322756009396777
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.11924349405231335
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.15734316488170713
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.11678486504706724
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.15859645082611365
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.15048801041843957
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.1726172073849397
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.16186876768899053
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.1763475155233906
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.2263570965822135
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.1563627636132465
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.12713879351783053
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.17264342026854496
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.14907913610635626
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.15608395531499877
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.16453842333318988
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.21564609683205288
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.16360419325859066
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.16137689831405794
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.16250850412562626
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.2124610738324063
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.16341944135144992
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.20733303997769237
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.11947196943952958
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.110467225389555
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.16246526304904046
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.1592079996045101
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.118793269913443
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.22396294942366846
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.158140605878625
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.1627771686000315
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.21588753156918214
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.1635253429179697
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.1524574717012247
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.2138601227618587
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.11921338966620844
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.11700259967837576
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.12440436570676736
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.11650264540717199
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.1655449862896457
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.12071767322473566
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.11938184249488766
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.1624066280822169
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.1558418797912581
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.11288754084224012
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.11743340173935714
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.33201371941989294
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.16448264343626248
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.11934250454379525
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.1588389496831816
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.2216129561603024
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.2083738038941301
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.21854495206972194
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.15794075597646937
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.12703722132321035
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.16208239812436118
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.11565314147561102
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.12186967928111242
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.11345622455096332
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.11507969968863674
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.12037428288325439
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.16303147430150058
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.20816702858539493
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.11668875280822322
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.11795348157547236
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.1598815603015892
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.21237315364948298
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.12046126618171085
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.20911894732216188
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.1607193056042128
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.2021453738863461
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.16072046784043623
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.1573552295034631
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.2198151805714546
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.20284529117185215
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 0,
+"grounded": true,
+"err": 0.17331832286252916
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 1,
+"grounded": true,
+"err": 0.5390810062956523
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 2,
+"grounded": true,
+"err": 0.5318963517753382
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 3,
+"grounded": true,
+"err": 0.5368273237201913
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 4,
+"grounded": true,
+"err": 0.5248110188939938
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 5,
+"grounded": true,
+"err": 0.13046087663659364
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 6,
+"grounded": true,
+"err": 0.5262218664756679
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 7,
+"grounded": true,
+"err": 0.5332890500384869
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 8,
+"grounded": true,
+"err": 0.5345204395355203
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 9,
+"grounded": true,
+"err": 0.5361615268987755
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 0,
+"grounded": true,
+"err": 0.15044272245375703
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 1,
+"grounded": true,
+"err": 0.5300880759059933
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 2,
+"grounded": true,
+"err": 0.533271751830992
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 3,
+"grounded": true,
+"err": 0.5281162935534824
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 4,
+"grounded": true,
+"err": 0.1726874663410284
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 5,
+"grounded": true,
+"err": 0.5410150205255151
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 6,
+"grounded": true,
+"err": 0.5399490022801643
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 7,
+"grounded": true,
+"err": 0.1162987363251046
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 8,
+"grounded": true,
+"err": 0.5452268102667681
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 9,
+"grounded": true,
+"err": 0.18663876755012382
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 0,
+"grounded": true,
+"err": 0.535657656408109
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 1,
+"grounded": true,
+"err": 0.536162847568214
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 2,
+"grounded": true,
+"err": 0.5407107367359406
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 3,
+"grounded": true,
+"err": 0.1292028839487683
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 4,
+"grounded": true,
+"err": 0.17438156011311648
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 5,
+"grounded": true,
+"err": 0.5422135576480722
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 6,
+"grounded": true,
+"err": 0.5468383993143039
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 7,
+"grounded": true,
+"err": 0.17362765835034527
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 8,
+"grounded": true,
+"err": 0.17416932150910394
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 9,
+"grounded": true,
+"err": 0.10524675486172881
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 0,
+"grounded": true,
+"err": 0.16579413242543967
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 1,
+"grounded": true,
+"err": 0.16306463891505188
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 2,
+"grounded": true,
+"err": 0.5307980499676428
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 3,
+"grounded": true,
+"err": 0.537370404098597
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 4,
+"grounded": true,
+"err": 0.5392227110642839
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 5,
+"grounded": true,
+"err": 0.5405687586589163
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 6,
+"grounded": true,
+"err": 0.5303758161978885
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 7,
+"grounded": true,
+"err": 0.5259667774566771
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 8,
+"grounded": true,
+"err": 0.1268096151580141
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 9,
+"grounded": true,
+"err": 0.1920463067293826
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 0,
+"grounded": true,
+"err": 0.5270374733407812
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 1,
+"grounded": true,
+"err": 0.18450062187546284
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 2,
+"grounded": true,
+"err": 0.5380434662124987
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 3,
+"grounded": true,
+"err": 0.5305942987520145
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 4,
+"grounded": true,
+"err": 0.16794093700142596
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 5,
+"grounded": true,
+"err": 0.18279664213074615
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 6,
+"grounded": true,
+"err": 0.5412728288678051
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 7,
+"grounded": true,
+"err": 0.1329902484355938
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 8,
+"grounded": true,
+"err": 0.5327417641002781
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 9,
+"grounded": true,
+"err": 0.5406273670901796
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 0,
+"grounded": true,
+"err": 0.536399531965654
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 1,
+"grounded": true,
+"err": 0.20607610798102668
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 2,
+"grounded": true,
+"err": 0.12939130212319325
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 3,
+"grounded": true,
+"err": 0.5350948845657405
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 4,
+"grounded": true,
+"err": 0.1654954845607877
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 5,
+"grounded": true,
+"err": 0.1981005227503613
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 6,
+"grounded": true,
+"err": 0.12686291863153443
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 7,
+"grounded": true,
+"err": 0.1315624533863094
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 8,
+"grounded": true,
+"err": 0.10792847890191107
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 9,
+"grounded": true,
+"err": 0.5346359252648563
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 0,
+"grounded": true,
+"err": 0.48401096852044634
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 1,
+"grounded": true,
+"err": 0.15462627371060844
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 2,
+"grounded": true,
+"err": 0.16083351626432826
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 3,
+"grounded": true,
+"err": 0.41026112795330355
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 4,
+"grounded": true,
+"err": 0.5327321466472545
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 5,
+"grounded": true,
+"err": 0.5348685390283299
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 6,
+"grounded": true,
+"err": 0.4463720233469758
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 7,
+"grounded": true,
+"err": 0.5364828999108436
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 8,
+"grounded": true,
+"err": 0.541696967980677
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 9,
+"grounded": true,
+"err": 0.5484174766001472
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 0,
+"grounded": true,
+"err": 0.17653774962320673
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 1,
+"grounded": true,
+"err": 0.13552165702218338
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 2,
+"grounded": true,
+"err": 0.5338745047372978
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 3,
+"grounded": true,
+"err": 0.17093922754029758
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 4,
+"grounded": true,
+"err": 0.18273005494844613
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 5,
+"grounded": true,
+"err": 0.1798153535281045
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 6,
+"grounded": true,
+"err": 0.15098967929914037
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 7,
+"grounded": true,
+"err": 0.19004297931987743
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 8,
+"grounded": true,
+"err": 0.1776112919567806
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 9,
+"grounded": true,
+"err": 0.5354858795114716
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 0,
+"grounded": true,
+"err": 0.15451163522482694
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 1,
+"grounded": true,
+"err": 0.550879710412507
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 2,
+"grounded": true,
+"err": 0.17336493938116845
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 3,
+"grounded": true,
+"err": 0.5513996324344247
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 4,
+"grounded": true,
+"err": 0.19090740727407543
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 5,
+"grounded": true,
+"err": 0.5267871383424573
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 6,
+"grounded": true,
+"err": 0.5433272260278459
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 7,
+"grounded": true,
+"err": 0.5385851988642056
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 8,
+"grounded": true,
+"err": 0.17227876770446623
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 9,
+"grounded": true,
+"err": 0.1647302974568795
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 9,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 0,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 1,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 2,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 3,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 4,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 5,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 6,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 7,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 8,
+"grounded": false,
+"err": null
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 9,
+"grounded": false,
+"err": null
+}
+]

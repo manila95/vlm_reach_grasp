@@ -1,0 +1,4002 @@
+[
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 0,
+"hit": true,
+"err": 0.022311221954676653,
+"pick": "garlic"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 1,
+"hit": true,
+"err": 0.027482634696240935,
+"pick": "aluminum foil"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 2,
+"hit": true,
+"err": 0.03536156980426032,
+"pick": "liquor"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 3,
+"hit": true,
+"err": 0.04481809803158783,
+"pick": "sugar cube"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 4,
+"hit": true,
+"err": 0.06689006445378144,
+"pick": "cereal"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 5,
+"hit": true,
+"err": 0.030323081701175383,
+"pick": "lime"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 6,
+"hit": true,
+"err": 0.010585647679396262,
+"pick": "teapot"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 7,
+"hit": true,
+"err": 0.034702854514178434,
+"pick": "bread"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 8,
+"hit": true,
+"err": 0.031579306197989855,
+"pick": "ketchup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 9,
+"hit": false,
+"err": 0.4819529011958458,
+"pick": "cinnamon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 10,
+"hit": true,
+"err": 0.03748867520124645,
+"pick": "mug"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 11,
+"hit": true,
+"err": 0.02163155110579478,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 12,
+"hit": true,
+"err": 0.018007251790899865,
+"pick": "donut"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 13,
+"hit": true,
+"err": 0.024700904662143672,
+"pick": "yogurt"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 14,
+"hit": true,
+"err": 0.04086617065375584,
+"pick": "teapot"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 15,
+"hit": true,
+"err": 0.026536831550207682,
+"pick": "ketchup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 16,
+"hit": true,
+"err": 0.017528199197556105,
+"pick": "shrimp"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 17,
+"hit": true,
+"err": 0.023679636000120147,
+"pick": "mushroom"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 18,
+"hit": true,
+"err": 0.026038690355810575,
+"pick": "kiwi"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 19,
+"hit": true,
+"err": 0.0321978761867246,
+"pick": "cheese"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 20,
+"hit": true,
+"err": 0.045522373243274364,
+"pick": "mayonnaise"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 21,
+"hit": true,
+"err": 0.024641878434745572,
+"pick": "cupcake"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 22,
+"hit": true,
+"err": 0.03688898264150504,
+"pick": "liquor"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 23,
+"hit": true,
+"err": 0.01920750387339622,
+"pick": "condiment bottle"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 24,
+"hit": true,
+"err": 0.010193922027850775,
+"pick": "sugar cube"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 25,
+"hit": true,
+"err": 0.031229065204741165,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 26,
+"hit": true,
+"err": 0.031601699271257326,
+"pick": "bar soap"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 27,
+"hit": true,
+"err": 0.04075342669071125,
+"pick": "sugar cube"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 28,
+"hit": true,
+"err": 0.014243545720787398,
+"pick": "hot dog"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 29,
+"hit": true,
+"err": 0.03570962581384808,
+"pick": "avocado"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 30,
+"hit": true,
+"err": 0.018807931524684646,
+"pick": "reamer"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 31,
+"hit": true,
+"err": 0.019420776899598834,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 32,
+"hit": true,
+"err": 0.02622406910349954,
+"pick": "broccoli"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 33,
+"hit": true,
+"err": 0.03175907743815418,
+"pick": "potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 34,
+"hit": true,
+"err": 0.018498483555646827,
+"pick": "oil/vinegar bottle"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 35,
+"hit": true,
+"err": 0.02620348280195506,
+"pick": "candle"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 36,
+"hit": true,
+"err": 0.06884848050664373,
+"pick": "eggplant"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 37,
+"hit": true,
+"err": 0.016087293001393475,
+"pick": "sugar cube"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 38,
+"hit": true,
+"err": 0.03356413870496734,
+"pick": "cupcake"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 39,
+"hit": false,
+"err": 0.635441472269335,
+"pick": "garlic"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 40,
+"hit": true,
+"err": 0.03876633539842468,
+"pick": "mustard"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 41,
+"hit": false,
+"err": 1.769924575480046,
+"pick": "kiwi"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 42,
+"hit": true,
+"err": 0.04384895758848939,
+"pick": "whisk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 43,
+"hit": true,
+"err": 0.07332938536715512,
+"pick": "tupperware"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 44,
+"hit": true,
+"err": 0.05363396298437889,
+"pick": "baguette"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 45,
+"hit": true,
+"err": 0.039916635510204274,
+"pick": "wine"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 46,
+"hit": true,
+"err": 0.06386615025932992,
+"pick": "chicken drumstick"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 47,
+"hit": true,
+"err": 0.03725110359451777,
+"pick": "coffee cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 48,
+"hit": true,
+"err": 0.024013547618063763,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToCabinet",
+"ep": 49,
+"hit": true,
+"err": 0.04208042294440563,
+"pick": "milk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 0,
+"hit": true,
+"err": 0.039898975947444355,
+"pick": "sweet potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 1,
+"hit": true,
+"err": 0.02481724404081575,
+"pick": "apple"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 2,
+"hit": true,
+"err": 0.016155556124036335,
+"pick": "broccoli"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 3,
+"hit": true,
+"err": 0.025725704179861225,
+"pick": "the squash"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 4,
+"hit": true,
+"err": 0.02089493125220512,
+"pick": "hot dog"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 5,
+"hit": true,
+"err": 0.018867714946440673,
+"pick": "cheese"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 6,
+"hit": true,
+"err": 0.01966591703271735,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 7,
+"hit": true,
+"err": 0.014505526441628579,
+"pick": "hot dog"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 8,
+"hit": true,
+"err": 0.027127038355173664,
+"pick": "lemon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 9,
+"hit": false,
+"err": 1.7010258283536839,
+"pick": "lime"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 10,
+"hit": true,
+"err": 0.016498639180878717,
+"pick": "mushroom"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 11,
+"hit": true,
+"err": 0.01792627895195414,
+"pick": "corn"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 12,
+"hit": true,
+"err": 0.04282298715724719,
+"pick": "marshmallow"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 13,
+"hit": true,
+"err": 0.0294804973506456,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 14,
+"hit": true,
+"err": 0.012734203748983616,
+"pick": "shrimp"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 15,
+"hit": false,
+"err": 1.2743779831494038,
+"pick": "bell pepper"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 16,
+"hit": true,
+"err": 0.010810504745852791,
+"pick": "lemon wedge"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 17,
+"hit": true,
+"err": 0.02565318626699379,
+"pick": "the squash"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 18,
+"hit": true,
+"err": 0.014981115532347952,
+"pick": "broccoli"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 19,
+"hit": true,
+"err": 0.009352734713205196,
+"pick": "potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 20,
+"hit": true,
+"err": 0.015828800865393292,
+"pick": "hotdog bun"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 21,
+"hit": true,
+"err": 0.018080241063192365,
+"pick": "hot dog"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 22,
+"hit": true,
+"err": 0.028150802546721785,
+"pick": "hotdog bun"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 23,
+"hit": true,
+"err": 0.03448271239443625,
+"pick": "lemon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 24,
+"hit": true,
+"err": 0.0370443311146266,
+"pick": "carrot"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 25,
+"hit": true,
+"err": 0.011133737508748291,
+"pick": "shrimp"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 26,
+"hit": true,
+"err": 0.013405615935794169,
+"pick": "marshmallow"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 27,
+"hit": true,
+"err": 0.032924515435496064,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 28,
+"hit": true,
+"err": 0.021953471916793078,
+"pick": "the squash"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 29,
+"hit": true,
+"err": 0.025938189775633582,
+"pick": "tomato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 30,
+"hit": true,
+"err": 0.03224099230019565,
+"pick": "apple"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 31,
+"hit": true,
+"err": 0.02045132120454983,
+"pick": "tomato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 32,
+"hit": true,
+"err": 0.040975562198594925,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 33,
+"hit": true,
+"err": 0.0045551752645570254,
+"pick": "lemon wedge"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 34,
+"hit": true,
+"err": 0.02937572573269898,
+"pick": "apple"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 35,
+"hit": true,
+"err": 0.01761666294760443,
+"pick": "cream cheese stick"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 36,
+"hit": true,
+"err": 0.02104413016916616,
+"pick": "garlic"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 37,
+"hit": true,
+"err": 0.018629837564292942,
+"pick": "marshmallow"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 38,
+"hit": false,
+"err": 0.0511909937467902,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 39,
+"hit": true,
+"err": 0.034443187024766626,
+"pick": "onion"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 40,
+"hit": true,
+"err": 0.03047483287424905,
+"pick": "lime"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 41,
+"hit": true,
+"err": 0.02305283880758258,
+"pick": "sweet potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 42,
+"hit": true,
+"err": 0.01990309696641967,
+"pick": "steak"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 43,
+"hit": true,
+"err": 0.021601733155799746,
+"pick": "sweet potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 44,
+"hit": true,
+"err": 0.022491028145460973,
+"pick": "sweet potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 45,
+"hit": true,
+"err": 0.049406423954709386,
+"pick": "hotdog bun"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 46,
+"hit": true,
+"err": 0.016739411067962732,
+"pick": "garlic"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 47,
+"hit": true,
+"err": 0.03453745156352458,
+"pick": "lemon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 48,
+"hit": true,
+"err": 0.01555906474576896,
+"pick": "broccoli"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceCounterToStove",
+"ep": 49,
+"hit": true,
+"err": 0.023048919048314895,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 0,
+"hit": true,
+"err": 0.026356004177671272,
+"pick": "dish brush"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.054069500582666595,
+"pick": "tongs"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 2,
+"hit": true,
+"err": 0.01627852723669016,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.11034817542801902,
+"pick": "whisk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.04542310835860258,
+"pick": "ladle"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 5,
+"hit": true,
+"err": 0.03173395953648642,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.022199536354645145,
+"pick": "dish brush"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 7,
+"hit": true,
+"err": 0.024850671815941357,
+"pick": "tongs"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.03044111740249025,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 9,
+"hit": true,
+"err": 0.01834253514622142,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.032248790616723026,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 11,
+"hit": true,
+"err": 1.0146156177183085,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.04252483812814123,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.06628031467906646,
+"pick": "ladle"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 14,
+"hit": false,
+"err": 0.8363815690310786,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.024351686721520167,
+"pick": "whisk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.08199253938652025,
+"pick": "dish brush"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.005110647973803053,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.017560180867560796,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.870645837027293,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.03027228501130451,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 21,
+"hit": true,
+"err": 0.011210694258059548,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 22,
+"hit": true,
+"err": 0.02696320631608553,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 23,
+"hit": true,
+"err": 0.021804067519905285,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.029715918821341492,
+"pick": "tongs"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 25,
+"hit": true,
+"err": 0.028805342854613915,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.01680600782721144,
+"pick": "rolling pin"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.009054041335238936,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 28,
+"hit": true,
+"err": 0.033780886531244156,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.014639796948357006,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.04259240317749095,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 31,
+"hit": true,
+"err": 0.056778049999930365,
+"pick": "tongs"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.06399824184233911,
+"pick": "tongs"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.03993002420735089,
+"pick": "rolling pin"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.03844466556085486,
+"pick": "whisk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 35,
+"hit": false,
+"err": 0.5066161638203249,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 36,
+"hit": true,
+"err": 0.0662204074766259,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 37,
+"hit": true,
+"err": 0.027746762019456007,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.023226929903356192,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 39,
+"hit": true,
+"err": 0.06237648552681394,
+"pick": "measuring cup"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 40,
+"hit": true,
+"err": 0.02373920135182012,
+"pick": "whisk"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 41,
+"hit": true,
+"err": 0.03944489548061751,
+"pick": "peeler"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 42,
+"hit": true,
+"err": 0.041286255315256815,
+"pick": "dish brush"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.026180246808721844,
+"pick": "rolling pin"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.040749571253162066,
+"pick": "rolling pin"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.017324648084240727,
+"pick": "dish brush"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 46,
+"hit": true,
+"err": 0.03906873409114662,
+"pick": "rolling pin"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 47,
+"hit": false,
+"err": 0.4694206913127647,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.010411421863269857,
+"pick": "wooden spoon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceDrawerToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.18848206903320883,
+"pick": "pizza cutter"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 0,
+"hit": true,
+"err": 0.028442482092517245,
+"pick": "lemon wedge"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.025816216265332863,
+"pick": "egg"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 2,
+"hit": false,
+"err": 0.5326169026324346,
+"pick": "corn"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.03409701900653318,
+"pick": "onion"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.027329186239145157,
+"pick": "yogurt"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 5,
+"hit": true,
+"err": 0.04396229991699362,
+"pick": "cucumber"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.02547714372993454,
+"pick": "sweet potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 7,
+"hit": true,
+"err": 0.025061562775755702,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.047256146471461986,
+"pick": "banana"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 9,
+"hit": true,
+"err": 0.05868288276750642,
+"pick": "lemon wedge"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.0218454527261408,
+"pick": "avocado"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 11,
+"hit": true,
+"err": 0.04445393343917074,
+"pick": "chicken drumstick"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.03866705331234726,
+"pick": "cream cheese stick"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.024645887014461153,
+"pick": "squash"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 14,
+"hit": true,
+"err": 0.03067511812204521,
+"pick": "lemon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.04473397251316024,
+"pick": "potato"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.08485553521180575,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.011706189555319078,
+"pick": "carrot"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.03866379518751614,
+"pick": "avocado"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.025175461197655197,
+"pick": "apple"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.014826145219661663,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 21,
+"hit": true,
+"err": 0.03293268732207634,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 22,
+"hit": true,
+"err": 0.028515297491810927,
+"pick": "peach"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 23,
+"hit": true,
+"err": 0.01652753082710255,
+"pick": "cheese"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.028213762532273503,
+"pick": "kiwi"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 25,
+"hit": true,
+"err": 0.035098447942904315,
+"pick": "onion"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.03347395512928646,
+"pick": "lime"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.0334409003317316,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 28,
+"hit": false,
+"err": 0.711286844719925,
+"pick": "apple"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.01576276071072899,
+"pick": "steak"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.02820415778993083,
+"pick": "broccoli"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 31,
+"hit": true,
+"err": 0.04623215654560218,
+"pick": "onion"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.026995498316784355,
+"pick": "egg"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.06546245784334613,
+"pick": "eggplant"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.10395544301070801,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 35,
+"hit": true,
+"err": 0.07823155374656991,
+"pick": "garlic"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 36,
+"hit": true,
+"err": 0.04745922954807734,
+"pick": "the pear"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 37,
+"hit": true,
+"err": 0.02898889141910572,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.07724119225166882,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 39,
+"hit": true,
+"err": 0.027580117711687516,
+"pick": "mango"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 40,
+"hit": true,
+"err": 0.026749806197438948,
+"pick": "egg"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 41,
+"hit": false,
+"err": 0.5265545842908151,
+"pick": "avocado"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 42,
+"hit": true,
+"err": 0.02451238623599989,
+"pick": "cucumber"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.03185673828183609,
+"pick": "bell pepper"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.027541434953027792,
+"pick": "lemon"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.025203325331161253,
+"pick": "cheese"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 46,
+"hit": true,
+"err": 0.02511108680684469,
+"pick": "cheese"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 47,
+"hit": true,
+"err": 0.8082767311385165,
+"pick": "egg"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.02112660665088175,
+"pick": "egg"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceSinkToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.04710943353734572,
+"pick": "fish"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 0,
+"hit": true,
+"err": 0.07384664091433363,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.030680376550394937,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 2,
+"hit": true,
+"err": 0.03102523012724273,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.053005409551578654,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.05303225780078774,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 5,
+"hit": true,
+"err": 0.03662665884556969,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.0829816159012913,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 7,
+"hit": false,
+"err": 0.34727572822232994,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.023488888743399904,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 9,
+"hit": false,
+"err": 0.3742303443475598,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.06687331868937989,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 11,
+"hit": true,
+"err": 0.039888153041362326,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.08332875781476813,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.04785830898002483,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 14,
+"hit": true,
+"err": 0.06503613041976336,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.03955174443503993,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.060137224242934134,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.15068823052337807,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.02940288423030056,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.043168879488978754,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.0508385204417867,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 21,
+"hit": false,
+"err": 0.32796521679501944,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 22,
+"hit": false,
+"err": 0.7343182819251666,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 23,
+"hit": true,
+"err": 0.04503679646261071,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.03602816421206833,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 25,
+"hit": false,
+"err": 0.3594458264403782,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.050982850169543126,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.02839160598058241,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 28,
+"hit": true,
+"err": 0.03391339445207207,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.017154606976694783,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.1315413260274084,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 31,
+"hit": true,
+"err": 0.016566643565813267,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.059033952952065843,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.49601084762712033,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.04096424604756049,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 35,
+"hit": true,
+"err": 0.04991722181797939,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 36,
+"hit": true,
+"err": 0.08810677255331052,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 37,
+"hit": true,
+"err": 0.030926697426304824,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.0555696757998466,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 39,
+"hit": true,
+"err": 0.11814032979125451,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 40,
+"hit": true,
+"err": 0.3979404476517627,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 41,
+"hit": true,
+"err": 0.05956804625732732,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 42,
+"hit": false,
+"err": 0.34069151300475115,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.06301269942467697,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.041068334909958065,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.44448141242361594,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 46,
+"hit": true,
+"err": 0.036400568578028515,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 47,
+"hit": true,
+"err": 0.024873664702122072,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.044005675975468714,
+"pick": "the toasted item"
+},
+{
+"split": "pretrain",
+"task": "PickPlaceToasterToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.15706717525540992,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 0,
+"hit": true,
+"err": 0.013231583064318144,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 1,
+"hit": true,
+"err": 0.019193710802921076,
+"pick": "croissant"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 2,
+"hit": false,
+"err": 1.21861228420728,
+"pick": "kiwi"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 3,
+"hit": false,
+"err": 1.158218367516193,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 4,
+"hit": true,
+"err": 0.028758735890310503,
+"pick": "banana"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 5,
+"hit": true,
+"err": 0.02365421275264582,
+"pick": "spray"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 6,
+"hit": true,
+"err": 0.021173487025415053,
+"pick": "cake"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 7,
+"hit": true,
+"err": 0.031205823911877106,
+"pick": "milk"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 8,
+"hit": true,
+"err": 0.03173821037789997,
+"pick": "syrup bottle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 9,
+"hit": true,
+"err": 0.02780524800075743,
+"pick": "peach"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 10,
+"hit": true,
+"err": 0.01837292731470369,
+"pick": "chicken drumstick"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 11,
+"hit": true,
+"err": 0.03790727819869813,
+"pick": "bread"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 12,
+"hit": true,
+"err": 0.04323442347751894,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 13,
+"hit": true,
+"err": 0.048496264395911495,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 14,
+"hit": true,
+"err": 0.09683796030525792,
+"pick": "paprika"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 15,
+"hit": true,
+"err": 0.04308043976461817,
+"pick": "cinnamon"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 16,
+"hit": true,
+"err": 0.014361684172144808,
+"pick": "marshmallow"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 17,
+"hit": true,
+"err": 0.02724206634279649,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 18,
+"hit": true,
+"err": 0.026354156989930173,
+"pick": "condiment bottle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 19,
+"hit": true,
+"err": 0.04614718344161707,
+"pick": "coffee cup"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 20,
+"hit": true,
+"err": 0.028337811684057666,
+"pick": "croissant"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 21,
+"hit": true,
+"err": 0.15759425842952984,
+"pick": "spray"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 22,
+"hit": true,
+"err": 0.02704980914789174,
+"pick": "mustard"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 23,
+"hit": false,
+"err": 2.513798607491755,
+"pick": "carrot"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 24,
+"hit": true,
+"err": 0.0401864531599687,
+"pick": "milk"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 25,
+"hit": true,
+"err": 0.2989207146750382,
+"pick": "syrup bottle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 26,
+"hit": false,
+"err": 0.740274288978957,
+"pick": "liquor"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 27,
+"hit": true,
+"err": 0.012174609558206692,
+"pick": "marshmallow"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 28,
+"hit": false,
+"err": 0.3156638820821711,
+"pick": "jar"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 29,
+"hit": true,
+"err": 0.02829376150096659,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 30,
+"hit": true,
+"err": 0.021496543070282287,
+"pick": "hot dog"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 31,
+"hit": true,
+"err": 0.08896493655617951,
+"pick": "blender jug"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 32,
+"hit": true,
+"err": 0.11243712520814089,
+"pick": "honey bottle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 33,
+"hit": true,
+"err": 0.00932439929993385,
+"pick": "kebab skewer"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 34,
+"hit": true,
+"err": 0.03532425380322553,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 35,
+"hit": true,
+"err": 0.04034260107197505,
+"pick": "steak"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 36,
+"hit": true,
+"err": 0.024577052306873803,
+"pick": "beer"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 37,
+"hit": false,
+"err": 0.21501568342080835,
+"pick": "candle"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 38,
+"hit": true,
+"err": 0.04365919740464126,
+"pick": "broccoli"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 39,
+"hit": true,
+"err": 0.03799679824685497,
+"pick": "potato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 40,
+"hit": true,
+"err": 0.07311832912379518,
+"pick": "cereal"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 41,
+"hit": true,
+"err": 0.032267796755118164,
+"pick": "bar soap"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 42,
+"hit": true,
+"err": 0.013209484068850473,
+"pick": "reamer"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 43,
+"hit": true,
+"err": 0.045065700604068795,
+"pick": "mayonnaise"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 44,
+"hit": true,
+"err": 0.06896390376737338,
+"pick": "tupperware"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 45,
+"hit": true,
+"err": 0.018402510667361916,
+"pick": "orange"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 46,
+"hit": true,
+"err": 0.03496110775933006,
+"pick": "yogurt"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 47,
+"hit": false,
+"err": 0.2666276146335429,
+"pick": "mug"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 48,
+"hit": true,
+"err": 0.04921909243385125,
+"pick": "ice cube"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToCabinet",
+"ep": 49,
+"hit": true,
+"err": 0.03785853637293027,
+"pick": "broccoli"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 0,
+"hit": false,
+"err": 0.06762005233198631,
+"pick": "garlic"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 1,
+"hit": true,
+"err": 0.01899896245633943,
+"pick": "lemon wedge"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 2,
+"hit": true,
+"err": 0.035072060242262726,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 3,
+"hit": true,
+"err": 0.03944465845285999,
+"pick": "broccoli"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 4,
+"hit": true,
+"err": 0.01857991255340519,
+"pick": "corn"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 5,
+"hit": true,
+"err": 0.033511355577654334,
+"pick": "carrot"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 6,
+"hit": true,
+"err": 0.012553789401968028,
+"pick": "steak"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 7,
+"hit": false,
+"err": 0.051917313497796276,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 8,
+"hit": true,
+"err": 0.008413896867360677,
+"pick": "carrot"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 9,
+"hit": true,
+"err": 0.022175888680405893,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 10,
+"hit": true,
+"err": 0.0077319565121467355,
+"pick": "lemon wedge"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 11,
+"hit": true,
+"err": 0.035864738284679426,
+"pick": "onion"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 12,
+"hit": true,
+"err": 0.02328810694255872,
+"pick": "apple"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 13,
+"hit": true,
+"err": 0.03125374690598606,
+"pick": "apple"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 14,
+"hit": false,
+"err": 0.07228874321687663,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 15,
+"hit": true,
+"err": 0.031038973338719092,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 16,
+"hit": true,
+"err": 0.017102100885722213,
+"pick": "sweet potato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 17,
+"hit": true,
+"err": 0.02617427649312624,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 18,
+"hit": true,
+"err": 0.0185930203379377,
+"pick": "mushroom"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 19,
+"hit": true,
+"err": 0.010561275875392814,
+"pick": "kebab skewer"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 20,
+"hit": true,
+"err": 0.017087320969335646,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 21,
+"hit": true,
+"err": 0.026988821681461366,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 22,
+"hit": true,
+"err": 0.02222063838947784,
+"pick": "hot dog"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 23,
+"hit": true,
+"err": 0.03187711458017574,
+"pick": "egg"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 24,
+"hit": true,
+"err": 0.031054178920857392,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 25,
+"hit": true,
+"err": 0.03151667866039943,
+"pick": "corn"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 26,
+"hit": true,
+"err": 0.027918802839837782,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 27,
+"hit": true,
+"err": 0.023292366120778105,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 28,
+"hit": true,
+"err": 0.02172643207734354,
+"pick": "hot dog"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 29,
+"hit": true,
+"err": 0.02591557157536298,
+"pick": "the squash"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 30,
+"hit": true,
+"err": 0.0027183981051265545,
+"pick": "shrimp"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 31,
+"hit": true,
+"err": 0.028432097345155376,
+"pick": "the squash"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 32,
+"hit": true,
+"err": 0.021948847051948477,
+"pick": "hot dog"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 33,
+"hit": true,
+"err": 0.017568994625952888,
+"pick": "hot dog"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 34,
+"hit": true,
+"err": 0.013619308444353403,
+"pick": "fish"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 35,
+"hit": true,
+"err": 0.018765492677089567,
+"pick": "steak"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 36,
+"hit": false,
+"err": 0.4259823829436403,
+"pick": "kebab skewer"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 37,
+"hit": true,
+"err": 0.035454547124161594,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 38,
+"hit": true,
+"err": 0.01263113522804433,
+"pick": "chicken drumstick"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 39,
+"hit": true,
+"err": 0.03001971121767867,
+"pick": "apple"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 40,
+"hit": true,
+"err": 0.014009519861260712,
+"pick": "cream cheese stick"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 41,
+"hit": true,
+"err": 0.0328059012476562,
+"pick": "onion"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 42,
+"hit": true,
+"err": 0.013153881889562869,
+"pick": "marshmallow"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 43,
+"hit": true,
+"err": 0.012660968975556802,
+"pick": "cream cheese stick"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 44,
+"hit": true,
+"err": 0.021299949040983004,
+"pick": "egg"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 45,
+"hit": true,
+"err": 0.02280042091009079,
+"pick": "corn"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 46,
+"hit": true,
+"err": 0.025089506522356492,
+"pick": "garlic"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 47,
+"hit": true,
+"err": 0.023238475586708534,
+"pick": "bell pepper"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 48,
+"hit": true,
+"err": 0.005592219989797258,
+"pick": "fish"
+},
+{
+"split": "target",
+"task": "PickPlaceCounterToStove",
+"ep": 49,
+"hit": true,
+"err": 0.009721692589512818,
+"pick": "marshmallow"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 0,
+"hit": true,
+"err": 0.018406528951910785,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.03654365395604605,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 2,
+"hit": true,
+"err": 0.013846655114368105,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.014893987316807017,
+"pick": "dish brush"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.012635749624280735,
+"pick": "rolling pin"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 5,
+"hit": true,
+"err": 0.00932419701341171,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.029913695984562838,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 7,
+"hit": true,
+"err": 0.0587132644960121,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.06135552210405355,
+"pick": "dish brush"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 9,
+"hit": true,
+"err": 0.029990096103051377,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.01903922225504797,
+"pick": "whisk"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 11,
+"hit": true,
+"err": 0.016163919995615877,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.018770471701968452,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.032351617768133854,
+"pick": "rolling pin"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 14,
+"hit": true,
+"err": 0.03078091742926338,
+"pick": "whisk"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.06019667775145485,
+"pick": "measuring cup"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.04395921854132518,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.055287831681394256,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.01587955441098607,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.004886296782087058,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.008716275442754634,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 21,
+"hit": true,
+"err": 0.026570228742965996,
+"pick": "measuring cup"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 22,
+"hit": true,
+"err": 0.03923602101932265,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 23,
+"hit": true,
+"err": 0.00979325498125133,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.02772442034160055,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 25,
+"hit": true,
+"err": 0.012388208940141294,
+"pick": "rolling pin"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.024261282870515447,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.03928834772008385,
+"pick": "whisk"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 28,
+"hit": true,
+"err": 0.007372796090067741,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.029442620016286388,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.038492841130592356,
+"pick": "measuring cup"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 31,
+"hit": true,
+"err": 0.020153195826666304,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.02331859582938463,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.017182415610818503,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.018875514220954237,
+"pick": "wooden spoon"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 35,
+"hit": true,
+"err": 0.0660760307886478,
+"pick": "measuring cup"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 36,
+"hit": true,
+"err": 0.04209025576216649,
+"pick": "rolling pin"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 37,
+"hit": true,
+"err": 0.05330316290880533,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.02760816214614746,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 39,
+"hit": true,
+"err": 0.009478002316869417,
+"pick": "rolling pin"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 40,
+"hit": false,
+"err": 0.9175597671946762,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 41,
+"hit": true,
+"err": 0.028089243293250764,
+"pick": "pizza cutter"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 42,
+"hit": false,
+"err": 0.849186979281061,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.03438955499707711,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.029832457840190493,
+"pick": "whisk"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.014794708839136363,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 46,
+"hit": false,
+"err": 0.16482034133072243,
+"pick": "ladle"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 47,
+"hit": true,
+"err": 0.04513662523863155,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.023249763476617294,
+"pick": "peeler"
+},
+{
+"split": "target",
+"task": "PickPlaceDrawerToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.018034271682370675,
+"pick": "tongs"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 0,
+"hit": false,
+"err": 0.49669719504235477,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.03421076047918063,
+"pick": "banana"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 2,
+"hit": true,
+"err": 0.02068117441775163,
+"pick": "potato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.02474624118717153,
+"pick": "bell pepper"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.01781645726585403,
+"pick": "cucumber"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 5,
+"hit": true,
+"err": 0.04910956288823659,
+"pick": "banana"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.07041014574253984,
+"pick": "cream cheese stick"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 7,
+"hit": true,
+"err": 0.030711358311879988,
+"pick": "apple"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.016537712248967378,
+"pick": "corn"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 9,
+"hit": true,
+"err": 0.10749816707931023,
+"pick": "lemon wedge"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.026824792923669533,
+"pick": "tangerine"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 11,
+"hit": true,
+"err": 0.028554815378178607,
+"pick": "potato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.016486672229850497,
+"pick": "sweet potato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.024985031532314385,
+"pick": "sweet potato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 14,
+"hit": true,
+"err": 0.0220816897737741,
+"pick": "fish"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.027534026403113396,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.14577582799766592,
+"pick": "yogurt"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.03536474479480168,
+"pick": "lemon wedge"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.024148566251624107,
+"pick": "mushroom"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.029316596618996268,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.025521978215235375,
+"pick": "cucumber"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 21,
+"hit": true,
+"err": 0.02183740027765215,
+"pick": "tangerine"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 22,
+"hit": false,
+"err": 0.5670405205943058,
+"pick": "kiwi"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 23,
+"hit": false,
+"err": 0.8457052033842091,
+"pick": "shrimp"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.029492831029397194,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 25,
+"hit": true,
+"err": 0.056774161148639785,
+"pick": "squash"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.01820332339951264,
+"pick": "fish"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.037422851624609545,
+"pick": "steak"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 28,
+"hit": true,
+"err": 0.027535620707815605,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.017321469515256153,
+"pick": "garlic"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.0653188335255325,
+"pick": "corn"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 31,
+"hit": true,
+"err": 0.026863009709695605,
+"pick": "carrot"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.044262373585636776,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.020660252750576733,
+"pick": "lemon wedge"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.019115399599619654,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 35,
+"hit": true,
+"err": 0.03557926000220569,
+"pick": "lime"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 36,
+"hit": false,
+"err": 0.45742558967418023,
+"pick": "garlic"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 37,
+"hit": true,
+"err": 0.030734877447128064,
+"pick": "banana"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.025451608553007394,
+"pick": "mango"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 39,
+"hit": true,
+"err": 0.029639746324767156,
+"pick": "lemon"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 40,
+"hit": true,
+"err": 0.08201917169000929,
+"pick": "banana"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 41,
+"hit": true,
+"err": 0.027627696415241314,
+"pick": "bell pepper"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 42,
+"hit": true,
+"err": 0.630830842928859,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.05599410197488614,
+"pick": "eggplant"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.06783884728004957,
+"pick": "carrot"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.09909330489126082,
+"pick": "chicken drumstick"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 46,
+"hit": true,
+"err": 0.019837622450539903,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 47,
+"hit": true,
+"err": 0.030336723255404215,
+"pick": "cheese"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.027183299193436,
+"pick": "squash"
+},
+{
+"split": "target",
+"task": "PickPlaceSinkToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.026483828984817437,
+"pick": "tomato"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 0,
+"hit": true,
+"err": 0.061084293186652754,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 1,
+"hit": true,
+"err": 0.05702423730797495,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 2,
+"hit": false,
+"err": 0.3739083844553091,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 3,
+"hit": true,
+"err": 0.08247299970356278,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 4,
+"hit": true,
+"err": 0.039846792881876,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 5,
+"hit": false,
+"err": 0.3364473074281821,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 6,
+"hit": true,
+"err": 0.04190125023904784,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 7,
+"hit": true,
+"err": 0.02974708185379368,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 8,
+"hit": true,
+"err": 0.04086939053938718,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 9,
+"hit": true,
+"err": 0.08504196396951753,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 10,
+"hit": true,
+"err": 0.08459669404209276,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 11,
+"hit": true,
+"err": 0.41002346043592186,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 12,
+"hit": true,
+"err": 0.26643712542825737,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 13,
+"hit": true,
+"err": 0.03144844809972436,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 14,
+"hit": true,
+"err": 0.05740640135234331,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 15,
+"hit": true,
+"err": 0.06039970536556295,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 16,
+"hit": true,
+"err": 0.044191456746919426,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 17,
+"hit": true,
+"err": 0.0301858897292214,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 18,
+"hit": true,
+"err": 0.05376136199481227,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 19,
+"hit": true,
+"err": 0.03878682211463448,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 20,
+"hit": true,
+"err": 0.03691537119449916,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 21,
+"hit": true,
+"err": 0.040141544111390905,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 22,
+"hit": true,
+"err": 0.06705858216023834,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 23,
+"hit": true,
+"err": 0.02875231277056976,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 24,
+"hit": true,
+"err": 0.03297137171592059,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 25,
+"hit": true,
+"err": 0.06817384051434093,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 26,
+"hit": true,
+"err": 0.053153003137105935,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 27,
+"hit": true,
+"err": 0.03258249150541779,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 28,
+"hit": true,
+"err": 0.04125674720298535,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 29,
+"hit": true,
+"err": 0.03227802215583327,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 30,
+"hit": true,
+"err": 0.060212012435590656,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 31,
+"hit": false,
+"err": 0.38551473674529707,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 32,
+"hit": true,
+"err": 0.05495887439217117,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 33,
+"hit": true,
+"err": 0.05523647006570714,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 34,
+"hit": true,
+"err": 0.03649612602862923,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 35,
+"hit": true,
+"err": 0.01872562093968874,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 36,
+"hit": true,
+"err": 0.03309324447397546,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 37,
+"hit": false,
+"err": 0.40684510704846716,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 38,
+"hit": true,
+"err": 0.0873699208856973,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 39,
+"hit": false,
+"err": 0.3449085048858765,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 40,
+"hit": true,
+"err": 0.031317643250051624,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 41,
+"hit": true,
+"err": 0.0525162871349138,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 42,
+"hit": true,
+"err": 0.06287452144756284,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 43,
+"hit": true,
+"err": 0.044241624370535006,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 44,
+"hit": true,
+"err": 0.052180039207198894,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 45,
+"hit": true,
+"err": 0.03988154527080333,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 46,
+"hit": true,
+"err": 0.06367131648401507,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 47,
+"hit": false,
+"err": 0.40927877251228406,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 48,
+"hit": true,
+"err": 0.05963364374718167,
+"pick": "the toasted item"
+},
+{
+"split": "target",
+"task": "PickPlaceToasterToCounter",
+"ep": 49,
+"hit": true,
+"err": 0.06342124572256745,
+"pick": "the toasted item"
+}
+]

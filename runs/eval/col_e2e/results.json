@@ -1,0 +1,10702 @@
+[
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.8498423099517822,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.008455038070679,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 2.2977983951568604,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.072468996047974,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 1.862027645111084,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 17,
+"error": null,
+"sec": 3.2251930236816406,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 22,
+"error": null,
+"sec": 3.8190786838531494,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.004657745361328,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.4229567050933838,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 0,
+"ep": 9,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 1.8807461261749268,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.566571950912476,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 1,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 2.7518904209136963,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 2,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 2.317754030227661,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 3,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 2.6043736934661865,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 4,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.9188153743743896,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 5,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 3.129028081893921,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 6,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.3545985221862793,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.087273120880127,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 8,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.3040900230407715,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 2,
+"ep": 9,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.725778341293335,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 0,
+"success": true,
+"keyframes": 21,
+"error": null,
+"sec": 4.18253493309021,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 1,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.485154628753662,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.213111162185669,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.455399513244629,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 4,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.7147104740142822,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.4161248207092285,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 6,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.1859610080718994,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.580137729644775,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 8,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.3126394748687744,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 6,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.47767972946167,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.891465425491333,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.950885057449341,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.358062982559204,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.332908868789673,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.178799629211426,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.487667798995972,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.020929574966431,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 7,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.1269867420196533,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.047885179519653,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.436199426651001,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.214872360229492,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.44464373588562,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 2.6536316871643066,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.709545135498047,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.651622533798218,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.623856544494629,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.400219678878784,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.385666608810425,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.676783323287964,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 2.1067280769348145,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.776457071304321,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.9264161586761475,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.055543899536133,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.545159339904785,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.420071363449097,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.579935550689697,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 3.012118101119995,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.7536938190460205,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.863051176071167,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.316555023193359,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 0,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.039184331893921,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.0451555252075195,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 2,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.4861657619476318,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 3,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.54561185836792,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 4,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 2.897162914276123,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 5,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.3800561428070068,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 6,
+"success": true,
+"keyframes": 21,
+"error": null,
+"sec": 5.2441089153289795,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 7,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.962167501449585,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.481022834777832,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.879746437072754,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 0,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.1787657737731934,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.9321744441986084,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.597047567367554,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 3,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.5133824348449707,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 4,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.1418757438659668,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.2699599266052246,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 3.6412112712860107,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 7,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.3945999145507812,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.469539642333984,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.1131460666656494,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.069342613220215,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.20158576965332,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.473762273788452,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.065362453460693,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.466620206832886,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.631989479064941,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.941277503967285,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.544514179229736,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.397247076034546,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "basketball_in_hoop",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.044085741043091,
+"desc": "put the ball in the hoop"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 4.487851142883301,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 1,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.702646493911743,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 3.543809652328491,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.087425470352173,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 2.8168838024139404,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.4554738998413086,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.006860017776489,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 7,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.692166805267334,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 3.233330488204956,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 0,
+"ep": 9,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.6366748809814453,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.156114816665649,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.819890260696411,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.62231183052063,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.221498250961304,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.2947187423706055,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.863169193267822,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.131247520446777,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.4967570304870605,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.786955118179321,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.787564516067505,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.308359622955322,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 1,
+"success": true,
+"keyframes": 21,
+"error": null,
+"sec": 7.399868011474609,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 13,
+"error": null,
+"sec": 4.276199102401733,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 3,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.4082136154174805,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.100749254226685,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.183531045913696,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.281977653503418,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.633802175521851,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.2680881023406982,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.248439073562622,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.398167610168457,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 5.175322771072388,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.2454638481140137,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.520391225814819,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.135111808776855,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.045888900756836,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.733501672744751,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.934204816818237,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 2.931020975112915,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.991121292114258,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.44838547706604,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.919620752334595,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.76070237159729,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 3,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 5.082409858703613,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.180577278137207,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.84101128578186,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.365326881408691,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.106114864349365,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 5,
+"error": "InvalidActionError",
+"sec": 6.016788005828857,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 9,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.858466625213623,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.2749650478363037,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.788701295852661,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.195633172988892,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 13.373185396194458,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.759914875030518,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.362499713897705,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.219608783721924,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 2.921015977859497,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.2249979972839355,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.406605243682861,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.1305317878723145,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 1,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 6.067890882492065,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.23278284072876,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.243833303451538,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 4,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 3.5990052223205566,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 5,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 5.672999143600464,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.518197059631348,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.2391204833984375,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.634194374084473,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 11,
+"ep": 9,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.592590093612671,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 0,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.8102455139160156,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 1,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.6076536178588867,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 2,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 2.887977361679077,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 3,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.552597999572754,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.828389883041382,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 2.2344958782196045,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.5934343338012695,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 7,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 3.81801176071167,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 8,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.8151443004608154,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 9.61871862411499,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.929235935211182,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.3272247314453125,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.7663938999176025,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.95572805404663,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.630890369415283,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.365328550338745,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 6,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 3.265861749649048,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 7,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 6.292947769165039,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.255028486251831,
+"desc": "close box"
+},
+{
+"task": "close_box",
+"factor": 14,
+"ep": 9,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 4.747658729553223,
+"desc": "close box"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9943442344665527,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 1,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9643845558166504,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0200095176696777,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8792119026184082,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9373965263366699,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8876771926879883,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0929627418518066,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 7,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8674910068511963,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8067407608032227,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 0,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8238928318023682,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.140213966369629,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.2271058559417725,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 2,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0807428359985352,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.94584584236145,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.277473211288452,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8477804660797119,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9147195816040039,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.212461709976196,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.489019870758057,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 2,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7702615261077881,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.893415451049805,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.391767978668213,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.473711252212524,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.479341745376587,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.285839319229126,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.072549104690552,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.842627048492432,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.574968338012695,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.451603889465332,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.53922963142395,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.330844402313232,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.034818887710571,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.037888050079346,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9283902645111084,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 4,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.829115629196167,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8428149223327637,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.197897911071777,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 7,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.905388355255127,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.032601594924927,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 8,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7842538356781006,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.920058012008667,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 1,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0446951389312744,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 2,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.875258445739746,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8621883392333984,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 4,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0085408687591553,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.360876560211182,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8423111438751221,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 7,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 1.161045789718628,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8708498477935791,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.1366467475891113,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7537848949432373,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 1,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 2.520819664001465,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 16.80171513557434,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.032871246337891,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.469307899475098,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9918351173400879,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.88602614402771,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 3.8584396839141846,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8751435279846191,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 10,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7889726161956787,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.607684850692749,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 1,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 1.0369853973388672,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 2,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8953757286071777,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8439321517944336,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 4,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9725854396820068,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9043707847595215,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9316244125366211,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 7,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8750011920928955,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.004178762435913,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 11,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8029417991638184,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7853457927703857,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 1,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8374783992767334,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 2,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.86572265625,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7221438884735107,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 4,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.6851115226745605,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7694377899169922,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.6261763572692871,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 7,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7772746086120605,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.7710254192352295,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8045365810394287,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 1.0040829181671143,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.88965630531311,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 2,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9213316440582275,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 3,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8582525253295898,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 4,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 2.9811599254608154,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 5,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.8931078910827637,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 16.684804677963257,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 7,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.807748556137085,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 8,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9938516616821289,
+"desc": "close laptop lid"
+},
+{
+"task": "close_laptop_lid",
+"factor": 14,
+"ep": 9,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 0.9648613929748535,
+"desc": "close laptop lid"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.043552160263062,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.038751125335693,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.704785346984863,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.397749662399292,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.891783475875854,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 23,
+"error": null,
+"sec": 8.285619735717773,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.725882530212402,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 7,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 3.5502328872680664,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.09782862663269,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.991979360580444,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.658551692962646,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.472349166870117,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.350923299789429,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.203280448913574,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 4,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 4.124675512313843,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.443734645843506,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 6,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 5.058068752288818,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.22489047050476,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.109992265701294,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.152500629425049,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 0,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 10.348910093307495,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.084377765655518,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.9049370288848877,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.1373231410980225,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.076794862747192,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.813970327377319,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.056373357772827,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.575470447540283,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 8,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.8437118530273438,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.835404634475708,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.9004738330841064,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.51312780380249,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.79074478149414,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.287986755371094,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.103227138519287,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.727365970611572,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.614003896713257,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.342434883117676,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 16.127843856811523,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.744753360748291,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.689054489135742,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.140341758728027,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.64051628112793,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.62769889831543,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.737239360809326,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.0300133228302,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.4387407302856445,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.963143348693848,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.5680248737335205,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 9,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.458358287811279,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 0,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 4.931314468383789,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.324428081512451,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.24821162223816,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.98094916343689,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.757444858551025,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.338531494140625,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.843737840652466,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.421514511108398,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.2718799114227295,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 17.23544454574585,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.690739631652832,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.630958557128906,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.392439842224121,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.9748735427856445,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.692837238311768,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.167377710342407,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.1822052001953125,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.666950941085815,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 8,
+"success": true,
+"keyframes": 25,
+"error": null,
+"sec": 8.645530462265015,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.1663236618042,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.238265514373779,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.33818507194519,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.552631378173828,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.951463222503662,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.632350444793701,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.667606830596924,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.690934181213379,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.738418102264404,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 8,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 3.2890493869781494,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 12,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.022785902023315,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.939907073974609,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.167357683181763,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.015517711639404,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 3,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 2.1792352199554443,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.280218601226807,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.799912452697754,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.349428415298462,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.5177202224731445,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.092172145843506,
+"desc": "get ice from fridge"
+},
+{
+"task": "get_ice_from_fridge",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.650792598724365,
+"desc": "get ice from fridge"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.492155075073242,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 1,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 2.3952388763427734,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.354011058807373,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 3.2450637817382812,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.0733184814453125,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 3.174664258956909,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.7123489379882812,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.8573033809661865,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.0679142475128174,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.321223020553589,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 0,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 2.8914566040039062,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.839309215545654,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.778508424758911,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.244420766830444,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.089604616165161,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.407731294631958,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.658403635025024,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 7,
+"success": true,
+"keyframes": 17,
+"error": null,
+"sec": 7.51703405380249,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 8,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.9788818359375,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.3844616413116455,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 0,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 6.702788829803467,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.124568462371826,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.468834638595581,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 3,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 3.141221284866333,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.6429290771484375,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 5,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.5627477169036865,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.918436765670776,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.335355520248413,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.68845534324646,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 6,
+"ep": 9,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.6840956211090088,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 25.439975023269653,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 1,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.6324899196624756,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.706343412399292,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.154265880584717,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 4,
+"success": true,
+"keyframes": 23,
+"error": null,
+"sec": 7.5028321743011475,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.8119254112243652,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.02183485031128,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 7,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 6.194527626037598,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.03375506401062,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.847722768783569,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.476686477661133,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.235882759094238,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.175549507141113,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.393572092056274,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.57835340499878,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.087464809417725,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.286740064620972,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.445576190948486,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.8254334926605225,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.5560462474822998,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 0,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 3.531747341156006,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.674070835113525,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.616328477859497,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.2693235874176025,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.0436060428619385,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.1038243770599365,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.353308916091919,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.88102912902832,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.212617635726929,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.240099906921387,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 0,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 3.6450843811035156,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.470545530319214,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 2,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.770249605178833,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 3,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 4.027929306030273,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.640103101730347,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.744344234466553,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.553863525390625,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.408340215682983,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.233896970748901,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 11,
+"ep": 9,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 5.587668418884277,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.221597194671631,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.070107221603394,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.54362154006958,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.10079550743103,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.491096496582031,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 2.187164783477783,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 12,
+"error": null,
+"sec": 2.959912061691284,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.3923420906066895,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.2628233432769775,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 12,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.859076023101807,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.246533155441284,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.477631568908691,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.233351707458496,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.044137954711914,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.337075233459473,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.26027512550354,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.534234285354614,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.63361930847168,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 8,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.2253530025482178,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "meat_on_grill",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.395211935043335,
+"desc": "put the chicken on the grill"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 3.0488951206207275,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 1,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.6362602710723877,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.8691864013671875,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.6875061988830566,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.8064587116241455,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.214869499206543,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 3.2699296474456787,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 7,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.9351515769958496,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 3.318460464477539,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.595585823059082,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 15,
+"error": "InvalidActionError",
+"sec": 6.156293153762817,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 1,
+"success": true,
+"keyframes": 22,
+"error": null,
+"sec": 5.898455858230591,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.185734033584595,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 3,
+"success": true,
+"keyframes": 15,
+"error": null,
+"sec": 4.550213575363159,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 4,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 3.1184794902801514,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.786804676055908,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 6,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 3.0682222843170166,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.431512117385864,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.447184801101685,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 2,
+"ep": 9,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.377098321914673,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.285906791687012,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.810295104980469,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.143901586532593,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.92697811126709,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.422693729400635,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.050671339035034,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.67704701423645,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.9378437995910645,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.910836219787598,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.489034175872803,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.310475587844849,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 1,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 3.4393272399902344,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 5,
+"error": "InvalidActionError",
+"sec": 6.2948899269104,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.631990432739258,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.37366509437561,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.475497007369995,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.173534870147705,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.727787733078003,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 2,
+"error": "InvalidActionError",
+"sec": 2.9028732776641846,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.8210160732269287,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.3987720012664795,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.649657964706421,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 3.067310333251953,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.791475296020508,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.222120761871338,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.579176664352417,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 5,
+"error": "InvalidActionError",
+"sec": 3.4365365505218506,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 2.6990132331848145,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.263338088989258,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.02843165397644,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.368661880493164,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.05820107460022,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.683505296707153,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.079766273498535,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.89994740486145,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.215930700302124,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 5,
+"error": "InvalidActionError",
+"sec": 3.691194534301758,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 5.809621095657349,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.865532875061035,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 13.902319431304932,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 0,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.8355953693389893,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 1,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.4951131343841553,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 2,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 2.857522487640381,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 3,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 6.05617356300354,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 4,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 4.887158393859863,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.6080398559570312,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.5895283222198486,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 7,
+"success": true,
+"keyframes": 24,
+"error": null,
+"sec": 5.299716472625732,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 8,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.110692024230957,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.6982996463775635,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 0,
+"success": true,
+"keyframes": 15,
+"error": null,
+"sec": 5.019603252410889,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.271891355514526,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 2,
+"error": "InvalidActionError",
+"sec": 2.8203728199005127,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.209698915481567,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 4.917614459991455,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.025655746459961,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.93257212638855,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.187044858932495,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.4052674770355225,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "move_hanger",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.733138084411621,
+"desc": "move hanger onto the other rackmove the hanger from one rack to the other"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.720898866653442,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.574270248413086,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.257168769836426,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.648803949356079,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.628559589385986,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.224988222122192,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.918039083480835,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.264591932296753,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.357160329818726,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.820557594299316,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 32.432100772857666,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.880165576934814,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 33.90822505950928,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.078636646270752,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.293541431427002,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 34.75081968307495,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 24,
+"error": "InvalidActionError",
+"sec": 47.837719202041626,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 29.18427586555481,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 34.061636209487915,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.388072967529297,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.818804740905762,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.228228807449341,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 3.9231042861938477,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.84551191329956,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.894866704940796,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.222730159759521,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.718477487564087,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 37.01322650909424,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.953453302383423,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.316522359848022,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 20.780953407287598,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 28.03384256362915,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.354817152023315,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.587821006774902,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.642361402511597,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.002043962478638,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.364237308502197,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.621920585632324,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.116219520568848,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.930923223495483,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.266984939575195,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.489981174468994,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.317239046096802,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.845511674880981,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.4938063621521,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.138317346572876,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.555712699890137,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 25.301175117492676,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.452056646347046,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 9,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.055134057998657,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 16.034316062927246,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 24,
+"error": "InvalidActionError",
+"sec": 12.375545024871826,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 36.26663851737976,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.72647762298584,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 4,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 1.21360182762146,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.732237339019775,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.611708402633667,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.884925842285156,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.817494869232178,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.134603261947632,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.199448585510254,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.509592056274414,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 2,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 5.0454161167144775,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.657037734985352,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 17.01864266395569,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.552652835845947,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.26875114440918,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.210980892181396,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 16.658355236053467,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 11,
+"ep": 9,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 4.044861316680908,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.952373504638672,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.084997653961182,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.321123600006104,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.10028886795044,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.585130214691162,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.716899394989014,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.950705766677856,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.812739133834839,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.494696140289307,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 12,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.84420657157898,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.368344783782959,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 17.96854305267334,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.736167430877686,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.142303705215454,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.934374809265137,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.230997800827026,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.002100467681885,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.314830541610718,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.556498050689697,
+"desc": "open bottom drawer"
+},
+{
+"task": "open_drawer",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.194713354110718,
+"desc": "open bottom drawer"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.685494899749756,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.987353086471558,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.143813371658325,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.731060981750488,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.068329334259033,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.713929176330566,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.611721992492676,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.213648557662964,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.2975006103515625,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.596743583679199,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.54697847366333,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.181267976760864,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.594930171966553,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.7094011306762695,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.041012525558472,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.9839253425598145,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.10962986946106,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.861031770706177,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.689252614974976,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.210012912750244,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.135771989822388,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.100603103637695,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.287045001983643,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.251500129699707,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.920299053192139,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.017417907714844,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.538382530212402,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.176560401916504,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.8051557540893555,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.648015737533569,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.072587966918945,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.824817180633545,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.182191371917725,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.710378885269165,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.974761247634888,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.331700801849365,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.302286148071289,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.152755260467529,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.69162106513977,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.476520776748657,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.1311256885528564,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.034128189086914,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 20,
+"error": "InvalidActionError",
+"sec": 11.923787832260132,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.94868540763855,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 4,
+"error": "InvalidActionError",
+"sec": 2.3230254650115967,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.790447473526001,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.557271718978882,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.3954222202301025,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.421356916427612,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 9,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.880752325057983,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.865638732910156,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.475224494934082,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.790769577026367,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.363207101821899,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.5795252323150635,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.8916425704956055,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.746123790740967,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 11,
+"error": "InvalidActionError",
+"sec": 5.136836528778076,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.55624008178711,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.538520336151123,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.201628684997559,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.996739387512207,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.174118041992188,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.4215216636657715,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.424246549606323,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.259835958480835,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.210065841674805,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.411121845245361,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.742542028427124,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.495014667510986,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.354236364364624,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.958344221115112,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.338120460510254,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.056361198425293,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.26430082321167,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.137846231460571,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.92840838432312,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.159547805786133,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.91973090171814,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 12,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.924468040466309,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.396172046661377,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.2344014644622803,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.4488155841827393,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.476297855377197,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.523627519607544,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.020066499710083,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.895127773284912,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.144388198852539,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.044384717941284,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "reach_and_drag",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.734617471694946,
+"desc": "use the stick to drag the cube onto the red target"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.109862327575684,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.134961366653442,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.796300888061523,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.246525764465332,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.798272371292114,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.352406740188599,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 2.9804892539978027,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.246987819671631,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.704965829849243,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.9579949378967285,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.56636643409729,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.600318193435669,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.34704065322876,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.683169364929199,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.236116886138916,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.784340143203735,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.105168342590332,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.780792951583862,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.320671319961548,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.665634870529175,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.983731269836426,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.643626928329468,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.23358416557312,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.272169828414917,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.504837989807129,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.895318508148193,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.741273641586304,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.721216440200806,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.220617055892944,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.797990798950195,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 18.70272159576416,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.100688934326172,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.911910057067871,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 19.897683143615723,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 13.096184253692627,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.104923486709595,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.902857303619385,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.140483379364014,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.408736944198608,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 29.57795238494873,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.25892424583435,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.531264066696167,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.28817081451416,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.84423303604126,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.397216320037842,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.5745604038238525,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.895906448364258,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.401123046875,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.119281053543091,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 9,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.539620399475098,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.629360198974609,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.061471223831177,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.08245062828064,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.869914770126343,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 13.357568502426147,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 23.012682676315308,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.606130361557007,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.513226747512817,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.482373237609863,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.275172233581543,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.909045219421387,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.396497964859009,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 2,
+"success": true,
+"keyframes": 22,
+"error": null,
+"sec": 8.377471208572388,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.345192193984985,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.5529139041900635,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.457039833068848,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.3949453830719,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.959423780441284,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.903386831283569,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.005695819854736,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.879538774490356,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 1,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 5.082464694976807,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.00495171546936,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.61695122718811,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.332321643829346,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.43270754814148,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.341480731964111,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.807882070541382,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.247300148010254,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 12,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.371731996536255,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.619696617126465,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 4.566956043243408,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.760584831237793,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.20466160774231,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.068335771560669,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.331636667251587,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.683629512786865,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.533682584762573,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.256096124649048,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "put_money_in_safe",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.533786535263062,
+"desc": "put the money away in the safe on the bottom shelf"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.7668209075927734,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 1,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.793503522872925,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 6.348593235015869,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.468928575515747,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 3.2220895290374756,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 3.4605770111083984,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 6,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.378113269805908,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.945908308029175,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 19,
+"error": null,
+"sec": 5.066744804382324,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 0,
+"ep": 9,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 4.738611221313477,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.584670782089233,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.239472389221191,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.702578067779541,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.8661463260650635,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.725871324539185,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.637487411499023,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.5616848468780518,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.773736476898193,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 8,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 2.5381994247436523,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.949873685836792,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 0,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 2.808265209197998,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 1,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 2.097429037094116,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 13.004990577697754,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.7358622550964355,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 9,
+"error": "InvalidActionError",
+"sec": 6.525030136108398,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 5,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.408790111541748,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 6,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 4.830037832260132,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 7,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 6.904633045196533,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 8,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 2.9053595066070557,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 6,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 2.1055352687835693,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.167932987213135,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.995327711105347,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.540819644927979,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.369543075561523,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.631975889205933,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 10,
+"error": "InvalidActionError",
+"sec": 5.256668567657471,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.27942156791687,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.431617498397827,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.3217008113861084,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.991389274597168,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.23745846748352,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 1,
+"success": true,
+"keyframes": 14,
+"error": null,
+"sec": 7.077812194824219,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.393448114395142,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.67115592956543,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 8.533777475357056,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 12.99850344657898,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.510158061981201,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 6.324932098388672,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.287883758544922,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.8868868350982666,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 0,
+"success": true,
+"keyframes": 9,
+"error": null,
+"sec": 2.9881651401519775,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.811764478683472,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.624315500259399,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.709068536758423,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.1756603717803955,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.192764282226562,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 2.1982481479644775,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 7,
+"error": "InvalidActionError",
+"sec": 4.4068427085876465,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.206043243408203,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 10,
+"ep": 9,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 8.320541381835938,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.011800050735474,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.066898822784424,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.4041173458099365,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.317751407623291,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 3,
+"error": "InvalidActionError",
+"sec": 4.225975751876831,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.807912111282349,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.008133888244629,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.35813593864441,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.289183616638184,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.285985708236694,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.596510887145996,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 1,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 3.511789321899414,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 2,
+"success": true,
+"keyframes": 12,
+"error": null,
+"sec": 3.2325549125671387,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 3,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 4.247262001037598,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 4,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 3.942174196243286,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.103069305419922,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 6,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 2.1115615367889404,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.927727222442627,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 8,
+"success": true,
+"keyframes": 19,
+"error": null,
+"sec": 5.628375768661499,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.8042149543762207,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.489490509033203,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 14,
+"error": "InvalidActionError",
+"sec": 6.690776348114014,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.442543029785156,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.137266159057617,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.3699564933776855,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.230503797531128,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.336714506149292,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.217109680175781,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 8,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.9216663837432861,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "place_wine_at_rack_location",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.794993877410889,
+"desc": "stack the wine bottle to the middle of the rack"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 0,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 1.4949355125427246,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.116124391555786,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 2,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 4.2890400886535645,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 3.6636970043182373,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.629903793334961,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.63508152961731,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.79500150680542,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.928417205810547,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.561652183532715,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 0,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.729820013046265,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 4,
+"error": "InvalidActionError",
+"sec": 9.06467056274414,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 20.698944807052612,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 35.89113163948059,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.113415718078613,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.206881523132324,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.837189435958862,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 6,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 57.181228160858154,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.542074918746948,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.877755641937256,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 2,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 5.853401184082031,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 0,
+"success": true,
+"keyframes": 22,
+"error": null,
+"sec": 10.395726680755615,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.683183670043945,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 1,
+"error": null,
+"sec": 0.48791956901550293,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.26271915435791,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.527305364608765,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.2500951290130615,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.684358596801758,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.235130548477173,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 8,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 4.415205240249634,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 6,
+"ep": 9,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.5841600894927979,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.473930358886719,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 6,
+"error": "InvalidActionError",
+"sec": 6.939913988113403,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.34956169128418,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.18557071685791,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.918846845626831,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.43241286277771,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.907553434371948,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 7,
+"success": true,
+"keyframes": 18,
+"error": null,
+"sec": 5.013295888900757,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 68.5659453868866,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.186157941818237,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.559423685073853,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.426260471343994,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.3443922996521,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.7592134475708,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.756782054901123,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 5,
+"success": true,
+"keyframes": 15,
+"error": null,
+"sec": 10.8466637134552,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.839845657348633,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.962087154388428,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.368514537811279,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 4.474663734436035,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 0,
+"success": true,
+"keyframes": 2,
+"error": null,
+"sec": 5.1838600635528564,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 1,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 43.48154354095459,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.70351505279541,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.616017818450928,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.179520130157471,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.263958930969238,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.556856632232666,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.947886228561401,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.079718828201294,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 10,
+"ep": 9,
+"success": true,
+"keyframes": 11,
+"error": null,
+"sec": 6.183643579483032,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.776939630508423,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.2562785148620605,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.305619955062866,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 9.771867990493774,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.094008922576904,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 5,
+"success": true,
+"keyframes": 3,
+"error": null,
+"sec": 3.3827269077301025,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 32.972644567489624,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.091223478317261,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.809675216674805,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.7045111656188965,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 0,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 2.930875062942505,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.682353258132935,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.723001480102539,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.05476713180542,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.21941614151001,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 5,
+"success": true,
+"keyframes": 16,
+"error": null,
+"sec": 5.703048944473267,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.494704484939575,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 32.04676580429077,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.624603509902954,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 6,
+"error": null,
+"sec": 1.322939395904541,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 11.930457353591919,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 52.21760940551758,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.935169696807861,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.365761756896973,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.417009592056274,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 7.539088010787964,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 10.950721263885498,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.472141027450562,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 15.67160439491272,
+"desc": "turn on the oven"
+},
+{
+"task": "turn_oven_on",
+"factor": 14,
+"ep": 9,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 6.25495457649231,
+"desc": "turn on the oven"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.832127094268799,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.39928412437439,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.7411625385284424,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 3,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.0978479385375977,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 4,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.2676382064819336,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.310803174972534,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.432076454162598,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.533391237258911,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 8,
+"success": true,
+"keyframes": 8,
+"error": null,
+"sec": 1.6885426044464111,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 0,
+"ep": 9,
+"success": true,
+"keyframes": 10,
+"error": null,
+"sec": 1.9678912162780762,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.493509769439697,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.436288595199585,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.850703239440918,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.340112924575806,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 4,
+"success": false,
+"keyframes": 2,
+"error": "InvalidActionError",
+"sec": 4.47586727142334,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.085129737854004,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.96476149559021,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.410610198974609,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.075783967971802,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 2,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.942595720291138,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.27040958404541,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 1,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.939840316772461,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 2,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.350304126739502,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.145139217376709,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.477153778076172,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 5,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.2245306968688965,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.800358772277832,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.607017755508423,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.1719911098480225,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 6,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.906697034835815,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.103835344314575,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.293386220932007,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.394773244857788,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.96343469619751,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.037030935287476,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.189638137817383,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.151933908462524,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.919391393661499,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 8,
+"success": false,
+"keyframes": 0,
+"error": "InvalidActionError",
+"sec": 2.286763906478882,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 8,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.236146926879883,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.13166618347168,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.546801805496216,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 2,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 3.9810068607330322,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.291635513305664,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.340958833694458,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.414462566375732,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.555494070053101,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 7,
+"success": false,
+"keyframes": 12,
+"error": "InvalidActionError",
+"sec": 5.975870132446289,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 8.145471334457397,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 9,
+"ep": 9,
+"success": true,
+"keyframes": 4,
+"error": null,
+"sec": 1.2952210903167725,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 0,
+"success": false,
+"keyframes": 18,
+"error": "InvalidActionError",
+"sec": 13.001604318618774,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 6.947981834411621,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.031006097793579,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.732562303543091,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.9226953983306885,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.408909320831299,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 6,
+"success": false,
+"keyframes": 13,
+"error": "InvalidActionError",
+"sec": 9.17831015586853,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 14.14814805984497,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.49285101890564,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 10,
+"ep": 9,
+"success": false,
+"keyframes": 1,
+"error": "InvalidActionError",
+"sec": 4.424349784851074,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.545388221740723,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.791949510574341,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.7465312480926514,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.2580788135528564,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.060293197631836,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.977233648300171,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 6,
+"success": true,
+"keyframes": 5,
+"error": null,
+"sec": 1.2317402362823486,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.673669338226318,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.456655025482178,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 11,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.916062116622925,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.699671268463135,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.561171770095825,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 2,
+"success": true,
+"keyframes": 13,
+"error": null,
+"sec": 2.1621673107147217,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.255788087844849,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.458631753921509,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.331619739532471,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.508254289627075,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.717140197753906,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.081353664398193,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 12,
+"ep": 9,
+"success": true,
+"keyframes": 7,
+"error": null,
+"sec": 1.5291683673858643,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 0,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.643929719924927,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 1,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.8145036697387695,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 2,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.002617835998535,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 3,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.8148868083953857,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 4,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.7539777755737305,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 5,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.1316821575164795,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 6,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.113588809967041,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 7,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 3.9390509128570557,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 8,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 4.735607624053955,
+"desc": "scoop up the cube and lift it with the spatula"
+},
+{
+"task": "scoop_with_spatula",
+"factor": 14,
+"ep": 9,
+"success": false,
+"keyframes": 25,
+"error": null,
+"sec": 5.656955242156982,
+"desc": "scoop up the cube and lift it with the spatula"
+}
+]

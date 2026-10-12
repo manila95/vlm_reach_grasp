@@ -20,7 +20,10 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 | `vrg.bench.rc_ground_episodes` (VLM) | 17 GB | ~10 GB | ~17 GB |
 | `vrg.bench.col_ground` (VLM) | 4 GB | 4 GB | ~17 GB |
 | `vrg.bench.col_train` (ego) | 22 GB while loading | — | — |
-| `vrg.bench.rc_rollout` (one eval process) | 3.2 GB | 3.2 GB | ~2 GB |
+| `vrg.bench.rc_rollout` (one eval process; ours with 2 skills: 4 GB) | 3.2–4 GB | 3.2 GB | ~2 GB |
+| `vrg.bench.rc_train --mode local_pick --pre 40` | 18 GB while loading | — | — |
+| `vrg.bench.policy_server` (Colosseum, one per rollout) | 1.3 GB | 1.3 GB | 3.7 GB |
+| `col_rollout.py` (colosseum env, VirtualGL) | <1 GB | <1 GB | render only; ~1.3 cores |
 
 ## Conventions
 - Raw robosuite images are upside down (OpenGL convention). Policies train and run on raw 128 px obs; anything shown to the VLM or in videos is flipped `[::-1]`.

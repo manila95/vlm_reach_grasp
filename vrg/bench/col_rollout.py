@@ -10,7 +10,7 @@ from scipy.spatial.transform import Rotation as Rot
 sys.path.insert(0, "/scratch/kaustubh/vlm_reach_grasp/colosseum")
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 from colosseum_helpers import make_env, compat_pickle_load
-from rlbench.backend.exceptions import InvalidActionError
+from rlbench.backend.exceptions import InvalidActionError, TaskEnvironmentError
 from pyrep.errors import IKError, ConfigurationPathError
 from vrg.bench.col_cache_scenes import ep_dir
 
@@ -61,8 +61,11 @@ def main():
             for e in range(A.n):
                 demo = compat_pickle_load(f"{d}/episode{e}/low_dim_obs.pkl"); vf = f"{d}/episode{e}/variation_number.pkl"
                 te.set_variation(compat_pickle_load(vf) if os.path.exists(vf) else 0)
-                desc, obs = te.reset_to_demo(demo)
-                if (task, factor, e) in done_keys: continue
+                for _ in range(3):          # object placement is randomized and occasionally fails (close_laptop_lid, MO_Size)
+                    try: desc, obs = te.reset_to_demo(demo); break
+                    except TaskEnvironmentError: desc = None
+                if desc is None: print(f"[{A.method}] {task} f{factor} ep{e}: scene could not be placed, skipped", flush=True); continue
+                if (task, factor, e) in done_keys: continue   # after the reset: the perturbation RNG advances once per reset
                 g = G.get(f"test|{task}|{factor}|{e}"); t0 = time.time(); reward, n_kf, err = 0.0, 0, None
                 path_start = obs.gripper_pose[:3].copy()
                 reach = None if (g is None or g["reach"] is None) else np.array(g["reach"])
