@@ -8,9 +8,9 @@
 0.051538032702619335,
 0.11649418132633332
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [498, 629], \"label\": \"sugar box\"}\n]\n```",
 "sec": 0.9803295135498047
 },
@@ -23,9 +23,9 @@
 0.24623893579935452,
 0.031007229431931682
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [647, 805], \"label\": \"banana\"}\n]\n```",
 "sec": 0.8150069713592529
 },
@@ -38,9 +38,9 @@
 -0.17037248533537702,
 0.19468911437731057
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [286, 525], \"label\": \"bleach bottle\"}\n]\n```",
 "sec": 0.9487037658691406
 },
@@ -55,7 +55,7 @@
 ],
 "chosen_obj": "036_wood_block",
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [398, 484], \"label\": \"foam brick\"}\n]\n```",
 "sec": 1.0307116508483887
 },
@@ -83,9 +83,9 @@
 0.11730718966554654,
 0.17728452370603975
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [520, 670], \"label\": \"mustard bottle\"}\n]\n```",
 "sec": 0.9162168502807617
 },
@@ -128,9 +128,9 @@
 -0.06841831916279956,
 0.030886610366589795
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [357, 706], \"label\": \"banana\"}\n]\n```",
 "sec": 0.8212590217590332
 },

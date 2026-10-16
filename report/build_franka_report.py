@@ -174,7 +174,9 @@ Qwen3-VL **2B, 4B, 8B and 32B** (same family, all local) see exactly the same sa
 * **marks**: proposals are numbered on the image (set-of-marks), and the model answers with a number.
 * **verify**: each proposal is cropped and zoomed, and the model's Yes/No logit for "is this the X?" ranks them.
 
-Accuracy is the share of episodes where the chosen proposal is the target. *Given segmented* conditions on the target having a proposal at all, which isolates the VLM from perception."""))
+Accuracy is the share of episodes where the chosen proposal is the target. *Given segmented* conditions on the target having a proposal at all, which isolates the VLM from perception.
+
+Proposals are labelled with the ground-truth labels from the live run, which fuse the external and wrist cameras. In 12 of 257 scenes, the external camera's instance segmentation lagged its RGB/depth by one render while an object was still settling, so ext-only labels missed the target in 6 scenes. Rescoring with the live labels raised every model's accuracy by about 2 points, and the ranking did not change. `isaac_backend.frames()` now renders twice before capturing."""))
 cells.append(code(r"""G = {}
 for f in glob.glob(f'{RUNS}/ground_eval/qwen3vl-*_*.json'):
     m, mode = os.path.basename(f)[:-5].rsplit('_', 1); G[(m, mode)] = json.load(open(f))
@@ -207,6 +209,9 @@ for m in MODELS:
     if (m, mode) not in G: continue
     c = collections.Counter((k.split('|')[1], r['chosen_obj']) for k, r in G[(m, mode)].items() if not r['correct'])
     display(Markdown(f"**{m} ({mode})**, most common confusions (target → chosen): " + '; '.join(f'{a[4:]} → {str(b)[4:] if b else "nothing"} ×{n}' for (a, b), n in c.most_common(6))))"""))
+cells.append(md(r"""**What the models see and pick.** These are four evaluation scenes chosen to show typical errors. The external image is cropped to the objects. The target is outlined in green, and each dot is one model's pick, in its dev-chosen mode. Rendered by `vrg/franka/grounding_figs.py`."""))
+cells.append(code(r"""for f in sorted(glob.glob(f'{ROOT}/demo/franka/grounding/*.png')):
+    display(Image(f, width=430))"""))
 
 # ------------------------------------------------------------------ E3
 cells.append(md(r"""---
@@ -239,15 +244,15 @@ cells.append(md(r"""**Reading sections 3 and 4.**
 
   | Model | Best eval accuracy (mode) |
   |---|---|
-  | 2B | 73% (verify) |
-  | 4B | 75% (verify) |
-  | 8B | 73% (marks / verify) |
-  | 32B | 79% (marks) |
+  | 2B | 75% (verify) |
+  | 4B | 78% (verify) |
+  | 8B | 76% (marks) |
+  | 32B | 81% (marks) |
 
-  Given that the target was segmented at all, 32B marks reaches 86%, against about 80% for the smaller models.
+  Given that the target was segmented at all, 32B marks reaches 86%, against 79–82% for the smaller models.
 * **The modes don't scale the same way.**
   * Pointing does not improve with size. The 8B model often refuses ("There are none.", "There is no bleach bottle in the image", 44 + 11 cases), and the 32B model refuses on the clamp and the bleach bottle.
-  * Set-of-marks gains the most from size (65% → 75% → 73% → 79%). It is also the fastest mode, with a one-token answer (0.2 s even for 32B).
+  * Set-of-marks gains the most from size (67% → 77% → 76% → 81%). It is also the fastest mode, with a one-token answer (0.2 s even for 32B).
   * Verify (crop + Yes/No logit) is the most stable across sizes, but it needs one forward pass per proposal.
 * **The remaining confusions are between look-alikes:** gelatin vs pudding vs sugar box (three small boxes), potted-meat vs tomato-soup vs coffee can, and foam brick vs wooden block. They come from a 640×480 view at about 1.1 m, where these objects are 30–60 px across. A higher-resolution external camera, or asking the VLM on the wrist view after the look move, are the obvious next tries.
 * **Who fails?** Once the VLM is right, the rest of the pipeline succeeds 84–85% of the time for every model, the same as with the oracle (82%). So the robot side is not the bottleneck for VLM-grounded runs:
@@ -260,10 +265,20 @@ cells.append(md(r"""**Reading sections 3 and 4.**
 cells.append(md(r"""---
 ## 5. Videos
 
-External camera, 20 fps. The first 6 evaluation episodes of each config, chosen by rule (episode order), not by outcome."""))
-cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_e_native']:
-    for v in sorted(glob.glob(f'{ROOT}/demo/franka/{name}/*.mp4'))[:3]:
-        show(v, w=480, caption=f'**{name}**: `{os.path.basename(v)}`')"""))
+External camera, 20 fps.
+
+**Side by side: the same scene and target under two configs.** Episodes were picked from the evaluation results to illustrate each failure type, then re-recorded with `run_isaac --episodes` (`tools/isaac/queue_demo.sh`). Each rerun gave the same outcome as in the evaluation."""))
+cells.append(code(r"""CMP = [('look_bleach', 'Wrist look. Without it, the grasp is planned from the external camera\'s one-sided view of the bleach bottle and the fingers come down on it (`approach_collision`); with the look, the grasp is re-planned from above.'),
+       ('look_mustard', 'Same, for the mustard bottle.'),
+       ('ik_pudding', 'Controller. Isaac\'s differential IK stalls about 5 cm short with the hand tilted (`reach`); our planned IK goes there in a straight line.'),
+       ('vlm_gelatin', 'VLM. Asked for the gelatin box, the 2B model points at the mustard bottle; the 32B model picks the right one. The grasp itself is the same.'),
+       ('slip_clamp', 'Grasp. The clamp is grasped but slips out when lifted (`grasp_slip`), the most common failure for this object.')]
+for name, cap in CMP:
+    show(f'{ROOT}/demo/franka/compare/{name}.mp4', w=900, caption=f'**{name}**: {cap}')"""))
+cells.append(md(r"""**First evaluation episodes, chosen by rule (episode order), not by outcome.** One clip per config, plus the 32B closed-loop run."""))
+cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_c_fixedyaw', 'e1_d_joint', 'e1_e_native', 'e1_f_gtseg', 'e3_qwen3vl-32b']:
+    for v in sorted(glob.glob(f'{ROOT}/demo/franka/{name}/*.mp4'))[:1]:
+        show(v, w=420, caption=f'**{name}**: `{os.path.basename(v)}`')"""))
 
 # ------------------------------------------------------------------ real robot
 cells.append(md(r"""---
@@ -289,7 +304,7 @@ cells.append(md(r"""---
 |---|---|
 | How good is the scripted grasp with a perfect VLM? | **78%** with a wrist look-then-grasp (49% from the external camera alone). |
 | Better controller? | Our planned IK (goal IK with limits, null-space posture and restarts, then min-jerk joints plus straight-line approach and lift) converges where Isaac's one-step differential IK stalls or swings into the object: **78% vs 56%** (both are about 3 mm accurate when they converge). Pure joint moves are on par in sim (77%). |
-| Does a bigger VLM help? | Little from 2B to 8B (73–75% grounding, 63–64% end to end); **32B: 79% grounding, 68% end to end**. Set-of-marks scales best and is fastest. |
+| Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**. Set-of-marks scales best and is fastest. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps:**

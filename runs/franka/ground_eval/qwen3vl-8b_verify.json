@@ -8,9 +8,9 @@
 0.051538032702619335,
 0.11649418132633332
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
 "raw": "",
 "sec": 0.8334753513336182
 },
@@ -23,9 +23,9 @@
 0.24623893579935452,
 0.031007229431931682
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "",
 "sec": 0.8569228649139404
 },
@@ -38,9 +38,9 @@
 -0.17037248533537702,
 0.19468911437731057
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
 "raw": "",
 "sec": 0.8575501441955566
 },
@@ -55,7 +55,7 @@
 ],
 "chosen_obj": "036_wood_block",
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "",
 "sec": 0.7278182506561279
 },
@@ -85,7 +85,7 @@
 ],
 "chosen_obj": "004_sugar_box",
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "",
 "sec": 0.879603385925293
 },
@@ -128,9 +128,9 @@
 -0.06841831916279956,
 0.030886610366589795
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "",
 "sec": 0.8487668037414551
 },

@@ -20,6 +20,7 @@ ap.add_argument("--grasp", default="pca", choices=["pca", "fixed"]); ap.add_argu
 ap.add_argument("--refine", action="store_true", help="look with the wrist camera above the object before grasping")
 ap.add_argument("--n_objects", type=int, default=6); ap.add_argument("--out", required=True); ap.add_argument("--save_scenes", default=None)
 ap.add_argument("--video", type=int, default=0, help="record the external camera for the first N episodes")
+ap.add_argument("--episodes", default=None, help="only these episodes, all recorded: 'seed:target,...' (e.g. 103:021_bleach_cleanser)")
 A = ap.parse_args()
 import faulthandler   # per-episode watchdog: a hung episode (seen: RTX render deadlock) exits with code 1, run.sh restarts and resumes
 app = launch()
@@ -96,6 +97,8 @@ def make_ground(spec, gt_holder):
 
 def main():
     a, b = A.seeds.split("-"); seeds = range(int(a), int(b) + 1)
+    only = {(int(e.split(":")[0]), e.split(":")[1]) for e in A.episodes.split(",")} if A.episodes else None
+    if only: seeds = sorted({s for s, _ in only})
     os.makedirs(A.out, exist_ok=True); resf = f"{A.out}/results.json"
     res = json.load(open(resf)) if os.path.exists(resf) else []; done = {(r["seed"], r["target_name"]) for r in res}
     env = IsaacFranka(n_objects=A.n_objects, record_video=False)
@@ -105,10 +108,10 @@ def main():
         objs = env.reset(seed=seed); targets = [n for n, _, g in objs if g]
         for tname in targets:
             n_ep += 1
-            if (seed, tname) in done: continue
+            if (seed, tname) in done or (only and (seed, tname) not in only): continue
             faulthandler.cancel_dump_traceback_later(); faulthandler.dump_traceback_later(300, exit=True, file=sys.stderr)
             env.reset(seed=seed)                                 # same scene for every target
-            env.record_video = n_ep <= A.video; env.video = []
+            env.record_video = n_ep <= A.video or bool(only); env.video = []
             gt = GT(env, tname); holder.update(gt=gt, key=f"{seed}|{tname}")
             t0 = time.time()
             rec = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, propose=propose, refine=A.refine)

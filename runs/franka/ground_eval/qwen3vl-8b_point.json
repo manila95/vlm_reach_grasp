@@ -8,9 +8,9 @@
 0.051538032702619335,
 0.11649418132633332
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [488, 632], \"label\": \"sugar box\"}\n]\n```",
 "sec": 1.3706393241882324
 },
@@ -23,9 +23,9 @@
 0.24623893579935452,
 0.031007229431931682
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [648, 833], \"label\": \"banana\"}\n]\n```",
 "sec": 1.2173209190368652
 },
@@ -36,7 +36,7 @@
 "xyz": null,
 "chosen_obj": null,
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "There is no bleach bottle in the image. The objects present are a toothpaste tube, a wooden block, a Domino sugar box, a",
 "sec": 2.395477771759033
 },
@@ -51,7 +51,7 @@
 ],
 "chosen_obj": "036_wood_block",
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [392, 530], \"label\": \"foam brick\"}\n]\n```",
 "sec": 1.2812252044677734
 },
@@ -79,9 +79,9 @@
 0.11730718966554654,
 0.17728452370603975
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [523, 680], \"label\": \"mustard bottle\"}\n]\n```",
 "sec": 1.170686960220337
 },
@@ -124,9 +124,9 @@
 -0.06841831916279956,
 0.030886610366589795
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "```json\n[\n\t{\"point_2d\": [355, 706], \"label\": \"banana\"}\n]\n```",
 "sec": 0.9724175930023193
 },

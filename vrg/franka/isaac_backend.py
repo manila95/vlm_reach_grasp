@@ -150,7 +150,9 @@ class IsaacFranka:
         return Th @ self.T_HAND_WRISTCAM
 
     def frames(self):
-        self.sim.render()
+        # render twice: the instance-segmentation annotator can lag rgb/depth by one render, which put ground-truth masks
+        # where a still-settling object was a moment earlier (12/257 eval scenes, 2026-10-16)
+        self.sim.render(); self.sim.render()
         out = {}
         for name, cam in self.cams.items():
             cam.update(0.0, force_recompute=True); d = cam.data

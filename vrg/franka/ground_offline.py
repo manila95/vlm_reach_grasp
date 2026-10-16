@@ -19,6 +19,8 @@ def load_scene(path):
     H, W = F["ext"].depth.shape
     masks = {k: {n: np.unpackbits(m)[:H * W].reshape(H, W).astype(bool) for n, m in mm.items()} for k, mm in S["masks"].items()}
     props, _ = proposals({"ext": F["ext"]})
+    if S.get("prop_labels"):                                   # labels from the live run (fused ext + wrist ground truth): more
+        return S, F, props, {p["id"]: S["prop_labels"].get(str(p["id"]), S["prop_labels"].get(p["id"])) for p in props}   # reliable than ext-only masks
     lab = {}
     for p in props:
         _, m = p["pix"]["ext"]; cnt = {n: int((m & om).sum()) for n, om in masks["ext"].items()}
@@ -26,10 +28,29 @@ def load_scene(path):
     return S, F, props, lab
 
 
+def rescore(out, scenes_dir):
+    """Recompute correct/segmented/chosen_obj of existing results with the current labels (no VLM calls)."""
+    L = {}
+    for p in glob.glob(f"{scenes_dir}/*.pkl"):
+        S, _, props, lab = load_scene(p); L[f"{S['seed']}|{S['target']}"] = (S["target"], lab)
+    summ = {}
+    for f in sorted(glob.glob(f"{out}/qwen3vl-*_*.json")):
+        R = json.load(open(f))
+        for k, r in R.items():
+            tgt, lab = L[k]; r.update(chosen_obj=lab.get(r["choice"]), correct=lab.get(r["choice"]) == tgt, segmented=tgt in lab.values())
+        json.dump(R, open(f, "w"), indent=0); seg = [r for r in R.values() if r["segmented"]]
+        summ[os.path.basename(f)[:-5]] = dict(n=len(R), acc=float(np.mean([r["correct"] for r in R.values()])),
+                                              acc_given_segmented=float(np.mean([r["correct"] for r in seg])), sec=float(np.mean([r["sec"] for r in R.values()])))
+        print(f"{os.path.basename(f):28s} acc {summ[os.path.basename(f)[:-5]]['acc']:.3f}")
+    json.dump(summ, open(f"{out}/summary.json", "w"), indent=1)
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--scenes", required=True); ap.add_argument("--models", default="qwen3vl-2b,qwen3vl-4b,qwen3vl-8b,qwen3vl-32b")
     ap.add_argument("--modes", default="point,marks,verify"); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
+    ap.add_argument("--rescore", action="store_true", help="only recompute correctness of existing results with the current labels")
     A = ap.parse_args(); os.makedirs(A.out, exist_ok=True)
+    if A.rescore: return rescore(A.out, A.scenes)
     scenes = [load_scene(p) for p in sorted(glob.glob(f"{A.scenes}/*.pkl"))]
     print(f"{len(scenes)} scenes; target segmented in {sum(any(v == S['target'] for v in lab.values()) for S, _, _, lab in scenes)}", flush=True)
     summ = json.load(open(f"{A.out}/summary.json")) if os.path.exists(f"{A.out}/summary.json") else {}

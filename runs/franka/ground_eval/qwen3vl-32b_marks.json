@@ -8,9 +8,9 @@
 0.051538032702619335,
 0.11649418132633332
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
 "raw": "2",
 "sec": 0.23678040504455566
 },
@@ -23,9 +23,9 @@
 0.24623893579935452,
 0.031007229431931682
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "4",
 "sec": 0.23676800727844238
 },
@@ -38,9 +38,9 @@
 -0.17037248533537702,
 0.19468911437731057
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
 "raw": "3",
 "sec": 0.23720669746398926
 },
@@ -55,7 +55,7 @@
 ],
 "chosen_obj": "036_wood_block",
 "correct": false,
-"segmented": false,
+"segmented": true,
 "raw": "1",
 "sec": 0.23739838600158691
 },
@@ -83,9 +83,9 @@
 0.11730718966554654,
 0.17728452370603975
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
 "raw": "5",
 "sec": 0.23729205131530762
 },
@@ -128,9 +128,9 @@
 -0.06841831916279956,
 0.030886610366589795
 ],
-"chosen_obj": null,
-"correct": false,
-"segmented": false,
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
 "raw": "4",
 "sec": 0.23706269264221191
 },

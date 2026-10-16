@@ -13,7 +13,7 @@ def main():
     os.makedirs(OUT, exist_ok=True)
     for d in sorted(glob.glob(f"{S}/runs/*/results.json")):
         name = d.split("/")[-2]
-        if name.startswith("dev"): continue                     # dev runs (seeds 0-9) stay on /scratch
+        if name.startswith(("dev", "demo")): continue          # dev runs (seeds 0-9) and raw demo recordings stay on /scratch
         R = json.load(open(d))
         for r in R:                                              # keep the record small
             r.pop("grasp", None); r.get("grounding", {}).pop("scores", None)
