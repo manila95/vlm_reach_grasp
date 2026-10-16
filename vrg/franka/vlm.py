@@ -76,6 +76,10 @@ def parse_point(text, W, H, family="qwen3"):
 
 
 # ---------------------------------------------------------------- grounding
+def verify_question(obj):
+    return f"This is a close-up of one item on a table. Is this item the {obj}? Answer Yes or No."
+
+
 def ground(vlm, mode, obj, frame, props):
     """Pick the proposal that is `obj`. Returns dict(choice (proposal id or None), raw, sec, scores, uv)."""
     t0 = time.time(); img = frame.rgb; H, W = img.shape[:2]; cam = frame.name
@@ -99,7 +103,7 @@ def ground(vlm, mode, obj, frame, props):
         rec["raw"] = r; m = re.search(r"\d+", r)
         if m and int(m.group(0)) in marks: rec["choice"] = marks[int(m.group(0))]
     elif mode == "verify":
-        q = f"This is a close-up of one item on a table. Is this item the {obj}? Answer Yes or No."
+        q = verify_question(obj)
         sc = {p["id"]: vlm.yes_score(crop(img, p["pix"][cam][0]), q) for p in vis}
         rec["scores"] = sc
         if sc: rec["choice"] = max(sc, key=sc.get)

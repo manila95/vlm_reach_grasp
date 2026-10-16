@@ -74,6 +74,7 @@ cells.append(md(r"""---
 * `perception.py`: table fit, object proposals, top-down grasp;
 * `vlm.py`: the three grounding modes;
 * `episode.py`: the backend-agnostic episode loop;
+* `reactive.py`: reactive grounding (re-asking the VLM along the approach); `vlm_server.py` / `vlm_client.py` serve the VLM to the robot process over a socket;
 * `isaac_backend.py` and `real_franky.py`: the two backends;
 * `run_isaac.py` and `ground_offline.py`: experiment drivers.
 
@@ -286,9 +287,134 @@ cells.append(md(r"""**Reading sections 3 and 4.**
   * Perception misses stay at about 5%.
 * The dev-chosen mode is not always the best on eval (4B: point chosen on dev, verify slightly better on eval). With 43 dev scenes, differences of a few points between modes are within noise (see the CIs)."""))
 
+# ------------------------------------------------------------------ reactive
+cells.append(md(r"""---
+## 5. Reactive grounding: ask the VLM several times along the way
+
+Sections 3–4 show that model size buys little: 2B → 32B is 75% → 81% grounding. So instead of a bigger model, can more inference per episode correct the first answer? The **reactive policy** (`vrg/franka/reactive.py`) treats the answer as a running vote:
+1. **External view:** ask the VLM in one or all three modes (point, marks, verify), one vote each. Ties go to the model's dev-best mode.
+2. **Approach:** the arm moves toward the vote leader. The path to its look pose is cut into K+1 segments. After each of the first K, the wrist view is re-segmented and matched to the external proposals, and the VLM is asked again in its best mode, among the objects in view. If the target is not in view, nothing is asked. Each answer is one more vote. If the leader changes (ties go to the newer, closer view), the arm re-plans to the new leader mid-motion.
+3. **Grasp:** look from above, re-plan the grasp from the wrist view, and pick, as in config b.
+
+**Inference budget knobs:**
+* *ens*: the number of modes asked on the external view (1 or 3);
+* *K*: re-asks along the approach (0, 2 or 4).
+
+The VLM runs in a separate server process (`vlm_server.py`), as it would on the real robot. Its compute time is logged per call.
+
+**Design on dev, before any eval run.** A *probe* run followed each model's first choice to its look pose without acting on anything. At 6 checkpoints and at the look pose, it logged:
+* the VLM's pick among the visible objects, and a Yes/No score for each of them;
+* image-only view features: the approached object's mask area as a fraction of the image, whether its box is cut by the image border, and how many candidates are in view.
+
+The figure and table below are that dev data. Their conclusions fixed the policies:
+* **Closer is better only up to a point.** Pick accuracy peaks at a camera height of about 42 cm for every model (2B 0.92, 4B 0.88, 8B 0.89, 32B 1.00). Below about 40 cm it falls back to 0.7–0.8 for 2B–8B, while 32B stays above 0.9. At that point the approached object fills more than about 5% of the image and fewer than 3 candidates remain in view, so the small models lose the context they compare against.
+* This gives the **obscured-view gate** (`gate=area5`): once the approached object covers more than 5% of the wrist image, stop asking, and keep the decision from the views before. If the target is cut by the border at the look pose, the grasp is planned from its last fully visible wrist detection.
+* The top-down close-up is also where the Yes/No score separates the target worst (AUC ≈ 0.78, vs ≈ 0.93 on the external view). So a Yes/No check that rejects the target there (implemented as `verify=1`) was dropped.
+
+**Policies evaluated** (all in `vrg/franka/reactive.py`):
+
+| Name | External view | Approach re-asks | Decision |
+|---|---|---|---|
+| ens1, K=2 | best mode | 2 | vote, ties to the newest |
+| ens3, K=0 / 2 / 4 | 3 modes | 0 / 2 / 4 | vote, ties to the newest |
+| gate, last | best mode | up to 6, stop once obscured | the last unobscured view decides |
+| gate, vote | 3 modes | up to 6, stop once obscured | vote over the unobscured views |"""))
+cells.append(code(r"""PROBE = {}
+for s in ['2b', '4b', '8b', '32b']:
+    R = load(f'dev_probe2_{s}')
+    if not R: continue
+    st = collections.OrderedDict()
+    for r in R:
+        lab = {int(k): v for k, v in r['prop_labels'].items()}; tid = next((k for k, v in lab.items() if v == r['target_name']), None)
+        for v in r.get('views', []):
+            d = st.setdefault(v['stage'], dict(n=0, vis=0, pick=0, pos=[], neg=[]))
+            d['n'] += 1
+            if tid is None or tid not in v['visible']: continue
+            d['vis'] += 1; d['pick'] += v['choice'] == tid
+            for k, x in v['yes'].items(): (d['pos'] if int(k) == tid else d['neg']).append(x)
+    PROBE[s] = st
+def _auc(p, n): return np.mean([(a > b) + 0.5 * (a == b) for a in p for b in n]) if p and n else np.nan
+if PROBE:
+    stages = list(next(iter(PROBE.values())).keys())
+    rows = [[s.upper()] + [f"{PROBE[s][k]['pick']/max(PROBE[s][k]['vis'],1):.2f} / {_auc(PROBE[s][k]['pos'], PROBE[s][k]['neg']):.2f} ({PROBE[s][k]['vis']})" for k in stages] for s in PROBE]
+    display(Markdown('**Dev probe (43 episodes per model).** Each cell: VLM pick accuracy when the target is in view / Yes-No AUC (episodes with the target in view). Stages go from the external camera, through 6 checkpoints on the approach, to the look pose 22 cm above the object.'))
+    table(rows, ['Model'] + stages)
+    # accuracy vs camera height, with the view features that mark the obscurity point
+    fig, axs = plt.subplots(1, 2, figsize=(11, 3.4)); col = {'2b': '#eb6834', '4b': '#eda100', '8b': '#a83232', '32b': '#2a78d6'}
+    feats = collections.defaultdict(lambda: collections.defaultdict(list))
+    for s in PROBE:
+        for r in load(f'dev_probe2_{s}'):
+            for v in r.get('views', []):
+                if v['stage'] == 'ext': continue
+                q = v.get('quality', {}).get(str(r['initial_choice']))
+                if q: feats[v['stage']]['h'].append(v['height']); feats[v['stage']]['area'].append(q['area']); feats[v['stage']]['n'].append(len(v['visible']))
+    wst = [k for k in stages if k != 'ext']; H = [np.median(feats[k]['h']) for k in wst]
+    for s, st in PROBE.items():
+        axs[0].plot(H, [st[k]['pick'] / max(st[k]['vis'], 1) for k in wst], marker='o', color=col[s], label=s.upper())
+        axs[0].axhline(st['ext']['pick'] / max(st['ext']['vis'], 1), color=col[s], ls=':', lw=0.8)
+    A5 = [np.median(feats[k]['area']) for k in wst]; i = next((j for j in range(1, len(A5)) if A5[j] > 0.05 >= A5[j - 1]), None)
+    h5 = H[i - 1] + (0.05 - A5[i - 1]) / (A5[i] - A5[i - 1]) * (H[i] - H[i - 1]) if i else min(H)   # height where the median area crosses 5%
+    axs[0].axvspan(min(H) - 0.01, h5, color='#c3c2b7', alpha=0.25); axs[0].text(h5 - 0.004, 0.62, 'obscured (area > 5%)', fontsize=8, color=INK2, ha='left')
+    axs[0].invert_xaxis(); axs[0].set_xlabel('wrist camera height (m), approaching →'); axs[0].set_ylabel('pick accuracy | target in view'); axs[0].legend(ncol=4, fontsize=8); axs[0].set_ylim(0.6, 1.02)
+    axs[1].plot(H, [100 * np.median(feats[k]['area']) for k in wst], marker='o', color=INK2, label='approached object, % of image')
+    ax2 = axs[1].twinx(); ax2.plot(H, [np.mean(feats[k]['n']) for k in wst], marker='s', color='#1baf7a', label='candidates in view'); ax2.set_ylabel('candidates in view', color='#1baf7a')
+    axs[1].axhline(5, color=INK2, ls='--', lw=0.8); axs[1].invert_xaxis(); axs[1].set_xlabel('wrist camera height (m)'); axs[1].set_ylabel('object area, % of image')
+    plt.tight_layout(); plt.show()
+    display(Markdown('Dotted lines: the same model on the external view. Grey: views the gate treats as obscured.'))"""))
+cells.append(code(r"""# Eval: one-shot baseline (section 4) vs reactive configs
+RX = [('one-shot (sec. 4)', 'e3_qwen3vl-{s}'), ('ens1, K=2', 'rx_{s}_ens1_K2'), ('ens3, K=0', 'rx_{s}_ens3_K0'), ('ens3, K=2', 'rx_{s}_ens3_K2'),
+      ('ens3, K=4', 'rx_{s}_ens3_K4'), ('gate, last', 'rx_{s}_gate_last'), ('gate, vote', 'rx_{s}_gate_vote')]
+SZ = ['2b', '4b', '8b', '32b']
+def vlm_cost(R, s, run):
+    if 'vlm_sec' in (R[0] if R else {}): return np.mean([r.get('vlm_sec', 0) for r in R]), np.mean([r.get('n_vlm', 0) for r in R])
+    m = BEST.get(f'qwen3vl-{s}'); return (PROF[f'qwen3vl-{s}'][f'{m}_s_median'], 1.0) if PROF and m else (np.nan, 1.0)
+rows, PTS = [], collections.defaultdict(list)
+for s in SZ:
+    for lab, pat in RX:
+        run = pat.format(s=s); R = load(run)
+        if not R: rows.append([s.upper(), lab, 'pending', '', '', '', '']); continue
+        sec, nq = vlm_cost(R, s, run)
+        corr = sum(1 for r in R if r.get('initial_correct') is False and r.get('grounding_correct')); regr = sum(1 for r in R if r.get('initial_correct') and not r.get('grounding_correct'))
+        rows.append([s.upper(), lab, fmt(R, 'grounding_correct'), fmt(R), f'{sec:.2f} s', f'{nq:.1f}', f'+{corr} / −{regr}' if 'initial_correct' in R[0] else '–'])
+        PTS[s].append((sec, rate(R)['sr'], rate(R, 'grounding_correct')['sr'], lab))
+table(rows, ['Model', 'Policy', 'Final grounding correct', 'Pick success', 'VLM compute / episode', 'VLM calls / episode', 'Corrected / broken vs first answer'])"""))
+cells.append(code(r"""if PTS:
+    fig, axs = plt.subplots(1, 2, figsize=(11, 3.6)); col = {'2b': '#eb6834', '4b': '#eda100', '8b': '#a83232', '32b': '#2a78d6'}
+    MAIN = ['one-shot (sec. 4)', 'ens3, K=0', 'ens3, K=2', 'ens3, K=4']; MK = {'ens1, K=2': 'x', 'gate, last': 'v', 'gate, vote': 's'}
+    for s, pts in PTS.items():
+        P_ = {p[3]: p for p in pts}; main = [P_[k] for k in MAIN if k in P_]
+        for ax, j in zip(axs, (2, 1)):
+            ax.plot([p[0] for p in main], [p[j] for p in main], marker='o', color=col[s], label=s.upper(), alpha=0.9)
+            for k, mk in MK.items():
+                if k in P_: ax.scatter(P_[k][0], P_[k][j], marker=mk, color=col[s], s=36, alpha=0.8, label=k if s == '2b' else None)
+    for ax, yl in zip(axs, ('grounding correct (final target)', 'pick success')):
+        ax.set_xscale('log'); ax.set_xlabel('VLM compute per episode, s (log)'); ax.set_ylabel(yl)
+    fig.legend(*axs[1].get_legend_handles_labels(), fontsize=8, ncol=7, loc='lower center', bbox_to_anchor=(0.5, -0.06))
+    display(Markdown('Lines: one-shot → 3 modes on the external view → + 2 → + 4 approach re-asks. Markers: single-mode re-asks (×), gated "last view decides" (▼), gated vote (■).'))
+    plt.tight_layout(rect=(0, 0.06, 1, 1)); plt.show()"""))
+cells.append(md(r"""**Reading section 5.**
+* **More inference beats a bigger model, if the answers are pooled.** Asking all three modes on the external view and then re-asking twice along the approach (ens3, K=2; about 4.6 calls and 3 s of VLM compute per episode) works for every size:
+
+  | Model | Grounding, one-shot → ens3 K=2 | Pick success, one-shot → ens3 K=2 |
+  |---|---|---|
+  | 2B | 74% → 81% | 63% → 69% |
+  | 4B | 76% → **86%** | 64% → **72%** |
+  | 8B | 75% → 83% | 64% → 70% |
+  | 32B | 81% → 84% | 68% → 72% |
+
+  **4B with ens3 K=2 is better than 32B one-shot (86% vs 81% grounding) at 8 GB of GPU memory instead of 62 GB.** The gain on the success CIs (about ±6 points) is clear for 4B and borderline for the others.
+* **Most of the gain comes from the three modes on the external view (ens3, K=0, +5–7 points of grounding for 2B–8B).** Their errors are partly independent, while a repeated query in the same mode is deterministic. The two approach re-asks add 2–3 more points. Four re-asks add nothing over two: the extra checkpoints fall in the close range where views get worse.
+* **Re-asking with a single mode hurts the small models.** ens1, K=2 breaks more correct first answers than it fixes (2B +15/−24, 8B +14/−21): one external vote is easily outvoted by a noisy wrist view. With three external votes, wrong wrist views rarely flip a correct answer (2B +14/−6, 4B +9/−2).
+* **The obscured-view gate is real per view, but "the last unobscured view decides" does not work as a decision rule.** It is worse than one-shot for every model (2B 73%, 4B 74%, 8B 72%, 32B 78% grounding), breaking 14–28 correct answers per run. Two reasons:
+  * single wrist picks are wrong 10–25% of the time even in good views, so letting one view decide replaces a pooled answer with one noisy sample;
+  * an absolute area threshold fires late for small objects and early for large ones (in about half the broken 2B episodes it never fired).
+  
+  As a filter inside the vote (gate, vote), it is on par with the ungated vote (within ±3 points). Planning the grasp from the last uncut detection when the close-up is cut by the border triggered in 6–9 episodes per run, mostly the banana, scissors and clamp. It never helped: those grasps fail either way.
+* **The limit of correcting on the way:** the arm heads to its first choice, so in about 1 episode in 5 the true target never enters the wrist view, and no rule can fix that. The next step would be active viewing: when the external votes disagree, move first to a view that covers all the disagreeing candidates."""))
+
 # ------------------------------------------------------------------ videos
 cells.append(md(r"""---
-## 5. Videos
+## 6. Videos
 
 External camera, 20 fps.
 
@@ -307,7 +433,7 @@ cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_c_fixedyaw
 
 # ------------------------------------------------------------------ real robot
 cells.append(md(r"""---
-## 6. Moving to the real Franka
+## 7. Moving to the real Franka
 
 What is already shared:
 * the episode loop, perception, VLM grounding, grasp planner and IK (`vrg/franka/*`);
@@ -323,19 +449,20 @@ Before the first real run:
 Sim-to-real gaps to expect: depth noise and missing depth on shiny or transparent surfaces, camera calibration error (a few mm to 1 cm), contact physics of the soft fingertips, and object weights."""))
 
 cells.append(md(r"""---
-## 7. Summary
+## 8. Summary
 
 | Question | Answer (257 eval episodes, 13 YCB targets, 6 objects per scene) |
 |---|---|
 | How good is the scripted grasp with a perfect VLM? | **78%** with a wrist look-then-grasp (49% from the external camera alone). |
 | Better controller? | Our planned IK (goal IK with limits, null-space posture and restarts, then min-jerk joints plus straight-line approach and lift) converges where Isaac's one-step differential IK stalls or swings into the object: **78% vs 56%** (both are about 3 mm accurate when they converge). Pure joint moves are on par in sim (77%). |
 | Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**, at 62 GB of GPU memory. Set-of-marks scales best and is fastest (0.23 s per query with 32B, about 5× slower than with 2B). |
+| Can repeated inference replace a bigger model? | **Yes, when pooled.** 3 modes on the external view + 2 re-asks along the approach: 4B reaches **86% grounding / 72% success** (32B one-shot: 81% / 68%). Re-asking a single mode, or letting the last view decide (even gated for obscured views), hurts. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps:**
 * Robot side: side or edge grasps for wide or flat objects (the cracker box), and better segmentation of thin objects (the scissors).
-* VLM side: ground on the wrist view or a higher-resolution external image, and fall back from pointing to marks when the model refuses.
-* Real arm: the checklist in section 6. The episode code runs unchanged on `FrankyRobot`."""))
+* VLM side: pooled multi-mode grounding plus a few re-asks along the approach (section 5) is the default to carry to the real arm. Next comes active viewing, moving to a view that covers the candidates the votes disagree on.
+* Real arm: the checklist in section 7. The episode code runs unchanged on `FrankyRobot`."""))
 
 nb = nbf.v4.new_notebook(); nb.cells = cells
 nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}

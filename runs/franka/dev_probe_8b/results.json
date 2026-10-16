@@ -1,0 +1,5542 @@
+[
+{
+"target": "gelatin box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "002_master_chef_can",
+"2": "006_mustard_bottle",
+"3": "009_gelatin_box",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -4.25,
+"1": -7.0,
+"2": -6.0,
+"3": 1.5,
+"4": -0.25,
+"5": -3.25
+},
+"sec": 1.3134920597076416,
+"sec_verify": 0.9034998416900635
+},
+{
+"stage": "approach0",
+"height": 0.4822624143423494,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -3.75,
+"1": -9.5,
+"3": 1.5,
+"5": -0.7499961853027344
+},
+"sec": 0.7824921607971191,
+"sec_verify": 0.6548278331756592
+},
+{
+"stage": "approach1",
+"height": 0.44830313411190365,
+"visible": [
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"1": -7.0,
+"3": 1.75,
+"5": -9.0
+},
+"sec": 0.7228062152862549,
+"sec_verify": 0.22745347023010254
+},
+{
+"stage": "approach2",
+"height": 0.3778364430933606,
+"visible": [
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"1": -8.75,
+"3": 2.25,
+"5": -5.0
+},
+"sec": 0.7627654075622559,
+"sec_verify": 0.34636807441711426
+},
+{
+"stage": "approach3",
+"height": 0.31120400578072804,
+"visible": [
+1,
+2,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"1": -1.75,
+"2": -4.75,
+"3": 2.75,
+"5": -5.5
+},
+"sec": 1.0130984783172607,
+"sec_verify": 0.35561704635620117
+},
+{
+"stage": "look",
+"height": 0.2948204325572869,
+"visible": [
+2,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"2": -10.499996185302734,
+"3": 2.5,
+"5": -8.75
+},
+"sec": 0.9211699962615967,
+"sec_verify": 0.4292185306549072
+}
+],
+"seed": 0,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 10.900075435638428
+},
+{
+"target": "mustard bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "002_master_chef_can",
+"2": "006_mustard_bottle",
+"3": "009_gelatin_box",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -8.5,
+"1": -8.75,
+"2": 5.5,
+"3": -9.0,
+"4": -7.75,
+"5": -12.25
+},
+"sec": 1.5575454235076904,
+"sec_verify": 0.7802238464355469
+},
+{
+"stage": "approach0",
+"height": 0.4874529696150713,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -5.25,
+"1": -8.75,
+"3": -4.25,
+"5": -7.25
+},
+"sec": 0.7877035140991211,
+"sec_verify": 0.5659515857696533
+},
+{
+"stage": "approach1",
+"height": 0.48313934192506003,
+"visible": [
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"1": -7.75,
+"3": -2.75,
+"5": -12.75
+},
+"sec": 0.6603388786315918,
+"sec_verify": 0.2254643440246582
+},
+{
+"stage": "approach2",
+"height": 0.4550730458481711,
+"visible": [
+1,
+2,
+3,
+5
+],
+"choice": 2,
+"yes": {
+"1": -7.25,
+"2": 3.25,
+"3": -5.75,
+"5": 1.0
+},
+"sec": 1.0035271644592285,
+"sec_verify": 0.6178233623504639
+},
+{
+"stage": "approach3",
+"height": 0.4208758069448069,
+"visible": [
+2,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"2": -8.25,
+"3": -6.75,
+"5": 0.75
+},
+"sec": 0.3533940315246582,
+"sec_verify": 0.5380980968475342
+},
+{
+"stage": "look",
+"height": 0.411952618770846,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": -6.0,
+"3": -6.5
+},
+"sec": 0.5391943454742432,
+"sec_verify": 0.5829362869262695
+}
+],
+"seed": 0,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 11.378556251525879
+},
+{
+"target": "pudding box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "002_master_chef_can",
+"2": "006_mustard_bottle",
+"3": "009_gelatin_box",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -9.5,
+"1": -7.25,
+"2": -8.75,
+"3": 3.75,
+"4": 4.25,
+"5": -1.25
+},
+"sec": 1.3040180206298828,
+"sec_verify": 0.6354494094848633
+},
+{
+"stage": "approach0",
+"height": 0.48692629574222274,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -2.75,
+"1": -6.75,
+"3": 4.25,
+"5": -0.9999961853027344
+},
+"sec": 0.713782787322998,
+"sec_verify": 0.4442934989929199
+},
+{
+"stage": "approach1",
+"height": 0.4725585614826475,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -8.5,
+"1": -7.0,
+"3": 5.0,
+"5": -7.25
+},
+"sec": 0.8020389080047607,
+"sec_verify": 0.6516284942626953
+},
+{
+"stage": "approach2",
+"height": 0.4072900952250906,
+"visible": [
+0,
+1,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -1.0,
+"1": -9.5,
+"4": 9.5,
+"5": -14.0
+},
+"sec": 0.695897102355957,
+"sec_verify": 0.5289537906646729
+},
+{
+"stage": "approach3",
+"height": 0.3302606089848469,
+"visible": [
+4
+],
+"choice": 4,
+"yes": {
+"4": 7.75
+},
+"sec": 0.26689791679382324,
+"sec_verify": 0.09488248825073242
+},
+{
+"stage": "look",
+"height": 0.3099818552104106,
+"visible": [
+4
+],
+"choice": 4,
+"yes": {
+"4": 11.0
+},
+"sec": 0.2289423942565918,
+"sec_verify": 0.25202417373657227
+}
+],
+"seed": 0,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 9.949552059173584
+},
+{
+"target": "potted meat can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "002_master_chef_can",
+"2": "006_mustard_bottle",
+"3": "009_gelatin_box",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": -3.75,
+"1": 3.25,
+"2": -13.25,
+"3": -7.0,
+"4": -3.25,
+"5": 4.5
+},
+"sec": 1.1279339790344238,
+"sec_verify": 1.0524671077728271
+},
+{
+"stage": "approach0",
+"height": 0.48482521394414485,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"0": -5.5,
+"1": 4.0,
+"3": -7.0,
+"5": 4.000003814697266
+},
+"sec": 0.9382362365722656,
+"sec_verify": 0.5087237358093262
+},
+{
+"stage": "approach1",
+"height": 0.4633712378066423,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"0": -5.25,
+"1": 1.25,
+"3": -5.75,
+"5": 3.75
+},
+"sec": 0.7195522785186768,
+"sec_verify": 0.9099466800689697
+},
+{
+"stage": "approach2",
+"height": 0.39857240476553596,
+"visible": [
+1,
+3,
+5
+],
+"choice": 1,
+"yes": {
+"1": 4.5,
+"3": -8.0,
+"5": 4.0
+},
+"sec": 0.5859353542327881,
+"sec_verify": 0.39940524101257324
+},
+{
+"stage": "approach3",
+"height": 0.3250098813364202,
+"visible": [
+1,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"1": 2.0000038146972656,
+"3": -5.0,
+"5": 4.25
+},
+"sec": 0.7398772239685059,
+"sec_verify": 0.26817893981933594
+},
+{
+"stage": "look",
+"height": 0.30536084775976047,
+"visible": [
+1,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"1": -1.25,
+"3": -9.5,
+"5": 4.75
+},
+"sec": 0.7195522785186768,
+"sec_verify": 0.5688166618347168
+}
+],
+"seed": 0,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 11.033036470413208
+},
+{
+"target": "banana",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": 2.0,
+"1": -15.75,
+"2": -14.0,
+"3": -12.0,
+"4": -10.75,
+"5": 12.0
+},
+"sec": 1.2257728576660156,
+"sec_verify": 1.2665648460388184
+},
+{
+"stage": "approach0",
+"height": 0.48309733087474555,
+"visible": [
+0,
+1,
+5
+],
+"choice": 5,
+"yes": {
+"0": 0.5,
+"1": -16.0,
+"5": 2.5
+},
+"sec": 0.5765678882598877,
+"sec_verify": 0.2931485176086426
+},
+{
+"stage": "approach1",
+"height": 0.4505866092380909,
+"visible": [
+0,
+1,
+5
+],
+"choice": 5,
+"yes": {
+"0": -1.5,
+"1": -15.375,
+"5": 7.5
+},
+"sec": 0.583864688873291,
+"sec_verify": 0.36358165740966797
+},
+{
+"stage": "approach2",
+"height": 0.3689884461142301,
+"visible": [
+0,
+1,
+5
+],
+"choice": 5,
+"yes": {
+"0": -16.625,
+"1": -14.75,
+"5": 7.75
+},
+"sec": 0.8558957576751709,
+"sec_verify": 0.49535465240478516
+},
+{
+"stage": "approach3",
+"height": 0.2836664627468456,
+"visible": [
+0,
+5
+],
+"choice": 5,
+"yes": {
+"0": -15.75,
+"5": 10.0
+},
+"sec": 0.5095539093017578,
+"sec_verify": 0.23101496696472168
+},
+{
+"stage": "look",
+"height": 0.26140656505162624,
+"visible": [
+0,
+5
+],
+"choice": 5,
+"yes": {
+"0": -17.625,
+"5": 8.5
+},
+"sec": 0.6569156646728516,
+"sec_verify": 0.34000325202941895
+}
+],
+"seed": 1,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 10.449239492416382
+},
+{
+"target": "marker",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -14.5,
+"1": -15.5,
+"2": -0.25,
+"3": -8.5,
+"4": 7.25,
+"5": -12.5
+},
+"sec": 1.1919190883636475,
+"sec_verify": 1.115490198135376
+},
+{
+"stage": "approach0",
+"height": 0.4847610759314454,
+"visible": [
+0,
+1,
+5
+],
+"choice": 5,
+"yes": {
+"0": -12.0,
+"1": -14.5,
+"5": -10.5
+},
+"sec": 0.5729355812072754,
+"sec_verify": 0.6058096885681152
+},
+{
+"stage": "approach1",
+"height": 0.4640472916539868,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": -9.5,
+"1": -15.75,
+"5": -12.0
+},
+"sec": 0.5381429195404053,
+"sec_verify": 0.6489369869232178
+},
+{
+"stage": "approach2",
+"height": 0.4093542112920471,
+"visible": [
+1,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"1": -16.25,
+"4": 4.25,
+"5": -16.25
+},
+"sec": 0.33724069595336914,
+"sec_verify": 0.5878877639770508
+},
+{
+"stage": "approach3",
+"height": 0.35539463971559615,
+"visible": [
+1,
+4
+],
+"choice": 4,
+"yes": {
+"1": -15.5,
+"4": -0.75
+},
+"sec": 0.6436154842376709,
+"sec_verify": 0.379927396774292
+},
+{
+"stage": "look",
+"height": 0.34250798741798943,
+"visible": [
+1,
+4
+],
+"choice": 4,
+"yes": {
+"1": -5.25,
+"4": -4.75
+},
+"sec": 0.6710255146026611,
+"sec_verify": 0.30972743034362793
+}
+],
+"seed": 1,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 10.254008769989014
+},
+{
+"target": "pudding box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -4.5,
+"1": -3.25,
+"2": 5.5,
+"3": -4.25,
+"4": -9.999996185302734,
+"5": -11.25
+},
+"sec": 1.0994510650634766,
+"sec_verify": 1.0712900161743164
+},
+{
+"stage": "approach0",
+"height": 0.48238059592747873,
+"visible": [
+0,
+1,
+5
+],
+"choice": 5,
+"yes": {
+"0": 2.75,
+"1": -0.75,
+"5": 6.5
+},
+"sec": 0.6129190921783447,
+"sec_verify": 0.2180936336517334
+},
+{
+"stage": "approach1",
+"height": 0.4474137277060912,
+"visible": [
+0,
+2,
+5
+],
+"choice": 2,
+"yes": {
+"0": -10.25,
+"2": 12.5,
+"5": 3.25
+},
+"sec": 0.8216075897216797,
+"sec_verify": 0.395810604095459
+},
+{
+"stage": "approach2",
+"height": 0.38391264571727524,
+"visible": [
+2,
+5
+],
+"choice": 2,
+"yes": {
+"2": 11.0,
+"5": -12.5
+},
+"sec": 0.6399335861206055,
+"sec_verify": 0.40609264373779297
+},
+{
+"stage": "approach3",
+"height": 0.32597762574843464,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": 13.25
+},
+"sec": 0.19433879852294922,
+"sec_verify": 0.13109850883483887
+},
+{
+"stage": "look",
+"height": 0.3113379179476794,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": 12.75
+},
+"sec": 0.2410740852355957,
+"sec_verify": 0.3476583957672119
+}
+],
+"seed": 1,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 9.109347581863403
+},
+{
+"target": "cracker box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": 6.5,
+"1": 5.5,
+"2": 0.25,
+"3": -4.0,
+"4": -12.0,
+"5": -11.5
+},
+"sec": 0.7001791000366211,
+"sec_verify": 1.3324015140533447
+},
+{
+"stage": "approach0",
+"height": 0.4862037857254075,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": 8.5,
+"1": -3.75,
+"5": 7.25
+},
+"sec": 0.7500176429748535,
+"sec_verify": 0.6660006046295166
+},
+{
+"stage": "approach1",
+"height": 0.4768006969183167,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": 6.75,
+"1": -5.5,
+"5": 4.25
+},
+"sec": 0.5444598197937012,
+"sec_verify": 0.5148422718048096
+},
+{
+"stage": "approach2",
+"height": 0.4586193968379757,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": 7.5,
+"1": -7.25,
+"5": 3.5
+},
+"sec": 0.42243194580078125,
+"sec_verify": 0.4296233654022217
+},
+{
+"stage": "approach3",
+"height": 0.439231014599447,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": 10.0,
+"1": -6.5,
+"5": 2.0
+},
+"sec": 0.7351915836334229,
+"sec_verify": 0.32142066955566406
+},
+{
+"stage": "look",
+"height": 0.4342301318113169,
+"visible": [
+0,
+1,
+5
+],
+"choice": 0,
+"yes": {
+"0": 8.25,
+"1": -4.75,
+"5": 3.0
+},
+"sec": 0.6903221607208252,
+"sec_verify": 0.5427858829498291
+}
+],
+"seed": 1,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 10.426419973373413
+},
+{
+"target": "sugar box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -3.75,
+"1": -5.75,
+"2": -0.5,
+"3": -4.75,
+"4": -10.749996185302734,
+"5": -8.25
+},
+"sec": 1.2307331562042236,
+"sec_verify": 0.8167095184326172
+},
+{
+"stage": "approach0",
+"height": 0.48238059592747873,
+"visible": [
+0,
+1,
+5
+],
+"choice": 1,
+"yes": {
+"0": -3.75,
+"1": 12.25,
+"5": 2.75
+},
+"sec": 0.9192802906036377,
+"sec_verify": 0.47742295265197754
+},
+{
+"stage": "approach1",
+"height": 0.44741447944928475,
+"visible": [
+0,
+2,
+5
+],
+"choice": 5,
+"yes": {
+"0": -12.0,
+"2": -10.25,
+"5": 2.25
+},
+"sec": 0.7804844379425049,
+"sec_verify": 0.5397698879241943
+},
+{
+"stage": "approach2",
+"height": 0.38391270848153586,
+"visible": [
+2,
+5
+],
+"choice": 2,
+"yes": {
+"2": -10.0,
+"5": -12.75
+},
+"sec": 0.34734439849853516,
+"sec_verify": 0.4037618637084961
+},
+{
+"stage": "approach3",
+"height": 0.3259776390012073,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": -10.0
+},
+"sec": 0.1418015956878662,
+"sec_verify": 0.1493990421295166
+},
+{
+"stage": "look",
+"height": 0.3113379246408927,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": -7.75
+},
+"sec": 0.31538963317871094,
+"sec_verify": 0.2290971279144287
+}
+],
+"seed": 1,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 9.19933271408081
+},
+{
+"target": "mustard bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "005_tomato_soup_can",
+"2": "007_tuna_fish_can",
+"3": "004_sugar_box",
+"4": "025_mug",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": -2.0,
+"1": -9.5,
+"2": -3.0,
+"3": -3.25,
+"4": -7.25,
+"5": -3.5
+},
+"sec": 0.8574244976043701,
+"sec_verify": 1.117264986038208
+},
+{
+"stage": "approach0",
+"height": 0.4858167964526592,
+"visible": [
+1,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"1": -7.0,
+"3": -2.75,
+"4": -7.75
+},
+"sec": 0.5708246231079102,
+"sec_verify": 0.7503147125244141
+},
+{
+"stage": "approach1",
+"height": 0.47285241729362076,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -7.0,
+"3": -2.0
+},
+"sec": 0.3522813320159912,
+"sec_verify": 0.23854947090148926
+},
+{
+"stage": "approach2",
+"height": 0.44545568088352383,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": 3.5,
+"3": -10.0
+},
+"sec": 0.37925243377685547,
+"sec_verify": 0.5864264965057373
+},
+{
+"stage": "approach3",
+"height": 0.4192201875769467,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": -0.5,
+"3": -12.75
+},
+"sec": 0.3338146209716797,
+"sec_verify": 0.7072036266326904
+},
+{
+"stage": "look",
+"height": 0.41256575139632645,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": -6.5,
+"3": -13.0
+},
+"sec": 0.33095240592956543,
+"sec_verify": 0.5160324573516846
+}
+],
+"seed": 2,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 9.446765184402466
+},
+{
+"target": "tomato soup can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "005_tomato_soup_can",
+"2": "007_tuna_fish_can",
+"3": "004_sugar_box",
+"4": "025_mug",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": -11.25,
+"1": 2.5,
+"2": -3.5,
+"3": -9.25,
+"4": -9.5,
+"5": -5.5
+},
+"sec": 1.0038392543792725,
+"sec_verify": 1.0873842239379883
+},
+{
+"stage": "approach0",
+"height": 0.482696958035495,
+"visible": [
+1,
+3,
+4
+],
+"choice": 1,
+"yes": {
+"1": 4.0,
+"3": -8.25,
+"4": -9.5
+},
+"sec": 0.4199976921081543,
+"sec_verify": 0.6131901741027832
+},
+{
+"stage": "approach1",
+"height": 0.44634063548593006,
+"visible": [
+1,
+2,
+3,
+4
+],
+"choice": 1,
+"yes": {
+"1": 3.5,
+"2": -5.25,
+"3": -7.5,
+"4": -9.75
+},
+"sec": 0.9719250202178955,
+"sec_verify": 0.4286332130432129
+},
+{
+"stage": "approach2",
+"height": 0.3865703274247517,
+"visible": [
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"1": -6.75,
+"2": 1.5,
+"4": -14.0
+},
+"sec": 0.4727742671966553,
+"sec_verify": 0.6216492652893066
+},
+{
+"stage": "approach3",
+"height": 0.33691516097772534,
+"visible": [
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"1": -7.0,
+"2": -0.25,
+"4": -13.25
+},
+"sec": 0.5911233425140381,
+"sec_verify": 0.40728092193603516
+},
+{
+"stage": "look",
+"height": 0.3239151395627499,
+"visible": [
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"1": -6.5,
+"2": -1.5,
+"4": -14.5
+},
+"sec": 0.3210904598236084,
+"sec_verify": 0.5107839107513428
+}
+],
+"seed": 2,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 10.418099164962769
+},
+{
+"target": "sugar box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "005_tomato_soup_can",
+"2": "007_tuna_fish_can",
+"3": "004_sugar_box",
+"4": "025_mug",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -3.5,
+"1": -11.75,
+"2": -10.5,
+"3": 3.5,
+"4": -14.75,
+"5": 0.5
+},
+"sec": 0.9105608463287354,
+"sec_verify": 0.8673522472381592
+},
+{
+"stage": "approach0",
+"height": 0.48618634109626296,
+"visible": [
+1,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"1": -12.5,
+"3": -1.5,
+"4": -11.25
+},
+"sec": 0.5560328960418701,
+"sec_verify": 0.5154106616973877
+},
+{
+"stage": "approach1",
+"height": 0.4759729905757488,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -12.75,
+"3": -0.5
+},
+"sec": 0.4556920528411865,
+"sec_verify": 0.4657754898071289
+},
+{
+"stage": "approach2",
+"height": 0.4439677803904412,
+"visible": [
+0,
+1,
+3
+],
+"choice": 3,
+"yes": {
+"0": -6.5,
+"1": -13.25,
+"3": 12.25
+},
+"sec": 0.6741175651550293,
+"sec_verify": 0.24237656593322754
+},
+{
+"stage": "approach3",
+"height": 0.40753363122098807,
+"visible": [
+0,
+3
+],
+"choice": 3,
+"yes": {
+"0": -2.25,
+"3": 12.0
+},
+"sec": 0.571415901184082,
+"sec_verify": 0.5793352127075195
+},
+{
+"stage": "look",
+"height": 0.3977636902951347,
+"visible": [
+0,
+3
+],
+"choice": 3,
+"yes": {
+"0": -3.75,
+"3": 11.0
+},
+"sec": 0.3815791606903076,
+"sec_verify": 0.5708210468292236
+}
+],
+"seed": 2,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 10.106918811798096
+},
+{
+"target": "gelatin box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "005_tomato_soup_can",
+"2": "007_tuna_fish_can",
+"3": "004_sugar_box",
+"4": "025_mug",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -5.5,
+"1": -8.0,
+"2": -9.75,
+"3": 2.0,
+"4": -12.0,
+"5": 0.75
+},
+"sec": 1.0040569305419922,
+"sec_verify": 1.036078929901123
+},
+{
+"stage": "approach0",
+"height": 0.48618634109626296,
+"visible": [
+1,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"1": -8.5,
+"3": 0.5,
+"4": -8.5
+},
+"sec": 0.6809186935424805,
+"sec_verify": 0.28159332275390625
+},
+{
+"stage": "approach1",
+"height": 0.4759729905757488,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -9.75,
+"3": 1.5
+},
+"sec": 0.498532772064209,
+"sec_verify": 0.2094407081604004
+},
+{
+"stage": "approach2",
+"height": 0.4439677803904412,
+"visible": [
+0,
+1,
+3
+],
+"choice": 0,
+"yes": {
+"0": -4.5,
+"1": -13.5,
+"3": -12.5
+},
+"sec": 0.4311690330505371,
+"sec_verify": 0.44692158699035645
+},
+{
+"stage": "approach3",
+"height": 0.40753363122098807,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": -3.0,
+"3": -7.75
+},
+"sec": 0.5994524955749512,
+"sec_verify": 0.42553210258483887
+},
+{
+"stage": "look",
+"height": 0.3977636902951347,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": -3.0,
+"3": -8.25
+},
+"sec": 0.1896059513092041,
+"sec_verify": 0.2604227066040039
+}
+],
+"seed": 2,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 8.310720682144165
+},
+{
+"target": "cracker box",
+"probe": true,
+"fail": null,
+"n_props": 5,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "061_foam_brick",
+"4": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 1,
+"yes": {
+"0": -7.0,
+"1": 6.25,
+"2": 6.25,
+"3": -5.75,
+"4": -9.5
+},
+"sec": 0.9852864742279053,
+"sec_verify": 0.9729764461517334
+},
+{
+"stage": "approach0",
+"height": 0.486714951736858,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -1.5,
+"3": 2.5
+},
+"sec": 0.27787160873413086,
+"sec_verify": 0.17402362823486328
+},
+{
+"stage": "approach1",
+"height": 0.48120814930999367,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -5.75,
+"3": 2.25
+},
+"sec": 0.3469820022583008,
+"sec_verify": 0.5201640129089355
+},
+{
+"stage": "approach2",
+"height": 0.4618375420671637,
+"visible": [
+1,
+2,
+3
+],
+"choice": 1,
+"yes": {
+"1": 4.75,
+"2": 2.25,
+"3": 1.75
+},
+"sec": 0.27332520484924316,
+"sec_verify": 0.3421640396118164
+},
+{
+"stage": "approach3",
+"height": 0.43920547371320906,
+"visible": [
+1,
+3
+],
+"choice": 1,
+"yes": {
+"1": 8.0,
+"3": -0.5
+},
+"sec": 0.2074565887451172,
+"sec_verify": 0.12772512435913086
+},
+{
+"stage": "look",
+"height": 0.4334025965593212,
+"visible": [
+1,
+3
+],
+"choice": 1,
+"yes": {
+"1": 10.75,
+"3": 2.0
+},
+"sec": 0.7168209552764893,
+"sec_verify": 0.21552252769470215
+}
+],
+"seed": 3,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 7.48020076751709
+},
+{
+"target": "sugar box",
+"probe": true,
+"fail": null,
+"n_props": 5,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "061_foam_brick",
+"4": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 2,
+"yes": {
+"0": -5.25,
+"1": -5.0,
+"2": 1.25,
+"3": -5.25,
+"4": -11.0
+},
+"sec": 1.158574104309082,
+"sec_verify": 0.4464683532714844
+},
+{
+"stage": "approach0",
+"height": 0.4852380076728982,
+"visible": [
+3
+],
+"choice": 3,
+"yes": {
+"3": -0.25
+},
+"sec": 0.29651975631713867,
+"sec_verify": 0.23415136337280273
+},
+{
+"stage": "approach1",
+"height": 0.46928549198637204,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": 12.25,
+"3": -0.75
+},
+"sec": 0.4425656795501709,
+"sec_verify": 0.3870077133178711
+},
+{
+"stage": "approach2",
+"height": 0.4372751232937476,
+"visible": [
+1,
+2,
+3
+],
+"choice": 2,
+"yes": {
+"1": -4.75,
+"2": 11.25,
+"3": -1.5
+},
+"sec": 0.4777541160583496,
+"sec_verify": 0.6400737762451172
+},
+{
+"stage": "approach3",
+"height": 0.4058095921353443,
+"visible": [
+1,
+2,
+3
+],
+"choice": 2,
+"yes": {
+"1": -4.25,
+"2": 9.5,
+"3": -0.5
+},
+"sec": 0.3321378231048584,
+"sec_verify": 0.4143691062927246
+},
+{
+"stage": "look",
+"height": 0.3977520745077863,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": 9.0,
+"3": -2.75
+},
+"sec": 0.26238179206848145,
+"sec_verify": 0.16390562057495117
+}
+],
+"seed": 3,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 7.721987724304199
+},
+{
+"target": "tomato soup can",
+"probe": true,
+"fail": null,
+"n_props": 5,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "061_foam_brick",
+"4": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 4,
+"yes": {
+"0": -15.5,
+"1": -4.75,
+"2": 0.75,
+"3": -10.5,
+"4": 2.25
+},
+"sec": 0.6984570026397705,
+"sec_verify": 1.1375091075897217
+},
+{
+"stage": "approach0",
+"height": 0.4862753863058538,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": -1.75,
+"3": -10.75
+},
+"sec": 0.15436553955078125,
+"sec_verify": 0.23741459846496582
+},
+{
+"stage": "approach1",
+"height": 0.47049995074672735,
+"visible": [
+1,
+2,
+3
+],
+"choice": 1,
+"yes": {
+"1": 4.0,
+"2": -4.25,
+"3": -7.75
+},
+"sec": 0.5244140625,
+"sec_verify": 0.5120253562927246
+},
+{
+"stage": "approach2",
+"height": 0.41003339002334427,
+"visible": [
+0,
+2,
+4
+],
+"choice": 4,
+"yes": {
+"0": -13.0,
+"2": -6.25,
+"4": 4.25
+},
+"sec": 0.8452675342559814,
+"sec_verify": 0.3956124782562256
+},
+{
+"stage": "approach3",
+"height": 0.34128659490495483,
+"visible": [
+4
+],
+"choice": 4,
+"yes": {
+"4": -4.0
+},
+"sec": 0.27564406394958496,
+"sec_verify": 0.2752819061279297
+},
+{
+"stage": "look",
+"height": 0.3229741096213543,
+"visible": [
+4
+],
+"choice": 4,
+"yes": {
+"4": -4.75
+},
+"sec": 0.24619603157043457,
+"sec_verify": 0.11511015892028809
+}
+],
+"seed": 3,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 8.008603811264038
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 5,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "061_foam_brick",
+"4": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": 1.75,
+"1": 0.75,
+"2": -3.5,
+"3": 3.75,
+"4": -14.5
+},
+"sec": 1.1455907821655273,
+"sec_verify": 1.147456169128418
+},
+{
+"stage": "approach0",
+"height": 0.48216111674025497,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -7.75,
+"3": 4.25
+},
+"sec": 0.6213936805725098,
+"sec_verify": 0.41845202445983887
+},
+{
+"stage": "approach1",
+"height": 0.44701229825996486,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -8.25,
+"3": 3.25
+},
+"sec": 0.4623856544494629,
+"sec_verify": 0.5051169395446777
+},
+{
+"stage": "approach2",
+"height": 0.3698136867379456,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -9.25,
+"3": -7.25
+},
+"sec": 0.6533646583557129,
+"sec_verify": 0.31755590438842773
+},
+{
+"stage": "approach3",
+"height": 0.29383486157321986,
+"visible": [
+1,
+3
+],
+"choice": 1,
+"yes": {
+"1": -6.75,
+"3": -8.5
+},
+"sec": 0.2833535671234131,
+"sec_verify": 0.2500579357147217
+},
+{
+"stage": "look",
+"height": 0.2739948652280737,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -7.5,
+"3": -7.25
+},
+"sec": 0.4807267189025879,
+"sec_verify": 0.27904701232910156
+}
+],
+"seed": 3,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 10.762656450271606
+},
+{
+"target": "marker",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "010_potted_meat_can",
+"2": "040_large_marker",
+"3": "025_mug",
+"4": "037_scissors",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -15.25,
+"1": -14.0,
+"2": 3.5,
+"3": -2.75,
+"4": -16.0,
+"5": -4.5
+},
+"sec": 1.1281261444091797,
+"sec_verify": 1.2514567375183105
+},
+{
+"stage": "approach0",
+"height": 0.48614110442259956,
+"visible": [
+0,
+1,
+2
+],
+"choice": 2,
+"yes": {
+"0": -9.25,
+"1": 1.5,
+"2": 3.0
+},
+"sec": 0.7963900566101074,
+"sec_verify": 0.3551301956176758
+},
+{
+"stage": "approach1",
+"height": 0.4722109940617055,
+"visible": [
+0,
+1,
+2,
+5
+],
+"choice": 2,
+"yes": {
+"0": -6.5,
+"1": -13.75,
+"2": 7.5,
+"5": -9.25
+},
+"sec": 1.23028564453125,
+"sec_verify": 0.6854331493377686
+},
+{
+"stage": "approach2",
+"height": 0.4200014144317501,
+"visible": [
+0,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -15.5,
+"2": 1.0,
+"4": -11.5,
+"5": -10.5
+},
+"sec": 0.9497666358947754,
+"sec_verify": 0.6437740325927734
+},
+{
+"stage": "approach3",
+"height": 0.35863135411110497,
+"visible": [
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"2": -2.0,
+"4": -11.25,
+"5": -8.75
+},
+"sec": 0.7555012702941895,
+"sec_verify": 0.32429075241088867
+},
+{
+"stage": "look",
+"height": 0.34242859486803584,
+"visible": [
+2,
+5
+],
+"choice": 2,
+"yes": {
+"2": -6.75,
+"5": -9.75
+},
+"sec": 0.763493537902832,
+"sec_verify": 0.41241884231567383
+}
+],
+"seed": 4,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 12.407680988311768
+},
+{
+"target": "scissors",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "010_potted_meat_can",
+"2": "040_large_marker",
+"3": "025_mug",
+"4": "037_scissors",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -17.5,
+"1": -18.125,
+"2": -12.75,
+"3": -17.25,
+"4": 13.0,
+"5": 3.5
+},
+"sec": 1.2243566513061523,
+"sec_verify": 0.7899155616760254
+},
+{
+"stage": "approach0",
+"height": 0.4899385277849098,
+"visible": [
+0,
+1,
+2,
+5
+],
+"choice": 2,
+"yes": {
+"0": -15.75,
+"1": -10.0,
+"2": -4.5,
+"5": -8.0
+},
+"sec": 0.8128392696380615,
+"sec_verify": 0.8497865200042725
+},
+{
+"stage": "approach1",
+"height": 0.48717477481522414,
+"visible": [
+0,
+1,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -14.0,
+"1": -17.5,
+"2": -5.75,
+"4": -9.0,
+"5": -13.25
+},
+"sec": 0.7619771957397461,
+"sec_verify": 0.6727685928344727
+},
+{
+"stage": "approach2",
+"height": 0.42389463999574617,
+"visible": [
+0,
+1,
+2,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -15.5,
+"1": -16.375,
+"2": -8.0,
+"4": -6.0,
+"5": -14.5
+},
+"sec": 0.7475624084472656,
+"sec_verify": 0.6933996677398682
+},
+{
+"stage": "approach3",
+"height": 0.33404517907513626,
+"visible": [
+4,
+5
+],
+"choice": 4,
+"yes": {
+"4": -11.75,
+"5": -13.5
+},
+"sec": 0.3110055923461914,
+"sec_verify": 0.5126020908355713
+},
+{
+"stage": "look",
+"height": 0.3084808779959326,
+"visible": [
+4,
+5
+],
+"choice": 4,
+"yes": {
+"4": -13.5,
+"5": -14.25
+},
+"sec": 0.24377751350402832,
+"sec_verify": 0.16123533248901367
+}
+],
+"seed": 4,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 10.064009428024292
+},
+{
+"target": "potted meat can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "010_potted_meat_can",
+"2": "040_large_marker",
+"3": "025_mug",
+"4": "037_scissors",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": 0.25,
+"1": 4.0,
+"2": -11.249996185302734,
+"3": -3.75,
+"4": -13.5,
+"5": -10.499996185302734
+},
+"sec": 0.8077802658081055,
+"sec_verify": 0.7482283115386963
+},
+{
+"stage": "approach0",
+"height": 0.4821651807619084,
+"visible": [
+0,
+1,
+2
+],
+"choice": 1,
+"yes": {
+"0": -0.5,
+"1": 4.25,
+"2": -4.749996185302734
+},
+"sec": 0.5121605396270752,
+"sec_verify": 0.3363680839538574
+},
+{
+"stage": "approach1",
+"height": 0.4465346675984238,
+"visible": [
+0,
+1,
+5
+],
+"choice": 1,
+"yes": {
+"0": -0.25,
+"1": 4.5,
+"5": -2.2499961853027344
+},
+"sec": 0.875842809677124,
+"sec_verify": 0.5105206966400146
+},
+{
+"stage": "approach2",
+"height": 0.3804193143920538,
+"visible": [
+0,
+1,
+5
+],
+"choice": 1,
+"yes": {
+"0": 1.75,
+"1": 4.0,
+"5": -7.0
+},
+"sec": 0.5804445743560791,
+"sec_verify": 0.585242509841919
+},
+{
+"stage": "approach3",
+"height": 0.32136299857892797,
+"visible": [
+0,
+1
+],
+"choice": 0,
+"yes": {
+"0": 5.0,
+"1": 1.25
+},
+"sec": 0.3750159740447998,
+"sec_verify": 0.3806462287902832
+},
+{
+"stage": "look",
+"height": 0.30615768676208954,
+"visible": [
+0,
+1
+],
+"choice": 0,
+"yes": {
+"0": 3.5,
+"1": -0.75
+},
+"sec": 0.5511150360107422,
+"sec_verify": 0.22690320014953613
+}
+],
+"seed": 4,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 9.044633626937866
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "010_potted_meat_can",
+"2": "040_large_marker",
+"3": "025_mug",
+"4": "037_scissors",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": -14.25,
+"1": -13.0,
+"2": -7.75,
+"3": -7.25,
+"4": -7.0,
+"5": 2.5
+},
+"sec": 1.2174499034881592,
+"sec_verify": 1.060610055923462
+},
+{
+"stage": "approach0",
+"height": 0.48537860517914316,
+"visible": [
+0,
+1,
+2
+],
+"choice": 1,
+"yes": {
+"0": -8.5,
+"1": -2.0,
+"2": -5.0
+},
+"sec": 0.7284557819366455,
+"sec_verify": 0.3439908027648926
+},
+{
+"stage": "approach1",
+"height": 0.4637417387511459,
+"visible": [
+0,
+1,
+2,
+5
+],
+"choice": 5,
+"yes": {
+"0": -7.0,
+"1": -10.75,
+"2": -4.0,
+"5": 0.5
+},
+"sec": 0.8625037670135498,
+"sec_verify": 0.25717616081237793
+},
+{
+"stage": "approach2",
+"height": 0.3869981027391142,
+"visible": [
+0,
+2,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -16.25,
+"2": -3.0,
+"4": -0.75,
+"5": -8.0
+},
+"sec": 0.9974231719970703,
+"sec_verify": 0.4732975959777832
+},
+{
+"stage": "approach3",
+"height": 0.2970850418704004,
+"visible": [
+2,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"2": -4.0,
+"4": -4.25,
+"5": 4.75
+},
+"sec": 0.36750125885009766,
+"sec_verify": 0.27056121826171875
+},
+{
+"stage": "look",
+"height": 0.2728575214465786,
+"visible": [
+2,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"2": -5.0,
+"4": -7.25,
+"5": 3.0
+},
+"sec": 0.8064618110656738,
+"sec_verify": 0.2622640132904053
+}
+],
+"seed": 4,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 10.961842775344849
+},
+{
+"target": "potted meat can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "037_scissors",
+"2": "025_mug",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": -10.75,
+"1": -9.25,
+"2": -6.75,
+"3": -13.75,
+"4": -12.5,
+"5": 4.0
+},
+"sec": 0.9283719062805176,
+"sec_verify": 1.3689556121826172
+},
+{
+"stage": "approach0",
+"height": 0.4895448229186564,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": -1.75,
+"3": -8.0
+},
+"sec": 0.4158611297607422,
+"sec_verify": 0.5718536376953125
+},
+{
+"stage": "approach1",
+"height": 0.4895854562332108,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": -4.0,
+"3": -9.75
+},
+"sec": 0.5771098136901855,
+"sec_verify": 0.5058183670043945
+},
+{
+"stage": "approach2",
+"height": 0.4451210295599297,
+"visible": [
+0,
+2,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"0": -4.5,
+"2": -8.0,
+"3": -11.0,
+"5": 6.5
+},
+"sec": 0.9546008110046387,
+"sec_verify": 0.9927358627319336
+},
+{
+"stage": "approach3",
+"height": 0.37906217230391515,
+"visible": [
+2,
+5
+],
+"choice": 5,
+"yes": {
+"2": -3.7499961853027344,
+"5": 1.25
+},
+"sec": 0.5684430599212646,
+"sec_verify": 0.6133270263671875
+},
+{
+"stage": "look",
+"height": 0.36060498492795257,
+"visible": [
+5
+],
+"choice": 5,
+"yes": {
+"5": 2.0
+},
+"sec": 0.19669032096862793,
+"sec_verify": 0.26041436195373535
+}
+],
+"seed": 5,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 11.835630178451538
+},
+{
+"target": "bleach bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "037_scissors",
+"2": "025_mug",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": -3.75,
+"1": -10.0,
+"2": -13.5,
+"3": -11.75,
+"4": -12.75,
+"5": -10.75
+},
+"sec": 0.8768088817596436,
+"sec_verify": 1.308295488357544
+},
+{
+"stage": "approach0",
+"height": 0.48794883442168424,
+"visible": [
+2,
+3
+],
+"choice": 2,
+"yes": {
+"2": -9.25,
+"3": -11.75
+},
+"sec": 0.6412365436553955,
+"sec_verify": 0.43143582344055176
+},
+{
+"stage": "approach1",
+"height": 0.4909494456066688,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -13.5,
+"3": -12.5
+},
+"sec": 0.26351475715637207,
+"sec_verify": 0.600513219833374
+},
+{
+"stage": "approach2",
+"height": 0.4846477639788587,
+"visible": [
+0,
+1,
+2
+],
+"choice": 0,
+"yes": {
+"0": 2.25,
+"1": -10.5,
+"2": -15.5
+},
+"sec": 0.30162978172302246,
+"sec_verify": 0.40436339378356934
+},
+{
+"stage": "approach3",
+"height": 0.4738973152661088,
+"visible": [
+0,
+1
+],
+"choice": 0,
+"yes": {
+"0": -8.75,
+"1": -12.5
+},
+"sec": 0.5789542198181152,
+"sec_verify": 0.556434154510498
+},
+{
+"stage": "look",
+"height": 0.47078539797251623,
+"visible": [
+0,
+1
+],
+"choice": 0,
+"yes": {
+"0": -9.75,
+"1": -11.75
+},
+"sec": 0.22715449333190918,
+"sec_verify": 0.2681875228881836
+}
+],
+"seed": 5,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 9.382447957992554
+},
+{
+"target": "cracker box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "037_scissors",
+"2": "025_mug",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -11.5,
+"1": -13.75,
+"2": -14.0,
+"3": 10.25,
+"4": 8.75,
+"5": -12.25
+},
+"sec": 1.0825233459472656,
+"sec_verify": 0.8593051433563232
+},
+{
+"stage": "approach0",
+"height": 0.4882294871358589,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -11.0,
+"3": 3.5
+},
+"sec": 0.5021133422851562,
+"sec_verify": 0.26198720932006836
+},
+{
+"stage": "approach1",
+"height": 0.4897187829613071,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -10.75,
+"3": 10.75
+},
+"sec": 0.34702467918395996,
+"sec_verify": 0.5433375835418701
+},
+{
+"stage": "approach2",
+"height": 0.47192957318750145,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -12.25,
+"3": 14.0
+},
+"sec": 0.3516066074371338,
+"sec_verify": 0.16632318496704102
+},
+{
+"stage": "approach3",
+"height": 0.44211902725944974,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -16.0,
+"3": 12.0
+},
+"sec": 0.7048914432525635,
+"sec_verify": 0.303267240524292
+},
+{
+"stage": "look",
+"height": 0.4337728452830664,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -15.5,
+"3": 12.25
+},
+"sec": 0.2493281364440918,
+"sec_verify": 0.531491756439209
+}
+],
+"seed": 5,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 8.426079273223877
+},
+{
+"target": "scissors",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "037_scissors",
+"2": "025_mug",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": -14.0,
+"1": 13.75,
+"2": -17.5,
+"3": -15.75,
+"4": -14.75,
+"5": -13.0
+},
+"sec": 1.317141056060791,
+"sec_verify": 0.585669755935669
+},
+{
+"stage": "approach0",
+"height": 0.48065093162871664,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -14.75,
+"3": -13.25
+},
+"sec": 0.45824241638183594,
+"sec_verify": 0.4712059497833252
+},
+{
+"stage": "approach1",
+"height": 0.43476234625811927,
+"visible": [
+2,
+3
+],
+"choice": 3,
+"yes": {
+"2": -15.75,
+"3": -15.25
+},
+"sec": 0.1769576072692871,
+"sec_verify": 0.21474123001098633
+},
+{
+"stage": "approach2",
+"height": 0.3380155068644505,
+"visible": [
+0,
+2
+],
+"choice": 0,
+"yes": {
+"0": -8.0,
+"2": -12.75
+},
+"sec": 0.43267321586608887,
+"sec_verify": 0.31353282928466797
+},
+{
+"stage": "approach3",
+"height": 0.2619331856914568,
+"visible": [
+0,
+1
+],
+"choice": 1,
+"yes": {
+"0": -10.5,
+"1": 18.75
+},
+"sec": 0.521355390548706,
+"sec_verify": 0.2966618537902832
+},
+{
+"stage": "look",
+"height": 0.2661952896184612,
+"visible": [
+0,
+1
+],
+"choice": 1,
+"yes": {
+"0": -9.25,
+"1": 18.25
+},
+"sec": 0.5119671821594238,
+"sec_verify": 0.32380127906799316
+}
+],
+"seed": 5,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 9.05555510520935
+},
+{
+"target": "pudding box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "002_master_chef_can",
+"3": "008_pudding_box",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -11.0,
+"1": 2.25,
+"2": -3.5,
+"3": 4.5,
+"4": -4.5,
+"5": 3.75
+},
+"sec": 1.1169812679290771,
+"sec_verify": 0.6520648002624512
+},
+{
+"stage": "approach0",
+"height": 0.48354946984109054,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -5.25,
+"1": 1.25,
+"2": -5.5,
+"3": 6.75,
+"4": -6.25
+},
+"sec": 1.3116636276245117,
+"sec_verify": 0.563976526260376
+},
+{
+"stage": "approach1",
+"height": 0.455731098717724,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -9.0,
+"1": -1.5,
+"2": -6.5,
+"3": 11.0,
+"4": -5.0,
+"5": 5.0
+},
+"sec": 0.8332774639129639,
+"sec_verify": 0.9807770252227783
+},
+{
+"stage": "approach2",
+"height": 0.39202716204086474,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -3.0,
+"2": -12.5,
+"3": 9.75,
+"4": -4.75
+},
+"sec": 0.6498904228210449,
+"sec_verify": 0.7152578830718994
+},
+{
+"stage": "approach3",
+"height": 0.32744423778890874,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -4.75,
+"2": -4.5,
+"3": 10.75,
+"4": -1.75
+},
+"sec": 0.5559616088867188,
+"sec_verify": 0.46209168434143066
+},
+{
+"stage": "look",
+"height": 0.3110278897829964,
+"visible": [
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"2": 0.0,
+"3": 10.75,
+"4": -2.5
+},
+"sec": 0.8192105293273926,
+"sec_verify": 0.27898120880126953
+}
+],
+"seed": 6,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 12.29207706451416
+},
+{
+"target": "mustard bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "002_master_chef_can",
+"3": "008_pudding_box",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -11.5,
+"1": -13.5,
+"2": -9.25,
+"3": -6.5,
+"4": 9.75,
+"5": -6.5
+},
+"sec": 1.2089550495147705,
+"sec_verify": 0.7126121520996094
+},
+{
+"stage": "approach0",
+"height": 0.4881140625520851,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 0,
+"yes": {
+"0": -3.5,
+"1": -8.5,
+"2": -6.5,
+"3": -8.75,
+"4": -6.5
+},
+"sec": 1.0028440952301025,
+"sec_verify": 0.6099672317504883
+},
+{
+"stage": "approach1",
+"height": 0.48659328496565035,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -7.75,
+"1": -5.75,
+"2": -3.75,
+"3": -7.0,
+"4": 0.75,
+"5": -5.0
+},
+"sec": 0.9762935638427734,
+"sec_verify": 1.0416853427886963
+},
+{
+"stage": "approach2",
+"height": 0.45909169066301736,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 4,
+"yes": {
+"0": -2.75,
+"2": -12.5,
+"3": -11.5,
+"4": -0.5
+},
+"sec": 1.1706607341766357,
+"sec_verify": 0.9027402400970459
+},
+{
+"stage": "approach3",
+"height": 0.4216217659891783,
+"visible": [
+0,
+3,
+4
+],
+"choice": 0,
+"yes": {
+"0": -3.75,
+"3": -9.25,
+"4": -6.75
+},
+"sec": 0.4831106662750244,
+"sec_verify": 0.6307601928710938
+},
+{
+"stage": "look",
+"height": 0.41178679476251373,
+"visible": [
+0,
+3,
+4
+],
+"choice": 0,
+"yes": {
+"0": -3.5,
+"3": -9.75,
+"4": -3.75
+},
+"sec": 0.781639575958252,
+"sec_verify": 0.4448130130767822
+}
+],
+"seed": 6,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 13.965492486953735
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "002_master_chef_can",
+"3": "008_pudding_box",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": -12.5,
+"1": 2.75,
+"2": -11.75,
+"3": -1.0,
+"4": -8.5,
+"5": 2.5
+},
+"sec": 1.691868543624878,
+"sec_verify": 1.7443480491638184
+},
+{
+"stage": "approach0",
+"height": 0.47947481998268704,
+"visible": [
+0,
+1,
+2,
+3
+],
+"choice": 1,
+"yes": {
+"0": -9.0,
+"1": 0.0,
+"2": -9.75,
+"3": -7.75
+},
+"sec": 0.8207786083221436,
+"sec_verify": 1.3876879215240479
+},
+{
+"stage": "approach1",
+"height": 0.4302459106255038,
+"visible": [
+1,
+2,
+3
+],
+"choice": 3,
+"yes": {
+"1": -2.0,
+"2": -11.5,
+"3": -0.75
+},
+"sec": 0.6499233245849609,
+"sec_verify": 0.8650078773498535
+},
+{
+"stage": "approach2",
+"height": 0.3510632279529467,
+"visible": [
+1
+],
+"choice": 1,
+"yes": {
+"1": -4.75
+},
+"sec": 0.32094812393188477,
+"sec_verify": 0.1861259937286377
+},
+{
+"stage": "approach3",
+"height": 0.28933071680264166,
+"visible": [
+1
+],
+"choice": 1,
+"yes": {
+"1": -5.25
+},
+"sec": 0.29531049728393555,
+"sec_verify": 0.3434927463531494
+},
+{
+"stage": "look",
+"height": 0.2740562037888308,
+"visible": [
+1
+],
+"choice": 1,
+"yes": {
+"1": -2.5
+},
+"sec": 0.2448737621307373,
+"sec_verify": 0.18101263046264648
+}
+],
+"seed": 6,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 11.227952718734741
+},
+{
+"target": "gelatin box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "002_master_chef_can",
+"3": "008_pudding_box",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -9.75,
+"1": -3.5,
+"2": -4.75,
+"3": 2.0,
+"4": -10.0,
+"5": 1.25
+},
+"sec": 1.5020935535430908,
+"sec_verify": 1.2252635955810547
+},
+{
+"stage": "approach0",
+"height": 0.483549425017581,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -7.25,
+"1": -1.5,
+"2": -7.0,
+"3": 2.5,
+"4": -7.75
+},
+"sec": 1.1428101062774658,
+"sec_verify": 1.3644628524780273
+},
+{
+"stage": "approach1",
+"height": 0.4557310328351341,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -11.499996185302734,
+"1": -5.5,
+"2": -7.25,
+"3": 5.5,
+"4": -6.5,
+"5": 1.75
+},
+"sec": 1.4999961853027344,
+"sec_verify": 1.4302759170532227
+},
+{
+"stage": "approach2",
+"height": 0.39202723300967796,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -6.75,
+"2": -13.25,
+"3": 11.25,
+"4": -7.0
+},
+"sec": 1.1828513145446777,
+"sec_verify": 0.9999861717224121
+},
+{
+"stage": "approach3",
+"height": 0.3274441276491045,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -8.0,
+"2": -7.0,
+"3": 11.0,
+"4": -6.75
+},
+"sec": 1.1347384452819824,
+"sec_verify": 1.1543195247650146
+},
+{
+"stage": "look",
+"height": 0.3110279323950159,
+"visible": [
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"2": -3.5,
+"3": 11.5,
+"4": -5.499996185302734
+},
+"sec": 0.7902040481567383,
+"sec_verify": 0.6891806125640869
+}
+],
+"seed": 6,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 16.593369722366333
+},
+{
+"target": "clamp",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "002_master_chef_can",
+"3": "008_pudding_box",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": 11.5,
+"1": -10.75,
+"2": -10.75,
+"3": -12.25,
+"4": -12.25,
+"5": -9.25
+},
+"sec": 1.1227929592132568,
+"sec_verify": 1.7028017044067383
+},
+{
+"stage": "approach0",
+"height": 0.48328797694886594,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 0,
+"yes": {
+"0": 4.5,
+"1": -6.5,
+"2": -13.75,
+"3": -10.0,
+"4": -10.5
+},
+"sec": 1.450632095336914,
+"sec_verify": 1.2375049591064453
+},
+{
+"stage": "approach1",
+"height": 0.4501500001187482,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 0,
+"yes": {
+"0": 6.5,
+"2": -14.75,
+"3": -11.75,
+"4": -8.0
+},
+"sec": 0.7903482913970947,
+"sec_verify": 1.2335939407348633
+},
+{
+"stage": "approach2",
+"height": 0.3971331852489559,
+"visible": [
+0,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": -4.0,
+"2": -15.75,
+"4": -9.0
+},
+"sec": 0.7506616115570068,
+"sec_verify": 1.0028903484344482
+},
+{
+"stage": "approach3",
+"height": 0.3526789254032484,
+"visible": [
+0,
+4
+],
+"choice": 0,
+"yes": {
+"0": -2.75,
+"4": -3.75
+},
+"sec": 0.4143240451812744,
+"sec_verify": 0.7319028377532959
+},
+{
+"stage": "look",
+"height": 0.34005171569844433,
+"visible": [
+0,
+4
+],
+"choice": 4,
+"yes": {
+"0": -5.5,
+"4": -3.75
+},
+"sec": 0.596585750579834,
+"sec_verify": 0.3615574836730957
+}
+],
+"seed": 6,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 13.513230562210083
+},
+{
+"target": "banana",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": 9.25,
+"1": -9.25,
+"2": -14.5,
+"3": -14.5,
+"4": -11.25,
+"5": -18.25
+},
+"sec": 1.4165804386138916,
+"sec_verify": 1.5469305515289307
+},
+{
+"stage": "approach0",
+"height": 0.4791885734259056,
+"visible": [
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"1": -15.0,
+"2": -13.25,
+"4": -15.0
+},
+"sec": 0.6226918697357178,
+"sec_verify": 0.6323225498199463
+},
+{
+"stage": "approach1",
+"height": 0.42835804829498325,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": 15.5,
+"1": -6.75,
+"2": -13.5,
+"4": -16.25
+},
+"sec": 1.206040620803833,
+"sec_verify": 0.7925331592559814
+},
+{
+"stage": "approach2",
+"height": 0.34386997657259455,
+"visible": [
+0,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": 15.5,
+"2": -13.0,
+"4": -3.0
+},
+"sec": 1.1641302108764648,
+"sec_verify": 0.412153959274292
+},
+{
+"stage": "approach3",
+"height": 0.2781094733859845,
+"visible": [
+0,
+2
+],
+"choice": 0,
+"yes": {
+"0": 16.25,
+"2": -10.25
+},
+"sec": 0.8001697063446045,
+"sec_verify": 0.3690934181213379
+},
+{
+"stage": "look",
+"height": 0.26187764876454245,
+"visible": [
+0
+],
+"choice": 0,
+"yes": {
+"0": 15.0
+},
+"sec": 0.40865468978881836,
+"sec_verify": 0.34262609481811523
+}
+],
+"seed": 7,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 11.913416862487793
+},
+{
+"target": "potted meat can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": 2.25,
+"1": -7.499996185302734,
+"2": -4.0,
+"3": 2.5000038146972656,
+"4": 3.75,
+"5": 4.5
+},
+"sec": 1.3944370746612549,
+"sec_verify": 1.4678566455841064
+},
+{
+"stage": "approach0",
+"height": 0.48588842921201625,
+"visible": [
+1,
+2,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"1": -3.25,
+"2": -6.5,
+"4": 8.75,
+"5": -4.0
+},
+"sec": 1.025784969329834,
+"sec_verify": 0.9487395286560059
+},
+{
+"stage": "approach1",
+"height": 0.4639331823164904,
+"visible": [
+1,
+2,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"1": -2.75,
+"2": -11.0,
+"4": 5.5,
+"5": 5.0
+},
+"sec": 0.8431925773620605,
+"sec_verify": 1.0830292701721191
+},
+{
+"stage": "approach2",
+"height": 0.37968104441543105,
+"visible": [
+0,
+2,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -8.249996185302734,
+"2": -9.5,
+"4": 5.5,
+"5": 5.25
+},
+"sec": 1.3061060905456543,
+"sec_verify": 0.9749538898468018
+},
+{
+"stage": "approach3",
+"height": 0.2813246544203525,
+"visible": [
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"2": -8.75,
+"3": -4.25,
+"4": -1.25,
+"5": 4.25
+},
+"sec": 0.8720767498016357,
+"sec_verify": 0.9138550758361816
+},
+{
+"stage": "look",
+"height": 0.2550408717585307,
+"visible": [
+2,
+3,
+5
+],
+"choice": 5,
+"yes": {
+"2": -6.499996185302734,
+"3": -5.0,
+"5": 5.25
+},
+"sec": 0.7152283191680908,
+"sec_verify": 0.948378324508667
+}
+],
+"seed": 7,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 15.200828075408936
+},
+{
+"target": "marker",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": -14.5,
+"1": 5.75,
+"2": 0.5,
+"3": -16.0,
+"4": -15.0,
+"5": -15.75
+},
+"sec": 1.6165988445281982,
+"sec_verify": 1.567101001739502
+},
+{
+"stage": "approach0",
+"height": 0.48317845609825716,
+"visible": [
+1,
+2,
+4
+],
+"choice": 1,
+"yes": {
+"1": 1.75,
+"2": -6.75,
+"4": -13.75
+},
+"sec": 0.9924070835113525,
+"sec_verify": 0.6174051761627197
+},
+{
+"stage": "approach1",
+"height": 0.45190078305378895,
+"visible": [
+1,
+2,
+4
+],
+"choice": 1,
+"yes": {
+"1": 0.5,
+"2": -10.0,
+"4": -12.5
+},
+"sec": 0.8737301826477051,
+"sec_verify": 0.9657888412475586
+},
+{
+"stage": "approach2",
+"height": 0.40010655397643946,
+"visible": [
+1,
+2,
+4
+],
+"choice": 1,
+"yes": {
+"1": 2.5,
+"2": -9.25,
+"4": -14.5
+},
+"sec": 0.7171993255615234,
+"sec_verify": 0.88551926612854
+},
+{
+"stage": "approach3",
+"height": 0.3556422544735551,
+"visible": [
+1,
+2,
+4
+],
+"choice": 1,
+"yes": {
+"1": -2.0,
+"2": -5.75,
+"4": -15.75
+},
+"sec": 0.6464276313781738,
+"sec_verify": 0.6799492835998535
+},
+{
+"stage": "look",
+"height": 0.3430240733647704,
+"visible": [
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"1": -7.0,
+"2": -6.0,
+"4": -17.125
+},
+"sec": 0.8540418148040771,
+"sec_verify": 0.6754393577575684
+}
+],
+"seed": 7,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 12.490673780441284
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -14.25,
+"1": -6.25,
+"2": 5.0,
+"3": -14.5,
+"4": -8.5,
+"5": -16.0
+},
+"sec": 1.2649881839752197,
+"sec_verify": 1.6497361660003662
+},
+{
+"stage": "approach0",
+"height": 0.48075652537793184,
+"visible": [
+1,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"1": -2.25,
+"2": 0.5,
+"4": -9.5,
+"5": -3.75
+},
+"sec": 1.1076302528381348,
+"sec_verify": 0.850689172744751
+},
+{
+"stage": "approach1",
+"height": 0.4376131018179504,
+"visible": [
+1,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"1": -3.5,
+"2": 0.0,
+"4": -9.0,
+"5": -8.5
+},
+"sec": 1.099259614944458,
+"sec_verify": 0.6403882503509521
+},
+{
+"stage": "approach2",
+"height": 0.3603231371522522,
+"visible": [
+1,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"1": -3.0,
+"2": -1.0,
+"4": -10.25,
+"5": -9.75
+},
+"sec": 0.954777717590332,
+"sec_verify": 0.608320951461792
+},
+{
+"stage": "approach3",
+"height": 0.29206493813488366,
+"visible": [
+0,
+2,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": 0.25,
+"2": -1.0,
+"4": -10.75,
+"5": -14.25
+},
+"sec": 0.9094693660736084,
+"sec_verify": 0.5880770683288574
+},
+{
+"stage": "look",
+"height": 0.2741296123761565,
+"visible": [
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"2": -0.5,
+"4": -9.75,
+"5": -16.0
+},
+"sec": 0.7277863025665283,
+"sec_verify": 0.48467397689819336
+}
+],
+"seed": 7,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 12.3598051071167
+},
+{
+"target": "mustard bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "036_wood_block",
+"4": "005_tomato_soup_can",
+"5": "024_bowl"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -3.0,
+"1": 3.75,
+"2": 9.75,
+"3": -1.25,
+"4": -6.5,
+"5": -11.0
+},
+"sec": 0.7187566757202148,
+"sec_verify": 0.6551883220672607
+},
+{
+"stage": "approach0",
+"height": 0.4858157870607067,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"0": -5.25,
+"1": -10.5,
+"2": 3.25,
+"4": -9.75
+},
+"sec": 0.5198822021484375,
+"sec_verify": 0.46083712577819824
+},
+{
+"stage": "approach1",
+"height": 0.4730568479592295,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 2,
+"yes": {
+"0": -5.25,
+"1": -7.0,
+"2": 4.0,
+"4": -9.75
+},
+"sec": 0.4930140972137451,
+"sec_verify": 0.491563081741333
+},
+{
+"stage": "approach2",
+"height": 0.44651133996643666,
+"visible": [
+0,
+1,
+2,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": -2.75,
+"1": -5.0,
+"2": -4.0,
+"4": -6.5,
+"5": -7.25
+},
+"sec": 0.6031506061553955,
+"sec_verify": 0.6456699371337891
+},
+{
+"stage": "approach3",
+"height": 0.4195472493666463,
+"visible": [
+0,
+1,
+2,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": -1.0,
+"1": -7.5,
+"2": -3.25,
+"4": -6.25,
+"5": -10.5
+},
+"sec": 0.5873723030090332,
+"sec_verify": 0.5959947109222412
+},
+{
+"stage": "look",
+"height": 0.41263019792650674,
+"visible": [
+0,
+1,
+2,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -1.5,
+"1": -7.75,
+"2": -0.75,
+"4": -9.0,
+"5": -13.25
+},
+"sec": 0.6403079032897949,
+"sec_verify": 0.568504810333252
+}
+],
+"seed": 8,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 8.333961725234985
+},
+{
+"target": "clamp",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "036_wood_block",
+"4": "005_tomato_soup_can",
+"5": "024_bowl"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": -1.75,
+"1": -13.75,
+"2": -11.25,
+"3": -5.0,
+"4": -15.25,
+"5": -15.25
+},
+"sec": 0.7264628410339355,
+"sec_verify": 0.6993179321289062
+},
+{
+"stage": "approach0",
+"height": 0.483617688328305,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": 3.25,
+"1": -6.75,
+"2": -14.25,
+"4": -13.75
+},
+"sec": 0.5320792198181152,
+"sec_verify": 0.48209404945373535
+},
+{
+"stage": "approach1",
+"height": 0.44811062369653154,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": 2.75,
+"1": -7.75,
+"2": -12.5,
+"4": -11.0
+},
+"sec": 0.5234355926513672,
+"sec_verify": 0.4383251667022705
+},
+{
+"stage": "approach2",
+"height": 0.3951491568034894,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 0,
+"yes": {
+"0": 3.0,
+"1": -3.75,
+"2": -8.25,
+"4": -4.75
+},
+"sec": 0.5604782104492188,
+"sec_verify": 0.4977562427520752
+},
+{
+"stage": "approach3",
+"height": 0.35340623858274245,
+"visible": [
+0,
+2
+],
+"choice": 0,
+"yes": {
+"0": 2.25,
+"2": -9.5
+},
+"sec": 0.30606675148010254,
+"sec_verify": 0.2633090019226074
+},
+{
+"stage": "look",
+"height": 0.3434172102788141,
+"visible": [
+0,
+2
+],
+"choice": 0,
+"yes": {
+"0": 1.0,
+"2": -11.0
+},
+"sec": 0.1874988079071045,
+"sec_verify": 0.11420607566833496
+}
+],
+"seed": 8,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 6.525066375732422
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "036_wood_block",
+"4": "005_tomato_soup_can",
+"5": "024_bowl"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": 1.0,
+"1": -2.75,
+"2": -8.5,
+"3": 2.5,
+"4": -12.5,
+"5": -10.5
+},
+"sec": 0.33968591690063477,
+"sec_verify": 0.2992286682128906
+},
+{
+"stage": "approach0",
+"height": 0.48723206150641474,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 1,
+"yes": {
+"0": -4.0,
+"1": 2.25,
+"2": -5.5,
+"4": -11.0
+},
+"sec": 0.24431180953979492,
+"sec_verify": 0.20852112770080566
+},
+{
+"stage": "approach1",
+"height": 0.4843035986997593,
+"visible": [
+0,
+1,
+2,
+3,
+4
+],
+"choice": 1,
+"yes": {
+"0": -4.25,
+"1": 0.75,
+"2": -1.75,
+"3": 0.25,
+"4": -15.5
+},
+"sec": 0.2880220413208008,
+"sec_verify": 0.2474963665008545
+},
+{
+"stage": "approach2",
+"height": 0.46376930278261363,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"0": -5.25,
+"2": 3.75,
+"3": 5.5,
+"4": -14.5
+},
+"sec": 0.21747493743896484,
+"sec_verify": 0.19252777099609375
+},
+{
+"stage": "approach3",
+"height": 0.4351403318994621,
+"visible": [
+0,
+2,
+3,
+4
+],
+"choice": 2,
+"yes": {
+"0": -3.5,
+"2": 2.0,
+"3": -1.75,
+"4": -16.0
+},
+"sec": 0.22672224044799805,
+"sec_verify": 0.18581771850585938
+},
+{
+"stage": "look",
+"height": 0.4273121573522034,
+"visible": [
+2,
+3,
+4
+],
+"choice": 3,
+"yes": {
+"2": 1.0,
+"3": 2.5,
+"4": -16.75
+},
+"sec": 0.1430041790008545,
+"sec_verify": 0.13611912727355957
+}
+],
+"seed": 8,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 3.692365884780884
+},
+{
+"target": "tomato soup can",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "036_wood_block",
+"4": "005_tomato_soup_can",
+"5": "024_bowl"
+},
+"target_segmented": true,
+"initial_choice": 4,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -12.25,
+"1": -3.25,
+"2": -7.5,
+"3": -0.25,
+"4": 6.0,
+"5": -13.0
+},
+"sec": 0.3885500431060791,
+"sec_verify": 0.3625211715698242
+},
+{
+"stage": "approach0",
+"height": 0.4849453165786679,
+"visible": [
+0,
+1,
+2,
+4
+],
+"choice": 4,
+"yes": {
+"0": -8.0,
+"1": -8.5,
+"2": -7.75,
+"4": 6.5
+},
+"sec": 0.31042027473449707,
+"sec_verify": 0.22464942932128906
+},
+{
+"stage": "approach1",
+"height": 0.4651549313753103,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -8.75,
+"1": -9.5,
+"2": -4.0,
+"3": -5.0,
+"4": 3.75,
+"5": -4.0
+},
+"sec": 0.3265798091888428,
+"sec_verify": 0.2847292423248291
+},
+{
+"stage": "approach2",
+"height": 0.4077852209582297,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 4,
+"yes": {
+"0": -5.0,
+"1": -8.0,
+"2": -2.75,
+"3": -2.25,
+"4": 2.75,
+"5": 1.25
+},
+"sec": 0.3358910083770752,
+"sec_verify": 0.2902505397796631
+},
+{
+"stage": "approach3",
+"height": 0.3412740946897853,
+"visible": [
+2,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"2": -7.5,
+"4": -4.0,
+"5": 0.0
+},
+"sec": 0.19498515129089355,
+"sec_verify": 0.15356040000915527
+},
+{
+"stage": "look",
+"height": 0.3235012996020285,
+"visible": [
+2,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"2": -4.499996185302734,
+"4": -5.25,
+"5": -0.75
+},
+"sec": 0.1826305389404297,
+"sec_verify": 0.15416693687438965
+}
+],
+"seed": 8,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 4.332700252532959
+},
+{
+"target": "banana",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "006_mustard_bottle",
+"2": "037_scissors",
+"3": "004_sugar_box",
+"4": "036_wood_block",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 5,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": -14.5,
+"1": -11.75,
+"2": -17.75,
+"3": -10.0,
+"4": -10.5,
+"5": 13.75
+},
+"sec": 0.3330960273742676,
+"sec_verify": 0.28542208671569824
+},
+{
+"stage": "approach0",
+"height": 0.48570700191267985,
+"visible": [
+0,
+1,
+3
+],
+"choice": 1,
+"yes": {
+"0": -15.0,
+"1": -8.25,
+"3": -17.0
+},
+"sec": 0.1635444164276123,
+"sec_verify": 0.13450241088867188
+},
+{
+"stage": "approach1",
+"height": 0.4632773006666422,
+"visible": [
+0,
+1,
+3,
+4
+],
+"choice": 1,
+"yes": {
+"0": -12.75,
+"1": -0.25,
+"3": -16.75,
+"4": -15.875
+},
+"sec": 0.22214150428771973,
+"sec_verify": 0.19686412811279297
+},
+{
+"stage": "approach2",
+"height": 0.3805300080305133,
+"visible": [
+0,
+3,
+4,
+5
+],
+"choice": 5,
+"yes": {
+"0": -11.5,
+"3": -14.25,
+"4": -11.25,
+"5": 14.75
+},
+"sec": 0.2717459201812744,
+"sec_verify": 0.23078584671020508
+},
+{
+"stage": "approach3",
+"height": 0.2861494271632091,
+"visible": [
+3,
+5
+],
+"choice": 5,
+"yes": {
+"3": -11.75,
+"5": 14.75
+},
+"sec": 0.1488208770751953,
+"sec_verify": 0.11072492599487305
+},
+{
+"stage": "look",
+"height": 0.26066517777847625,
+"visible": [
+5
+],
+"choice": 5,
+"yes": {
+"5": 14.25
+},
+"sec": 0.08878302574157715,
+"sec_verify": 0.04725217819213867
+}
+],
+"seed": 9,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 3.2922403812408447
+},
+{
+"target": "mustard bottle",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "006_mustard_bottle",
+"2": "037_scissors",
+"3": "004_sugar_box",
+"4": "036_wood_block",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 1,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 1,
+"yes": {
+"0": -5.5,
+"1": 4.0,
+"2": -16.875,
+"3": -10.5,
+"4": -6.5,
+"5": -16.0
+},
+"sec": 0.3296797275543213,
+"sec_verify": 0.28574085235595703
+},
+{
+"stage": "approach0",
+"height": 0.48652897205104895,
+"visible": [
+0,
+1,
+3
+],
+"choice": 0,
+"yes": {
+"0": -8.25,
+"1": -12.25,
+"3": -13.0
+},
+"sec": 0.13963580131530762,
+"sec_verify": 0.1324002742767334
+},
+{
+"stage": "approach1",
+"height": 0.46988541314316357,
+"visible": [
+0,
+1,
+3
+],
+"choice": 0,
+"yes": {
+"0": -3.5,
+"1": -12.25,
+"3": -13.75
+},
+"sec": 0.1800229549407959,
+"sec_verify": 0.13354063034057617
+},
+{
+"stage": "approach2",
+"height": 0.44418864032899974,
+"visible": [
+0,
+1,
+3
+],
+"choice": 3,
+"yes": {
+"0": -3.5,
+"1": -10.0,
+"3": -3.0
+},
+"sec": 0.15167522430419922,
+"sec_verify": 0.13383054733276367
+},
+{
+"stage": "approach3",
+"height": 0.42028500209500125,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -12.5,
+"3": -1.75
+},
+"sec": 0.13847637176513672,
+"sec_verify": 0.09165072441101074
+},
+{
+"stage": "look",
+"height": 0.41416571027725835,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -12.0,
+"3": -1.25
+},
+"sec": 0.11749410629272461,
+"sec_verify": 0.08916211128234863
+}
+],
+"seed": 9,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 2.656420946121216
+},
+{
+"target": "scissors",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "006_mustard_bottle",
+"2": "037_scissors",
+"3": "004_sugar_box",
+"4": "036_wood_block",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 2,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 2,
+"yes": {
+"0": -13.5,
+"1": -14.5,
+"2": 15.0,
+"3": -14.0,
+"4": -15.25,
+"5": -18.0
+},
+"sec": 0.30756497383117676,
+"sec_verify": 0.28504514694213867
+},
+{
+"stage": "approach0",
+"height": 0.48052327212361595,
+"visible": [
+0,
+1,
+3
+],
+"choice": 0,
+"yes": {
+"0": -11.75,
+"1": -15.75,
+"3": -15.625
+},
+"sec": 0.18093466758728027,
+"sec_verify": 0.1346135139465332
+},
+{
+"stage": "approach1",
+"height": 0.43363098751977247,
+"visible": [
+1,
+3
+],
+"choice": 3,
+"yes": {
+"1": -15.625,
+"3": -14.5
+},
+"sec": 0.10757017135620117,
+"sec_verify": 0.09231734275817871
+},
+{
+"stage": "approach2",
+"height": 0.3371428212714669,
+"visible": [
+1
+],
+"choice": 1,
+"yes": {
+"1": -14.0
+},
+"sec": 0.09505391120910645,
+"sec_verify": 0.044454097747802734
+},
+{
+"stage": "approach3",
+"height": 0.2584971308842448,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": 18.5
+},
+"sec": 0.07359099388122559,
+"sec_verify": 0.0484158992767334
+},
+{
+"stage": "look",
+"height": 0.24144616542636968,
+"visible": [
+2
+],
+"choice": 2,
+"yes": {
+"2": 18.75
+},
+"sec": 0.10010361671447754,
+"sec_verify": 0.04799962043762207
+}
+],
+"seed": 9,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 2.568472385406494
+},
+{
+"target": "foam brick",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "006_mustard_bottle",
+"2": "037_scissors",
+"3": "004_sugar_box",
+"4": "036_wood_block",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 0,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 0,
+"yes": {
+"0": 4.0,
+"1": 2.0,
+"2": -16.25,
+"3": -4.75,
+"4": 1.75,
+"5": -12.25
+},
+"sec": 0.3062255382537842,
+"sec_verify": 0.2828938961029053
+},
+{
+"stage": "approach0",
+"height": 0.479789422489427,
+"visible": [
+0,
+1,
+3
+],
+"choice": 1,
+"yes": {
+"0": -3.0,
+"1": 0.5,
+"3": -9.25
+},
+"sec": 0.17727136611938477,
+"sec_verify": 0.13591980934143066
+},
+{
+"stage": "approach1",
+"height": 0.4314044841304635,
+"visible": [
+0,
+1,
+3
+],
+"choice": 1,
+"yes": {
+"0": 1.5,
+"1": 5.5,
+"3": -11.25
+},
+"sec": 0.14157557487487793,
+"sec_verify": 0.13765501976013184
+},
+{
+"stage": "approach2",
+"height": 0.35365191853614447,
+"visible": [
+0,
+3
+],
+"choice": 0,
+"yes": {
+"0": -8.5,
+"3": -10.0
+},
+"sec": 0.11917901039123535,
+"sec_verify": 0.09469127655029297
+},
+{
+"stage": "approach3",
+"height": 0.2901274922141217,
+"visible": [
+0
+],
+"choice": 0,
+"yes": {
+"0": 1.25
+},
+"sec": 0.05112266540527344,
+"sec_verify": 0.046477556228637695
+},
+{
+"stage": "look",
+"height": 0.2740677481739476,
+"visible": [
+0
+],
+"choice": 0,
+"yes": {
+"0": 1.5
+},
+"sec": 0.09663176536560059,
+"sec_verify": 0.04729461669921875
+}
+],
+"seed": 9,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 2.508453369140625
+},
+{
+"target": "sugar box",
+"probe": true,
+"fail": null,
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "006_mustard_bottle",
+"2": "037_scissors",
+"3": "004_sugar_box",
+"4": "036_wood_block",
+"5": "011_banana"
+},
+"target_segmented": true,
+"initial_choice": 3,
+"views": [
+{
+"stage": "ext",
+"height": null,
+"visible": [
+0,
+1,
+2,
+3,
+4,
+5
+],
+"choice": 3,
+"yes": {
+"0": -2.25,
+"1": 0.75,
+"2": -17.5,
+"3": 8.25,
+"4": -8.0,
+"5": -12.25
+},
+"sec": 0.30888819694519043,
+"sec_verify": 0.2840592861175537
+},
+{
+"stage": "approach0",
+"height": 0.4853957765497028,
+"visible": [
+0,
+1,
+3
+],
+"choice": 3,
+"yes": {
+"0": -0.75,
+"1": -10.75,
+"3": 13.25
+},
+"sec": 0.14409136772155762,
+"sec_verify": 0.13202667236328125
+},
+{
+"stage": "approach1",
+"height": 0.46786989403926504,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -0.75,
+"1": -6.5,
+"3": 14.25,
+"5": -7.0
+},
+"sec": 0.2097480297088623,
+"sec_verify": 0.1944892406463623
+},
+{
+"stage": "approach2",
+"height": 0.4366926770885398,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -1.0,
+"1": -2.7499961853027344,
+"3": 12.75,
+"5": -15.0
+},
+"sec": 0.2035539150238037,
+"sec_verify": 0.19781851768493652
+},
+{
+"stage": "approach3",
+"height": 0.4062415600422274,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": 0.0,
+"1": -3.4999961853027344,
+"3": 4.5,
+"5": -15.875
+},
+"sec": 0.23378443717956543,
+"sec_verify": 0.18805265426635742
+},
+{
+"stage": "look",
+"height": 0.39856274538445946,
+"visible": [
+0,
+1,
+3,
+5
+],
+"choice": 3,
+"yes": {
+"0": -0.25,
+"1": -2.0,
+"3": 11.75,
+"5": -17.0
+},
+"sec": 0.19986677169799805,
+"sec_verify": 0.18495750427246094
+}
+],
+"seed": 9,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 3.3434715270996094
+}
+]

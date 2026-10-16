@@ -18,19 +18,30 @@ LOOK_Z = 0.22                   # TCP height above the object top for the wrist 
 CAM_IN_TCP = np.array([0.065, 0.0, 0.04 - 0.1034])      # wrist camera position in the TCP frame (hand-eye calibration)
 
 
+def look_pose(prop):
+    """TCP pose that puts the wrist camera straight above the object, LOOK_Z above its top, pointing down."""
+    T = np.eye(4); T[:3, :3] = np.diag([1.0, -1.0, -1.0])             # TCP pointing down, hand x forward
+    T[:2, 3] = prop["center"][:2] - (T[:3, :3] @ CAM_IN_TCP)[:2]; T[2, 3] = prop["top"] + LOOK_Z
+    return T
+
+
+def match_wrist(F, prop, max_d=0.06):
+    """Wrist-view proposals and the one matching `prop` (nearest in xy within max_d), or None."""
+    props_w, _ = proposals({"wrist": F["wrist"]})
+    if not props_w: return props_w, None, np.inf
+    d = [np.linalg.norm(p["center"][:2] - prop["center"][:2]) for p in props_w]; k = int(np.argmin(d))
+    return props_w, (props_w[k] if d[k] <= max_d else None), float(d[k])
+
+
 def look_refine(robot, prop, table, controller, grasp_mode):
     """Move the wrist camera straight above the chosen object, re-segment it from the top view, and re-plan the grasp.
     A side-on external view sees only front/top faces, which biases the footprint (centre and angle) of tall objects."""
-    T = np.eye(4); T[:3, :3] = np.diag([1.0, -1.0, -1.0])             # TCP pointing down, hand x forward
-    T[:2, 3] = prop["center"][:2] - (T[:3, :3] @ CAM_IN_TCP)[:2]; T[2, 3] = prop["top"] + LOOK_Z
-    r, info = move(robot, T, controller if controller == "native" else "joint", straight=False)
+    r, info = move(robot, look_pose(prop), controller if controller == "native" else "joint", straight=False)
     if r is None: return None, dict(reason="ik_look")
-    F = robot.frames(); props_w, _ = proposals({"wrist": F["wrist"]})
+    F = robot.frames(); props_w, q, d = match_wrist(F, prop)
     if not props_w: return None, dict(reason="no_wrist_props")
-    d = [np.linalg.norm(p["center"][:2] - prop["center"][:2]) for p in props_w]; k = int(np.argmin(d))
-    if d[k] > 0.06: return None, dict(reason="wrist_no_match", dist=float(d[k]))
-    q = props_w[k]; merged = dict(q); merged["points"] = q["points"]
-    g = top_down_grasp(merged, table, yaw_mode=grasp_mode)
+    if q is None: return None, dict(reason="wrist_no_match", dist=d)
+    g = top_down_grasp(q, table, yaw_mode=grasp_mode)
     return g, dict(reason="", shift=float(np.linalg.norm(q["center"][:2] - prop["center"][:2])), wrist_props=len(props_w))
 
 
@@ -69,6 +80,11 @@ def run(robot, target_desc, ground, grasp_mode="pca", controller="cartesian", ca
     if refine:
         g2, rinfo = look_refine(robot, prop, table, controller, grasp_mode); rec["refine"] = rinfo
         if g2 is not None: g = g2
+    return execute(robot, g, rec, controller, gt)
+
+
+def execute(robot, g, rec, controller, gt=None):
+    """Pre-grasp -> straight approach -> close -> lift, then success and failure attribution (rec["fail"] keeps an earlier cause)."""
     rec["grasp"] = dict(width=g["width"], feasible=g["feasible"], T=g["T"].tolist())
     if not g["feasible"]: rec["fail"] = rec["fail"] or "grasp_plan"; return rec
     T_pre = g["T"].copy(); T_pre[2, 3] += PRE_Z

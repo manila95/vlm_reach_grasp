@@ -20,6 +20,7 @@ ap.add_argument("--grasp", default="pca", choices=["pca", "fixed"]); ap.add_argu
 ap.add_argument("--refine", action="store_true", help="look with the wrist camera above the object before grasping")
 ap.add_argument("--n_objects", type=int, default=6); ap.add_argument("--out", required=True); ap.add_argument("--save_scenes", default=None)
 ap.add_argument("--video", type=int, default=0, help="record the external camera for the first N episodes")
+ap.add_argument("--reactive", default=None, help="reactive grounding (vrg.franka.reactive) with a VLM server: 'port=6102,mode=point,K=2,verify=1,R=2,tau=0'")
 ap.add_argument("--episodes", default=None, help="only these episodes, all recorded: 'seed:target,...' (e.g. 103:021_bleach_cleanser)")
 A = ap.parse_args()
 import faulthandler   # per-episode watchdog: a hung episode (seen: RTX render deadlock) exits with code 1, run.sh restarts and resumes
@@ -102,6 +103,11 @@ def main():
     os.makedirs(A.out, exist_ok=True); resf = f"{A.out}/results.json"
     res = json.load(open(resf)) if os.path.exists(resf) else []; done = {(r["seed"], r["target_name"]) for r in res}
     env = IsaacFranka(n_objects=A.n_objects, record_video=False)
+    RX = dict(kv.split("=") for kv in A.reactive.split(",")) if A.reactive else None
+    if RX:
+        from vrg.franka import reactive
+        from vrg.franka.vlm_client import RemoteVLM
+        vlm = RemoteVLM(int(RX["port"]))
     holder = {}; ground = make_ground(A.grounding, holder); propose = gt_proposals(env) if A.perception == "gt" else None
     n_ep = 0
     for seed in seeds:
@@ -114,7 +120,13 @@ def main():
             env.record_video = n_ep <= A.video or bool(only); env.video = []
             gt = GT(env, tname); holder.update(gt=gt, key=f"{seed}|{tname}")
             t0 = time.time()
-            rec = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, propose=propose, refine=A.refine)
+            if RX and RX.get("probe"):
+                rec = reactive.probe(env, OBJECTS[tname][0], vlm, RX["mode"], K_app=int(RX.get("K", 4)), gt=gt)
+            elif RX:
+                rec = reactive.run(env, OBJECTS[tname][0], vlm, RX["mode"], K_app=int(RX.get("K", 2)), verify=bool(int(RX.get("verify", 0))),
+                                   R=int(RX.get("R", 2)), tau=float(RX.get("tau", 0)), ext_modes=RX["ext"].split("+") if "ext" in RX else None, gate=RX.get("gate"), rule=RX.get("rule", "vote"), grasp_mode=A.grasp, controller=A.controller, gt=gt)
+            else:
+                rec = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, propose=propose, refine=A.refine)
             F, props = rec.pop("_frames"), rec.pop("_props")
             if A.save_scenes:
                 os.makedirs(A.save_scenes, exist_ok=True)
@@ -128,8 +140,8 @@ def main():
                 import imageio; os.makedirs(f"{A.out}/videos", exist_ok=True)
                 imageio.mimsave(f"{A.out}/videos/{seed}_{tname}_{'ok' if rec.get('success') else 'fail'}.mp4", env.video, fps=20)
             res.append(rec); json.dump(res, open(resf, "w"), indent=0, default=float)
-            print(f"seed {seed} {OBJECTS[tname][0]:16s} success={rec.get('success')} fail={rec['fail']} "
-                  f"ground_ok={rec.get('grounding_correct')} reach_err={rec.get('reach_err', float('nan')):.4f} ({rec['sec']:.0f}s)", flush=True)
+            print(f"seed {seed} {OBJECTS[tname][0]:16s} success={rec.get('success')} fail={rec.get('fail')} "
+                  f"ground_ok={rec.get('grounding_correct')} init_ok={rec.get('initial_correct')} n_vlm={rec.get('n_vlm')} reach_err={rec.get('reach_err', float('nan')):.4f} ({rec['sec']:.0f}s)", flush=True)
     sr = np.mean([r.get("success", False) for r in res]) if res else 0
     print(f"== {A.out}: success {sr:.3f} over {len(res)} episodes", flush=True)
 
