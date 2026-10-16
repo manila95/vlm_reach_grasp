@@ -1,0 +1,9490 @@
+[
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4954078197479248,
+"ground": 0.006291389465332031
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "004_sugar_box",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008378277120926198,
+"wrist_props": 1
+},
+"seed": 100,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 7.400490760803223
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.7096362113952637,
+"ground": 0.006773471832275391
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "004_sugar_box",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02354358196070946,
+"wrist_props": 5
+},
+"seed": 100,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 9.442450523376465
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3826782703399658,
+"ground": 0.0056993961334228516
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "004_sugar_box",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.011879458869659486,
+"wrist_props": 5
+},
+"seed": 100,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 9.219780206680298
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3298313617706299,
+"ground": 0.00595545768737793
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "004_sugar_box",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01890117478243984,
+"wrist_props": 5
+},
+"seed": 100,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 3.685269594192505
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2954680919647217,
+"ground": 0.005567312240600586
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.009401922788834581,
+"wrist_props": 2
+},
+"seed": 101,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 5.25954794883728
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.38074660301208496,
+"ground": 0.015030384063720703,
+"execute": 10.395552396774292
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03184128038979678,
+"wrist_props": 4
+},
+"reach_err": 0.0033111390900154164,
+"reach_err_rot": 0.002709372472390346,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 101,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 19.079315185546875
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9887604713439941,
+"ground": 0.005667209625244141
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0028276633067491246,
+"wrist_props": 2
+},
+"seed": 101,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.559981346130371
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.22730302810668945,
+"ground": 0.006023406982421875
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019421492459426454,
+"wrist_props": 3
+},
+"seed": 101,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 0.7527437210083008
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.38670849800109863,
+"ground": 0.004991769790649414,
+"execute": 0.7421789169311523
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01134896354697339,
+"wrist_props": 3
+},
+"reach_err": 0.0026420110325213967,
+"reach_err_rot": 0.0018216145193898814,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 101,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.5502922534942627
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.1575524806976318,
+"ground": 0.006037235260009766
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "037_scissors",
+"2": "010_potted_meat_can",
+"3": "011_banana",
+"4": "006_mustard_bottle",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0149507146400609,
+"wrist_props": 2
+},
+"seed": 101,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 2.6588499546051025
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5468015670776367,
+"ground": 0.005830287933349609
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "010_potted_meat_can",
+"4": "040_large_marker",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022400377561566938,
+"wrist_props": 2
+},
+"seed": 102,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.422006368637085
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4868659973144531,
+"ground": 0.008492231369018555,
+"execute": 0.6026620864868164
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "010_potted_meat_can",
+"4": "040_large_marker",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019579380175644097,
+"wrist_props": 3
+},
+"reach_err": 0.004607029519087993,
+"reach_err_rot": 0.0035368028010440986,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 102,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.9035530090332031
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6018471717834473,
+"ground": 0.00599217414855957
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "010_potted_meat_can",
+"4": "040_large_marker",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023159579524547325,
+"wrist_props": 3
+},
+"seed": 102,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.0230681896209717
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5242424011230469,
+"ground": 0.006062746047973633,
+"execute": 0.6708753108978271
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "010_potted_meat_can",
+"4": "040_large_marker",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007262917313915673,
+"wrist_props": 2
+},
+"reach_err": 0.004489280176602637,
+"reach_err_rot": 0.003632224847930154,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 102,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.8779644966125488
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9436764717102051,
+"ground": 0.005818605422973633
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "010_potted_meat_can",
+"4": "040_large_marker",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016738153883731708,
+"wrist_props": 2
+},
+"seed": 102,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.0817439556121826
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.36197710037231445,
+"ground": 0.005956172943115234,
+"execute": 0.7368974685668945
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "061_foam_brick",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022418820164352912,
+"wrist_props": 5
+},
+"reach_err": 0.003026115298732019,
+"reach_err_rot": 0.002170545985690852,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 103,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.4376583099365234
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.28371334075927734,
+"ground": 0.005540370941162109
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "061_foam_brick",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016014115954641618,
+"wrist_props": 4
+},
+"seed": 103,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 0.7186574935913086
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.204420804977417,
+"ground": 0.0052530765533447266
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "061_foam_brick",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03072339355566331,
+"wrist_props": 3
+},
+"seed": 103,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 0.7838857173919678
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5363290309906006,
+"ground": 0.0056362152099609375,
+"execute": 0.7280552387237549
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "061_foam_brick",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.039944906003526265,
+"wrist_props": 3
+},
+"reach_err": 0.0028169969886098554,
+"reach_err_rot": 0.002207916254166163,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "021_bleach_cleanser",
+"success": true,
+"seed": 103,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.7215077877044678
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5195763111114502,
+"ground": 0.00600433349609375,
+"execute": 0.6672446727752686
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "061_foam_brick",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0073148121239354925,
+"wrist_props": 4
+},
+"reach_err": 0.004189875094338682,
+"reach_err_rot": 0.0032762799274200535,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 103,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.536235809326172
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3485257625579834,
+"ground": 0.006082057952880859
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "024_bowl",
+"2": "021_bleach_cleanser",
+"3": "051_large_clamp",
+"4": "007_tuna_fish_can",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02214420602486385,
+"wrist_props": 5
+},
+"seed": 104,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.1446905136108398
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6354310512542725,
+"ground": 0.00664067268371582
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "024_bowl",
+"2": "021_bleach_cleanser",
+"3": "051_large_clamp",
+"4": "007_tuna_fish_can",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007255183222754908,
+"wrist_props": 2
+},
+"seed": 104,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.4513511657714844
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.46987390518188477,
+"ground": 0.007044553756713867
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "024_bowl",
+"2": "021_bleach_cleanser",
+"3": "051_large_clamp",
+"4": "007_tuna_fish_can",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012665677868941447,
+"wrist_props": 1
+},
+"seed": 104,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.3624238967895508
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.451094388961792,
+"ground": 0.005700826644897461
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "024_bowl",
+"2": "021_bleach_cleanser",
+"3": "051_large_clamp",
+"4": "007_tuna_fish_can",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021865597504051586,
+"wrist_props": 5
+},
+"seed": 104,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.0327792167663574
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5032312870025635,
+"ground": 0.006301164627075195
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01564391301249743,
+"wrist_props": 3
+},
+"seed": 105,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.2718346118927002
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5114541053771973,
+"ground": 0.006074190139770508,
+"execute": 0.779310941696167
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.027227458995092473,
+"wrist_props": 4
+},
+"reach_err": 0.0031120922648782356,
+"reach_err_rot": 0.0026282629951122974,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "004_sugar_box",
+"success": true,
+"seed": 105,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.978123664855957
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.33238720893859863,
+"ground": 0.0069119930267333984,
+"execute": 0.7489159107208252
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012768439350867923,
+"wrist_props": 5
+},
+"reach_err": 0.0036443954614551184,
+"reach_err_rot": 0.0026636146423516245,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 105,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.6661901473999023
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.34766387939453125,
+"ground": 0.006069660186767578
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02991364760031552,
+"wrist_props": 4
+},
+"seed": 105,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.8856570720672607
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.364300012588501,
+"ground": 0.006605386734008789
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.010638188415969568,
+"wrist_props": 4
+},
+"seed": 105,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.1650390625
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.0836749076843262,
+"ground": 0.0066301822662353516
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "009_gelatin_box",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008840860502747504,
+"wrist_props": 2
+},
+"seed": 105,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 2.7919607162475586
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7865655422210693,
+"ground": 0.005229949951171875
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.034767323529958406,
+"wrist_props": 5
+},
+"seed": 106,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.7070508003234863
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.1909160614013672,
+"ground": 0.004554271697998047,
+"execute": 0.7469644546508789
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023313241052755146,
+"wrist_props": 5
+},
+"reach_err": 0.0034403372383413136,
+"reach_err_rot": 0.002985033107178802,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "004_sugar_box",
+"success": true,
+"seed": 106,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.3848192691802979
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.46253538131713867,
+"ground": 0.005155086517333984
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021993352182345407,
+"wrist_props": 4
+},
+"seed": 106,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.1454193592071533
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3185100555419922,
+"ground": 0.005602836608886719
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026237368688517247,
+"wrist_props": 4
+},
+"seed": 106,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 0.8716945648193359
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4389166831970215,
+"ground": 0.0075533390045166016,
+"execute": 0.7429647445678711
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021988772167304466,
+"wrist_props": 2
+},
+"reach_err": 0.003562353219163104,
+"reach_err_rot": 0.0026264007263350785,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 106,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.602973222732544
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.1613173484802246,
+"ground": 0.005330801010131836
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02627581535636136,
+"wrist_props": 3
+},
+"seed": 107,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 0.5782139301300049
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.2647716999053955,
+"ground": 0.007395267486572266
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 107,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.28087854385375977
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4552023410797119,
+"ground": 0.005518436431884766
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012904493918774664,
+"wrist_props": 1
+},
+"seed": 107,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 0.8160386085510254
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3087496757507324,
+"ground": 0.005582332611083984
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020859117649808506,
+"wrist_props": 4
+},
+"seed": 107,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.0432229042053223
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.23244953155517578,
+"ground": 0.005269050598144531,
+"execute": 0.737468957901001
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014775433702949543,
+"wrist_props": 1
+},
+"reach_err": 0.004387887569817303,
+"reach_err_rot": 0.0034642869591300883,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "008_pudding_box",
+"success": true,
+"seed": 107,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.1713480949401855
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.3118751049041748,
+"ground": 0.005069255828857422,
+"execute": 0.6728076934814453
+},
+"n_props": 5,
+"prop_labels": {
+"0": "037_scissors",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "021_bleach_cleanser",
+"4": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.033269913420464946,
+"wrist_props": 2
+},
+"reach_err": 0.003052200403338853,
+"reach_err_rot": 0.0021493418828249003,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "010_potted_meat_can",
+"success": true,
+"seed": 107,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.3625891208648682
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8181331157684326,
+"ground": 0.0052793025970458984
+},
+"n_props": 5,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "003_cracker_box",
+"2": "021_bleach_cleanser",
+"3": "004_sugar_box",
+"4": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.030561419768077767,
+"wrist_props": 4
+},
+"seed": 108,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.9000606536865234
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.37827372550964355,
+"ground": 0.0058765411376953125
+},
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "021_bleach_cleanser",
+"4": "004_sugar_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020736864501911284,
+"wrist_props": 4
+},
+"seed": 108,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.8747968673706055
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.980736494064331,
+"ground": 0.006056070327758789
+},
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "021_bleach_cleanser",
+"4": "004_sugar_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.029389432718429597,
+"wrist_props": 2
+},
+"seed": 108,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 2.2075865268707275
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2480909824371338,
+"ground": 0.007640838623046875
+},
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "021_bleach_cleanser",
+"4": "004_sugar_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02538505136206692,
+"wrist_props": 2
+},
+"seed": 108,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.1419804096221924
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.20148444175720215,
+"ground": 0.0059087276458740234
+},
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "021_bleach_cleanser",
+"4": "004_sugar_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.042165209474972876,
+"wrist_props": 4
+},
+"seed": 108,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.4952397346496582
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.1858501434326172,
+"ground": 0.005815267562866211
+},
+"n_props": 6,
+"prop_labels": {
+"0": "051_large_clamp",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "021_bleach_cleanser",
+"4": "004_sugar_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 108,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 0.197676420211792
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.8243403434753418,
+"ground": 0.0063018798828125,
+"execute": 0.8295769691467285
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "051_large_clamp",
+"2": "061_foam_brick",
+"3": "006_mustard_bottle",
+"4": "002_master_chef_can",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012988625254584782,
+"wrist_props": 1
+},
+"reach_err": 0.0017412083392654677,
+"reach_err_rot": 0.0013792410268617323,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "037_scissors",
+"success": true,
+"seed": 109,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 2.294513702392578
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4333217144012451,
+"ground": 0.0060765743255615234
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "051_large_clamp",
+"2": "061_foam_brick",
+"3": "006_mustard_bottle",
+"4": "002_master_chef_can",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01764921316870655,
+"wrist_props": 2
+},
+"seed": 109,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 0.9870350360870361
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.48421549797058105,
+"ground": 0.005694150924682617
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "051_large_clamp",
+"2": "061_foam_brick",
+"3": "006_mustard_bottle",
+"4": "002_master_chef_can",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02334924878860917,
+"wrist_props": 2
+},
+"seed": 109,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 1.1347486972808838
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9669532775878906,
+"ground": 0.007260322570800781
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "051_large_clamp",
+"2": "061_foam_brick",
+"3": "006_mustard_bottle",
+"4": "002_master_chef_can",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01565498364847229,
+"wrist_props": 3
+},
+"seed": 109,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.4486355781555176
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 1.059821367263794,
+"ground": 0.0061037540435791016,
+"execute": 0.6774756908416748
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "051_large_clamp",
+"2": "061_foam_brick",
+"3": "006_mustard_bottle",
+"4": "002_master_chef_can",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023590194036040093,
+"wrist_props": 4
+},
+"reach_err": 0.003297928264524505,
+"reach_err_rot": 0.002964206484588668,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 109,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 2.7095539569854736
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.461287260055542,
+"ground": 0.006052255630493164
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "009_gelatin_box",
+"2": "021_bleach_cleanser",
+"3": "005_tomato_soup_can",
+"4": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.030366290993643224,
+"wrist_props": 2
+},
+"seed": 110,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.8245556354522705
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 1.5805907249450684,
+"ground": 0.00611567497253418
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "009_gelatin_box",
+"2": "021_bleach_cleanser",
+"3": "005_tomato_soup_can",
+"4": "007_tuna_fish_can"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 110,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.59255051612854
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6444737911224365,
+"ground": 0.0058460235595703125
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "009_gelatin_box",
+"2": "021_bleach_cleanser",
+"3": "005_tomato_soup_can",
+"4": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03421030702219672,
+"wrist_props": 5
+},
+"seed": 110,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 2.1884543895721436
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 1.2859055995941162,
+"ground": 0.0052471160888671875,
+"execute": 0.7401838302612305
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "009_gelatin_box",
+"2": "021_bleach_cleanser",
+"3": "005_tomato_soup_can",
+"4": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014492148282641497,
+"wrist_props": 4
+},
+"reach_err": 0.003436968189290727,
+"reach_err_rot": 0.002527667233862507,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 110,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 3.2861037254333496
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.19774174690246582,
+"ground": 0.005105257034301758,
+"execute": 0.7295937538146973
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "009_gelatin_box",
+"2": "021_bleach_cleanser",
+"3": "005_tomato_soup_can",
+"4": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020691266998006025,
+"wrist_props": 2
+},
+"reach_err": 0.004302921003186271,
+"reach_err_rot": 0.003383594741612546,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 110,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.137603998184204
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6299505233764648,
+"ground": 0.007919073104858398
+},
+"n_props": 8,
+"prop_labels": {
+"0": "040_large_marker",
+"1": "010_potted_meat_can",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "011_banana",
+"5": "011_banana",
+"6": "025_mug",
+"7": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 7
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018968897126676456,
+"wrist_props": 3
+},
+"seed": 111,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.0724294185638428
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.41356396675109863,
+"ground": 0.00703740119934082,
+"execute": 0.8687140941619873
+},
+"n_props": 8,
+"prop_labels": {
+"0": "040_large_marker",
+"1": "010_potted_meat_can",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "011_banana",
+"5": "011_banana",
+"6": "025_mug",
+"7": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.025106420842184334,
+"wrist_props": 3
+},
+"reach_err": 0.0032085090774389546,
+"reach_err_rot": 0.0022973407578544573,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "010_potted_meat_can",
+"success": true,
+"seed": 111,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.340268135070801
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2841479778289795,
+"ground": 0.007147312164306641
+},
+"n_props": 7,
+"prop_labels": {
+"0": "040_large_marker",
+"1": "010_potted_meat_can",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "011_banana",
+"5": "025_mug",
+"6": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023566596047447503,
+"wrist_props": 4
+},
+"seed": 111,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.6843187808990479
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2985854148864746,
+"ground": 0.007342338562011719,
+"execute": 0.790459394454956
+},
+"n_props": 8,
+"prop_labels": {
+"0": "040_large_marker",
+"1": "010_potted_meat_can",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "011_banana",
+"5": "011_banana",
+"6": "025_mug",
+"7": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007485047410385276,
+"wrist_props": 2
+},
+"reach_err": 0.002347906162057877,
+"reach_err_rot": 0.001728832920785175,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 111,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.3535232543945312
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "reach",
+"t": {
+"perceive": 0.43441319465637207,
+"ground": 0.007319927215576172,
+"execute": 0.8229093551635742
+},
+"n_props": 8,
+"prop_labels": {
+"0": "040_large_marker",
+"1": "010_potted_meat_can",
+"2": "021_bleach_cleanser",
+"3": "011_banana",
+"4": "011_banana",
+"5": "011_banana",
+"6": "025_mug",
+"7": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.07055194582483504
+},
+"reach_err": 0.04920885813469511,
+"reach_err_rot": 0.07991322162560364,
+"disturbed_before_close": [],
+"held_after_close": false,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 111,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.8906042575836182
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2250680923461914,
+"ground": 0.0055620670318603516,
+"execute": 0.7903807163238525
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02013640364604719,
+"wrist_props": 3
+},
+"reach_err": 0.004394599790917837,
+"reach_err_rot": 0.0032994981585076546,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "010_potted_meat_can",
+"success": true,
+"seed": 112,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.428341865539551
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.206434965133667,
+"ground": 0.006253242492675781
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0041968035131730195,
+"wrist_props": 3
+},
+"seed": 112,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.280683994293213
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6759090423583984,
+"ground": 0.005682945251464844
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02013476509825809,
+"wrist_props": 1
+},
+"seed": 112,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.330019235610962
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.305126428604126,
+"ground": 0.005650758743286133,
+"execute": 0.7315447330474854
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016295937801656182,
+"wrist_props": 2
+},
+"reach_err": 0.004142695773163964,
+"reach_err_rot": 0.0033830444477521674,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "061_foam_brick",
+"success": true,
+"seed": 112,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.6239819526672363
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2861475944519043,
+"ground": 0.004887104034423828
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.028929601473936258,
+"wrist_props": 5
+},
+"seed": 112,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.5766685009002686
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.44966983795166016,
+"ground": 0.006156206130981445
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "021_bleach_cleanser",
+"2": "037_scissors",
+"3": "011_banana",
+"4": "010_potted_meat_can",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.044741887447961974,
+"wrist_props": 3
+},
+"seed": 112,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 0.8546297550201416
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.40170836448669434,
+"ground": 0.0056610107421875
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02786485949456462,
+"wrist_props": 2
+},
+"seed": 113,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.8479018211364746
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.21158957481384277,
+"ground": 0.0055925846099853516
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 113,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 0.22294855117797852
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.46701812744140625,
+"ground": 0.005896091461181641
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04736294940642895,
+"wrist_props": 3
+},
+"seed": 113,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.012047290802002
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.21183466911315918,
+"ground": 0.005259513854980469
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0222776342849345,
+"wrist_props": 2
+},
+"seed": 113,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.4826886653900146
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.20847082138061523,
+"ground": 0.024829626083374023
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04991859458954481,
+"wrist_props": 3
+},
+"seed": 113,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.6943511962890625
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.47872257232666016,
+"ground": 0.0051937103271484375,
+"execute": 0.7684907913208008
+},
+"n_props": 5,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "003_cracker_box",
+"2": "004_sugar_box",
+"3": "010_potted_meat_can",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.024661250568312983,
+"wrist_props": 3
+},
+"reach_err": 0.002951127386958065,
+"reach_err_rot": 0.0029699785949233418,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "021_bleach_cleanser",
+"success": true,
+"seed": 113,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 2.1241915225982666
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5228028297424316,
+"ground": 0.0051572322845458984,
+"execute": 0.7524926662445068
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012233734711094946,
+"wrist_props": 2
+},
+"reach_err": 0.0033070098347063016,
+"reach_err_rot": 0.002374852118641136,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 114,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.2941362857818604
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7548561096191406,
+"ground": 0.005344867706298828
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.036942053740832745,
+"wrist_props": 4
+},
+"seed": 114,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.5221633911132812
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3847537040710449,
+"ground": 0.0050008296966552734
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03802154527828402,
+"wrist_props": 3
+},
+"seed": 114,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.9628968238830566
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.23115110397338867,
+"ground": 0.005242824554443359
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 114,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.24186348915100098
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.389707088470459,
+"ground": 0.005850076675415039
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019006469214077754,
+"wrist_props": 1
+},
+"seed": 114,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.1777596473693848
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2028799057006836,
+"ground": 0.0050013065338134766
+},
+"n_props": 5,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "061_foam_brick",
+"2": "009_gelatin_box",
+"3": "003_cracker_box",
+"4": "051_large_clamp"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01128458803204703,
+"wrist_props": 3
+},
+"seed": 114,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 0.6863429546356201
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.33330202102661133,
+"ground": 0.006157398223876953,
+"execute": 0.8627264499664307
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "040_large_marker",
+"4": "002_master_chef_can",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02158166677015922,
+"wrist_props": 4
+},
+"reach_err": 0.003683735548404785,
+"reach_err_rot": 0.002772721423916918,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 115,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.010251998901367
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4653787612915039,
+"ground": 0.005640983581542969
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "040_large_marker",
+"4": "002_master_chef_can",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008762459013395571,
+"wrist_props": 3
+},
+"seed": 115,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.0913610458374023
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5785229206085205,
+"ground": 0.005984067916870117
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "040_large_marker",
+"4": "002_master_chef_can",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022213241688729377,
+"wrist_props": 4
+},
+"seed": 115,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 0.9889638423919678
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2375497817993164,
+"ground": 0.006021738052368164
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "040_large_marker",
+"4": "002_master_chef_can",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.028520989335843995,
+"wrist_props": 4
+},
+"seed": 115,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.6449730396270752
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.311840295791626,
+"ground": 0.005906105041503906,
+"execute": 0.7112462520599365
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "040_large_marker",
+"4": "002_master_chef_can",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007300297768465605,
+"wrist_props": 4
+},
+"reach_err": 0.0032439189985745335,
+"reach_err_rot": 0.002408226057677842,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 115,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.6449501514434814
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.36638760566711426,
+"ground": 0.005982160568237305,
+"execute": 0.8785214424133301
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0224705358369236,
+"wrist_props": 2
+},
+"reach_err": 0.0028571262686170724,
+"reach_err_rot": 0.0021072609689220837,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 116,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.1040761470794678
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.25072240829467773,
+"ground": 0.006034135818481445
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "008_pudding_box",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.06821807199975446
+},
+"seed": 116,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 0.6807794570922852
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2870492935180664,
+"ground": 0.007364511489868164
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "008_pudding_box",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026152076222258274,
+"wrist_props": 2
+},
+"seed": 116,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.9772224426269531
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5159206390380859,
+"ground": 0.0055675506591796875
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "008_pudding_box",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019783463492605124,
+"wrist_props": 2
+},
+"seed": 116,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.8442530632019043
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2292647361755371,
+"ground": 0.005709171295166016
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "008_pudding_box",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.011411824069867196,
+"wrist_props": 2
+},
+"seed": 116,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 0.79248046875
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.30344438552856445,
+"ground": 0.005978584289550781,
+"execute": 0.7198665142059326
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "008_pudding_box",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0072560098877134235,
+"wrist_props": 2
+},
+"reach_err": 0.0028881151797852233,
+"reach_err_rot": 0.0021199170456823735,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 116,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.3392069339752197
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.32048869132995605,
+"ground": 0.005743741989135742,
+"execute": 0.7403790950775146
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020797672954068275,
+"wrist_props": 3
+},
+"reach_err": 0.0038250895772534614,
+"reach_err_rot": 0.002921235600369079,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 117,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.584646224975586
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_slip",
+"t": {
+"perceive": 0.7391304969787598,
+"ground": 0.006187915802001953,
+"execute": 0.759272575378418
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01864603020472799,
+"wrist_props": 4
+},
+"reach_err": 0.002605717091866243,
+"reach_err_rot": 0.0019408282320462478,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 117,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 2.0715487003326416
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.48592615127563477,
+"ground": 0.005842924118041992
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02999222995871202,
+"wrist_props": 1
+},
+"seed": 117,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.1740436553955078
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.21837854385375977,
+"ground": 0.005773067474365234
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013267278277259346,
+"wrist_props": 1
+},
+"seed": 117,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.7246904373168945
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2702596187591553,
+"ground": 0.00629115104675293,
+"execute": 0.6821334362030029
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.006969377814389323,
+"wrist_props": 3
+},
+"reach_err": 0.003479755592553222,
+"reach_err_rot": 0.0027718102643536596,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 117,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.8070108890533447
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.3164098262786865,
+"ground": 0.005779743194580078
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "040_large_marker",
+"3": "005_tomato_soup_can",
+"4": "004_sugar_box",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.027674829035105035,
+"wrist_props": 3
+},
+"seed": 117,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.8618981838226318
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.30548095703125,
+"ground": 0.006083965301513672
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "021_bleach_cleanser",
+"2": "009_gelatin_box",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02281273738309436,
+"wrist_props": 2
+},
+"seed": 118,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.1501314640045166
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5433590412139893,
+"ground": 0.005644083023071289
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "021_bleach_cleanser",
+"2": "009_gelatin_box",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02260605943361047,
+"wrist_props": 3
+},
+"seed": 118,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.4564366340637207
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5580859184265137,
+"ground": 0.006487369537353516,
+"execute": 0.8927993774414062
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "021_bleach_cleanser",
+"2": "009_gelatin_box",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007161772886690442,
+"wrist_props": 3
+},
+"reach_err": 0.004618137946379064,
+"reach_err_rot": 0.0008574934148778266,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 118,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.6399645805358887
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.23136544227600098,
+"ground": 0.006302595138549805
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "021_bleach_cleanser",
+"2": "009_gelatin_box",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.029218369718949637,
+"wrist_props": 6
+},
+"seed": 118,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.9321792125701904
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.49150538444519043,
+"ground": 0.006769418716430664,
+"execute": 0.7251372337341309
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "021_bleach_cleanser",
+"2": "009_gelatin_box",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.031209767291796715,
+"wrist_props": 5
+},
+"reach_err": 0.0032697015097176876,
+"reach_err_rot": 0.00297206695760374,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 118,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.786736249923706
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5721108913421631,
+"ground": 0.005802154541015625
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "007_tuna_fish_can",
+"2": "021_bleach_cleanser",
+"3": "061_foam_brick",
+"4": "009_gelatin_box",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018241936994016925,
+"wrist_props": 2
+},
+"seed": 119,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.545011281967163
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.22914862632751465,
+"ground": 0.012499570846557617
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "007_tuna_fish_can",
+"2": "021_bleach_cleanser",
+"3": "061_foam_brick",
+"4": "009_gelatin_box",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012786896110160349,
+"wrist_props": 2
+},
+"seed": 119,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.6519360542297363
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.199662446975708,
+"ground": 0.0055255889892578125
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "007_tuna_fish_can",
+"2": "021_bleach_cleanser",
+"3": "061_foam_brick",
+"4": "009_gelatin_box",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012713570451765775,
+"wrist_props": 3
+},
+"seed": 119,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 0.8556427955627441
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.30313539505004883,
+"ground": 0.005793094635009766,
+"execute": 0.7681906223297119
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "007_tuna_fish_can",
+"2": "021_bleach_cleanser",
+"3": "061_foam_brick",
+"4": "009_gelatin_box",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.030380309479172276,
+"wrist_props": 4
+},
+"reach_err": 0.003010212130428541,
+"reach_err_rot": 0.0015661036524143195,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "021_bleach_cleanser",
+"success": true,
+"seed": 119,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.9686787128448486
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.38781118392944336,
+"ground": 0.005834102630615234,
+"execute": 0.7379944324493408
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "007_tuna_fish_can",
+"2": "021_bleach_cleanser",
+"3": "061_foam_brick",
+"4": "009_gelatin_box",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007015090935317212,
+"wrist_props": 2
+},
+"reach_err": 0.003456130335413418,
+"reach_err_rot": 0.0027285622289672917,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 119,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.5270845890045166
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.25088977813720703,
+"ground": 0.005293369293212891
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019222229347608016,
+"wrist_props": 4
+},
+"seed": 120,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.459939956665039
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6880288124084473,
+"ground": 0.0052983760833740234
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01600694557312082,
+"wrist_props": 2
+},
+"seed": 120,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 2.301028251647949
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.34189534187316895,
+"ground": 0.005169391632080078,
+"execute": 0.8608629703521729
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023614603926045707,
+"wrist_props": 2
+},
+"reach_err": 0.0022255974447639546,
+"reach_err_rot": 0.001609037224573695,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 120,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.8076913356781006
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.23668527603149414,
+"ground": 0.0053501129150390625
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02288832330691409,
+"wrist_props": 4
+},
+"seed": 120,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 0.5886008739471436
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.29791259765625,
+"ground": 0.005331754684448242
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03790185108865165,
+"wrist_props": 2
+},
+"seed": 120,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 0.9313771724700928
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.18483543395996094,
+"ground": 0.005336284637451172
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "005_tomato_soup_can",
+"2": "006_mustard_bottle",
+"3": "010_potted_meat_can",
+"4": "004_sugar_box"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 120,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 0.19584155082702637
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.18703913688659668,
+"ground": 0.00516200065612793
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 121,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.19760608673095703
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3113210201263428,
+"ground": 0.005342960357666016
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020978585509136415,
+"wrist_props": 4
+},
+"seed": 121,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.2096326351165771
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.32265305519104004,
+"ground": 0.005238056182861328
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.011467200246660912,
+"wrist_props": 2
+},
+"seed": 121,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.405606746673584
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6222684383392334,
+"ground": 0.005002498626708984
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007391963677581259,
+"wrist_props": 3
+},
+"seed": 121,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.3535914421081543
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "reach",
+"t": {
+"perceive": 0.19793152809143066,
+"ground": 0.005158185958862305,
+"execute": 0.713186502456665
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020132704108358438,
+"wrist_props": 4
+},
+"reach_err": 0.11884473250928852,
+"reach_err_rot": 0.1994485632326236,
+"disturbed_before_close": [],
+"held_after_close": false,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 121,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.6220800876617432
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7067217826843262,
+"ground": 0.0053369998931884766
+},
+"n_props": 5,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "037_scissors",
+"2": "003_cracker_box",
+"3": "005_tomato_soup_can",
+"4": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04460170127626272,
+"wrist_props": 5
+},
+"seed": 121,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.6483893394470215
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.48819518089294434,
+"ground": 0.006139993667602539
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "036_wood_block",
+"2": "002_master_chef_can",
+"3": "011_banana",
+"4": "004_sugar_box",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0172375926191391,
+"wrist_props": 1
+},
+"seed": 122,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.296766757965088
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2052135467529297,
+"ground": 0.005666255950927734,
+"execute": 0.7731404304504395
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "036_wood_block",
+"2": "002_master_chef_can",
+"3": "011_banana",
+"4": "004_sugar_box",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02056342234240657,
+"wrist_props": 2
+},
+"reach_err": 0.004619782914235369,
+"reach_err_rot": 0.0035638101690757865,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 122,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.608466386795044
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.25693225860595703,
+"ground": 0.0056040287017822266
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "036_wood_block",
+"2": "002_master_chef_can",
+"3": "011_banana",
+"4": "004_sugar_box",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02657970643153661,
+"wrist_props": 4
+},
+"seed": 122,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.0279486179351807
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.26381444931030273,
+"ground": 0.006461381912231445
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "036_wood_block",
+"2": "002_master_chef_can",
+"3": "011_banana",
+"4": "004_sugar_box",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013950011968793967,
+"wrist_props": 1
+},
+"seed": 122,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.9841725826263428
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.651930570602417,
+"ground": 0.005545854568481445
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.003214765796038023,
+"wrist_props": 1
+},
+"seed": 123,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.4782423973083496
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5363247394561768,
+"ground": 0.005758762359619141
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03219348212814192,
+"wrist_props": 3
+},
+"seed": 123,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.7258963584899902
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.18685030937194824,
+"ground": 0.005084514617919922,
+"execute": 0.796074628829956
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02156202453532615,
+"wrist_props": 3
+},
+"reach_err": 0.003540337361175331,
+"reach_err_rot": 0.0026785587883221725,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 123,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.362231969833374
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6846635341644287,
+"ground": 0.005546092987060547
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.00959375635014603,
+"wrist_props": 3
+},
+"seed": 123,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.5910329818725586
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2581217288970947,
+"ground": 0.00585484504699707,
+"execute": 0.8094027042388916
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021453685018712247,
+"wrist_props": 3
+},
+"reach_err": 0.0029076292439235755,
+"reach_err_rot": 0.002194865830309432,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 123,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 2.0722148418426514
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8111677169799805,
+"ground": 0.005932807922363281
+},
+"n_props": 6,
+"prop_labels": {
+"0": "006_mustard_bottle",
+"1": "021_bleach_cleanser",
+"2": "005_tomato_soup_can",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "037_scissors"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.027271907950663532,
+"wrist_props": 3
+},
+"seed": 123,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.528768539428711
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.46243977546691895,
+"ground": 0.005188941955566406
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "051_large_clamp",
+"3": "036_wood_block",
+"4": "025_mug",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04693811179898939,
+"wrist_props": 4
+},
+"seed": 124,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.5377135276794434
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.6803152561187744,
+"ground": 0.005799770355224609
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "051_large_clamp",
+"3": "036_wood_block",
+"4": "025_mug",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 124,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 0.6921722888946533
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.1517550945281982,
+"ground": 0.008613109588623047
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "051_large_clamp",
+"3": "036_wood_block",
+"4": "025_mug",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01680926110458288,
+"wrist_props": 2
+},
+"seed": 124,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.6065151691436768
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4964742660522461,
+"ground": 0.005849123001098633
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "051_large_clamp",
+"3": "036_wood_block",
+"4": "025_mug",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03877073393232779,
+"wrist_props": 4
+},
+"seed": 124,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.2179391384124756
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4040839672088623,
+"ground": 0.006107330322265625
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "007_tuna_fish_can",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.009357990794036077,
+"wrist_props": 2
+},
+"seed": 125,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.8941025733947754
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.529355525970459,
+"ground": 0.005698442459106445
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "007_tuna_fish_can",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014965754388636275,
+"wrist_props": 2
+},
+"seed": 125,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.3629469871520996
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.1771678924560547,
+"ground": 0.009117841720581055,
+"execute": 0.6855337619781494
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "007_tuna_fish_can",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.034753974694385535,
+"wrist_props": 4
+},
+"reach_err": 0.002685679443615385,
+"reach_err_rot": 0.002108914729632176,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "004_sugar_box",
+"success": true,
+"seed": 125,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.531970739364624
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8387584686279297,
+"ground": 0.007791996002197266
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "007_tuna_fish_can",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008175834049008224,
+"wrist_props": 1
+},
+"seed": 125,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 2.17555832862854
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4724242687225342,
+"ground": 0.006374835968017578
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "007_tuna_fish_can",
+"4": "006_mustard_bottle",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020504541194304917,
+"wrist_props": 5
+},
+"seed": 125,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.1377925872802734
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.30440473556518555,
+"ground": 0.005722761154174805
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03104964835953648,
+"wrist_props": 3
+},
+"seed": 126,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.081817865371704
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2868649959564209,
+"ground": 0.005692481994628906
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.00800424829891012,
+"wrist_props": 2
+},
+"seed": 126,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.1090738773345947
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6639471054077148,
+"ground": 0.006530046463012695
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.015696158150581764,
+"wrist_props": 3
+},
+"seed": 126,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.960740089416504
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 1.1895463466644287,
+"ground": 0.0059740543365478516,
+"execute": 0.8218495845794678
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007282720761872189,
+"wrist_props": 4
+},
+"reach_err": 0.002722577805669681,
+"reach_err_rot": 0.0019263361652866109,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "051_large_clamp",
+"success": true,
+"seed": 126,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 2.6414737701416016
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3495659828186035,
+"ground": 0.006913900375366211
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.030213330207034737,
+"wrist_props": 4
+},
+"seed": 126,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 0.8010873794555664
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.3431720733642578,
+"ground": 0.006314754486083984,
+"execute": 0.6582770347595215
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "051_large_clamp",
+"2": "003_cracker_box",
+"3": "040_large_marker",
+"4": "037_scissors",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007031257220463494,
+"wrist_props": 4
+},
+"reach_err": 0.0033829148926932486,
+"reach_err_rot": 0.0025219539525900537,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 126,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.910954475402832
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.3513667583465576,
+"ground": 0.006128072738647461,
+"execute": 0.8351893424987793
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "007_tuna_fish_can",
+"2": "006_mustard_bottle",
+"3": "005_tomato_soup_can",
+"4": "010_potted_meat_can",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01784842429565145,
+"wrist_props": 2
+},
+"reach_err": 0.004418491151125409,
+"reach_err_rot": 0.0036082662037431913,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "010_potted_meat_can",
+"success": true,
+"seed": 127,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.8216147422790527
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6785237789154053,
+"ground": 0.006163358688354492
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "007_tuna_fish_can",
+"2": "006_mustard_bottle",
+"3": "005_tomato_soup_can",
+"4": "010_potted_meat_can",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.06429867943251256
+},
+"seed": 127,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.3234038352966309
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5290188789367676,
+"ground": 0.005905628204345703,
+"execute": 0.7319376468658447
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "007_tuna_fish_can",
+"2": "006_mustard_bottle",
+"3": "005_tomato_soup_can",
+"4": "010_potted_meat_can",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01994827780569174,
+"wrist_props": 4
+},
+"reach_err": 0.004388391705759886,
+"reach_err_rot": 0.003447591975140079,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 127,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.4766697883605957
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7359602451324463,
+"ground": 0.005902290344238281
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "007_tuna_fish_can",
+"2": "006_mustard_bottle",
+"3": "005_tomato_soup_can",
+"4": "010_potted_meat_can",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016552466596189547,
+"wrist_props": 3
+},
+"seed": 127,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.294645309448242
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.21483445167541504,
+"ground": 0.005394697189331055
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "007_tuna_fish_can",
+"2": "006_mustard_bottle",
+"3": "005_tomato_soup_can",
+"4": "010_potted_meat_can",
+"5": "009_gelatin_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020544158140107408,
+"wrist_props": 4
+},
+"seed": 127,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.7133159637451172
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5483782291412354,
+"ground": 0.005602359771728516,
+"execute": 0.8777551651000977
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "007_tuna_fish_can",
+"2": "009_gelatin_box",
+"3": "051_large_clamp",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016325766610411584,
+"wrist_props": 1
+},
+"reach_err": 0.004273508460851674,
+"reach_err_rot": 0.0034574669966081486,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "051_large_clamp",
+"success": true,
+"seed": 128,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 2.5484633445739746
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.36695051193237305,
+"ground": 0.00595855712890625,
+"execute": 0.7617402076721191
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "007_tuna_fish_can",
+"2": "009_gelatin_box",
+"3": "051_large_clamp",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01716733245169198,
+"wrist_props": 3
+},
+"reach_err": 0.0034240257433299126,
+"reach_err_rot": 0.00253751160757683,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 128,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.6285545825958252
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 1.3699798583984375,
+"ground": 0.0057086944580078125,
+"execute": 0.7999680042266846
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "007_tuna_fish_can",
+"2": "009_gelatin_box",
+"3": "051_large_clamp",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018269596764412914,
+"wrist_props": 2
+},
+"reach_err": 0.004367136059788344,
+"reach_err_rot": 0.0033074731361676254,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "010_potted_meat_can",
+"success": true,
+"seed": 128,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.6873743534088135
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.16975641250610352,
+"ground": 0.0061283111572265625
+},
+"n_props": 6,
+"prop_labels": {
+"0": "021_bleach_cleanser",
+"1": "007_tuna_fish_can",
+"2": "009_gelatin_box",
+"3": "051_large_clamp",
+"4": "010_potted_meat_can",
+"5": "002_master_chef_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.027917013403201307,
+"wrist_props": 5
+},
+"seed": 128,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.6238770484924316
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.45075201988220215,
+"ground": 0.006356477737426758
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "005_tomato_soup_can",
+"2": "051_large_clamp",
+"3": "007_tuna_fish_can",
+"4": "021_bleach_cleanser",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022485049365522043,
+"wrist_props": 3
+},
+"seed": 129,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.044889211654663
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.1861879825592041,
+"ground": 0.009934663772583008,
+"execute": 0.7658298015594482
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "005_tomato_soup_can",
+"2": "051_large_clamp",
+"3": "007_tuna_fish_can",
+"4": "021_bleach_cleanser",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021852098296195405,
+"wrist_props": 1
+},
+"reach_err": 0.003344965512354073,
+"reach_err_rot": 0.0024588265714350793,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 129,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.1097211837768555
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2585604190826416,
+"ground": 0.005993366241455078
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "005_tomato_soup_can",
+"2": "051_large_clamp",
+"3": "007_tuna_fish_can",
+"4": "021_bleach_cleanser",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01861059591134522,
+"wrist_props": 3
+},
+"seed": 129,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.5475025177001953
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.1687304973602295,
+"ground": 0.005536317825317383
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "005_tomato_soup_can",
+"2": "051_large_clamp",
+"3": "007_tuna_fish_can",
+"4": "021_bleach_cleanser",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04186548723834622,
+"wrist_props": 3
+},
+"seed": 129,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.81111741065979
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.0651564598083496,
+"ground": 0.00555872917175293
+},
+"n_props": 6,
+"prop_labels": {
+"0": "004_sugar_box",
+"1": "005_tomato_soup_can",
+"2": "051_large_clamp",
+"3": "007_tuna_fish_can",
+"4": "021_bleach_cleanser",
+"5": "006_mustard_bottle"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.009797507539825109,
+"wrist_props": 2
+},
+"seed": 129,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 2.30765962600708
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5594816207885742,
+"ground": 0.005160808563232422
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "025_mug",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.07020993824656385
+},
+"seed": 130,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.038144826889038
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5269455909729004,
+"ground": 0.007520437240600586,
+"execute": 0.7426276206970215
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "025_mug",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013935602634848278,
+"wrist_props": 1
+},
+"reach_err": 0.004467228666061812,
+"reach_err_rot": 0.0033549833107325584,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "008_pudding_box",
+"success": true,
+"seed": 130,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 1.940277099609375
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.8707156181335449,
+"ground": 0.0060482025146484375
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "025_mug",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 130,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 0.8837563991546631
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.21944236755371094,
+"ground": 0.00483250617980957,
+"execute": 0.7279064655303955
+},
+"n_props": 5,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "025_mug",
+"2": "008_pudding_box",
+"3": "036_wood_block",
+"4": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007421172721883853,
+"wrist_props": 4
+},
+"reach_err": 0.004165978453631948,
+"reach_err_rot": 0.003307368347730254,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 130,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.7219409942626953
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.35329246520996094,
+"ground": 0.005822181701660156
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "009_gelatin_box",
+"2": "011_banana",
+"3": "006_mustard_bottle",
+"4": "036_wood_block",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018165436163225922,
+"wrist_props": 4
+},
+"seed": 131,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.1868336200714111
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.43279051780700684,
+"ground": 0.005846977233886719
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "009_gelatin_box",
+"2": "011_banana",
+"3": "006_mustard_bottle",
+"4": "036_wood_block",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008570429983726282,
+"wrist_props": 1
+},
+"seed": 131,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.1135153770446777
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6271340847015381,
+"ground": 0.0057528018951416016
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "009_gelatin_box",
+"2": "011_banana",
+"3": "006_mustard_bottle",
+"4": "036_wood_block",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020451902839885617,
+"wrist_props": 4
+},
+"seed": 131,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.137253999710083
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9370059967041016,
+"ground": 0.006051778793334961
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "009_gelatin_box",
+"2": "011_banana",
+"3": "006_mustard_bottle",
+"4": "036_wood_block",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022847756558404354,
+"wrist_props": 4
+},
+"seed": 131,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.6405482292175293
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2593846321105957,
+"ground": 0.005873680114746094
+},
+"n_props": 6,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "009_gelatin_box",
+"2": "011_banana",
+"3": "006_mustard_bottle",
+"4": "036_wood_block",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.010281641579894226,
+"wrist_props": 2
+},
+"seed": 131,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 0.8713641166687012
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.44667625427246094,
+"ground": 0.005745410919189453
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "036_wood_block",
+"2": "004_sugar_box",
+"3": "002_master_chef_can",
+"4": "005_tomato_soup_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021964814793245163,
+"wrist_props": 3
+},
+"seed": 132,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.1558914184570312
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.26532506942749023,
+"ground": 0.006070613861083984,
+"execute": 1.1474924087524414
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "036_wood_block",
+"2": "004_sugar_box",
+"3": "002_master_chef_can",
+"4": "005_tomato_soup_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019599920310225484,
+"wrist_props": 3
+},
+"reach_err": 0.004683235495590846,
+"reach_err_rot": 0.0034679374331919163,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 132,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.223351240158081
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.7362120151519775,
+"ground": 0.005509376525878906,
+"execute": 0.7022898197174072
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "036_wood_block",
+"2": "004_sugar_box",
+"3": "002_master_chef_can",
+"4": "005_tomato_soup_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007556480374219993,
+"wrist_props": 2
+},
+"reach_err": 0.004407547384723579,
+"reach_err_rot": 0.0036931255957110757,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 132,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 3.224555730819702
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.1736316680908203,
+"ground": 0.006433963775634766
+},
+"n_props": 6,
+"prop_labels": {
+"0": "037_scissors",
+"1": "036_wood_block",
+"2": "004_sugar_box",
+"3": "002_master_chef_can",
+"4": "005_tomato_soup_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.006253863738209971,
+"wrist_props": 2
+},
+"seed": 132,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.6725046634674072
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.3069894313812256,
+"ground": 0.006221294403076172
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "005_tomato_soup_can",
+"2": "008_pudding_box",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04230300635263847,
+"wrist_props": 4
+},
+"seed": 133,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 3.0539615154266357
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.3541722297668457,
+"ground": 0.0070111751556396484
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "005_tomato_soup_can",
+"2": "008_pudding_box",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.032692310358952016,
+"wrist_props": 5
+},
+"seed": 133,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 3.2380199432373047
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "reach",
+"t": {
+"perceive": 2.163029193878174,
+"ground": 0.0062999725341796875,
+"execute": 0.8047409057617188
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "005_tomato_soup_can",
+"2": "008_pudding_box",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.061363732235044634
+},
+"reach_err": 0.061955050529260265,
+"reach_err_rot": 0.1188208938243156,
+"disturbed_before_close": [],
+"held_after_close": false,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 133,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 4.657983064651489
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.31665825843811035,
+"ground": 0.006322383880615234,
+"execute": 0.916888952255249
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "005_tomato_soup_can",
+"2": "008_pudding_box",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012158258806866508,
+"wrist_props": 2
+},
+"reach_err": 0.004177330330441488,
+"reach_err_rot": 0.0032261776824460183,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 133,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.5160701274871826
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8950459957122803,
+"ground": 0.0060443878173828125
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "005_tomato_soup_can",
+"2": "008_pudding_box",
+"3": "003_cracker_box",
+"4": "009_gelatin_box",
+"5": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018884522061364567,
+"wrist_props": 4
+},
+"seed": 133,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.794844627380371
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7026798725128174,
+"ground": 0.005841255187988281
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "037_scissors",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.003914710420676508,
+"wrist_props": 2
+},
+"seed": 134,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.731684684753418
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.33432888984680176,
+"ground": 0.005971431732177734
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "037_scissors",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013392168716293864,
+"wrist_props": 3
+},
+"seed": 134,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 0.8999614715576172
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.7773947715759277,
+"ground": 0.008230924606323242,
+"execute": 0.6583273410797119
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "037_scissors",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01895620680127269,
+"wrist_props": 4
+},
+"reach_err": 0.0037179788640901755,
+"reach_err_rot": 0.0027617040237276954,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "008_pudding_box",
+"success": true,
+"seed": 134,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.196653127670288
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8985049724578857,
+"ground": 0.006299734115600586
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "025_mug",
+"2": "009_gelatin_box",
+"3": "037_scissors",
+"4": "008_pudding_box",
+"5": "010_potted_meat_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01568204007795918,
+"wrist_props": 2
+},
+"seed": 134,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.1803133487701416
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8021562099456787,
+"ground": 0.005803585052490234
+},
+"n_props": 6,
+"prop_labels": {
+"0": "008_pudding_box",
+"1": "051_large_clamp",
+"2": "021_bleach_cleanser",
+"3": "006_mustard_bottle",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.011056971788900914,
+"wrist_props": 2
+},
+"seed": 135,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.431222677230835
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.32311129570007324,
+"ground": 0.009392499923706055,
+"execute": 0.7768161296844482
+},
+"n_props": 6,
+"prop_labels": {
+"0": "008_pudding_box",
+"1": "051_large_clamp",
+"2": "021_bleach_cleanser",
+"3": "006_mustard_bottle",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.024917721565928582,
+"wrist_props": 3
+},
+"reach_err": 0.0030954689498473493,
+"reach_err_rot": 0.0026222718525086078,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 135,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.8108110427856445
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6494317054748535,
+"ground": 0.005882740020751953
+},
+"n_props": 6,
+"prop_labels": {
+"0": "008_pudding_box",
+"1": "051_large_clamp",
+"2": "021_bleach_cleanser",
+"3": "006_mustard_bottle",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01882781585618204,
+"wrist_props": 3
+},
+"seed": 135,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 1.6261591911315918
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6735227108001709,
+"ground": 0.005974769592285156
+},
+"n_props": 6,
+"prop_labels": {
+"0": "008_pudding_box",
+"1": "051_large_clamp",
+"2": "021_bleach_cleanser",
+"3": "006_mustard_bottle",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007476221986028355,
+"wrist_props": 3
+},
+"seed": 135,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.3984947204589844
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5243840217590332,
+"ground": 0.006292581558227539
+},
+"n_props": 6,
+"prop_labels": {
+"0": "008_pudding_box",
+"1": "051_large_clamp",
+"2": "021_bleach_cleanser",
+"3": "006_mustard_bottle",
+"4": "024_bowl",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02337632386712029,
+"wrist_props": 5
+},
+"seed": 135,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.0764777660369873
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.476193904876709,
+"ground": 0.005867719650268555
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.025658023562599615,
+"wrist_props": 2
+},
+"seed": 136,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.399275779724121
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6644649505615234,
+"ground": 0.006029367446899414
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04198127658023767,
+"wrist_props": 4
+},
+"seed": 136,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.146390676498413
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3937253952026367,
+"ground": 0.005475521087646484
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016726190555701258,
+"wrist_props": 2
+},
+"seed": 136,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 0.8701069355010986
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2006680965423584,
+"ground": 0.005655765533447266
+},
+"n_props": 6,
+"prop_labels": {
+"0": "003_cracker_box",
+"1": "004_sugar_box",
+"2": "061_foam_brick",
+"3": "002_master_chef_can",
+"4": "010_potted_meat_can",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021426516583609567,
+"wrist_props": 5
+},
+"seed": 136,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 0.8655149936676025
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4423184394836426,
+"ground": 0.0064618587493896484,
+"execute": 0.6389758586883545
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "007_tuna_fish_can",
+"2": "011_banana",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007366060697895697,
+"wrist_props": 4
+},
+"reach_err": 0.0035013366304038744,
+"reach_err_rot": 0.0026823057348892,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 137,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 1.5664010047912598
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.23803448677062988,
+"ground": 0.004429817199707031,
+"execute": 0.7794044017791748
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "007_tuna_fish_can",
+"2": "011_banana",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01844751510058481,
+"wrist_props": 4
+},
+"reach_err": 0.0024095475580489154,
+"reach_err_rot": 0.001694750978660244,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 137,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.4127848148345947
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.7853512763977051,
+"ground": 0.006028413772583008,
+"execute": 0.8083829879760742
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "007_tuna_fish_can",
+"2": "011_banana",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020936352402021956,
+"wrist_props": 3
+},
+"reach_err": 0.004337751642281584,
+"reach_err_rot": 0.003341419019289873,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 137,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.702638626098633
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.6199257373809814,
+"ground": 0.005923271179199219,
+"execute": 0.7685267925262451
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "007_tuna_fish_can",
+"2": "011_banana",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026151342887227723,
+"wrist_props": 6
+},
+"reach_err": 0.0033480090661489547,
+"reach_err_rot": 0.0029074098407951715,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "006_mustard_bottle",
+"success": true,
+"seed": 137,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 2.3214733600616455
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6007833480834961,
+"ground": 0.008194684982299805
+},
+"n_props": 6,
+"prop_labels": {
+"0": "009_gelatin_box",
+"1": "007_tuna_fish_can",
+"2": "011_banana",
+"3": "040_large_marker",
+"4": "006_mustard_bottle",
+"5": "005_tomato_soup_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.024599066588586342,
+"wrist_props": 5
+},
+"seed": 137,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.1396570205688477
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "reach",
+"t": {
+"perceive": 0.21874713897705078,
+"ground": 0.006159067153930664,
+"execute": 0.7366282939910889
+},
+"n_props": 6,
+"prop_labels": {
+"0": "002_master_chef_can",
+"1": "011_banana",
+"2": "061_foam_brick",
+"3": "021_bleach_cleanser",
+"4": "009_gelatin_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012773832424040347,
+"wrist_props": 2
+},
+"reach_err": 0.07086887600751388,
+"reach_err_rot": 0.10916132421334034,
+"disturbed_before_close": [],
+"held_after_close": false,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 138,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.8457441329956055
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.29562926292419434,
+"ground": 0.0057909488677978516
+},
+"n_props": 6,
+"prop_labels": {
+"0": "002_master_chef_can",
+"1": "011_banana",
+"2": "061_foam_brick",
+"3": "021_bleach_cleanser",
+"4": "009_gelatin_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014727252192503539,
+"wrist_props": 3
+},
+"seed": 138,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 0.7110586166381836
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.28692054748535156,
+"ground": 0.006283998489379883
+},
+"n_props": 6,
+"prop_labels": {
+"0": "002_master_chef_can",
+"1": "011_banana",
+"2": "061_foam_brick",
+"3": "021_bleach_cleanser",
+"4": "009_gelatin_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03514586513764723,
+"wrist_props": 3
+},
+"seed": 138,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.9505255222320557
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.6927311420440674,
+"ground": 0.007380485534667969
+},
+"n_props": 6,
+"prop_labels": {
+"0": "002_master_chef_can",
+"1": "011_banana",
+"2": "061_foam_brick",
+"3": "021_bleach_cleanser",
+"4": "009_gelatin_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014910544759257172,
+"wrist_props": 4
+},
+"seed": 138,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 2.428783416748047
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.041914939880371,
+"ground": 0.006039857864379883
+},
+"n_props": 6,
+"prop_labels": {
+"0": "002_master_chef_can",
+"1": "011_banana",
+"2": "061_foam_brick",
+"3": "021_bleach_cleanser",
+"4": "009_gelatin_box",
+"5": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014392517316184208,
+"wrist_props": 2
+},
+"seed": 138,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 1.6908857822418213
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4557301998138428,
+"ground": 0.00566411018371582,
+"execute": 0.6959726810455322
+},
+"n_props": 6,
+"prop_labels": {
+"0": "025_mug",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008554096477286867,
+"wrist_props": 3
+},
+"reach_err": 0.003804555703864352,
+"reach_err_rot": 0.0030213410831326174,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "051_large_clamp",
+"success": true,
+"seed": 139,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 2.2491180896759033
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.6657311916351318,
+"ground": 0.005958080291748047,
+"execute": 0.8031229972839355
+},
+"n_props": 6,
+"prop_labels": {
+"0": "025_mug",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03522882539487628,
+"wrist_props": 2
+},
+"reach_err": 0.0033879286136711284,
+"reach_err_rot": 0.003134369739660784,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "004_sugar_box",
+"success": true,
+"seed": 139,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 2.735673427581787
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.46175456047058105,
+"ground": 0.005556821823120117
+},
+"n_props": 6,
+"prop_labels": {
+"0": "025_mug",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020290630837006645,
+"wrist_props": 2
+},
+"seed": 139,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 0.864922046661377
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.29534268379211426,
+"ground": 0.006062030792236328
+},
+"n_props": 6,
+"prop_labels": {
+"0": "025_mug",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02206158527817597,
+"wrist_props": 3
+},
+"seed": 139,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.223433494567871
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.2205953598022461,
+"ground": 0.006016254425048828
+},
+"n_props": 6,
+"prop_labels": {
+"0": "025_mug",
+"1": "010_potted_meat_can",
+"2": "006_mustard_bottle",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "004_sugar_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01600476943713406,
+"wrist_props": 2
+},
+"seed": 139,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 0.7589142322540283
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.716759443283081,
+"ground": 0.005904197692871094
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "037_scissors",
+"3": "040_large_marker",
+"4": "051_large_clamp",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01008274259910093,
+"wrist_props": 5
+},
+"seed": 140,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.558403491973877
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.7689681053161621,
+"ground": 0.0056209564208984375,
+"execute": 0.7920026779174805
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "037_scissors",
+"3": "040_large_marker",
+"4": "051_large_clamp",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007162976751717283,
+"wrist_props": 2
+},
+"reach_err": 0.0031723327868936994,
+"reach_err_rot": 0.0023497412918917346,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 140,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.551093101501465
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.080221176147461,
+"ground": 0.0058002471923828125
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "037_scissors",
+"3": "040_large_marker",
+"4": "051_large_clamp",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "037_scissors",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0007958309085298696,
+"wrist_props": 4
+},
+"seed": 140,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 1.7078814506530762
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.43210363388061523,
+"ground": 0.007339000701904297
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "037_scissors",
+"3": "040_large_marker",
+"4": "051_large_clamp",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016227277169485174,
+"wrist_props": 4
+},
+"seed": 140,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 0.7753479480743408
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.0833444595336914,
+"ground": 0.0066585540771484375
+},
+"n_props": 6,
+"prop_labels": {
+"0": "011_banana",
+"1": "010_potted_meat_can",
+"2": "037_scissors",
+"3": "040_large_marker",
+"4": "051_large_clamp",
+"5": "007_tuna_fish_can"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.022950381788578788,
+"wrist_props": 3
+},
+"seed": 140,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.7381715774536133
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.49823641777038574,
+"ground": 0.0046863555908203125
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "036_wood_block",
+"2": "003_cracker_box",
+"3": "051_large_clamp",
+"4": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03487152915294786,
+"wrist_props": 4
+},
+"seed": 141,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.3390648365020752
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.23273086547851562,
+"ground": 0.008320808410644531
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "036_wood_block",
+"2": "003_cracker_box",
+"3": "051_large_clamp",
+"4": "040_large_marker"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 141,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 0.2517225742340088
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3125755786895752,
+"ground": 0.005205631256103516
+},
+"n_props": 5,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "036_wood_block",
+"2": "003_cracker_box",
+"3": "051_large_clamp",
+"4": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.020851368614619042,
+"wrist_props": 4
+},
+"seed": 141,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.2250008583068848
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.1402029991149902,
+"ground": 0.005263090133666992
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "036_wood_block",
+"2": "003_cracker_box",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023616883741644,
+"wrist_props": 3
+},
+"seed": 141,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 2.2365691661834717
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5224113464355469,
+"ground": 0.005879402160644531,
+"execute": 0.6765942573547363
+},
+"n_props": 6,
+"prop_labels": {
+"0": "010_potted_meat_can",
+"1": "036_wood_block",
+"2": "003_cracker_box",
+"3": "011_banana",
+"4": "051_large_clamp",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007502172604727621,
+"wrist_props": 3
+},
+"reach_err": 0.004343133288122037,
+"reach_err_rot": 0.003438837913323777,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 141,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.94637131690979
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8272807598114014,
+"ground": 0.005512237548828125
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02339973890080162,
+"wrist_props": 2
+},
+"seed": 142,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.7879235744476318
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6541993618011475,
+"ground": 0.008882999420166016
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.033896480201722264,
+"wrist_props": 5
+},
+"seed": 142,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.252950668334961
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.8596107959747314,
+"ground": 0.006394386291503906
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.015747391052689744,
+"wrist_props": 2
+},
+"seed": 142,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.1722006797790527
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "reach",
+"t": {
+"perceive": 0.3769056797027588,
+"ground": 0.005025386810302734,
+"execute": 0.8270454406738281
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007340353492662465,
+"wrist_props": 5
+},
+"reach_err": 0.06541321518255662,
+"reach_err_rot": 0.12947148701372407,
+"disturbed_before_close": [],
+"held_after_close": false,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 142,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 3.4537150859832764
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.24551153182983398,
+"ground": 0.00520634651184082
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026391498911511747,
+"wrist_props": 3
+},
+"seed": 142,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.0631136894226074
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.8363099098205566,
+"ground": 0.005639553070068359
+},
+"n_props": 5,
+"prop_labels": {
+"0": "011_banana",
+"1": "040_large_marker",
+"2": "004_sugar_box",
+"3": "008_pudding_box",
+"4": "003_cracker_box"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 142,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 0.8478689193725586
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9028654098510742,
+"ground": 0.005600690841674805
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "008_pudding_box",
+"2": "011_banana",
+"3": "051_large_clamp",
+"4": "004_sugar_box",
+"5": "025_mug"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012822592044582835,
+"wrist_props": 2
+},
+"seed": 143,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.3125736713409424
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.3808996677398682,
+"ground": 0.006455659866333008
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "008_pudding_box",
+"2": "011_banana",
+"3": "051_large_clamp",
+"4": "004_sugar_box",
+"5": "025_mug"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.016462121228033713,
+"wrist_props": 4
+},
+"seed": 143,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 2.2063159942626953
+},
+{
+"target": "sugar box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4411506652832031,
+"ground": 0.005854129791259766,
+"execute": 0.782728910446167
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "008_pudding_box",
+"2": "011_banana",
+"3": "051_large_clamp",
+"4": "004_sugar_box",
+"5": "025_mug"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "004_sugar_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.042163908708497434,
+"wrist_props": 2
+},
+"reach_err": 0.003417593534191115,
+"reach_err_rot": 0.0030855441214205728,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "004_sugar_box",
+"success": true,
+"seed": 143,
+"target_name": "004_sugar_box",
+"n_objects": 6,
+"sec": 1.9839825630187988
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4472324848175049,
+"ground": 0.005833864212036133
+},
+"n_props": 6,
+"prop_labels": {
+"0": "036_wood_block",
+"1": "008_pudding_box",
+"2": "011_banana",
+"3": "051_large_clamp",
+"4": "004_sugar_box",
+"5": "025_mug"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.008436776508146086,
+"wrist_props": 5
+},
+"seed": 143,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.6929075717926025
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5240335464477539,
+"ground": 0.006049394607543945,
+"execute": 0.9498124122619629
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.0071405993930055735,
+"wrist_props": 1
+},
+"reach_err": 0.004339212983033069,
+"reach_err_rot": 0.003443859334425422,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 144,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.1020352840423584
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4434773921966553,
+"ground": 0.00595402717590332
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.029370947975223816,
+"wrist_props": 5
+},
+"seed": 144,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.0557951927185059
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.48616743087768555,
+"ground": 0.005897998809814453
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.018476366460291587,
+"wrist_props": 2
+},
+"seed": 144,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.3250317573547363
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.47863173484802246,
+"ground": 0.006050586700439453,
+"execute": 0.8600854873657227
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02751974033628539,
+"wrist_props": 4
+},
+"reach_err": 0.003208968953495833,
+"reach_err_rot": 0.002318234851870272,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 144,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.0438060760498047
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.20634937286376953,
+"ground": 0.005702018737792969
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.059510967495555095,
+"wrist_props": 4
+},
+"seed": 144,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.0735349655151367
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5711314678192139,
+"ground": 0.010937690734863281
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "006_mustard_bottle",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "040_large_marker"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01920295137446871,
+"wrist_props": 2
+},
+"seed": 144,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.939772367477417
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.43567371368408203,
+"ground": 0.0056154727935791016,
+"execute": 0.6589736938476562
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "003_cracker_box",
+"3": "009_gelatin_box",
+"4": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01952429198819922,
+"wrist_props": 5
+},
+"reach_err": 0.0030548257096561313,
+"reach_err_rot": 0.002302781917769257,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "061_foam_brick",
+"success": true,
+"seed": 145,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 2.7509140968322754
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.9063105583190918,
+"ground": 0.006992816925048828
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "003_cracker_box",
+"3": "051_large_clamp",
+"4": "009_gelatin_box",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021219650996100462,
+"wrist_props": 6
+},
+"seed": 145,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.9389607906341553
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "approach_collision",
+"t": {
+"perceive": 0.8528759479522705,
+"ground": 0.005833864212036133,
+"execute": 0.7384326457977295
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "003_cracker_box",
+"2": "061_foam_brick",
+"3": "051_large_clamp",
+"4": "009_gelatin_box",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.06547808818551501
+},
+"reach_err": 0.05865510522598011,
+"reach_err_rot": 0.11994391617192725,
+"disturbed_before_close": [
+"003_cracker_box"
+],
+"held_after_close": true,
+"held_after_lift": false,
+"lifted": null,
+"success": false,
+"seed": 145,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.1538329124450684
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.2538292407989502,
+"ground": 0.007873296737670898,
+"execute": 0.755692720413208
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "003_cracker_box",
+"2": "061_foam_brick",
+"3": "051_large_clamp",
+"4": "009_gelatin_box",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.010988360205636268,
+"wrist_props": 2
+},
+"reach_err": 0.009077889696671239,
+"reach_err_rot": 0.012204796681733722,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 145,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.620563268661499
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.6969475746154785,
+"ground": 0.007056236267089844
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "003_cracker_box",
+"2": "061_foam_brick",
+"3": "051_large_clamp",
+"4": "009_gelatin_box",
+"5": "036_wood_block"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026216053176768186,
+"wrist_props": 4
+},
+"seed": 145,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.4794378280639648
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.4395310878753662,
+"ground": 0.005721092224121094
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "008_pudding_box",
+"3": "009_gelatin_box",
+"4": "036_wood_block",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.019724016068356925,
+"wrist_props": 4
+},
+"seed": 146,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 2.542619228363037
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.5453026294708252,
+"ground": 0.0061206817626953125
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "008_pudding_box",
+"3": "009_gelatin_box",
+"4": "036_wood_block",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03851302129001987,
+"wrist_props": 3
+},
+"seed": 146,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.1032941341400146
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.5859014987945557,
+"ground": 0.005574941635131836,
+"execute": 0.7898476123809814
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "008_pudding_box",
+"3": "009_gelatin_box",
+"4": "036_wood_block",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014004791559708893,
+"wrist_props": 2
+},
+"reach_err": 0.023144159277342306,
+"reach_err_rot": 0.03181151292104178,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "061_foam_brick",
+"success": true,
+"seed": 146,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.9695968627929688
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.591332197189331,
+"ground": 0.005606174468994141
+},
+"n_props": 6,
+"prop_labels": {
+"0": "007_tuna_fish_can",
+"1": "021_bleach_cleanser",
+"2": "008_pudding_box",
+"3": "009_gelatin_box",
+"4": "036_wood_block",
+"5": "061_foam_brick"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.026768494324831454,
+"wrist_props": 3
+},
+"seed": 146,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 2.3043689727783203
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.3577001094818115,
+"ground": 0.004572629928588867
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 147,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 0.3671581745147705
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.23298358917236328,
+"ground": 0.004487752914428711
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.02384146297538117,
+"wrist_props": 1
+},
+"seed": 147,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 2.446341037750244
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.2572629451751709,
+"ground": 0.004820346832275391
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 147,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 0.2672104835510254
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4049391746520996,
+"ground": 0.004711151123046875
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.012439839435040153,
+"wrist_props": 2
+},
+"seed": 147,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.2154438495635986
+},
+{
+"target": "pudding box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.49634385108947754,
+"ground": 0.005082845687866211
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "008_pudding_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014258628817460038,
+"wrist_props": 3
+},
+"seed": 147,
+"target_name": "008_pudding_box",
+"n_objects": 6,
+"sec": 1.3194265365600586
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7463936805725098,
+"ground": 0.027310848236083984
+},
+"n_props": 4,
+"prop_labels": {
+"0": "061_foam_brick",
+"1": "011_banana",
+"2": "010_potted_meat_can",
+"3": "008_pudding_box"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.011502983358054752,
+"wrist_props": 2
+},
+"seed": 147,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.5244245529174805
+},
+{
+"target": "gelatin box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.4223027229309082,
+"ground": 0.004812717437744141,
+"execute": 0.8737945556640625
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "009_gelatin_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.014086528678229184,
+"wrist_props": 3
+},
+"reach_err": 0.005040626081199525,
+"reach_err_rot": 0.0014321829567531439,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "009_gelatin_box",
+"success": true,
+"seed": 148,
+"target_name": "009_gelatin_box",
+"n_objects": 6,
+"sec": 1.891617774963379
+},
+{
+"target": "scissors",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "segmentation",
+"t": {
+"perceive": 0.8986680507659912,
+"ground": 0.005095720291137695
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": false,
+"grounding": {
+"mode": "oracle",
+"choice": null
+},
+"chosen_obj": null,
+"grounding_correct": false,
+"seed": 148,
+"target_name": "037_scissors",
+"n_objects": 6,
+"sec": 0.908905029296875
+},
+{
+"target": "marker",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.6652748584747314,
+"ground": 0.006924152374267578,
+"execute": 0.8234298229217529
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "040_large_marker",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.007046514879167112,
+"wrist_props": 2
+},
+"reach_err": 0.003814740090139758,
+"reach_err_rot": 0.003018099742115009,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "040_large_marker",
+"success": true,
+"seed": 148,
+"target_name": "040_large_marker",
+"n_objects": 6,
+"sec": 2.288693428039551
+},
+{
+"target": "mustard bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.22918128967285156,
+"ground": 0.005083799362182617
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "006_mustard_bottle",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.023891919331237965,
+"wrist_props": 2
+},
+"seed": 148,
+"target_name": "006_mustard_bottle",
+"n_objects": 6,
+"sec": 1.1481389999389648
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.6760001182556152,
+"ground": 0.004293203353881836,
+"execute": 0.7717649936676025
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.021943692121176892,
+"wrist_props": 2
+},
+"reach_err": 0.003407750153248772,
+"reach_err_rot": 0.002618746038623698,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 148,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 1.9324426651000977
+},
+{
+"target": "bleach bottle",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.31587696075439453,
+"ground": 0.005072832107543945
+},
+"n_props": 5,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "006_mustard_bottle",
+"2": "040_large_marker",
+"3": "009_gelatin_box",
+"4": "021_bleach_cleanser"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "021_bleach_cleanser",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.03954598285148369,
+"wrist_props": 3
+},
+"seed": 148,
+"target_name": "021_bleach_cleanser",
+"n_objects": 6,
+"sec": 1.221933126449585
+},
+{
+"target": "foam brick",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.6346023082733154,
+"ground": 0.005509853363037109,
+"execute": 0.6663808822631836
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 1
+},
+"chosen_obj": "061_foam_brick",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013292743217520383,
+"wrist_props": 2
+},
+"reach_err": 0.0039874829345726975,
+"reach_err_rot": 0.0030090152010227565,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "061_foam_brick",
+"success": true,
+"seed": 149,
+"target_name": "061_foam_brick",
+"n_objects": 6,
+"sec": 1.9629876613616943
+},
+{
+"target": "cracker box",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.7787425518035889,
+"ground": 0.005811929702758789
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 3
+},
+"chosen_obj": "003_cracker_box",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.029760505137943396,
+"wrist_props": 4
+},
+"seed": 149,
+"target_name": "003_cracker_box",
+"n_objects": 6,
+"sec": 1.472656011581421
+},
+{
+"target": "potted meat can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.4394652843475342,
+"ground": 0.005971431732177734
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 4
+},
+"chosen_obj": "010_potted_meat_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.04843973158237776,
+"wrist_props": 2
+},
+"seed": 149,
+"target_name": "010_potted_meat_can",
+"n_objects": 6,
+"sec": 1.5480966567993164
+},
+{
+"target": "banana",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 1.0365777015686035,
+"ground": 0.01037287712097168
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 5
+},
+"chosen_obj": "011_banana",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.013414609258325794,
+"wrist_props": 3
+},
+"seed": 149,
+"target_name": "011_banana",
+"n_objects": 6,
+"sec": 1.9399662017822266
+},
+{
+"target": "tomato soup can",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": null,
+"t": {
+"perceive": 0.8380374908447266,
+"ground": 0.005857229232788086,
+"execute": 0.8780262470245361
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 0
+},
+"chosen_obj": "005_tomato_soup_can",
+"grounding_correct": true,
+"refine": {
+"reason": "",
+"shift": 0.01268474739769262,
+"wrist_props": 3
+},
+"reach_err": 0.0028787487832617207,
+"reach_err_rot": 0.0018842896045189502,
+"disturbed_before_close": [],
+"held_after_close": true,
+"held_after_lift": true,
+"lifted": "005_tomato_soup_can",
+"success": true,
+"seed": 149,
+"target_name": "005_tomato_soup_can",
+"n_objects": 6,
+"sec": 2.360947608947754
+},
+{
+"target": "clamp",
+"grasp_mode": "fixed",
+"controller": "cartesian",
+"fail": "grasp_plan",
+"t": {
+"perceive": 0.3005659580230713,
+"ground": 0.005621433258056641
+},
+"n_props": 6,
+"prop_labels": {
+"0": "005_tomato_soup_can",
+"1": "061_foam_brick",
+"2": "051_large_clamp",
+"3": "003_cracker_box",
+"4": "010_potted_meat_can",
+"5": "011_banana"
+},
+"target_segmented": true,
+"grounding": {
+"mode": "oracle",
+"choice": 2
+},
+"chosen_obj": "051_large_clamp",
+"grounding_correct": true,
+"refine": {
+"reason": "wrist_no_match",
+"dist": 0.0786443576688916
+},
+"seed": 149,
+"target_name": "051_large_clamp",
+"n_objects": 6,
+"sec": 1.0293424129486084
+}
+]

@@ -24,6 +24,8 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 | `vrg.bench.rc_train --mode local_pick --pre 40` | 18 GB while loading | — | — |
 | `vrg.bench.policy_server` (Colosseum, one per rollout) | 1.3 GB | 1.3 GB | 3.7 GB |
 | `col_rollout.py` (colosseum env, VirtualGL) | <1 GB | <1 GB | render only; ~1.3 cores |
+| `vrg.franka.run_isaac` (Isaac Lab, CPU physics; `isaac/run.sh`) | 3.4 GB | 3.4 GB | ~4 GB; ~4.5 cores |
+| `vrg.franka.ground_offline` Qwen3-VL-32B (one GPU) | ~2.2 GB (mmap) | 2.2 GB | 64 GB |
 
 ## Conventions
 - Raw robosuite images are upside down (OpenGL convention). Policies train and run on raw 128 px obs; anything shown to the VLM or in videos is flipped `[::-1]`.
@@ -37,5 +39,7 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 - Policy observations must be rendered at 128 px (training resolution). Render video frames separately with `env.sim.render(...)`; rendering the env at 512 px silently broke the demos once.
 - Don't wait on jobs with `pgrep -f "<pattern>"` loops whose own command line contains the pattern: one hung on itself.
 - Diffusion sampling is unseeded, so 20-episode per-task differences are noise. Compare full-suite numbers with Wilson CIs.
+- Isaac Lab (Franka track, `vrg/franka/`): source `/scratch/kaustubh/vlm_reach_grasp/isaac/env.sh`. Conda's activate.d sets `__EGL_VENDOR_LIBRARY_DIRS` to Mesa only, which breaks NVIDIA's Vulkan ICD ("No device could be created"); env.sh unsets it. Kit ignores SIGTERM and can hang on exit: use `os._exit` and `timeout -s KILL`.
+- Don't split Qwen3-VL-32B over both GPUs with `device_map="auto"`: every generation came out NaN (`!!!!`). It fits on one GPU.
 - Shuffled targets near the workspace edge drive the Panda's elbow (joint 4) to its limit if the policy tilts the wrist; v5's posture-aware roll/pitch lock exists for this. Locking yaw breaks the tomato-sauce grasp.
 - `checkpoints (runs/*/ckpt.pt)` and `data/libero_object.npz` are not in git (size). Rebuild with the README commands.

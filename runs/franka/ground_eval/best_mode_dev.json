@@ -1,0 +1,6 @@
+{
+"qwen3vl-2b": "point",
+"qwen3vl-8b": "verify",
+"qwen3vl-4b": "point",
+"qwen3vl-32b": "marks"
+}

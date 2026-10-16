@@ -1,0 +1,3857 @@
+{
+"100|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5817743023923715,
+0.051538032702619335,
+0.11649418132633332
+],
+"chosen_obj": null,
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.6331844329833984
+},
+"100|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6255366060865054,
+0.24623893579935452,
+0.031007229431931682
+],
+"chosen_obj": null,
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.7829480171203613
+},
+"100|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.6113767185687851,
+-0.17037248533537702,
+0.19468911437731057
+],
+"chosen_obj": null,
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.34104323387146
+},
+"100|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7015650540674749,
+-0.12229191585888119,
+0.050007700080648754
+],
+"chosen_obj": null,
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.4316301345825195
+},
+"101|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7133413817616707,
+0.20768597072223433,
+0.12860157844160863
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.257427453994751
+},
+"101|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7133413817616707,
+0.20768597072223433,
+0.12860157844160863
+],
+"chosen_obj": "004_sugar_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.0587048530578613
+},
+"101|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7133413817616707,
+0.20768597072223433,
+0.12860157844160863
+],
+"chosen_obj": "004_sugar_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.576664686203003
+},
+"101|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5050938779899539,
+-0.08092483018621993,
+0.06840278950943846
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0716018676757812
+},
+"101|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6745815739319496,
+-0.06841831916279956,
+0.030886610366589795
+],
+"chosen_obj": null,
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.277658224105835
+},
+"101|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.3961862715791111,
+-0.293034836059918,
+0.016434235111019935
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.7169547080993652
+},
+"102|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.40227841942690434,
+-0.08392653398401084,
+0.11107900095124845
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1402177810668945
+},
+"102|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6817713645871212,
+0.049204856124017426,
+0.08103096883653454
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.3325066566467285
+},
+"102|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6817711631065861,
+0.04920478377417509,
+0.08103096883653454
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.226945161819458
+},
+"102|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6817714469951708,
+0.04920482064769341,
+0.08103092354289027
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9635715484619141
+},
+"102|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6803090726187742,
+0.2964823543600847,
+0.07935448194521089
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4287328720092773
+},
+"103|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5314962366676462,
+0.2840457842547034,
+0.14978911321928373
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.841681957244873
+},
+"103|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4726233963819022,
+0.10251127794628437,
+0.08080258449658573
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2693049907684326
+},
+"103|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4909686144481582,
+-0.21341024787010598,
+0.18753604451543437
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1964013576507568
+},
+"103|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6796402439171481,
+0.09113080808017954,
+0.07804154067822555
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2480108737945557
+},
+"103|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6092936434755822,
+-0.029476139210693364,
+0.050235699474977025
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2450847625732422
+},
+"104|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6280035331660444,
+-0.04297926949032321,
+0.14793541570984103
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.6082022190093994
+},
+"104|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4950874272871867,
+-0.12559650555896326,
+0.20421668854368663
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4424641132354736
+},
+"104|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5785249260760661,
+0.20675829673014381,
+0.05027520961337295
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.3900725841522217
+},
+"104|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.386499805368541,
+0.027139694977833195,
+0.048838483874067085
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8121044635772705
+},
+"105|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.36330219986720713,
+0.23775345699835546,
+0.02995636337689289
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.1551475524902344
+},
+"105|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.557021407725703,
+0.14279556020086603,
+0.058331544152454506
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2030737400054932
+},
+"105|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.36329938673839485,
+0.23775239352727418,
+0.029950357428444374
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.8313157558441162
+},
+"105|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.575920208908524,
+-0.052306273233705514,
+0.038616521627684974
+],
+"chosen_obj": "037_scissors",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.9381890296936035
+},
+"105|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5760949476345736,
+-0.05217648828562571,
+0.03865536444064005
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.5809459686279297
+},
+"105|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6732636746594591,
+0.03037594905787111,
+0.05027490415474767
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1563622951507568
+},
+"106|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4917783333497543,
+-0.1639538138962101,
+0.14818506638480344
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8122074604034424
+},
+"106|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.49178161582894864,
+-0.16395364528222223,
+0.14818439698801267
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.5171678066253662
+},
+"106|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5530365130315766,
+0.11920493579477502,
+0.08310281348311016
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.278627872467041
+},
+"106|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6230344924133793,
+-0.044821350977689633,
+0.08235081671637412
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9193665981292725
+},
+"106|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7039524798671679,
+-0.1911057107622311,
+0.18930970413844517
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5401957035064697
+},
+"107|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6224215626733006,
+0.23953295712621517,
+0.19776832481264323
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.0616874694824219
+},
+"107|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6707895156249583,
+-0.22532578405800752,
+0.06778544066767056
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9077465534210205
+},
+"107|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.48444568787037,
+0.05248878243236743,
+0.08106229043719237
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.9388201236724854
+},
+"107|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4844456067185655,
+0.05248878243236743,
+0.08106237076318878
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0070405006408691
+},
+"107|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5218038690063955,
+0.29880224965887714,
+0.15981270481757148
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.008939266204834
+},
+"107|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3468754072862134,
+-0.223063138185219,
+0.043387248111290355
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.305114507675171
+},
+"108|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5125212224530529,
+-0.21130762872781894,
+0.13933459952639238
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0708348751068115
+},
+"108|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.517374712258758,
+0.0765437696380723,
+0.1146805357096583
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0548861026763916
+},
+"108|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7171399660488551,
+-0.16946759877090212,
+0.08105349278897378
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.5369184017181396
+},
+"108|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5455990376885222,
+0.23719264578140237,
+0.19432783309581914
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4692103862762451
+},
+"108|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.39098294110305054,
+0.02685103947533063,
+0.11118569090167663
+],
+"chosen_obj": "051_large_clamp",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.8915948867797852
+},
+"108|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.37073615062339177,
+0.09849728249107897,
+0.06229694699686694
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0515999794006348
+},
+"109|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7075959450956394,
+-0.19875395919055128,
+0.1172783194601974
+],
+"chosen_obj": "002_master_chef_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.5903191566467285
+},
+"109|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7124349762114245,
+0.024664814100082144,
+0.08432293534788438
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.55267333984375
+},
+"109|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.2993877054616156,
+0.008147005945611269,
+0.014397698065055975
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.3782997131347656
+},
+"109|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5614005455028159,
+0.307375819307053,
+0.06322339496929341
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.9870128631591797
+},
+"109|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5939147997668792,
+-0.1652354394706717,
+0.05010655136590153
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.7404818534851074
+},
+"110|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6615350276263078,
+0.2091752288858444,
+0.08965797564723621
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.027517318725586
+},
+"110|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5356415221598956,
+0.0867423504132343,
+0.058527219875576186
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2062797546386719
+},
+"110|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6629821848111855,
+-0.12358495130397912,
+0.031162144558384397
+],
+"chosen_obj": "007_tuna_fish_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.3483033180236816
+},
+"110|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5587139181118708,
+-0.1207885246189433,
+0.19118569431017918
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.208698034286499
+},
+"110|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3830478479366892,
+0.1181554598545298,
+0.0630640361752084
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.3893191814422607
+},
+"111|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.4536688019692088,
+0.3237008456587585,
+0.028151692790027272
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 2.6241490840911865
+},
+"111|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4583878091645201,
+-0.16971854376088796,
+0.07101009499895194
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4193785190582275
+},
+"111|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.4763772532607977,
+0.24242667500093842,
+0.03691595487878252
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 2.2150046825408936
+},
+"111|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.4537111192434475,
+0.3238849855740951,
+0.02812442285953376
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.540682077407837
+},
+"111|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.38438383945612997,
+-0.04823635859229661,
+0.07399080733975616
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 2.176095724105835
+},
+"112|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.44969138779619167,
+-0.2554773264132329,
+0.13898507444870334
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.364163875579834
+},
+"112|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6549705585439287,
+-0.13039538417498117,
+0.07324917025261668
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.5774884223937988
+},
+"112|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.7119474426103642,
+0.1828298710684536,
+0.03219234025533646
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6862461566925049
+},
+"112|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.41811599192772586,
+-0.0925186689007953,
+0.19745807623500522
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4086146354675293
+},
+"112|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4056856403527814,
+0.02876359707281098,
+0.038835922220339214
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.7359755039215088
+},
+"112|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7092128705743781,
+0.010284134001951994,
+0.05030842362700949
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.3774745464324951
+},
+"113|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5719488659504072,
+0.08558242849422726,
+0.16117230744859123
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0729234218597412
+},
+"113|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5719488242875419,
+0.08558242849422726,
+0.16117218339045158
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.6567051410675049
+},
+"113|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6592093083657262,
+0.18470231835397172,
+0.08099503856943702
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.4301223754882812
+},
+"113|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6592093082167524,
+0.18470232874142248,
+0.08099503856943702
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2887427806854248
+},
+"113|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6664847253116828,
+-0.16918107083888506,
+0.1932203834096568
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0008563995361328
+},
+"113|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.41963968782407446,
+0.21018625362982624,
+0.0496982769133163
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.400637149810791
+},
+"114|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6603742070771192,
+-0.20650330352373153,
+0.13708921902551563
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8126833438873291
+},
+"114|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6603742070771192,
+-0.20650330352373153,
+0.13708921902551563
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.4303994178771973
+},
+"114|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5138051726510038,
+0.012231554925127897,
+0.05564100698304164
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.3385019302368164
+},
+"114|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4340731859934668,
+-0.2707651783942374,
+0.21227732956375855
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2147176265716553
+},
+"114|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6894543391301703,
+-0.045274062135654713,
+0.061190862076558106
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1682567596435547
+},
+"114|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5138051726510038,
+0.012231554925127897,
+0.05564100698304164
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7466042041778564
+},
+"115|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.5887109230600897,
+-0.04544237885504848,
+0.08232455466434008
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2043676376342773
+},
+"115|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.533595551635079,
+-0.20452101352527396,
+0.14898371230970642
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.7548222541809082
+},
+"115|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4223449300626425,
+-0.1821006513085246,
+0.06637836593900259
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9339900016784668
+},
+"115|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.43821450802275913,
+-0.019457538466238877,
+0.03208692963819443
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.123368501663208
+},
+"115|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5074493046692949,
+0.10469570466578282,
+0.07529810353304156
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.8427867889404297
+},
+"116|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7107612068964029,
+0.26687487397719306,
+0.13545205624890683
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2267463207244873
+},
+"116|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.4766833285291171,
+0.03481969663349721,
+0.08124713825970309
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.6267070770263672
+},
+"116|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6934436637693137,
+0.08783795546633794,
+0.07376782752167277
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.7821929454803467
+},
+"116|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4264579737525078,
+0.19676196738733107,
+0.07596061159612127
+],
+"chosen_obj": "040_large_marker",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.4464378356933594
+},
+"116|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4264579737525078,
+0.19676196738733107,
+0.07596061159612127
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8401129245758057
+},
+"116|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.46263439702526865,
+-0.17799171549096998,
+0.050474357403140824
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.569176435470581
+},
+"117|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6807123914432238,
+-0.20083303996023782,
+0.1198214404481115
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.175365686416626
+},
+"117|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6125865504558082,
+-0.05548961690349566,
+0.08296480660994054
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6741886138916016
+},
+"117|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.388348429262798,
+0.22495925302351827,
+0.031744685690620056
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.381246566772461
+},
+"117|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5218227953954124,
+-0.23629355573724103,
+0.07543904508176569
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1823527812957764
+},
+"117|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.43743560499380574,
+0.04425048663236136,
+0.07536024694535165
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7821555137634277
+},
+"117|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.678524291680413,
+0.20879479008765786,
+0.050117123947407194
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0340850353240967
+},
+"118|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.726810093632769,
+0.225350308502446,
+0.1358690702788895
+],
+"chosen_obj": "002_master_chef_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.4123525619506836
+},
+"118|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3975919704637739,
+0.1855212975407697,
+0.0723187106805736
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.2521815299987793
+},
+"118|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3975919704637739,
+0.1855212975407697,
+0.07231879115528439
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1943435668945312
+},
+"118|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6692558208898246,
+0.10154278569422387,
+0.17492701113554104
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.0031492710113525
+},
+"118|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5940700595958575,
+-0.041287304658497614,
+0.07647757472324879
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2592875957489014
+},
+"119|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.55887429816465,
+0.2868297246042768,
+0.05660080137875073
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2457091808319092
+},
+"119|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4063090328390841,
+0.22149762652286922,
+0.03182697497440867
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.61973237991333
+},
+"119|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.45169163118962874,
+0.10966654588430028,
+0.20373970031157956
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.3538708686828613
+},
+"119|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.570504658918965,
+-0.08033059202341247,
+0.07538984699256845
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.4410057067871094
+},
+"119|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5585899151159537,
+-0.2766953504719537,
+0.05012464688696111
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9671351909637451
+},
+"120|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4233844855173764,
+0.22739031558944822,
+0.1438250191621303
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7241888046264648
+},
+"120|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7156402118092899,
+0.0939934425314349,
+0.12607502409675442
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5834176540374756
+},
+"120|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.38400210884317376,
+-0.010305169677852166,
+0.07808495490140588
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5978710651397705
+},
+"120|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4919923141223287,
+-0.17226682214241545,
+0.14087809100012416
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5711188316345215
+},
+"120|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.38400210884317376,
+-0.010305169677852166,
+0.0780848790368408
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.6293516159057617
+},
+"120|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7156407441520045,
+0.09367809563767374,
+0.1258771331123376
+],
+"chosen_obj": "004_sugar_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.8928177356719971
+},
+"121|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5940440630970976,
+-0.24987527445396218,
+0.15666332620131374
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9017813205718994
+},
+"121|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5940441292744831,
+-0.24987527445396218,
+0.15666361954699592
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.6790070533752441
+},
+"121|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4417971915899883,
+-0.2693848115395916,
+0.1407917134919674
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.664517879486084
+},
+"121|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6334700208667496,
+0.10694574127656561,
+0.05010559998690217
+],
+"chosen_obj": "061_foam_brick",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.5699400901794434
+},
+"121|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5461358995897954,
+-0.03630959606454223,
+0.01581429694939568
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9371926784515381
+},
+"121|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5461038224868995,
+-0.03735628902235455,
+0.015781329392291266
+],
+"chosen_obj": "037_scissors",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.756213903427124
+},
+"122|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6670040025479335,
+0.011214039862820963,
+0.12265127310326529
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0305888652801514
+},
+"122|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6877759177919065,
+0.25669751360103754,
+0.0918827210828998
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9058244228363037
+},
+"122|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6358185484349774,
+-0.23523207619199615,
+0.030879158073602198
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.892589807510376
+},
+"122|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.38703582331149156,
+0.08341462753034312,
+0.1822994768939109
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9035301208496094
+},
+"123|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6760322190340506,
+0.23930400966916318,
+0.1677469443365472
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9013049602508545
+},
+"123|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5483425539047655,
+-0.14285166876051986,
+0.07977340144918776
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7527084350585938
+},
+"123|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4319570526336609,
+-0.27852020128122174,
+0.1372378157750367
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8066072463989258
+},
+"123|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6185695349341976,
+0.08024502283856938,
+0.05723483234561122
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0561156272888184
+},
+"123|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5403242299069332,
+0.143555235858523,
+0.20158165571394915
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9133570194244385
+},
+"123|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7649855589380756,
+-0.17841835375649662,
+0.01661922504849811
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9121167659759521
+},
+"124|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.5319847863790284,
+-0.1847576963555415,
+0.0224005116795295
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9111273288726807
+},
+"124|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7268092639922898,
+-0.12498344827031249,
+0.2033660468169573
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0243794918060303
+},
+"124|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.534606622084563,
+-0.18560749086863482,
+0.022638847818446106
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.572882890701294
+},
+"124|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6242239139577997,
+0.13235415151176483,
+0.16064411786753596
+],
+"chosen_obj": "036_wood_block",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.0380961894989014
+},
+"125|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4609092568444933,
+0.17315661930874424,
+0.12278807317472185
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0854694843292236
+},
+"125|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6453971496772647,
+-0.010546095372852005,
+0.14713418555358238
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8830182552337646
+},
+"125|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4609291784131603,
+0.17314516025291507,
+0.12279009827639809
+],
+"chosen_obj": "004_sugar_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.688040018081665
+},
+"125|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3592713837265814,
+-0.03853408304831901,
+0.030642671853658765
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8073692321777344
+},
+"125|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4748230247913302,
+-0.21975983700850665,
+0.04920862234294998
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9673521518707275
+},
+"126|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.413345925284434,
+0.14205835765577762,
+0.14623288045351518
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0663025379180908
+},
+"126|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3983977829612675,
+-0.016760340352199032,
+0.03168860283598718
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6019866466522217
+},
+"126|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5231686127924166,
+0.12629979661323174,
+0.0762151772329338
+],
+"chosen_obj": "040_large_marker",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.9787452220916748
+},
+"126|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6464896819529966,
+-0.28033814009867264,
+0.03824836990689928
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7229123115539551
+},
+"126|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5231686127924166,
+0.12629979661323174,
+0.0762151772329338
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6331145763397217
+},
+"126|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.41079405407424235,
+-0.11987318634461241,
+0.03699032450361517
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2161154747009277
+},
+"127|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.5014385351937893,
+-0.23528988095643144,
+0.17091189424903197
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6778156757354736
+},
+"127|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6870985321771569,
+-0.18065662587417508,
+0.08330415191337265
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6754376888275146
+},
+"127|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5732040856227638,
+-0.03870177876173922,
+0.14371185895139438
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8749265670776367
+},
+"127|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6957456370832387,
+-0.034011969899586936,
+0.0654924421387898
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9959371089935303
+},
+"127|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4878048296073499,
+0.22610991972420677,
+0.031215645474215292
+],
+"chosen_obj": "007_tuna_fish_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7127625942230225
+},
+"128|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5439111809793793,
+-0.04457003322075975,
+0.05897948172428935
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2610373497009277
+},
+"128|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6693529043365654,
+-0.08126774179513757,
+0.07426231819517987
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9441492557525635
+},
+"128|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4153457796228559,
+-0.1360203595547006,
+0.19293814214796168
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9155848026275635
+},
+"128|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6948854931980297,
+0.2081094399878216,
+0.07302999375223973
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2415199279785156
+},
+"129|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.38482986017013543,
+0.09142434343016231,
+0.11969061186320196
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9411396980285645
+},
+"129|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.43938806058505614,
+0.2796123418601918,
+0.0805309332790019
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2479643821716309
+},
+"129|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6887608786341504,
+-0.07466757611987224,
+0.15014598177705507
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7720592021942139
+},
+"129|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3852379708665962,
+0.09115904905834835,
+0.11980187295559092
+],
+"chosen_obj": "004_sugar_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7716572284698486
+},
+"129|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4759154202538376,
+-0.012844224094517104,
+0.03167875059759462
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8621816635131836
+},
+"130|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.6118872326277498,
+-0.290658790206887,
+0.06560823067169141
+],
+"chosen_obj": "008_pudding_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7261495590209961
+},
+"130|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.6118872326277498,
+-0.290658790206887,
+0.06560823067169141
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5586462020874023
+},
+"130|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6910520485102027,
+-0.009211277488799074,
+0.07819449730410699
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6297681331634521
+},
+"130|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4248818332919688,
+0.023364998255732794,
+0.1757291078483133
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.8093407154083252
+},
+"131|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6643642361923332,
+-0.06813006362031776,
+0.15459943641470847
+],
+"chosen_obj": "036_wood_block",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.6636617183685303
+},
+"131|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5243369769482203,
+-0.07404936835153225,
+0.0662046864346244
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.893829345703125
+},
+"131|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6643642183568114,
+-0.06813009005646783,
+0.15459935103242323
+],
+"chosen_obj": "036_wood_block",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7484419345855713
+},
+"131|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5714481325309091,
+0.22875562719476855,
+0.030806381612075828
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6995072364807129
+},
+"131|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5243369769482203,
+-0.07404936835153225,
+0.0662046864346244
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.8993885517120361
+},
+"132|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.552935927961063,
+0.2654744956383187,
+0.1186289465486623
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.67523193359375
+},
+"132|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.705653872977715,
+-0.11467391592426646,
+0.08509874760806824
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0747103691101074
+},
+"132|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4384021301215638,
+0.3685537446304542,
+0.02753433531947791
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.773259162902832
+},
+"132|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.7023201644478886,
+0.28014529119948234,
+0.07910645878495381
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0616989135742188
+},
+"133|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4256713006551951,
+0.10401004307109103,
+0.05305145511556175
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7813088893890381
+},
+"133|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4151517824676747,
+0.24929249081963584,
+0.031056323422743448
+],
+"chosen_obj": "007_tuna_fish_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.8824958801269531
+},
+"133|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6346456767291384,
+-0.1500813308262594,
+0.0557678128916399
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.6854166984558105
+},
+"133|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6346456767291384,
+-0.1500813308262594,
+0.0557678128916399
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0140912532806396
+},
+"133|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6775161091800207,
+0.23064686919514496,
+0.22131862534850477
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.26961350440979
+},
+"134|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6294709382771172,
+-0.2594318274173763,
+0.0678586932697462
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.933605432510376
+},
+"134|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6294708726481206,
+-0.2594318274173763,
+0.06785860989510512
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.1634657382965088
+},
+"134|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6294708396446678,
+-0.2594318923577256,
+0.06785865161960425
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1505658626556396
+},
+"134|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5277695072570495,
+0.1711735355508568,
+0.038871590981182536
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8760581016540527
+},
+"135|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5637395745481173,
+-0.1852224973296167,
+0.14376211352704327
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8419554233551025
+},
+"135|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4613391331675797,
+0.14001347743457856,
+0.18639983143993016
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.6788856983184814
+},
+"135|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.46133741242976867,
+0.14001309166129394,
+0.18639971518929543
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9578123092651367
+},
+"135|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.42690169374511067,
+-0.08577174824630657,
+0.03906146224889684
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7566351890563965
+},
+"135|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.679211199785205,
+0.006358996055971955,
+0.05013494064101831
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7328178882598877
+},
+"136|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.45236450640018433,
+0.19742067616580403,
+0.15446480272125496
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9962470531463623
+},
+"136|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4106046148032375,
+0.003120744894163141,
+0.12380704843448942
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7397098541259766
+},
+"136|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7021168496436025,
+-0.15762484424242595,
+0.0809866140730593
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9128551483154297
+},
+"136|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5470623316654775,
+-0.20096561844789818,
+0.04900862763301039
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1033928394317627
+},
+"137|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6611737652519136,
+0.18493063007029986,
+0.0899162815932617
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.033031702041626
+},
+"137|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.648937802669175,
+0.01865516246547491,
+0.15800242571675277
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7631819248199463
+},
+"137|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3911764784478886,
+0.00024748286455700264,
+0.05700201146033712
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7724268436431885
+},
+"137|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5421001666158125,
+0.05081737967310507,
+0.032188339217166906
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0518136024475098
+},
+"137|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5557939606144956,
+-0.08982599964190224,
+0.07768305400681896
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2015666961669922
+},
+"138|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6280370687707397,
+0.1876321919290759,
+0.07268761740157959
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8480925559997559
+},
+"138|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6280370687707397,
+0.1876321919290759,
+0.07268761740157959
+],
+"chosen_obj": "008_pudding_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.8550949096679688
+},
+"138|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.3964257927783911,
+0.10207090984816997,
+0.030277156362040425
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8797221183776855
+},
+"138|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5020287707499005,
+-0.12133054445330854,
+0.19020943184829675
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8691964149475098
+},
+"138|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.3964555268633809,
+0.10210694996393027,
+0.03027660459146575
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.743657112121582
+},
+"139|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.692867834548361,
+0.15507035218081455,
+0.14016194042090796
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.5257697105407715
+},
+"139|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4185243395313057,
+0.29498421762407057,
+0.14174338536802028
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0479276180267334
+},
+"139|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.39617702822637774,
+-0.21695474325874087,
+0.06446519056842964
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0872178077697754
+},
+"139|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5912146838522322,
+0.2813820426435777,
+0.032077093150673086
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8937206268310547
+},
+"139|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6200426032848549,
+-0.15817502058523797,
+0.03761491135118605
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7015671730041504
+},
+"140|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.3766816424958792,
+-0.04841009133002763,
+0.06632566376714571
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.87638258934021
+},
+"140|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4124907521822906,
+-0.2058596447731702,
+0.032395117241662774
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8741950988769531
+},
+"140|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.44347958075125704,
+0.022750764265789813,
+0.01615837470571513
+],
+"chosen_obj": "037_scissors",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0796923637390137
+},
+"140|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.4158858798262516,
+0.2875414059537399,
+0.07524942638788745
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0488626956939697
+},
+"140|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.5158775251030762,
+-0.15290437122507483,
+0.05149455225581456
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.744027853012085
+},
+"141|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5092241127380541,
+-0.09926963934981109,
+0.1480422962439475
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5581765174865723
+},
+"141|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.3917778408608242,
+0.1750604374109404,
+0.06906073712623273
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6326467990875244
+},
+"141|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5180482700791185,
+0.28622733074700935,
+0.11476478461333328
+],
+"chosen_obj": "036_wood_block",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 1.1229157447814941
+},
+"141|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.700513999412357,
+-0.12188110169030203,
+0.07647456857301466
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6698143482208252
+},
+"141|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6295223548249866,
+-0.04479394597616759,
+0.0725672331661632
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.678058385848999
+},
+"142|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6438572890126427,
+-0.16651039990024163,
+0.1679992023993937
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6533184051513672
+},
+"142|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6438572890126427,
+-0.16651039990024163,
+0.1679992023993937
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.654076099395752
+},
+"142|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5580279395322927,
+0.1866562660019348,
+0.0686355881409722
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6239469051361084
+},
+"142|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.4207241446424097,
+-0.12419500503649661,
+0.03241731595609948
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5679433345794678
+},
+"142|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6438572890126427,
+-0.16651039990024163,
+0.16799836053793293
+],
+"chosen_obj": "003_cracker_box",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.6176307201385498
+},
+"142|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4350566814098885,
+0.07599669868910552,
+0.07614791994479897
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7685546875
+},
+"143|004_sugar_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6446087085487706,
+0.28329501462098483,
+0.14146356082194456
+],
+"chosen_obj": "004_sugar_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9358279705047607
+},
+"143|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4962989812836728,
+-0.22416691770827546,
+0.06393765121131623
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9107217788696289
+},
+"143|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.49485145187192264,
+0.16709088355664622,
+0.0314911556201351
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8165619373321533
+},
+"143|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.5821857341691348,
+-0.022279639359511216,
+0.039186085143182225
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.114558219909668
+},
+"144|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6979769286301131,
+-0.19796851715911506,
+0.1727817378757111
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1190259456634521
+},
+"144|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6201063415727418,
+-0.027144861158534705,
+0.07716487621245449
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.0618276596069336
+},
+"144|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5477769004808684,
+-0.18959161000237135,
+0.1517615030400709
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.174696445465088
+},
+"144|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6201064128853842,
+-0.027144903329585857,
+0.07716496218959723
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.1503150463104248
+},
+"144|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.547758482718773,
+-0.18958695596089714,
+0.1517926916971798
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.0288174152374268
+},
+"144|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.43329539348751966,
+0.012663493327883968,
+0.049631799455494785
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7699813842773438
+},
+"145|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.581475280890365,
+-0.17786664337167835,
+0.0537998417141784
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.7479450702667236
+},
+"145|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.35944997152210645,
+0.018663494250919732,
+0.07768769039398649
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5409979820251465
+},
+"145|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.5814750005184638,
+-0.177867636465049,
+0.05379828443894241
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2186598777770996
+},
+"145|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6089068425345483,
+0.1030282372914613,
+0.06249503130301559
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.878375768661499
+},
+"145|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.5814752107973897,
+-0.17786730543392537,
+0.053798612286360514
+],
+"chosen_obj": "009_gelatin_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.8856632709503174
+},
+"146|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6883430998537063,
+-0.09222181993023443,
+0.04999311552315078
+],
+"chosen_obj": "061_foam_brick",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.137052297592163
+},
+"146|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.4068629872386035,
+0.13975420664306304,
+0.06819960924743435
+],
+"chosen_obj": "008_pudding_box",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.9129190444946289
+},
+"146|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.40843766084443445,
+-0.23290612491656815,
+0.18815645468785203
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.0384843349456787
+},
+"146|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6883430998537063,
+-0.09222181993023443,
+0.04999311552315078
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7824053764343262
+},
+"147|008_pudding_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6028608599357415,
+-0.07431381440816351,
+0.06870413033239425
+],
+"chosen_obj": "008_pudding_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.3926091194152832
+},
+"147|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.42831179301431305,
+0.057978944989533904,
+0.06016543502949173
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6363525390625
+},
+"147|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.4903911214323964,
+-0.28392737246152766,
+0.030060823434195583
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.9614195823669434
+},
+"147|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.48880278963182966,
+-0.2869296993806637,
+0.030654347121567838
+],
+"chosen_obj": "011_banana",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.43570899963378906
+},
+"147|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.42831183504490156,
+0.057978960043057,
+0.06016631950773793
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.41675710678100586
+},
+"147|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.38406951880319096,
+0.2740650657030703,
+0.049496104341430924
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6160929203033447
+},
+"148|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 0,
+"xyz": [
+0.48661058155401826,
+-0.24612984435105462,
+0.07649851440905653
+],
+"chosen_obj": "005_tomato_soup_can",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6209087371826172
+},
+"148|006_mustard_bottle": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.709159948315818,
+0.007951372713193766,
+0.2174674111267535
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.704620361328125
+},
+"148|009_gelatin_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6620574788627387,
+-0.15955342219109891,
+0.056823605297653124
+],
+"chosen_obj": "009_gelatin_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.5409805774688721
+},
+"148|021_bleach_cleanser": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.7091592857409581,
+0.007950527373636412,
+0.21746499907719552
+],
+"chosen_obj": "021_bleach_cleanser",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6213369369506836
+},
+"148|037_scissors": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5301913207027694,
+0.2093262240381122,
+0.10398874168476868
+],
+"chosen_obj": "006_mustard_bottle",
+"correct": false,
+"segmented": false,
+"raw": "",
+"sec": 0.9950089454650879
+},
+"148|040_large_marker": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5709628457806588,
+0.29949730647566886,
+0.07751689783365434
+],
+"chosen_obj": "040_large_marker",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.8985881805419922
+},
+"149|003_cracker_box": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 3,
+"xyz": [
+0.6224068859280606,
+-0.010103534274697734,
+0.15126984626207662
+],
+"chosen_obj": "003_cracker_box",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2264115810394287
+},
+"149|005_tomato_soup_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 4,
+"xyz": [
+0.6642641888644147,
+-0.20110959662792277,
+0.07396352547146295
+],
+"chosen_obj": "010_potted_meat_can",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 1.1494357585906982
+},
+"149|010_potted_meat_can": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5649199619900482,
+-0.2931171572388309,
+0.07719005430353815
+],
+"chosen_obj": "051_large_clamp",
+"correct": false,
+"segmented": true,
+"raw": "",
+"sec": 0.9579346179962158
+},
+"149|011_banana": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 5,
+"xyz": [
+0.6987883402476351,
+0.15303656337356697,
+0.031540684954687204
+],
+"chosen_obj": "011_banana",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 1.2222790718078613
+},
+"149|051_large_clamp": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 2,
+"xyz": [
+0.5654011747282544,
+-0.29306937103919795,
+0.07730785400357931
+],
+"chosen_obj": "051_large_clamp",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.6288974285125732
+},
+"149|061_foam_brick": {
+"model": "qwen3vl-2b",
+"mode": "verify",
+"choice": 1,
+"xyz": [
+0.5358862762035027,
+0.2960731382337844,
+0.05006192371549045
+],
+"chosen_obj": "061_foam_brick",
+"correct": true,
+"segmented": true,
+"raw": "",
+"sec": 0.7087140083312988
+}
+}
