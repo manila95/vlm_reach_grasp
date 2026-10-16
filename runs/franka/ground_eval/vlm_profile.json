@@ -1,0 +1,58 @@
+{
+"qwen3vl-2b": {
+"params_b": 2.127532032,
+"load_s": 30.752774238586426,
+"weights_gb": 3.9638290405273438,
+"gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+"point_s_median": 0.2946653366088867,
+"point_s_p90": 0.3025891542434692,
+"marks_s_median": 0.04244339466094971,
+"marks_s_p90": 0.04405102729797363,
+"verify_s_median": 0.18278634548187256,
+"verify_s_p90": 0.19235608577728272,
+"peak_gpu_gb": 4.068816184997559,
+"n_props_mean": 6.0
+},
+"qwen3vl-4b": {
+"params_b": 4.437815808,
+"load_s": 56.75723838806152,
+"weights_gb": 8.274884223937988,
+"gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+"point_s_median": 0.4555699825286865,
+"point_s_p90": 0.46913633346557615,
+"marks_s_median": 0.06001734733581543,
+"marks_s_p90": 0.06086597442626953,
+"verify_s_median": 0.2056279182434082,
+"verify_s_p90": 0.21060187816619874,
+"peak_gpu_gb": 8.37874984741211,
+"n_props_mean": 6.0
+},
+"qwen3vl-8b": {
+"params_b": 8.767123696,
+"load_s": 98.68437147140503,
+"weights_gb": 16.33853054046631,
+"gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+"point_s_median": 0.5953860282897949,
+"point_s_p90": 0.6147387266159058,
+"marks_s_median": 0.0848081111907959,
+"marks_s_p90": 0.08577003479003906,
+"verify_s_median": 0.28167521953582764,
+"verify_s_p90": 0.2882120370864868,
+"peak_gpu_gb": 16.450467586517334,
+"n_props_mean": 6.0
+},
+"qwen3vl-32b": {
+"params_b": 33.357390064,
+"load_s": 27.791943788528442,
+"weights_gb": 62.14148426055908,
+"gpu": "NVIDIA RTX PRO 6000 Blackwell Max-Q Workstation Edition",
+"point_s_median": 1.9125196933746338,
+"point_s_p90": 1.9751989603042603,
+"marks_s_median": 0.2316972017288208,
+"marks_s_p90": 0.2321420431137085,
+"verify_s_median": 0.7455140352249146,
+"verify_s_p90": 0.7503468513488769,
+"peak_gpu_gb": 62.323161125183105,
+"n_props_mean": 6.0
+}
+}

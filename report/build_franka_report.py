@@ -178,6 +178,7 @@ Accuracy is the share of episodes where the chosen proposal is the target. *Give
 
 Proposals are labelled with the ground-truth labels from the live run, which fuse the external and wrist cameras. In 12 of 257 scenes, the external camera's instance segmentation lagged its RGB/depth by one render while an object was still settling, so ext-only labels missed the target in 6 scenes. Rescoring with the live labels raised every model's accuracy by about 2 points, and the ranking did not change. `isaac_backend.frames()` now renders twice before capturing."""))
 cells.append(code(r"""G = {}
+BEST = json.load(open(f'{RUNS}/ground_eval/best_mode_dev.json')) if os.path.exists(f'{RUNS}/ground_eval/best_mode_dev.json') else {}
 for f in glob.glob(f'{RUNS}/ground_eval/qwen3vl-*_*.json'):
     m, mode = os.path.basename(f)[:-5].rsplit('_', 1); G[(m, mode)] = json.load(open(f))
 MODELS = [m for m in ['qwen3vl-2b', 'qwen3vl-4b', 'qwen3vl-8b', 'qwen3vl-32b'] if any(k[0] == m for k in G)]
@@ -202,6 +203,29 @@ if G:
     table([[m, mode, fmt([{'success': r['correct']} for r in G[(m, mode)].values()]),
             fmt([{'success': r['correct']} for r in G[(m, mode)].values() if r['segmented']]), f"{np.mean([r['sec'] for r in G[(m, mode)].values()]):.2f} s"]
            for m in MODELS for mode in MC if (m, mode) in G], ['Model', 'Mode', 'Accuracy', 'Accuracy given segmented', 'Latency'])"""))
+cells.append(md(r"""### Size vs inference cost
+
+Each model was profiled alone on one GPU (`vrg/franka/vlm_profile.py`: bf16, Hugging Face `generate`, greedy decoding, no batching, 20 eval scenes after one warm-up query). These latencies are lower than the sweep's, which shared the GPU with Isaac runs.
+* *point*: generates a JSON point, about 25 tokens.
+* *marks*: generates a one-token number.
+* *verify*: one forward pass per proposal (6 on average), with no generation.
+
+Accuracy is on the 257 eval scenes. Closed-loop success uses each model's dev-chosen mode."""))
+cells.append(code(r"""PROF = json.load(open(f'{RUNS}/ground_eval/vlm_profile.json')) if os.path.exists(f'{RUNS}/ground_eval/vlm_profile.json') else {}
+if PROF:
+    rows = []
+    for m in MODELS:
+        p = PROF[m]; acc = {mode: np.mean([r['correct'] for r in G[(m, mode)].values()]) for mode in MC if (m, mode) in G}; bm = max(acc, key=acc.get)
+        cl = load(f'e3_{m}')
+        rows.append([m, f"{p['params_b']:.1f} B", f"{p['peak_gpu_gb']:.0f} GB"] + [f"{p[f'{mode}_s_median']:.2f} s" for mode in MC]
+                    + [f"{100*acc[bm]:.0f}% ({bm})", f"{100*rate(cl)['sr']:.0f}% ({BEST.get(m, '?')})" if cl else '–'])
+    table(rows, ['Model', 'Params', 'Peak GPU memory', 'point latency', 'marks latency', 'verify latency', 'Best grounding accuracy', 'Closed-loop success'])
+    fig, ax = plt.subplots(figsize=(7, 3.6))
+    for mode, col in MC.items():
+        xs = [PROF[m][f'{mode}_s_median'] for m in MODELS]; ys = [np.mean([r['correct'] for r in G[(m, mode)].values()]) for m in MODELS]
+        ax.plot(xs, ys, color=col, marker='o', label=mode)
+        for x, y, m in zip(xs, ys, MODELS): ax.annotate(m.split('-')[1].upper(), (x, y), textcoords='offset points', xytext=(4, 4), fontsize=8, color=col)
+    ax.set_xscale('log'); ax.set_xlabel('median seconds per grounding query (log)'); ax.set_ylabel('grounding accuracy (eval)'); ax.legend(); plt.show()"""))
 cells.append(code(r"""# Which objects does the VLM confuse? (best mode per model, chosen on dev scenes)
 BEST = json.load(open(f'{RUNS}/ground_eval/best_mode_dev.json')) if os.path.exists(f'{RUNS}/ground_eval/best_mode_dev.json') else {}
 for m in MODELS:
@@ -252,7 +276,8 @@ cells.append(md(r"""**Reading sections 3 and 4.**
   Given that the target was segmented at all, 32B marks reaches 86%, against 79–82% for the smaller models.
 * **The modes don't scale the same way.**
   * Pointing does not improve with size. The 8B model often refuses ("There are none.", "There is no bleach bottle in the image", 44 + 11 cases), and the 32B model refuses on the clamp and the bleach bottle.
-  * Set-of-marks gains the most from size (67% → 77% → 76% → 81%). It is also the fastest mode, with a one-token answer (0.2 s even for 32B).
+  * Set-of-marks gains the most from size (67% → 77% → 76% → 81%). It is also the cheapest mode, with a one-token answer: 0.04 s for 2B and 0.23 s for 32B. That makes **32B + marks both the most accurate and faster than any model's pointing**. Its cost is memory: 62 GB of GPU, against 4–16 GB for 2B–8B.
+* Latency grows about 5× from 2B to 32B in every mode (point 0.29 → 1.9 s, verify 0.18 → 0.75 s). Compared with the several seconds a pick's arm motion takes, even 32B pointing adds little per episode.
   * Verify (crop + Yes/No logit) is the most stable across sizes, but it needs one forward pass per proposal.
 * **The remaining confusions are between look-alikes:** gelatin vs pudding vs sugar box (three small boxes), potted-meat vs tomato-soup vs coffee can, and foam brick vs wooden block. They come from a 640×480 view at about 1.1 m, where these objects are 30–60 px across. A higher-resolution external camera, or asking the VLM on the wrist view after the look move, are the obvious next tries.
 * **Who fails?** Once the VLM is right, the rest of the pipeline succeeds 84–85% of the time for every model, the same as with the oracle (82%). So the robot side is not the bottleneck for VLM-grounded runs:
@@ -304,7 +329,7 @@ cells.append(md(r"""---
 |---|---|
 | How good is the scripted grasp with a perfect VLM? | **78%** with a wrist look-then-grasp (49% from the external camera alone). |
 | Better controller? | Our planned IK (goal IK with limits, null-space posture and restarts, then min-jerk joints plus straight-line approach and lift) converges where Isaac's one-step differential IK stalls or swings into the object: **78% vs 56%** (both are about 3 mm accurate when they converge). Pure joint moves are on par in sim (77%). |
-| Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**. Set-of-marks scales best and is fastest. |
+| Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**, at 62 GB of GPU memory. Set-of-marks scales best and is fastest (0.23 s per query with 32B, about 5× slower than with 2B). |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps:**

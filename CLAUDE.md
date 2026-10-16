@@ -25,7 +25,7 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 | `vrg.bench.policy_server` (Colosseum, one per rollout) | 1.3 GB | 1.3 GB | 3.7 GB |
 | `col_rollout.py` (colosseum env, VirtualGL) | <1 GB | <1 GB | render only; ~1.3 cores |
 | `vrg.franka.run_isaac` (Isaac Lab, CPU physics; `isaac/run.sh`) | 3.4 GB | 3.4 GB | ~4 GB; ~4.5 cores |
-| `vrg.franka.ground_offline` Qwen3-VL-32B (one GPU) | ~2.2 GB (mmap) | 2.2 GB | 64 GB |
+| `vrg.franka.ground_offline` Qwen3-VL (one GPU) | ~2.2 GB (mmap) | 2.2 GB | 2B 4, 4B 8, 8B 16, 32B 62 GB |
 
 ## Conventions
 - Raw robosuite images are upside down (OpenGL convention). Policies train and run on raw 128 px obs; anything shown to the VLM or in videos is flipped `[::-1]`.
