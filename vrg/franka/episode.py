@@ -42,7 +42,8 @@ def look_refine(robot, prop, table, controller, grasp_mode):
     if not props_w: return None, dict(reason="no_wrist_props")
     if q is None: return None, dict(reason="wrist_no_match", dist=d)
     g = top_down_grasp(q, table, yaw_mode=grasp_mode)
-    return g, dict(reason="", shift=float(np.linalg.norm(q["center"][:2] - prop["center"][:2])), wrist_props=len(props_w))
+    return g, dict(reason="", shift=float(np.linalg.norm(q["center"][:2] - prop["center"][:2])), wrist_props=len(props_w),
+                   _wrist=dict(frame=F["wrist"], props=props_w, match=q["id"]))           # for debugging dumps (popped before json)
 
 
 def move(robot, T, controller, straight):
@@ -78,7 +79,7 @@ def run(robot, target_desc, ground, grasp_mode="pca", controller="cartesian", ca
     prop = next(p for p in props if p["id"] == pid)
     g = top_down_grasp(prop, table, yaw_mode=grasp_mode)
     if refine:
-        g2, rinfo = look_refine(robot, prop, table, controller, grasp_mode); rec["refine"] = rinfo
+        g2, rinfo = look_refine(robot, prop, table, controller, grasp_mode); rec["_look"] = rinfo.pop("_wrist", None); rec["refine"] = rinfo
         if g2 is not None: g = g2
     return execute(robot, g, rec, controller, gt)
 
@@ -94,8 +95,9 @@ def execute(robot, g, rec, controller, gt=None):
     r, info = move(robot, g["T"], controller, straight=True)
     if r is None: rec["fail"] = rec["fail"] or "ik"; rec["ik_info"] = info; return rec
     rec["reach_err"] = r.final_err_pos; rec["reach_err_rot"] = r.final_err_rot
+    rec["T_goal"] = g["T"].tolist(); rec["T_reached"] = robot.state().T_tcp.tolist()
     if gt is not None: rec["disturbed_before_close"] = gt.moved(exclude_target=True)
-    held = robot.gripper_grasp(width=0.0); rec["held_after_close"] = held
+    held = robot.gripper_grasp(width=0.0); rec["held_after_close"] = held; rec["width_after_close"] = robot.state().gripper_width
     T_up = robot.state().T_tcp.copy(); T_up[2, 3] += LIFT_Z
     r, info = move(robot, T_up, controller, straight=True)
     if r is None: rec["fail"] = rec["fail"] or "ik_lift"

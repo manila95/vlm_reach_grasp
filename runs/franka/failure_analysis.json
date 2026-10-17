@@ -1,0 +1,959 @@
+{
+ "robot": [
+  {
+   "seed": 100,
+   "target": "011_banana",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 101,
+   "target": "037_scissors",
+   "fail": "grasp_plan",
+   "cause": "shape",
+   "evidence": {
+    "requested_cm": 8.8,
+    "true_narrow_cm": 9.1,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 102,
+   "target": "005_tomato_soup_can",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 103,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.5,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 104,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 105,
+   "target": "037_scissors",
+   "fail": "approach_collision",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "sugar_box"
+    ],
+    "stopped_above_cm": 10.4
+   }
+  },
+  {
+   "seed": 106,
+   "target": "008_pudding_box",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 107,
+   "target": "006_mustard_bottle",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "bleach_cleanser"
+    ],
+    "stopped_above_cm": 5.4
+   }
+  },
+  {
+   "seed": 107,
+   "target": "009_gelatin_box",
+   "fail": "segmentation",
+   "cause": "occluded_ext",
+   "evidence": {
+    "target_px": 31,
+    "in_proposal_of": "008_pudding_box"
+   }
+  },
+  {
+   "seed": 108,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.7,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 108,
+   "target": "037_scissors",
+   "fail": "segmentation",
+   "cause": "occluded_ext",
+   "evidence": {
+    "target_px": 45,
+    "in_proposal_of": "010_potted_meat_can"
+   }
+  },
+  {
+   "seed": 109,
+   "target": "037_scissors",
+   "fail": "grasp_plan",
+   "cause": "shape",
+   "evidence": {
+    "requested_cm": 8.5,
+    "true_narrow_cm": 9.1,
+    "look": "ik_look"
+   }
+  },
+  {
+   "seed": 109,
+   "target": "051_large_clamp",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": [
+     "mustard_bottle"
+    ]
+   }
+  },
+  {
+   "seed": 109,
+   "target": "061_foam_brick",
+   "fail": "approach_collision",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "master_chef_can"
+    ],
+    "stopped_above_cm": 7.5
+   }
+  },
+  {
+   "seed": 110,
+   "target": "010_potted_meat_can",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 12.5,
+    "true_narrow_cm": 5.8,
+    "other_px": {
+     "scissors": 0.38
+    }
+   }
+  },
+  {
+   "seed": 110,
+   "target": "037_scissors",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 489,
+    "in_proposal_of": "010_potted_meat_can"
+   }
+  },
+  {
+   "seed": 111,
+   "target": "011_banana",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 112,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.8,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 113,
+   "target": "004_sugar_box",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "bleach_cleanser"
+    ],
+    "stopped_above_cm": 6.3
+   }
+  },
+  {
+   "seed": 113,
+   "target": "009_gelatin_box",
+   "fail": "wrong_object",
+   "cause": null,
+   "evidence": {}
+  },
+  {
+   "seed": 113,
+   "target": "051_large_clamp",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 1419,
+    "in_proposal_of": "009_gelatin_box"
+   }
+  },
+  {
+   "seed": 114,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 9.5,
+    "true_narrow_cm": 7.2,
+    "other_px": {
+     "sugar_box": 0.27
+    }
+   }
+  },
+  {
+   "seed": 114,
+   "target": "004_sugar_box",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 3502,
+    "in_proposal_of": "003_cracker_box"
+   }
+  },
+  {
+   "seed": 114,
+   "target": "021_bleach_cleanser",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 114,
+   "target": "051_large_clamp",
+   "fail": "grasp_slip",
+   "cause": "thin_grasp",
+   "evidence": {
+    "width_after_close_cm": 2.3
+   }
+  },
+  {
+   "seed": 115,
+   "target": "010_potted_meat_can",
+   "fail": "approach_collision",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "mustard_bottle"
+    ],
+    "stopped_above_cm": 8.2
+   }
+  },
+  {
+   "seed": 116,
+   "target": "021_bleach_cleanser",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 8.7,
+    "true_narrow_cm": 6.8,
+    "other_px": {
+     "large_clamp": 0.23
+    }
+   }
+  },
+  {
+   "seed": 116,
+   "target": "051_large_clamp",
+   "fail": "grasp_slip",
+   "cause": "thin_grasp",
+   "evidence": {
+    "width_after_close_cm": 0.2
+   }
+  },
+  {
+   "seed": 117,
+   "target": "005_tomato_soup_can",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 118,
+   "target": "009_gelatin_box",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "master_chef_can"
+    ],
+    "stopped_above_cm": 6.2
+   }
+  },
+  {
+   "seed": 119,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 120,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.5,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 120,
+   "target": "040_large_marker",
+   "fail": "segmentation",
+   "cause": "occluded_ext",
+   "evidence": {
+    "target_px": 37,
+    "in_proposal_of": "004_sugar_box"
+   }
+  },
+  {
+   "seed": 121,
+   "target": "009_gelatin_box",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 989,
+    "in_proposal_of": "037_scissors"
+   }
+  },
+  {
+   "seed": 121,
+   "target": "037_scissors",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 14.8,
+    "true_narrow_cm": 9.1,
+    "other_px": {
+     "gelatin_box": 0.41
+    }
+   }
+  },
+  {
+   "seed": 121,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 123,
+   "target": "006_mustard_bottle",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 123,
+   "target": "009_gelatin_box",
+   "fail": "reach",
+   "cause": "other",
+   "evidence": {
+    "neighbours_in_hand": [],
+    "stopped_above_cm": 6.3
+   }
+  },
+  {
+   "seed": 124,
+   "target": "011_banana",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 16.5,
+    "true_narrow_cm": 7.4,
+    "other_px": {
+     "scissors": 0.42
+    }
+   }
+  },
+  {
+   "seed": 124,
+   "target": "037_scissors",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 1023,
+    "in_proposal_of": "011_banana"
+   }
+  },
+  {
+   "seed": 126,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.6,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 126,
+   "target": "011_banana",
+   "fail": "approach_collision",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "large_clamp",
+     "cracker_box"
+    ],
+    "stopped_above_cm": 15.5
+   }
+  },
+  {
+   "seed": 126,
+   "target": "037_scissors",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 128,
+   "target": "010_potted_meat_can",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 129,
+   "target": "051_large_clamp",
+   "fail": "grasp_plan",
+   "cause": "shape",
+   "evidence": {
+    "requested_cm": 11.3,
+    "true_narrow_cm": 12.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 130,
+   "target": "061_foam_brick",
+   "fail": "segmentation",
+   "cause": "occluded_ext",
+   "evidence": {
+    "target_px": 0,
+    "in_proposal_of": "040_large_marker"
+   }
+  },
+  {
+   "seed": 131,
+   "target": "011_banana",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 133,
+   "target": "005_tomato_soup_can",
+   "fail": "reach",
+   "cause": "other",
+   "evidence": {
+    "neighbours_in_hand": [],
+    "stopped_above_cm": 4.6
+   }
+  },
+  {
+   "seed": 133,
+   "target": "009_gelatin_box",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 135,
+   "target": "021_bleach_cleanser",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 136,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.6,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 137,
+   "target": "040_large_marker",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "mustard_bottle"
+    ],
+    "stopped_above_cm": 6.4
+   }
+  },
+  {
+   "seed": 138,
+   "target": "009_gelatin_box",
+   "fail": "reach",
+   "cause": "other",
+   "evidence": {
+    "neighbours_in_hand": [],
+    "stopped_above_cm": 6.0
+   }
+  },
+  {
+   "seed": 138,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": [
+     "pudding_box",
+     "master_chef_can"
+    ]
+   }
+  },
+  {
+   "seed": 140,
+   "target": "011_banana",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 140,
+   "target": "037_scissors",
+   "fail": "grasp_plan",
+   "cause": "shape",
+   "evidence": {
+    "requested_cm": 8.8,
+    "true_narrow_cm": 9.1,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 141,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "evidence": {
+    "requested_cm": 7.5,
+    "true_narrow_cm": 7.2,
+    "other_px": {}
+   }
+  },
+  {
+   "seed": 141,
+   "target": "011_banana",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 2127,
+    "in_proposal_of": "036_wood_block"
+   }
+  },
+  {
+   "seed": 141,
+   "target": "051_large_clamp",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 142,
+   "target": "003_cracker_box",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 11.9,
+    "true_narrow_cm": 7.2,
+    "other_px": {
+     "bleach_cleanser": 0.39
+    }
+   }
+  },
+  {
+   "seed": 142,
+   "target": "011_banana",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 11.6,
+    "true_narrow_cm": 7.4,
+    "other_px": {
+     "sugar_box": 0.36
+    }
+   }
+  },
+  {
+   "seed": 142,
+   "target": "021_bleach_cleanser",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 5390,
+    "in_proposal_of": "003_cracker_box"
+   }
+  },
+  {
+   "seed": 142,
+   "target": "040_large_marker",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "sugar_box"
+    ],
+    "stopped_above_cm": 4.2
+   }
+  },
+  {
+   "seed": 144,
+   "target": "005_tomato_soup_can",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "mustard_bottle"
+    ],
+    "stopped_above_cm": 5.6
+   }
+  },
+  {
+   "seed": 144,
+   "target": "006_mustard_bottle",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "cracker_box"
+    ],
+    "stopped_above_cm": 5.7
+   }
+  },
+  {
+   "seed": 144,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 145,
+   "target": "003_cracker_box",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 145,
+   "target": "051_large_clamp",
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "evidence": {
+    "neighbours_in_hand": [
+     "wood_block"
+    ],
+    "stopped_above_cm": 8.5
+   }
+  },
+  {
+   "seed": 147,
+   "target": "010_potted_meat_can",
+   "fail": "grasp_miss",
+   "cause": "thin_grasp",
+   "evidence": {
+    "width_after_close_cm": 0.1
+   }
+  },
+  {
+   "seed": 147,
+   "target": "011_banana",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 17.4,
+    "true_narrow_cm": 7.4,
+    "other_px": {
+     "scissors": 0.44
+    }
+   }
+  },
+  {
+   "seed": 147,
+   "target": "037_scissors",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 644,
+    "in_proposal_of": "011_banana"
+   }
+  },
+  {
+   "seed": 147,
+   "target": "051_large_clamp",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 2171,
+    "in_proposal_of": "010_potted_meat_can"
+   }
+  },
+  {
+   "seed": 147,
+   "target": "061_foam_brick",
+   "fail": "success",
+   "cause": null,
+   "evidence": {
+    "neighbours_in_hand": []
+   }
+  },
+  {
+   "seed": 148,
+   "target": "006_mustard_bottle",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 16.2,
+    "true_narrow_cm": 5.8,
+    "other_px": {
+     "scissors": 0.31
+    }
+   }
+  },
+  {
+   "seed": 148,
+   "target": "037_scissors",
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "evidence": {
+    "target_px": 1701,
+    "in_proposal_of": "006_mustard_bottle"
+   }
+  },
+  {
+   "seed": 149,
+   "target": "010_potted_meat_can",
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "evidence": {
+    "requested_cm": 7.6,
+    "true_narrow_cm": 5.8,
+    "other_px": {
+     "large_clamp": 0.4
+    }
+   }
+  },
+  {
+   "seed": 149,
+   "target": "051_large_clamp",
+   "fail": "grasp_slip",
+   "cause": "thin_grasp",
+   "evidence": {
+    "width_after_close_cm": 2.4
+   }
+  }
+ ],
+ "vlm": {
+  "run": "rx_4b_ens3_K2",
+  "n": 257,
+  "grounding_failures": 23,
+  "lookalike": 22,
+  "pairs": [
+   [
+    "foam_brick \u2192 wood_block",
+    5
+   ],
+   [
+    "gelatin_box \u2192 sugar_box",
+    3
+   ],
+   [
+    "sugar_box \u2192 pudding_box",
+    3
+   ],
+   [
+    "sugar_box \u2192 cracker_box",
+    2
+   ],
+   [
+    "potted_meat_can \u2192 master_chef_can",
+    2
+   ],
+   [
+    "sugar_box \u2192 gelatin_box",
+    1
+   ],
+   [
+    "scissors \u2192 potted_meat_can",
+    1
+   ],
+   [
+    "scissors \u2192 large_clamp",
+    1
+   ],
+   [
+    "cracker_box \u2192 pudding_box",
+    1
+   ],
+   [
+    "tomato_soup_can \u2192 tuna_fish_can",
+    1
+   ]
+  ],
+  "agree": {
+   "n": 167,
+   "correct": 0.9880239520958084
+  },
+  "disagree": {
+   "n": 77,
+   "correct": 0.7272727272727273
+  },
+  "failures_flagged_by_disagreement": 21,
+  "target_in_some_wrist_answer": 3,
+  "names_test": {
+   "qwen3vl-2b_point": {
+    "ycb": 0.7431906614785992,
+    "descriptive": 0.8404669260700389
+   },
+   "qwen3vl-2b_marks": {
+    "ycb": 0.6731517509727627,
+    "descriptive": 0.8171206225680934
+   },
+   "qwen3vl-4b_point": {
+    "ycb": 0.7587548638132295,
+    "descriptive": 0.8365758754863813
+   },
+   "qwen3vl-4b_marks": {
+    "ycb": 0.7704280155642024,
+    "descriptive": 0.8287937743190662
+   },
+   "qwen3vl-4b_verify": {
+    "ycb": 0.7782101167315175,
+    "descriptive": 0.8132295719844358
+   },
+   "qwen3vl-2b_verify": {
+    "ycb": 0.7509727626459144,
+    "descriptive": 0.7898832684824902
+   }
+  }
+ },
+ "robot_summary": [
+  {
+   "fail": "approach_collision",
+   "cause": "palm_neighbour",
+   "n": 4
+  },
+  {
+   "fail": "grasp_miss",
+   "cause": "thin_grasp",
+   "n": 1
+  },
+  {
+   "fail": "grasp_plan",
+   "cause": "merged_wrist",
+   "n": 10
+  },
+  {
+   "fail": "grasp_plan",
+   "cause": "shape",
+   "n": 4
+  },
+  {
+   "fail": "grasp_plan",
+   "cause": "width_cap",
+   "n": 7
+  },
+  {
+   "fail": "grasp_slip",
+   "cause": "thin_grasp",
+   "n": 3
+  },
+  {
+   "fail": "reach",
+   "cause": "other",
+   "n": 3
+  },
+  {
+   "fail": "reach",
+   "cause": "palm_neighbour",
+   "n": 8
+  },
+  {
+   "fail": "segmentation",
+   "cause": "merged_ext",
+   "n": 10
+  },
+  {
+   "fail": "segmentation",
+   "cause": "occluded_ext",
+   "n": 4
+  },
+  {
+   "fail": "wrong_object",
+   "cause": null,
+   "n": 1
+  }
+ ],
+ "success_with_neighbour_in_hand": 2,
+ "n_success_controls": 22
+}

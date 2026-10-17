@@ -21,6 +21,7 @@ ap.add_argument("--refine", action="store_true", help="look with the wrist camer
 ap.add_argument("--n_objects", type=int, default=6); ap.add_argument("--out", required=True); ap.add_argument("--save_scenes", default=None)
 ap.add_argument("--video", type=int, default=0, help="record the external camera for the first N episodes")
 ap.add_argument("--reactive", default=None, help="reactive grounding (vrg.franka.reactive) with a VLM server: 'port=6102,mode=point,K=2,verify=1,R=2,tau=0'")
+ap.add_argument("--debug_dir", default=None, help="dump the look-pose wrist view with ground-truth masks and object poses per episode")
 ap.add_argument("--episodes", default=None, help="only these episodes, all recorded: 'seed:target,...' (e.g. 103:021_bleach_cleanser)")
 A = ap.parse_args()
 import faulthandler   # per-episode watchdog: a hung episode (seen: RTX render deadlock) exits with code 1, run.sh restarts and resumes
@@ -127,7 +128,17 @@ def main():
                                    R=int(RX.get("R", 2)), tau=float(RX.get("tau", 0)), ext_modes=RX["ext"].split("+") if "ext" in RX else None, gate=RX.get("gate"), rule=RX.get("rule", "vote"), grasp_mode=A.grasp, controller=A.controller, gt=gt)
             else:
                 rec = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, propose=propose, refine=A.refine)
-            F, props = rec.pop("_frames"), rec.pop("_props")
+            F, props = rec.pop("_frames"), rec.pop("_props"); look = rec.pop("_look", None)
+            rec["obj_pose_init"] = {n: env.init_pose[n].tolist() for n in env.scene_objs}; rec["obj_pose_end"] = {n: env.obj_pose(n).tolist() for n in env.scene_objs}
+            if A.debug_dir:
+                os.makedirs(A.debug_dir, exist_ok=True); D = dict(rec=rec, ext=dict(rgb=F["ext"].rgb, depth=F["ext"].depth, K=F["ext"].K, T=F["ext"].T_base_cam),
+                    ext_masks={n: np.packbits(env.obj_points_mask(F["ext"], n)) for n in env.scene_objs},
+                    ext_props=[dict(id=p["id"], points=p["points"], mask=np.packbits(p["pix"]["ext"][1]) if "ext" in p["pix"] else None) for p in props])
+                if look:
+                    fw = look["frame"]; D["wrist"] = dict(rgb=fw.rgb, depth=fw.depth, K=fw.K, T=fw.T_base_cam)
+                    D["wrist_masks"] = {n: np.packbits(env.obj_points_mask(fw, n)) for n in env.scene_objs}
+                    D["wrist_props"] = [dict(id=p["id"], points=p["points"], mask=np.packbits(p["pix"]["wrist"][1])) for p in look["props"]]; D["wrist_match"] = look["match"]
+                pickle.dump(D, open(f"{A.debug_dir}/{seed}_{tname}.pkl", "wb"))
             if A.save_scenes:
                 os.makedirs(A.save_scenes, exist_ok=True)
                 pickle.dump(dict(seed=seed, target=tname, desc=OBJECTS[tname][0], objects=objs,

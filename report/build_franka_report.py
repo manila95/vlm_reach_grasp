@@ -412,9 +412,60 @@ cells.append(md(r"""**Reading section 5.**
   As a filter inside the vote (gate, vote), it is on par with the ungated vote (within ±3 points). Planning the grasp from the last uncut detection when the close-up is cut by the border triggered in 6–9 episodes per run, mostly the banana, scissors and clamp. It never helped: those grasps fail either way.
 * **The limit of correcting on the way:** the arm heads to its first choice, so in about 1 episode in 5 the true target never enters the wrist view, and no rule can fix that. The next step would be active viewing: when the external votes disagree, move first to a view that covers all the disagreeing candidates."""))
 
+# ------------------------------------------------------------------ failure modes
+cells.append(md(r"""---
+## 6. Failure modes and their root causes
+
+**Where the best pipeline still fails.** The best pipeline is 4B with ens3, K=2 (section 5): 72% success, so 73 of 257 episodes fail. The bar below splits those failures by first broken stage, so it shows where the remaining errors are.
+
+**How causes were established.**
+* **Robot side:** every failed episode of the perfect-VLM run (config b), plus every 10th success as controls, was re-run with diagnostics on: the wrist view at the look pose with ground-truth masks, the planned and reached TCP poses, and all object poses (`run_isaac --debug_dir`). 74/77 episodes reproduced their original outcome. `vrg/franka/failure_analysis.py` then checks each failure against the true geometry (rules in its docstring).
+* **VLM side:** from the reactive run's per-call logs, plus an offline re-run of grounding with different target names on the same saved scenes."""))
+cells.append(code(r"""FA = json.load(open(f'{RUNS}/failure_analysis.json')) if os.path.exists(f'{RUNS}/failure_analysis.json') else None
+R = load('rx_4b_ens3_K2')
+if R:
+    c = collections.Counter(x['fail'] for x in R if not x.get('success'))
+    fig, ax = plt.subplots(figsize=(8, 2.6)); ks = [k for k in FAILS if c.get(k)]
+    ax.barh(range(len(ks)), [c[k] for k in ks], color=[FC[k] for k in ks]); ax.set_yticks(range(len(ks))); ax.set_yticklabels(ks); ax.invert_yaxis()
+    for i, k in enumerate(ks): ax.text(c[k] + 0.3, i, f"{c[k]}  ({100*c[k]/len(R):.0f}% of episodes)", va='center', fontsize=8)
+    ax.set_xlabel(f'failed episodes (best pipeline: 4B, ens3 K=2; {sum(c.values())} of {len(R)})'); ax.grid(axis='y', visible=False); plt.show()
+if FA:
+    CAUSE = {'merged_ext': 'target merged with a touching neighbour into one proposal (external view)', 'occluded_ext': 'target hidden behind another object (< 150 px visible)',
+             'merged_wrist': 'wrist-view cluster includes a touching neighbour, so the measured width is inflated', 'width_cap': "clean cluster, object fits the 8 cm hand, but over the planner's 7.5 cm cap + 1 cm margin",
+             'shape': 'object wider than the hand across its narrow side at the centroid (scissors / clamp lying flat)', 'no_look': 'look move failed, external-view plan too wide',
+             'palm_neighbour': 'the palm or a finger hits a taller neighbour on the way down', 'thin_grasp': 'closed on < 3 cm of material near the top of a tall, thin object (clamp)', 'other': 'not explained by the rules', None: '–'}
+    table([[d['fail'], CAUSE.get(d['cause'], d['cause']), d['n']] for d in FA['robot_summary']], ['First broken stage (perfect-VLM run)', 'Root cause (from the logged geometry)', 'Episodes'])
+    display(Markdown(f"Control: only **{FA['success_with_neighbour_in_hand']} of {FA['n_success_controls']}** successful episodes have a neighbour inside the hand volume at the grasp pose, against 12 of the 15 `reach` / `approach_collision` failures."))"""))
+cells.append(code(r"""for f, cap in [('palm_collisions.png', '**`reach` and `approach_collision` are palm collisions.** Top-down view at the planned grasp. The Franka Hand palm is ≈ 20 cm long along the closing direction, and its underside is only ≈ 4.5 cm above the fingertips. Grasping 3 cm below the top of a short object puts the palm into any taller object within ±10 cm. The planner never checks this.'),
+               ('merged_clusters.png', '**Touching objects merge into one cluster.** Green: the target; orange: the proposal that contains it. In the external view (left two), the target never gets its own proposal (`segmentation`). In the wrist view (right two), the cluster that includes a neighbour gives an inflated width (`grasp_plan`).')]:
+    p = f'{ROOT}/demo/franka/failures/{f}'
+    if os.path.exists(p): display(Markdown(cap)); display(Image(p, width=900))"""))
+cells.append(code(r"""if FA:
+    V = FA['vlm']
+    display(Markdown(f"**VLM failures** (best pipeline, {V['grounding_failures']} wrong-object episodes):\n"
+                     f"* **Look-alikes:** {V['lookalike']} / {V['grounding_failures']} choose an object of the same kind (box for box, can for can). The most common pairs: " + '; '.join(f'{a} ×{n}' for a, n in V['pairs'][:6]) + ".\n"
+                     f"* **Disagreement flags uncertainty:** when the three modes agree on the external view, grounding is right **{100*V['agree']['correct']:.0f}%** of the time (n = {V['agree']['n']}); when they disagree, **{100*V['disagree']['correct']:.0f}%** (n = {V['disagree']['n']}). {V['failures_flagged_by_disagreement']} of the {V['grounding_failures']} failures were flagged this way.\n"
+                     f"* **Re-asks rarely rescue a wrong first choice:** an approach view picked the true target in only {V['target_in_some_wrist_answer']} of them, because the arm heads to the wrong object.\n"
+                     "* **Names matter more than model size.** The YCB names do not say what the objects look like. The “potted meat can” is a SPAM can, the “gelatin” and “pudding” boxes are both Jell-O, and the “foam brick” is a red sponge. The same models on the same saved scenes, with names that describe the appearance (e.g. “blue SPAM can”, `ground_offline --names descriptive`), do much better:"))
+    table([[k.split('_')[0], k.split('_')[1], f"{100*v['ycb']:.1f}%", f"{100*v['descriptive']:.1f}%", f"{100*(v['descriptive']-v['ycb']):+.1f}"] for k, v in sorted(V['names_test'].items())],
+          ['Model', 'Mode', 'YCB name', 'Descriptive name', 'Δ'])"""))
+cells.append(md(r"""**Reading section 6: causes and the fixes they point to.** Episode counts are for the perfect-VLM run (robot side) and the best pipeline (VLM side), out of 257 each.
+
+| # | Root cause | Episodes | Proposed fix | How to test |
+|---|---|---|---|---|
+| 1 | **Touching objects merge into one cluster.** The bird's-eye occupancy clustering cannot separate objects whose footprints touch. The scene generator spaces object *centres* 11 cm apart, but objects are up to 21 cm long. This hits `segmentation` (10) and `grasp_plan` (10). | ≈ 20 | Split clusters with image cues: depth discontinuities and colour edges inside a proposal (watershed / superpixels), or a class-agnostic 2-D mask model (e.g. SAM 2, local) intersected with the depth clusters. Flag proposals whose footprint is much larger than any single graspable object. | Proposal purity on the saved scenes (offline), then a closed-loop config b rerun. |
+| 2 | **The palm hits taller neighbours.** The grasp is planned for the target alone; the hand's 20 cm palm sweeps over its neighbours. | ≈ 12 | Collision-aware grasp choice: score candidate grasps (both footprint axes, ± 15–30° yaw, small centre offsets, grasp depth) against the scene's non-target points inside the palm and finger volumes, and take the clear one. If none is clear, say so instead of colliding. The same check runs on the real robot from its own depth. | Config b rerun; `reach` + `approach_collision` should drop toward 0. |
+| 3 | **The planner's width cap is tighter than the hand.** It caps at 7.5 cm and adds a 1 cm margin, so a standing cracker box (7.2 cm) is "too wide" for an 8 cm hand. The grasp angle is accurate (median error 0.7°). | 7 | Cap at the hand's 8.0 cm with a 0.5 cm margin. Rely on the wrist re-plan and the ≈ 3 mm reach accuracy for clearance. | Config b rerun on cracker-box episodes. |
+| 4 | **Single centroid grasp on non-convex shapes** (scissors, clamp lying flat). | 4 | Search grasp positions along the major axis for a section narrower than the hand, near the centroid. | Same. |
+| 5 | **Thin grasp on tall, thin objects** (the standing clamp slips). | 4 | Grasp deeper (4–4.5 cm finger depth) when the object is tall, and close with more force. | Same. |
+| 6 | **Target hidden from the external camera.** | 4 | Fuse the wrist view at the home pose into the proposals (a second viewpoint). | Proposal recall offline. |
+| 7 | **VLM: the names don't say what things look like**, so look-alikes get confused. | 23 (4B) | Expand the instruction into an appearance description before grounding (ask the VLM, or an LLM, what an "X" usually looks like), or use the user's own description. When the modes disagree, look closer at just the disputed candidates, or ask the user. | Offline on the saved scenes: name expansion vs YCB names vs descriptive names. |
+
+Fixes 1–3 cover about 39 of the 57 robot-side failures (15% of episodes) and need no new learning. Fix 7 targets the biggest single bucket on the VLM side."""))
+
 # ------------------------------------------------------------------ videos
 cells.append(md(r"""---
-## 6. Videos
+## 7. Videos
 
 External camera, 20 fps.
 
@@ -433,7 +484,7 @@ cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_c_fixedyaw
 
 # ------------------------------------------------------------------ real robot
 cells.append(md(r"""---
-## 7. Moving to the real Franka
+## 8. Moving to the real Franka
 
 What is already shared:
 * the episode loop, perception, VLM grounding, grasp planner and IK (`vrg/franka/*`);
@@ -449,7 +500,7 @@ Before the first real run:
 Sim-to-real gaps to expect: depth noise and missing depth on shiny or transparent surfaces, camera calibration error (a few mm to 1 cm), contact physics of the soft fingertips, and object weights."""))
 
 cells.append(md(r"""---
-## 8. Summary
+## 9. Summary
 
 | Question | Answer (257 eval episodes, 13 YCB targets, 6 objects per scene) |
 |---|---|
@@ -457,12 +508,13 @@ cells.append(md(r"""---
 | Better controller? | Our planned IK (goal IK with limits, null-space posture and restarts, then min-jerk joints plus straight-line approach and lift) converges where Isaac's one-step differential IK stalls or swings into the object: **78% vs 56%** (both are about 3 mm accurate when they converge). Pure joint moves are on par in sim (77%). |
 | Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**, at 62 GB of GPU memory. Set-of-marks scales best and is fastest (0.23 s per query with 32B, about 5× slower than with 2B). |
 | Can repeated inference replace a bigger model? | **Yes, when pooled.** 3 modes on the external view + 2 re-asks along the approach: 4B reaches **86% grounding / 72% success** (32B one-shot: 81% / 68%). Re-asking a single mode, or letting the last view decide (even gated for obscured views), hurts. |
+| Why do the remaining picks fail? (section 6) | **Robot side, perfect VLM:** touching objects merge into one cluster (≈ 20 eps); the 20 cm palm hits taller neighbours (≈ 12); a width cap tighter than the hand (7); thin or non-convex grasps (8). **VLM side:** look-alikes of the same kind (22/23), made worse by YCB names that don't describe appearance (descriptive names: +4 to +14 points). Mode disagreement flags 21/23 VLM errors. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
-**Next steps:**
+**Next steps** (section 6 lists the fixes by root cause):
 * Robot side: side or edge grasps for wide or flat objects (the cracker box), and better segmentation of thin objects (the scissors).
 * VLM side: pooled multi-mode grounding plus a few re-asks along the approach (section 5) is the default to carry to the real arm. Next comes active viewing, moving to a view that covers the candidates the votes disagree on.
-* Real arm: the checklist in section 7. The episode code runs unchanged on `FrankyRobot`."""))
+* Real arm: the checklist in section 8. The episode code runs unchanged on `FrankyRobot`."""))
 
 nb = nbf.v4.new_notebook(); nb.cells = cells
 nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}

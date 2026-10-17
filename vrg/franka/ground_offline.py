@@ -45,9 +45,20 @@ def rescore(out, scenes_dir):
     json.dump(summ, open(f"{out}/summary.json", "w"), indent=1)
 
 
+# Appearance-describing names (what a person looking at the object might say), to test whether confusions come from the
+# YCB category names (e.g. "potted meat can" is a SPAM can; "gelatin" and "pudding" boxes are both Jell-O) or from vision.
+DESCRIPTIVE = {"003_cracker_box": "red Cheez-It cracker box", "004_sugar_box": "yellow Domino sugar box",
+               "005_tomato_soup_can": "red and white Campbell's tomato soup can", "006_mustard_bottle": "yellow French's mustard bottle",
+               "008_pudding_box": "brown Jell-O chocolate pudding box", "009_gelatin_box": "red Jell-O strawberry gelatin box",
+               "010_potted_meat_can": "blue SPAM can", "011_banana": "banana", "021_bleach_cleanser": "white bleach bottle",
+               "037_scissors": "scissors", "040_large_marker": "black marker pen", "051_large_clamp": "black clamp",
+               "061_foam_brick": "red foam brick"}
+
+
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--scenes", required=True); ap.add_argument("--models", default="qwen3vl-2b,qwen3vl-4b,qwen3vl-8b,qwen3vl-32b")
     ap.add_argument("--modes", default="point,marks,verify"); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
+    ap.add_argument("--names", default="ycb", choices=["ycb", "descriptive"], help="how the target is named in the prompt")
     ap.add_argument("--rescore", action="store_true", help="only recompute correctness of existing results with the current labels")
     A = ap.parse_args(); os.makedirs(A.out, exist_ok=True)
     if A.rescore: return rescore(A.out, A.scenes)
@@ -61,7 +72,7 @@ def main():
             if os.path.exists(outf): continue
             R = {}
             for S, F, props, lab in scenes:
-                r = ground(V, mode, S["desc"], F["ext"], props)
+                r = ground(V, mode, DESCRIPTIVE[S["target"]] if A.names == "descriptive" else S["desc"], F["ext"], props)
                 p = next((q for q in props if q["id"] == r["choice"]), None)
                 R[f"{S['seed']}|{S['target']}"] = dict(model=model, mode=mode, choice=r["choice"], xyz=None if p is None else p["center"].tolist(),
                                                        chosen_obj=lab.get(r["choice"]), correct=lab.get(r["choice"]) == S["target"],
