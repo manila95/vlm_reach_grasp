@@ -21,6 +21,10 @@ ap.add_argument("--refine", action="store_true", help="look with the wrist camer
 ap.add_argument("--n_objects", type=int, default=6); ap.add_argument("--out", required=True); ap.add_argument("--save_scenes", default=None)
 ap.add_argument("--video", type=int, default=0, help="record the external camera for the first N episodes")
 ap.add_argument("--reactive", default=None, help="reactive grounding (vrg.franka.reactive) with a VLM server: 'port=6102,mode=point,K=2,verify=1,R=2,tau=0'")
+ap.add_argument("--speed", type=float, default=1.0, help="scale joint and straight-line speeds (1 = 30%% of joint limits, 15 cm/s)")
+ap.add_argument("--settle", type=float, default=0.3, help="longest wait after each move (s)")
+ap.add_argument("--settle_tol", type=float, default=0.01, help="the wait ends once every joint is within this many rad of its target")
+ap.add_argument("--timing", action="store_true", help="log robot (simulated) and compute time per stage (vrg.franka.timing)")
 ap.add_argument("--debug_dir", default=None, help="dump the look-pose wrist view with ground-truth masks and object poses per episode")
 ap.add_argument("--episodes", default=None, help="only these episodes, all recorded: 'seed:target,...' (e.g. 103:021_bleach_cleanser)")
 A = ap.parse_args()
@@ -103,13 +107,18 @@ def main():
     if only: seeds = sorted({s for s, _ in only})
     os.makedirs(A.out, exist_ok=True); resf = f"{A.out}/results.json"
     res = json.load(open(resf)) if os.path.exists(resf) else []; done = {(r["seed"], r["target_name"]) for r in res}
-    env = IsaacFranka(n_objects=A.n_objects, record_video=False)
+    env = IsaacFranka(n_objects=A.n_objects, record_video=False); env.settle_s, env.settle_tol = A.settle, A.settle_tol
+    from vrg.franka import kinematics as Kin
+    Kin.VEL_SCALE, Kin.LIN_SPEED = 0.3 * A.speed, 0.15 * A.speed
     RX = dict(kv.split("=") for kv in A.reactive.split(",")) if A.reactive else None
     if RX:
         from vrg.franka import reactive
         from vrg.franka.vlm_client import RemoteVLM
         vlm = RemoteVLM(int(RX["port"]))
-    holder = {}; ground = make_ground(A.grounding, holder); propose = gt_proposals(env) if A.perception == "gt" else None
+    holder = {}; ground = make_ground(A.grounding, holder)
+    if A.timing:
+        from vrg.franka import timing
+        TR = timing.instrument(env, vlm if RX else None); propose = gt_proposals(env) if A.perception == "gt" else None
     n_ep = 0
     for seed in seeds:
         objs = env.reset(seed=seed); targets = [n for n, _, g in objs if g]
@@ -120,6 +129,7 @@ def main():
             env.reset(seed=seed)                                 # same scene for every target
             env.record_video = n_ep <= A.video or bool(only); env.video = []
             gt = GT(env, tname); holder.update(gt=gt, key=f"{seed}|{tname}")
+            if A.timing: TR.reset()
             t0 = time.time()
             if RX and RX.get("probe"):
                 rec = reactive.probe(env, OBJECTS[tname][0], vlm, RX["mode"], K_app=int(RX.get("K", 4)), gt=gt)
@@ -128,6 +138,9 @@ def main():
                                    R=int(RX.get("R", 2)), tau=float(RX.get("tau", 0)), ext_modes=RX["ext"].split("+") if "ext" in RX else None, gate=RX.get("gate"), rule=RX.get("rule", "vote"), grasp_mode=A.grasp, controller=A.controller, gt=gt)
             else:
                 rec = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, propose=propose, refine=A.refine)
+            if A.timing:
+                rec["timing"] = TR.summary(); rec["timing"]["robot:return_home(planned)"] = timing.return_home_time(env.state().q, settle=A.settle)
+                rec["timing"]["robot_total"] += rec["timing"]["robot:return_home(planned)"]; rec["timing_items"] = TR.items
             F, props = rec.pop("_frames"), rec.pop("_props"); look = rec.pop("_look", None)
             rec["obj_pose_init"] = {n: env.init_pose[n].tolist() for n in env.scene_objs}; rec["obj_pose_end"] = {n: env.obj_pose(n).tolist() for n in env.scene_objs}
             if A.debug_dir:

@@ -56,5 +56,11 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - **A 7.5 cm planner cap + 1 cm margin rejects a standing cracker box** that fits the 8 cm hand (the grasp angle is accurate, median 0.7°).
   - **VLM:** 22/23 errors are same-kind look-alikes. Descriptive names ("blue SPAM can") add +4 to +14 points, more than 2B → 32B. When the three modes agree, grounding is 99% right.
 
+- **Execution time (2026-10-22).** `run_isaac --timing` separates robot time (simulated motion, waits, gripper) from compute.
+  - A pick takes ≈ 13 s at the current settings (30% of joint limits, 15 cm/s, a stop after every segment), plus 0.5–1.4 s of VLM. About 90% is the arm moving or waiting.
+  - 3× speed with a fixed short wait loses success (69%: the PD controller lags, so the gripper closes before the arm arrives).
+  - 3× with a convergence-based wait keeps it (78.6%) at 7.5 s.
+  - Project ideas with estimated gains are in notebook section 7 (targeted waits, time-optimal blended trajectories, no return home, VLM/motion overlap and adaptive inference; larger: cuRobo-style planning, distillation, a learned closed-loop skill).
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

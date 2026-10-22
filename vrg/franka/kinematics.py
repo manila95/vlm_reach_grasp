@@ -101,7 +101,11 @@ def _duration(dq, vel_scale):
     return max(float(np.max(np.abs(dq) / (QD_MAX * vel_scale))) * 1.875, 0.2)
 
 
-def plan_joint(q0, T_goal, dt=0.01, vel_scale=0.3, **ik_kw):
+VEL_SCALE, LIN_SPEED = 0.3, 0.15          # defaults: fraction of the Panda's joint velocity limits; straight-line TCP speed (m/s)
+
+
+def plan_joint(q0, T_goal, dt=0.01, vel_scale=None, **ik_kw):
+    vel_scale = VEL_SCALE if vel_scale is None else vel_scale
     q1, ok, ep, er = ik(T_goal, q0, **ik_kw)
     if not ok: return None, dict(reason="ik", pos_err=ep, rot_err=er)
     n = int(np.ceil(_duration(q1 - q0, vel_scale) / dt)) + 1
@@ -115,7 +119,8 @@ def slerp_R(R0, R1, s):
     return (np.eye(3) + np.sin(a) * Kx + (1 - np.cos(a)) * Kx @ Kx) @ R0
 
 
-def plan_cartesian(q0, T_goal, dt=0.01, lin_speed=0.15, max_joint_jump=0.15, **ik_kw):
+def plan_cartesian(q0, T_goal, dt=0.01, lin_speed=None, max_joint_jump=0.15, **ik_kw):
+    lin_speed = LIN_SPEED if lin_speed is None else lin_speed
     """Straight TCP line with min-jerk timing; IK per waypoint (seeded), fails on large joint jumps (singularities)."""
     T0 = fk(q0); dist = np.linalg.norm(T_goal[:3, 3] - T0[:3, 3]); ang = np.linalg.norm(rot_err(T_goal[:3, :3], T0[:3, :3]))
     dur = max(1.875 * max(dist / lin_speed, ang / 1.0), 0.3); n = int(np.ceil(dur / dt)) + 1

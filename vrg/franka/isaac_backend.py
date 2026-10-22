@@ -167,17 +167,21 @@ class IsaacFranka:
         self._last_frames = out
         return out
 
-    def follow_joint_trajectory(self, Q, dt=0.01, settle=0.3, tol=0.01):
+    settle_s, settle_tol = 0.3, 0.01                 # wait after each move: at most settle_s, until every joint is within settle_tol rad
+
+    def follow_joint_trajectory(self, Q, dt=0.01, settle=None, tol=None):
+        settle = self.settle_s if settle is None else settle; tol = self.settle_tol if tol is None else tol
         steps = max(1, int(round(dt / SIM_DT)))
         for k, q in enumerate(Q):
             self._set_targets(q=q); self._step(steps, render=self.record_video and k % 5 == 0)
             if self.record_video and k % 5 == 0: self._grab_video()
+        waited = 0.0
         for _ in range(int(settle / (SIM_DT * steps))):
-            self._step(steps)
             if np.max(np.abs(self._q() - Q[-1])) < tol: break
+            self._step(steps); waited += SIM_DT * steps
         from vrg.franka.kinematics import fk, pose_err
         e = pose_err(fk(Q[-1]), self.T_tcp_sim())
-        return self.MotionResult(ok=True, final_err_pos=float(np.linalg.norm(e[:3])), final_err_rot=float(np.linalg.norm(e[3:])))
+        return self.MotionResult(ok=True, final_err_pos=float(np.linalg.norm(e[:3])), final_err_rot=float(np.linalg.norm(e[3:])), info=dict(settle_s=waited))
 
     def move_tcp_native(self, T_goal, max_time=4.0, tol=0.003):
         """Baseline controller: Isaac Lab DifferentialIKController (DLS) tracking the goal pose directly, no trajectory."""

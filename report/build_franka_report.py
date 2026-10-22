@@ -463,9 +463,68 @@ cells.append(md(r"""**Reading section 6: causes and the fixes they point to.** E
 
 Fixes 1–3 cover about 39 of the 57 robot-side failures (15% of episodes) and need no new learning. Fix 7 targets the biggest single bucket on the VLM side."""))
 
+# ------------------------------------------------------------------ timing
+cells.append(md(r"""---
+## 7. How long a pick takes, and how to make it faster
+
+**Measuring robot time, not simulator time.** `run_isaac --timing` (`vrg/franka/timing.py`) wraps the backend and the method's modules without changing them. It logs two clocks separately:
+* **robot time:** simulated seconds of commanded motion. That is each trajectory, the wait after it (until every joint is within a tolerance of its target, or a cap), and the gripper. The planner times the trajectories, so the real arm should take about as long for the same commands.
+* **compute time:** wall seconds for perception, IK planning, camera capture and VLM calls.
+
+The simulator teleports the arm home at the start of each episode, so the return-home move is planned and its duration added.
+
+**The current settings are conservative:** joint moves at 30% of the Panda's velocity limits with min-jerk timing, straight-line moves at 15 cm/s, and a full stop after each of the 4–7 segments. The speed sweep below (perfect VLM, 257 episodes each) changes only the speed, the wait cap and the wait tolerance."""))
+cells.append(code(r"""SP = [('1× (current: wait ≤ 0.3 s, tol 0.01 rad)', 's1_base'), ('1×, wait to converge (≤ 0.5 s, 0.002 rad)', 's1_tight'),
+      ('2×, fixed short wait (0.1 s)', 'speed_2x'), ('3×, fixed short wait (0.05 s)', 'speed_3x'),
+      ('2×, wait to converge', 's2_tight'), ('3×, wait to converge', 's3_tight')]
+PARTS = [('robot:trajectory', 'arm motion', '#2a78d6'), ('robot:settle_after_move', 'wait after moves', '#8a8984'), ('robot:gripper', 'gripper', '#1baf7a'),
+         ('robot:return_home(planned)', 'return home', '#c3c2b7'), ('compute_total', 'perception + IK + capture', '#eda100')]
+VT = {}   # VLM compute per episode, measured in the timing runs (seeds 100-109)
+for lab, run in [('4B one-shot', 'time_4b_oneshot'), ('4B ens3 K=2', 'time_4b_ens3K2')]:
+    R = load(run)
+    if R: VT[lab] = np.mean([r['timing'].get('compute:vlm', 0) for r in R if 'timing' in r])
+rows, bars = [], []
+for lab, run in SP:
+    R = load(run); full = [r for r in R if r.get('reach_err') is not None and 'timing' in r]
+    if not full: continue
+    m = {k: np.mean([r['timing'].get(k, 0) for r in full]) for k, _, _ in PARTS}
+    rows.append([lab, fmt(R), f"{sum(m.values()):.1f} s", ' / '.join(f'{m[k]:.1f}' for k, _, _ in PARTS), f"{1000*np.median([r['reach_err'] for r in full]):.1f} mm"]); bars.append((lab, m))
+table(rows, ['Config (perfect VLM)', 'Success', 'Time per pick (no VLM)', 'motion / wait / gripper / home / compute (s)', 'Median reach error'])
+fig, ax = plt.subplots(figsize=(10, 3.3))
+for i, (lab, m) in enumerate(bars[::-1]):
+    left = 0
+    for k, name, col in PARTS:
+        ax.barh(i, m[k], left=left, color=col, height=0.65, label=name if i == 0 else None); left += m[k]
+ax.set_yticks(range(len(bars))); ax.set_yticklabels([b[0] for b in bars[::-1]], fontsize=8); ax.set_xlabel('seconds per pick (robot time + compute, perfect VLM)')
+ax.legend(loc='lower right', fontsize=8); ax.grid(axis='y', visible=False); plt.show()
+if VT: display(Markdown('VLM compute per episode, added on top of the above when the VLM runs one call at a time while the arm waits: ' + '; '.join(f'**{k}** {v:.2f} s' for k, v in VT.items()) + ' (plus 0.3 s of waiting per re-ask stop).'))"""))
+cells.append(md(r"""**Reading section 7.**
+* **A pick takes ≈ 13 s of robot time at the current settings (≈ 15 s with one-shot 4B, ≈ 17 s with the best reactive policy). About 90% is the arm moving or waiting.** VLM compute is 0.5–1.4 s.
+* **Speed alone costs success.** At 2× and 3× with a short fixed wait, success drops to 75% and 69%: the joint PD controller lags behind faster trajectories, and the gripper closes before the arm has arrived (median reach error 11 and 26 mm). The new failures are `approach_collision` and `reach`.
+* **Waiting until the arm has converged removes that cost.** At 3× with a convergence-based wait, success is 78.6% (vs 78.2% at 1×) and robot time is 7.5 s per pick, 42% less. The waits now take 2 s, because the PD controller is slow to settle within 0.002 rad, so they are the next thing to cut.
+
+**Ideas for projects to make a pick faster.** Seconds are per pick from the 3× breakdown above; gains overlap.
+
+| Idea | What it removes | Expected gain | Size |
+|---|---|---|---|
+| **Wait only where accuracy matters:** converge tightly before closing the gripper and before taking a wrist image; let the other segments flow straight into the next | most of the 2 s of waiting | ≈ 1.5 s | small: a per-segment tolerance |
+| **One continuous, time-optimal trajectory** (Ruckig or TOPP-RA, jerk-limited at the Panda's real limits) through home → look → pre-grasp → grasp, with blended via-points instead of 4–7 stops. franky already uses Ruckig on the real arm. | stop-and-go, and min-jerk's 1.9× peak-to-mean speed | ≈ 1–2 s | medium |
+| **Better tracking control:** velocity/acceleration feed-forward in sim; joint impedance with gravity compensation (franky) on the real arm | the lag that forces the waits | enables > 3× safely | medium |
+| **Skip the return home:** plan from the lift pose straight to the next task's look pose (or drop-off), and perceive the next target during the lift | the 1.5 s home move | ≈ 1.5 s | small |
+| **Gripper:** pre-open only to the planned width + margin, not the full 8 cm, and start closing during the last few mm of the approach | part of the 1.4 s | ≈ 0.5 s | small |
+| **Overlap VLM and motion:** start toward the fastest mode's answer (marks, 0.06 s) while the other modes compute, and retarget if the vote changes (the reactive policy already supports retargeting) | VLM time on the critical path | ≈ 1 s | small–medium |
+| **Adaptive inference:** ask two cheap modes; if they agree (99% correct when all agree), go; escalate only on disagreement | most VLM calls in the ≈ 65% of episodes where modes agree | ≈ 0.5–1 s | small |
+| **Faster VLM serving:** encode the external image once for all three prompts (prefix caching in vLLM / SGLang), batch the verify crops into one forward, FP8 on the Blackwell GPUs | the per-call overhead | 2–3× faster VLM | medium |
+| **Look on the fly:** take the wrist image while passing over the object instead of stopping (short exposure on the real camera) | one stop | ≈ 0.5 s | small |
+| **GPU motion generation with collision checking** (e.g. cuRobo with a depth-fused world): plans a time-optimal, collision-free trajectory in tens of ms | the stop-and-go planner and the palm-collision failures of section 6 | speed **and** success | large |
+| **Distill the multi-query pipeline into one fast model:** fine-tune a small VLM or grounding head on auto-labelled sim scenes (with descriptive names) to match the ensemble in one call | the 3–5 VLM calls | VLM ≈ 0.1–0.3 s at ensemble accuracy | large |
+| **Learn a closed-loop approach-and-grasp policy** (as the LIBERO local skill) that moves continuously and corrects from the wrist camera, trained in parallel Isaac Lab envs with the scripted pipeline as the teacher | the look stop and the separate approach segments | ≈ 2–3 s, plus robustness | large |
+
+A realistic combination is time-optimal trajectories, targeted waits, no return home, gripper overlap and VLM overlap with adaptive inference: **about 4–5 s per pick, against 13–17 s now**, with no change to the perception or grasp logic. The bigger projects (cuRobo-style planning, distillation, a learned closed-loop skill) also attack the failure modes of section 6."""))
+
 # ------------------------------------------------------------------ videos
 cells.append(md(r"""---
-## 7. Videos
+## 8. Videos
 
 External camera, 20 fps.
 
@@ -484,7 +543,7 @@ cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_c_fixedyaw
 
 # ------------------------------------------------------------------ real robot
 cells.append(md(r"""---
-## 8. Moving to the real Franka
+## 9. Moving to the real Franka
 
 What is already shared:
 * the episode loop, perception, VLM grounding, grasp planner and IK (`vrg/franka/*`);
@@ -500,7 +559,7 @@ Before the first real run:
 Sim-to-real gaps to expect: depth noise and missing depth on shiny or transparent surfaces, camera calibration error (a few mm to 1 cm), contact physics of the soft fingertips, and object weights."""))
 
 cells.append(md(r"""---
-## 9. Summary
+## 10. Summary
 
 | Question | Answer (257 eval episodes, 13 YCB targets, 6 objects per scene) |
 |---|---|
@@ -509,12 +568,13 @@ cells.append(md(r"""---
 | Does a bigger VLM help? | Little from 2B to 8B (75–78% grounding, 63–64% end to end); **32B: 81% grounding, 68% end to end**, at 62 GB of GPU memory. Set-of-marks scales best and is fastest (0.23 s per query with 32B, about 5× slower than with 2B). |
 | Can repeated inference replace a bigger model? | **Yes, when pooled.** 3 modes on the external view + 2 re-asks along the approach: 4B reaches **86% grounding / 72% success** (32B one-shot: 81% / 68%). Re-asking a single mode, or letting the last view decide (even gated for obscured views), hurts. |
 | Why do the remaining picks fail? (section 6) | **Robot side, perfect VLM:** touching objects merge into one cluster (≈ 20 eps); the 20 cm palm hits taller neighbours (≈ 12); a width cap tighter than the hand (7); thin or non-convex grasps (8). **VLM side:** look-alikes of the same kind (22/23), made worse by YCB names that don't describe appearance (descriptive names: +4 to +14 points). Mode disagreement flags 21/23 VLM errors. |
+| How long does a pick take? (section 7) | ≈ 13 s of robot time at the current conservative settings (+0.5–1.4 s of VLM); ≈ 90% is the arm moving or waiting. 3× speed with a convergence-based wait gives **7.5 s at the same success** (78.6% vs 78.2%). Time-optimal trajectories, targeted waits, no return home and overlapping the VLM with motion should reach ≈ 4–5 s. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps** (section 6 lists the fixes by root cause):
 * Robot side: side or edge grasps for wide or flat objects (the cracker box), and better segmentation of thin objects (the scissors).
 * VLM side: pooled multi-mode grounding plus a few re-asks along the approach (section 5) is the default to carry to the real arm. Next comes active viewing, moving to a view that covers the candidates the votes disagree on.
-* Real arm: the checklist in section 8. The episode code runs unchanged on `FrankyRobot`."""))
+* Real arm: the checklist in section 9. The episode code runs unchanged on `FrankyRobot`."""))
 
 nb = nbf.v4.new_notebook(); nb.cells = cells
 nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}
