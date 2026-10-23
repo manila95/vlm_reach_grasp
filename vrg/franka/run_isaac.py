@@ -128,10 +128,10 @@ def main():
         from openpi_client import websocket_client_policy
         from vrg.franka.ground_offline import DESCRIPTIVE
         pi = websocket_client_policy.WebsocketClientPolicy("localhost", int(VX.get("port", 8000)))
-    holder = {}; ground = make_ground(A.grounding, holder)
+    holder = {}; ground = make_ground(A.grounding, holder); propose = gt_proposals(env) if A.perception == "gt" else None
     if A.timing:
         from vrg.franka import timing
-        TR = timing.instrument(env, vlm if RX else None); propose = gt_proposals(env) if A.perception == "gt" else None
+        TR = timing.instrument(env, vlm if RX else None)
     n_ep = 0
     for seed in seeds:
         objs = env.reset(seed=seed); targets = [n for n, _, g in objs if g]
@@ -146,10 +146,20 @@ def main():
             t0 = time.time()
             if VX:
                 name = DESCRIPTIVE[tname] if VX.get("names") == "descriptive" else OBJECTS[tname][0]
-                rec = vla.run(env, f"pick up the {name}", pi, max_steps=int(VX.get("steps", 450)), gt=gt, ext_cam=VX.get("cam", "ext"),
+                pre = None
+                if "handoff" in VX:                   # scripted pipeline (grounding + reach) first, then the VLA takes over
+                    pre = episode.run(env, OBJECTS[tname][0], ground, grasp_mode=A.grasp, controller=A.controller, gt=gt, refine=True, handoff=VX["handoff"])
+                    pre.pop("_frames", None); pre.pop("_props", None); pre.pop("_look", None)
+                if pre is not None and not pre.get("handoff_ok"):
+                    rec = dict(pre, success=False, fail=pre.get("fail") or "handoff"); rec["_frames"], rec["_props"] = {}, []
+                else:
+                  rec = vla.run(env, f"pick up the {name}", pi, max_steps=int(VX.get("steps", 450)), gt=gt, ext_cam=VX.get("cam", "ext"), from_current=pre is not None,
                               q0=vla.DROID_RESET if VX.get("start", "droid") == "droid" else None,
                               retarget=vla.ToolRetarget(float(VX["dL"])) if "dL" in VX else None, action=VX.get("action", "velocity"), wrist_cam=VX.get("wrist", "wrist"))
-                rec["_frames"], rec["_props"] = {}, []
+                  rec["_frames"], rec["_props"] = {}, []
+                  if pre is not None:
+                      rec["handoff"] = VX["handoff"]; rec["pipeline"] = {k: pre.get(k) for k in ("chosen_obj", "grounding_correct", "target_segmented", "fail", "refine")}
+                      if pre.get("fail") in ("segmentation", "grounding") and not rec.get("success"): rec["fail"] = pre["fail"]
             elif RX and RX.get("probe"):
                 rec = reactive.probe(env, OBJECTS[tname][0], vlm, RX["mode"], K_app=int(RX.get("K", 4)), gt=gt)
             elif RX:

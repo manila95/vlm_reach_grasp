@@ -59,13 +59,14 @@ def resize_with_pad(img, h=224, w=224):
     y0, x0 = (h - nh) // 2, (w - nw) // 2; out[y0:y0 + nh, x0:x0 + nw] = r; return out
 
 
-def run(robot, prompt, client, max_steps=450, open_loop=8, max_width=0.08, gt=None, hold_steps=10, video=None, ext_cam="ext", q0=None, retarget=None, action="velocity", wrist_cam="wrist"):
+def run(robot, prompt, client, max_steps=450, open_loop=8, max_width=0.08, gt=None, hold_steps=10, video=None, ext_cam="ext", q0=None, retarget=None, action="velocity", wrist_cam="wrist", from_current=False):
+    """from_current: start from wherever the arm is (after a scripted handoff) instead of resetting to q0 with an open gripper."""
     rec = dict(target=prompt, prompt=prompt, fail=None, t={}, ext_cam=ext_cam, action_space=action, retarget_dL=None if retarget is None else retarget.T_rob[2, 3] - 0.1034)
-    robot.home(q0); robot.gripper_move(max_width)
+    if not from_current: robot.home(q0); robot.gripper_move(max_width)
     q_v = None if retarget is None else retarget.virtual_state(robot.state().q, robot.state().q)
     chunk, k, n_inf, t_inf, held, first_close = None, 0, 0, 0.0, 0, None
     tgt = gt.target if gt is not None else None
-    min_d = np.inf; closes = 0; prev_cmd = 0; close_log = []
+    min_d = np.inf; closes = 0; prev_cmd = 0; close_log = []; path = []
     for step in range(max_steps):
         st = robot.state(); q_obs = st.q if retarget is None else q_v
         if chunk is None or k >= open_loop:
@@ -99,6 +100,9 @@ def run(robot, prompt, client, max_steps=450, open_loop=8, max_width=0.08, gt=No
             held = held + 1 if up is not None else 0
             if held >= hold_steps: break
         prev_cmd = cmd
+        if step % 3 == 0:
+            p_ = robot.state().T_tcp[:3, 3]; path.append([round(float(x), 4) for x in p_] + [cmd] + ([round(float(gt.env.obj_pose(tgt)[2, 3]), 4)] if gt is not None else []))
+    rec["path"] = path
     rec.update(steps=step + 1, n_inference=n_inf, inference_s=t_inf, robot_s=(step + 1) / HZ)
     if gt is not None:
         rec["lifted"] = gt.lifted_name() if held >= hold_steps else None

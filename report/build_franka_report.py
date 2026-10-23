@@ -549,6 +549,23 @@ R = load('rx_4b_ens3_K2'); R = [r for r in R if r['seed'] <= 109]
 if R: display(Markdown(f"For comparison, the modular pipeline (4B, ens3 K=2) on the same 52 episodes: **{fmt(R)}**."))
 for v in sorted(glob.glob(f'{ROOT}/demo/franka/pi05jp_wide/*.mp4'))[:2]:
     show(v, w=560, caption=f'π0.5 joint-position, wide cameras (DROID-like side view): `{os.path.basename(v)}`')"""))
+cells.append(md(r"""### π0.5 as the final-grasp skill only (option 2)
+
+The pipeline does the grounding (here perfect, to isolate the grasp), the segmentation and the reach, exactly as in config b. It stops at one of two handoff poses, and π0.5 (joint positions, wide cameras, tool retargeting) gets 10 s with "pick up the ⟨object⟩":
+* **look:** the wrist camera 22 cm above the object top;
+* **pregrasp:** 12 cm above the planned grasp, at the planned grasp angle.
+
+The scripted grasp from the same handoff is the reference."""))
+cells.append(code(r"""HO = [('π0.5 from the look pose', 'ho_look_rt6'), ('π0.5 from the pre-grasp pose', 'ho_pre_rt6')]
+rows = []
+for lab, run in HO:
+    R = load(run)
+    if not R: continue
+    gap = [x['tcp_z'] - x['near_top'] for r in R for x in r.get('closes', []) if x['xy_dist'] < 0.05]; fc = [r for r in R if r.get('first_close')]
+    rows.append([lab, fmt(R), f"{sum(r['first_close']['obj'] == r['target_name'] for r in fc)}/{len(fc)}", f"{sum(bool(r.get('moved')) for r in R)}/{len(R)}", f"{100*np.median(gap):.0f} cm" if gap else '–'])
+B = [r for r in load('e1_b_refine') if r['seed'] <= 109]
+if B: rows.append(['scripted grasp from the same handoff (config b)', fmt(B), '–', '–', '–'])
+table(rows, ['Final-grasp skill (perfect grounding, 52 test episodes)', 'Pick success', 'First close over the target', 'Touched / moved an object', 'Hand height above the object top when closing'])"""))
 cells.append(md(r"""**Reading section 8.**
 * **Zero-shot π0.5-DROID does not complete a single pick in these simulated scenes (0/52 in every configuration).** The modular pipeline picks ≈ 70% of the same episodes.
 * **It is not doing nothing.** Each embodiment correction changed its behaviour in the expected direction:
@@ -560,9 +577,13 @@ cells.append(md(r"""**Reading section 8.**
 * **What remains is a large domain gap, not one bug.** Rendered images vs DROID's real ones, hand-placed cameras that only approximate DROID's, a different gripper, and object scale. openpi itself evaluates DROID policies in simulation with a checkpoint co-trained on PolaRiS sim data, in scenes built to match DROID. These YCB scenes, cameras and the Franka Hand are outside that.
 * **Speed.** Inference is ≈ 0.06 s per 15-step chunk on one GPU (≈ 9 GB). The VLA's compute cost is small; what it lacks is a working grasp in this setup.
 
+* **Even as the final-grasp skill only, it gets 0/52.** It starts 12 cm above the right object, at the right angle. In the first second it descends to ≈ 2 cm above it, then pulls up and drifts 10–25 cm sideways, often toward the middle of the table or another object, and closes on nothing (median 6 cm above the object top). It ignores the handoff and re-plans its own reach. Two likely contributors:
+  * the arm posture after our IK reach is unusual for DROID's data;
+  * the language-to-object association is weak for these YCB names (on dev scenes, descriptive names changed nothing: 0/21).
+
 **Next steps, if π0.5 is to be used here:**
 1. **Fine-tune π0.5-DROID (joint position) on our own sim demonstrations.** The scripted pipeline with oracle grounding already succeeds ≈ 80%, so it can generate thousands of Franka-Hand demos in this exact camera setup, in DROID format (`pi05_droid_finetune`, LeRobot). That is the standard way to adapt it, and it tests how much data closes the gap.
-2. **Use π0.5 only for the last stage:** our VLM and scripted reach bring the hand above the right object, and π0.5 does the grasp from there. This matches the original LIBERO design (VLM + reach + local skill) and isolates its grasping from its grounding.
+2. ~~Use π0.5 only for the last stage~~: tested above, 0/52 zero-shot. With fine-tuning (step 1), the handoff design is still the natural place to put it, because the fine-tuning data then only needs to cover the last few seconds of motion, as on LIBERO.
 3. **On the real Franka with the Franka Hand,** the zero-shot result will differ (real images, real ZED-like cameras if used), but the gripper gap remains. The retargeting layer here is reusable there."""))
 
 # ------------------------------------------------------------------ videos
@@ -612,7 +633,7 @@ cells.append(md(r"""---
 | Can repeated inference replace a bigger model? | **Yes, when pooled.** 3 modes on the external view + 2 re-asks along the approach: 4B reaches **86% grounding / 72% success** (32B one-shot: 81% / 68%). Re-asking a single mode, or letting the last view decide (even gated for obscured views), hurts. |
 | Why do the remaining picks fail? (section 6) | **Robot side, perfect VLM:** touching objects merge into one cluster (≈ 20 eps); the 20 cm palm hits taller neighbours (≈ 12); a width cap tighter than the hand (7); thin or non-convex grasps (8). **VLM side:** look-alikes of the same kind (22/23), made worse by YCB names that don't describe appearance (descriptive names: +4 to +14 points). Mode disagreement flags 21/23 VLM errors. |
 | How long does a pick take? (section 7) | ≈ 13 s of robot time at the current conservative settings (+0.5–1.4 s of VLM); ≈ 90% is the arm moving or waiting. 3× speed with a convergence-based wait gives **7.5 s at the same success** (78.6% vs 78.2%). Time-optimal trajectories, targeted waits, no return home and overlapping the VLM with motion should reach ≈ 4–5 s. |
-| Does an end-to-end VLA (π0.5-DROID) work here zero-shot? (section 8) | **No: 0/52** in five configurations, against ≈ 70% for the modular pipeline. Matching DROID's camera placement, wide FOV, joint-position actions and gripper length brings it from closing 20 cm above objects to touching them, but it never grasps. Fine-tuning on sim demos from our pipeline, or using it only for the final grasp, are the next steps. |
+| Does an end-to-end VLA (π0.5-DROID) work here zero-shot? (section 8) | **No: 0/52** in five configurations, against ≈ 70% for the modular pipeline, and also **0/52 as the final-grasp skill** after our grounding and reach (scripted grasp from the same handoff ≈ 80%). Matching DROID's camera placement, wide FOV, joint-position actions and gripper length brings it from closing 20 cm above objects to touching them, but it never grasps. Fine-tuning on sim demos from our pipeline, or using it only for the final grasp, are the next steps. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps** (section 6 lists the fixes by root cause):

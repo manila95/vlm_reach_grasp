@@ -66,6 +66,7 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - The velocity model can't be simulated faithfully: openpi says so too, since the real arm's soft impedance controller lags each target and the sim's stiff PD doesn't. So the joint-position PolaRiS checkpoint was used as well.
   - Matching DROID's side camera, its wide-angle ZED FOV and its gripper length (tool retargeting) moved the policy from closing 20 cm above objects to touching them (24–28/52), but it never grasped.
   - The next steps would be fine-tuning on our scripted demos, or using π0.5 only as the final grasp skill.
+  - **The final-grasp variant was tested too (user's choice):** our grounding and reach, then π0.5 from the look or pre-grasp pose. Again 0/52 (the scripted grasp from the same handoff gets ≈ 80%). The policy dips toward the object, then re-plans its own reach and drifts 10–25 cm away. Fine-tuning remains the way to use it.
 
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

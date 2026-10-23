@@ -56,10 +56,12 @@ def move(robot, T, controller, straight):
     return robot.follow_joint_trajectory(Q, dt=0.01), info
 
 
-def run(robot, target_desc, ground, grasp_mode="pca", controller="cartesian", cams=("ext",), gt=None, propose=None, refine=False):
+def run(robot, target_desc, ground, grasp_mode="pca", controller="cartesian", cams=("ext",), gt=None, propose=None, refine=False, handoff=None):
     """ground(frames, props, target_desc) -> (proposal id or None, grounding record).
     propose: optional replacement for perception.proposals (e.g. ground-truth segmentation in sim).
     gt: optional evaluator with .label(frames, props) -> {pid: object name}, .target, .lifted(), .moved(), .held_name()
+    handoff: stop before grasping and leave the arm at "look" (wrist camera above the object) or "pregrasp" (12 cm above
+    the planned grasp, at its yaw), for a learned policy to take over; rec["handoff_ok"] says whether the arm got there.
     Returns a record with the outcome and the first failing stage."""
     rec = dict(target=target_desc, grasp_mode=grasp_mode, controller=controller, fail=None, t={})
     t0 = time.time(); robot.home(); robot.gripper_move(0.08)
@@ -81,6 +83,12 @@ def run(robot, target_desc, ground, grasp_mode="pca", controller="cartesian", ca
     if refine:
         g2, rinfo = look_refine(robot, prop, table, controller, grasp_mode); rec["_look"] = rinfo.pop("_wrist", None); rec["refine"] = rinfo
         if g2 is not None: g = g2
+    if handoff == "look":                          # look_refine left the arm at the look pose
+        rec["handoff_ok"] = bool(refine and rec.get("refine", {}).get("reason") != "ik_look"); return rec
+    if handoff == "pregrasp":                      # pose and yaw from the scripted planner; its width check is not required
+        T_pre = g["T"].copy(); T_pre[2, 3] += PRE_Z
+        r, info = move(robot, T_pre, controller if controller == "native" else "joint", straight=False)
+        rec["handoff_ok"] = r is not None; rec["grasp"] = dict(width=g["width"], feasible=g["feasible"], T=g["T"].tolist()); return rec
     return execute(robot, g, rec, controller, gt)
 
 
