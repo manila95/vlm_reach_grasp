@@ -61,7 +61,10 @@ def quat_to_mat(q):
 
 
 class IsaacFranka:
-    def __init__(self, device="cpu", n_objects=6, img_hw=(480, 640), record_video=False):
+    def __init__(self, device="cpu", n_objects=6, img_hw=(480, 640), record_video=False, extra_cams=None, video_cam="ext"):
+        """extra_cams: {name: (pos, target)} or {name: dict(pos, target | pitch, mount="world"|"hand", K, hw)}: additional
+        cameras, e.g. DROID-like wide-angle side and wrist views for VLA policies (the pipeline keeps its own cameras)."""
+        self.extra_cams = extra_cams or {}; self.video_cam = video_cam
         import torch
         import isaaclab.sim as sim_utils
         from isaaclab.assets import Articulation, RigidObject, RigidObjectCfg
@@ -104,6 +107,16 @@ class IsaacFranka:
                                       update_period=0, colorize_instance_id_segmentation=False, offset=CameraCfg.OffsetCfg(pos=WRIST_POS,
                                       rot=mat_to_quat(_rot_y(WRIST_PITCH)), convention="ros"))),
         }
+        self.extra_cams = {n: (dict(pos=c[0], target=c[1]) if isinstance(c, tuple) else c) for n, c in self.extra_cams.items()}
+        for name, c in self.extra_cams.items():
+            Kc, (h, w) = np.asarray(c.get("K", K_D435)), c.get("hw", (H, W))
+            sp = sim_utils.PinholeCameraCfg.from_intrinsic_matrix(intrinsic_matrix=Kc.flatten().tolist(), width=w, height=h, clipping_range=(0.02, 5.0))
+            if c.get("mount", "world") == "hand":
+                prim, rot = f"/World/robot/panda_hand/{name}_cam", mat_to_quat(_rot_y(c.get("pitch", 0.0)))
+            else:
+                prim, rot = f"/World/{name}_cam", look_at_quat_ros(c["pos"], c["target"])
+            self.cams[name] = Camera(CameraCfg(prim_path=prim, height=h, width=w, data_types=dtypes, spawn=sp, update_period=0,
+                                               colorize_instance_id_segmentation=False, offset=CameraCfg.OffsetCfg(pos=c["pos"], rot=rot, convention="ros")))
         self.T_HAND_WRISTCAM = np.eye(4); self.T_HAND_WRISTCAM[:3, :3] = _rot_y(WRIST_PITCH); self.T_HAND_WRISTCAM[:3, 3] = WRIST_POS
         self.sim.reset()
         self.arm_ids, _ = self.robot.find_joints("panda_joint[1-7]")
@@ -143,8 +156,13 @@ class IsaacFranka:
     def T_base_cam(self, name):
         """Camera pose (OpenCV/ROS convention) as a calibration would give it: fixed for the external camera,
         hand pose x mount offset for the wrist camera. (Isaac's own camera pose buffers are empty with CPU physics.)"""
-        if name == "ext":
-            T = np.eye(4); T[:3, :3] = quat_to_mat(look_at_quat_ros(EXT_CAM_POS, EXT_CAM_TARGET)); T[:3, 3] = EXT_CAM_POS; return T
+        if name in self.extra_cams and self.extra_cams[name].get("mount", "world") == "hand":
+            c = self.extra_cams[name]; Tm = np.eye(4); Tm[:3, :3] = _rot_y(c.get("pitch", 0.0)); Tm[:3, 3] = c["pos"]
+            p = self.robot.data.body_pos_w[0, self.hand_idx].cpu().numpy(); q = self.robot.data.body_quat_w[0, self.hand_idx].cpu().numpy()
+            Th = np.eye(4); Th[:3, :3] = quat_to_mat(q); Th[:3, 3] = p; return Th @ Tm
+        if name == "ext" or name in self.extra_cams:
+            pos, tgt = (EXT_CAM_POS, EXT_CAM_TARGET) if name == "ext" else (self.extra_cams[name]["pos"], self.extra_cams[name]["target"])
+            T = np.eye(4); T[:3, :3] = quat_to_mat(look_at_quat_ros(pos, tgt)); T[:3, 3] = pos; return T
         p = self.robot.data.body_pos_w[0, self.hand_idx].cpu().numpy(); q = self.robot.data.body_quat_w[0, self.hand_idx].cpu().numpy()
         Th = np.eye(4); Th[:3, :3] = quat_to_mat(q); Th[:3, 3] = p
         return Th @ self.T_HAND_WRISTCAM
@@ -183,6 +201,12 @@ class IsaacFranka:
         e = pose_err(fk(Q[-1]), self.T_tcp_sim())
         return self.MotionResult(ok=True, final_err_pos=float(np.linalg.norm(e[:3])), final_err_rot=float(np.linalg.norm(e[3:])), info=dict(settle_s=waited))
 
+    def servo(self, q, finger_width, dt):
+        """Streaming control (VLA policies): set joint and gripper targets, then simulate dt seconds. Records video at the control rate."""
+        from vrg.franka.kinematics import Q_MIN, Q_MAX
+        self._set_targets(q=np.clip(q, Q_MIN, Q_MAX), finger=finger_width / 2); self._step(max(1, int(round(dt / SIM_DT))), render=self.record_video)
+        if self.record_video: self._grab_video()
+
     def move_tcp_native(self, T_goal, max_time=4.0, tol=0.003):
         """Baseline controller: Isaac Lab DifferentialIKController (DLS) tracking the goal pose directly, no trajectory."""
         from isaaclab.controllers import DifferentialIKController, DifferentialIKControllerCfg
@@ -212,11 +236,12 @@ class IsaacFranka:
         self._set_targets(finger=width / 2); self._step(int(0.8 / SIM_DT))
         return self.state().gripper_width > min_width
 
-    def home(self):
+    def home(self, q=None):
         from vrg.franka.kinematics import Q_HOME
-        self.robot.write_joint_state_to_sim(self.torch.tensor(np.r_[Q_HOME, 0.04, 0.04], dtype=self.torch.float32, device=self.device)[None],
+        q = Q_HOME if q is None else np.asarray(q)
+        self.robot.write_joint_state_to_sim(self.torch.tensor(np.r_[q, 0.04, 0.04], dtype=self.torch.float32, device=self.device)[None],
                                             self.torch.zeros(1, 9, device=self.device))
-        self._set_targets(q=Q_HOME, finger=0.04); self._step(20)
+        self._set_targets(q=q, finger=0.04); self._step(20)
 
     # ------------------------------------------------------------------ scenes
     def reset(self, seed, n_objects=None, region=((0.35, 0.70), (-0.30, 0.30)), min_gap=0.11):
@@ -262,7 +287,7 @@ class IsaacFranka:
         return [n for n in self.scene_objs if np.linalg.norm(self.obj_pose(n)[:3, 3] - self.init_pose[n][:3, 3]) > thresh]
 
     def _grab_video(self):
-        self.sim.render(); c = self.cams["ext"]; c.update(0.0, force_recompute=True)
+        self.sim.render(); c = self.cams[self.video_cam]; c.update(0.0, force_recompute=True)
         self.video.append(c.data.output["rgb"][0, ..., :3].cpu().numpy().astype(np.uint8))
 
 

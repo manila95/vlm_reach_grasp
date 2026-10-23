@@ -21,7 +21,8 @@ def main():
                 r["fail"] = "segmentation"                       # runs before 2026-10-15 22:30 labelled "target never segmented" as grounding
         os.makedirs(f"{OUT}/{name}", exist_ok=True); json.dump(R, open(f"{OUT}/{name}/results.json", "w"), indent=0)
         print(f"{name:24s} {sum(bool(r.get('success')) for r in R):4d}/{len(R)}")
-        vids = [] if name.startswith("rx_") else sorted(glob.glob(f"{S}/runs/{name}/videos/*.mp4"))[:6]   # reactive-run clips stay on /scratch
+        vids = sorted(glob.glob(f"{S}/runs/{name}/videos/*.mp4"))[:2 if name == "pi05jp_wide" else 6]
+        if name.startswith(("rx_", "pi05", "s1_", "s2_", "s3_", "speed_", "time_")) and name != "pi05jp_wide": vids = []   # clips stay on /scratch
         if vids:
             os.makedirs(f"{ROOT}/demo/franka/{name}", exist_ok=True)
             for v in vids: shutil.copy(v, f"{ROOT}/demo/franka/{name}/")

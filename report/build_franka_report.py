@@ -522,9 +522,52 @@ cells.append(md(r"""**Reading section 7.**
 
 A realistic combination is time-optimal trajectories, targeted waits, no return home, gripper overlap and VLM overlap with adaptive inference: **about 4–5 s per pick, against 13–17 s now**, with no change to the perception or grasp logic. The bigger projects (cuRobo-style planning, distillation, a learned closed-loop skill) also attack the failure modes of section 6."""))
 
+# ------------------------------------------------------------------ pi0.5
+cells.append(md(r"""---
+## 8. An end-to-end VLA in the same scenes: π0.5-DROID, zero-shot
+
+**What was tested.** π0.5 is a vision-language-*action* model: it maps images, joint state and the instruction straight to arm commands, with no proposals, VLM grounding or scripted grasp. The public DROID fine-tunes are the closest match to this setup (a Franka with an external and a wrist camera). They were served with openpi (JAX, on the Blackwell GPUs, `127.0.0.1` only) and driven by `vrg/franka/vla.py`. That loop reproduces openpi's DROID client and DROID's control law: a new 15-step chunk every 8 steps, 15 Hz joint commands, and a binarised gripper command. Episodes run up to 30 s and are scored like the pipeline (target lifted > 5 cm, held for 10 steps).
+
+**Matching the embodiment step by step** (each change was tried on dev scenes, then evaluated on the same 52 test episodes, seeds 100–109):
+* **Checkpoint.** `pi05_droid` outputs joint *velocities*. openpi warns these are hard to simulate: on the real arm, DROID's soft impedance controller lags each target, while a stiff simulated PD does not. `pi05_droid_jointpos_polaris` outputs joint *positions* and was co-trained with PolaRiS simulation data.
+* **Start pose.** DROID's reset pose (joint 7 = 0) instead of our home pose.
+* **External camera.** A DROID-like side view: the robot base enters from the side, with the hand and the objects in view, instead of our view from across the table.
+* **Camera field of view.** DROID records with wide-angle ZED cameras (≈ 100° external, ≈ 85° wrist, 16:9); ours are 55°, 4:3 D435-like. Separate wide cameras were added for the VLA.
+* **Gripper.** DROID uses a Robotiq 2F-85, ≈ 6 cm longer than the Franka Hand and mounted without its 45° twist. **Tool retargeting** (`ToolRetarget`) runs the policy on a virtual arm carrying the virtual gripper, and IK puts the Franka Hand's TCP where that gripper's TCP would be."""))
+cells.append(code(r"""PI = [('pi05_droid (velocity), our cameras + home pose', 'pi05_extcam'), ('pi05_droid, DROID side camera + reset pose', 'pi05_droidcam'),
+      ('pi05_droid, wide cameras + tool retargeting', 'pi05vel_wide_rt6'), ('pi05_droid_jointpos (PolaRiS), wide cameras', 'pi05jp_wide'),
+      ('pi05_droid_jointpos, wide cameras + tool retargeting', 'pi05jp_wide_rt6')]
+rows = []
+for lab, run in PI:
+    R = load(run)
+    if not R: continue
+    gap = [x['tcp_z'] - x['near_top'] for r in R for x in r.get('closes', []) if x['xy_dist'] < 0.05]
+    rows.append([lab, fmt(R), f"{sum((r.get('first_close') or {}).get('obj') == r['target_name'] for r in R)}/{len(R)}",
+                 f"{sum(bool(r['moved']) for r in R)}/{len(R)}", f"{100*np.median(gap):.0f} cm" if gap else '–', f"{np.median([r['min_tcp_to_target'] for r in R])*100:.0f} cm"])
+table(rows, ['π0.5 configuration (52 test episodes)', 'Pick success', 'First close over the target', 'Touched / moved an object', 'Hand height above the object top when closing', 'Closest hand-target distance (median)'])
+R = load('rx_4b_ens3_K2'); R = [r for r in R if r['seed'] <= 109]
+if R: display(Markdown(f"For comparison, the modular pipeline (4B, ens3 K=2) on the same 52 episodes: **{fmt(R)}**."))
+for v in sorted(glob.glob(f'{ROOT}/demo/franka/pi05jp_wide/*.mp4'))[:2]:
+    show(v, w=560, caption=f'π0.5 joint-position, wide cameras (DROID-like side view): `{os.path.basename(v)}`')"""))
+cells.append(md(r"""**Reading section 8.**
+* **Zero-shot π0.5-DROID does not complete a single pick in these simulated scenes (0/52 in every configuration).** The modular pipeline picks ≈ 70% of the same episodes.
+* **It is not doing nothing.** Each embodiment correction changed its behaviour in the expected direction:
+  * The DROID side camera roughly doubles how often its first close is over the target (10 → 19–20 of 52).
+  * Joint-position actions plus wide cameras bring the hand from ≈ 20 cm to ≈ 8 cm above objects, and it touches objects in about half the episodes (24/52).
+  * Tool retargeting brings it lower still on dev scenes (median 2 cm on dev).
+  
+  So the policy reaches toward objects and closes, but too high or 7–20 cm off to the side. It never closes around one.
+* **What remains is a large domain gap, not one bug.** Rendered images vs DROID's real ones, hand-placed cameras that only approximate DROID's, a different gripper, and object scale. openpi itself evaluates DROID policies in simulation with a checkpoint co-trained on PolaRiS sim data, in scenes built to match DROID. These YCB scenes, cameras and the Franka Hand are outside that.
+* **Speed.** Inference is ≈ 0.06 s per 15-step chunk on one GPU (≈ 9 GB). The VLA's compute cost is small; what it lacks is a working grasp in this setup.
+
+**Next steps, if π0.5 is to be used here:**
+1. **Fine-tune π0.5-DROID (joint position) on our own sim demonstrations.** The scripted pipeline with oracle grounding already succeeds ≈ 80%, so it can generate thousands of Franka-Hand demos in this exact camera setup, in DROID format (`pi05_droid_finetune`, LeRobot). That is the standard way to adapt it, and it tests how much data closes the gap.
+2. **Use π0.5 only for the last stage:** our VLM and scripted reach bring the hand above the right object, and π0.5 does the grasp from there. This matches the original LIBERO design (VLM + reach + local skill) and isolates its grasping from its grounding.
+3. **On the real Franka with the Franka Hand,** the zero-shot result will differ (real images, real ZED-like cameras if used), but the gripper gap remains. The retargeting layer here is reusable there."""))
+
 # ------------------------------------------------------------------ videos
 cells.append(md(r"""---
-## 8. Videos
+## 9. Videos
 
 External camera, 20 fps.
 
@@ -543,7 +586,7 @@ cells.append(code(r"""for name in ['e1_a_extonly', 'e1_b_refine', 'e1_c_fixedyaw
 
 # ------------------------------------------------------------------ real robot
 cells.append(md(r"""---
-## 9. Moving to the real Franka
+## 10. Moving to the real Franka
 
 What is already shared:
 * the episode loop, perception, VLM grounding, grasp planner and IK (`vrg/franka/*`);
@@ -559,7 +602,7 @@ Before the first real run:
 Sim-to-real gaps to expect: depth noise and missing depth on shiny or transparent surfaces, camera calibration error (a few mm to 1 cm), contact physics of the soft fingertips, and object weights."""))
 
 cells.append(md(r"""---
-## 10. Summary
+## 11. Summary
 
 | Question | Answer (257 eval episodes, 13 YCB targets, 6 objects per scene) |
 |---|---|
@@ -569,12 +612,13 @@ cells.append(md(r"""---
 | Can repeated inference replace a bigger model? | **Yes, when pooled.** 3 modes on the external view + 2 re-asks along the approach: 4B reaches **86% grounding / 72% success** (32B one-shot: 81% / 68%). Re-asking a single mode, or letting the last view decide (even gated for obscured views), hurts. |
 | Why do the remaining picks fail? (section 6) | **Robot side, perfect VLM:** touching objects merge into one cluster (≈ 20 eps); the 20 cm palm hits taller neighbours (≈ 12); a width cap tighter than the hand (7); thin or non-convex grasps (8). **VLM side:** look-alikes of the same kind (22/23), made worse by YCB names that don't describe appearance (descriptive names: +4 to +14 points). Mode disagreement flags 21/23 VLM errors. |
 | How long does a pick take? (section 7) | ≈ 13 s of robot time at the current conservative settings (+0.5–1.4 s of VLM); ≈ 90% is the arm moving or waiting. 3× speed with a convergence-based wait gives **7.5 s at the same success** (78.6% vs 78.2%). Time-optimal trajectories, targeted waits, no return home and overlapping the VLM with motion should reach ≈ 4–5 s. |
+| Does an end-to-end VLA (π0.5-DROID) work here zero-shot? (section 8) | **No: 0/52** in five configurations, against ≈ 70% for the modular pipeline. Matching DROID's camera placement, wide FOV, joint-position actions and gripper length brings it from closing 20 cm above objects to touching them, but it never grasps. Fine-tuning on sim demos from our pipeline, or using it only for the final grasp, are the next steps. |
 | Is the VLM or the grasp failing? | **The VLM**, with grounding errors 14–21% of episodes. Given correct grounding, the robot side succeeds about 85% for every model. Robot-side failures (11–13%) are mostly top-down grasps of objects wider than the hand. |
 
 **Next steps** (section 6 lists the fixes by root cause):
 * Robot side: side or edge grasps for wide or flat objects (the cracker box), and better segmentation of thin objects (the scissors).
 * VLM side: pooled multi-mode grounding plus a few re-asks along the approach (section 5) is the default to carry to the real arm. Next comes active viewing, moving to a view that covers the candidates the votes disagree on.
-* Real arm: the checklist in section 9. The episode code runs unchanged on `FrankyRobot`."""))
+* Real arm: the checklist in section 10. The episode code runs unchanged on `FrankyRobot`."""))
 
 nb = nbf.v4.new_notebook(); nb.cells = cells
 nb.metadata["kernelspec"] = {"name": "python3", "display_name": "Python 3", "language": "python"}

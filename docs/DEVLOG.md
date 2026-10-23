@@ -62,5 +62,10 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - 3× with a convergence-based wait keeps it (78.6%) at 7.5 s.
   - Project ideas with estimated gains are in notebook section 7 (targeted waits, time-optimal blended trajectories, no return home, VLM/motion overlap and adaptive inference; larger: cuRobo-style planning, distillation, a learned closed-loop skill).
 
+- **π0.5-DROID zero-shot (2026-10-23).** openpi served on the Blackwell GPUs (JAX works; its torch build doesn't), driven by `vrg/franka/vla.py`, which reproduces DROID's 15 Hz control law. **0/52 in all five configurations**, against 69% for the modular pipeline on the same episodes.
+  - The velocity model can't be simulated faithfully: openpi says so too, since the real arm's soft impedance controller lags each target and the sim's stiff PD doesn't. So the joint-position PolaRiS checkpoint was used as well.
+  - Matching DROID's side camera, its wide-angle ZED FOV and its gripper length (tool retargeting) moved the policy from closing 20 cm above objects to touching them (24–28/52), but it never grasped.
+  - The next steps would be fine-tuning on our scripted demos, or using π0.5 only as the final grasp skill.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

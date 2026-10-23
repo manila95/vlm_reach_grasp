@@ -25,6 +25,7 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 | `vrg.bench.policy_server` (Colosseum, one per rollout) | 1.3 GB | 1.3 GB | 3.7 GB |
 | `col_rollout.py` (colosseum env, VirtualGL) | <1 GB | <1 GB | render only; ~1.3 cores |
 | `vrg.franka.run_isaac` (Isaac Lab, CPU physics; `isaac/run.sh`) | 3.4 GB | 3.4 GB | ~4 GB; ~4.5 cores |
+| openpi π0.5 policy server (`/scratch/.../src/serve_pi05*.sh`, JAX, mem fraction 0.3) | 31 GB while loading | — | ≈ 9 GB |
 | `vrg.franka.ground_offline` Qwen3-VL (one GPU) | ~2.2 GB (mmap) | 2.2 GB | 2B 4, 4B 8, 8B 16, 32B 62 GB |
 
 ## Conventions
@@ -40,6 +41,7 @@ Measured peaks (update when you measure a new job type; `systemctl --user show v
 - Don't wait on jobs with `pgrep -f "<pattern>"` loops whose own command line contains the pattern: one hung on itself.
 - Diffusion sampling is unseeded, so 20-episode per-task differences are noise. Compare full-suite numbers with Wilson CIs.
 - Isaac Lab (Franka track, `vrg/franka/`): source `/scratch/kaustubh/vlm_reach_grasp/isaac/env.sh`. Conda's activate.d sets `__EGL_VENDOR_LIBRARY_DIRS` to Mesa only, which breaks NVIDIA's Vulkan ICD ("No device could be created"); env.sh unsets it. Kit ignores SIGTERM and can hang on exit: use `os._exit` and `timeout -s KILL`.
+- openpi (π0.5) lives in its own uv env at `/scratch/kaustubh/vlm_reach_grasp/src/openpi`; source `src/openpi_env.sh`. Its JAX 0.5.3 runs on the Blackwell GPUs, but its bundled torch (cu126) does not. `serve_policy.py` in the clone is patched to bind 127.0.0.1 (the machine is shared).
 - Don't split Qwen3-VL-32B over both GPUs with `device_map="auto"`: every generation came out NaN (`!!!!`). It fits on one GPU.
 - Shuffled targets near the workspace edge drive the Panda's elbow (joint 4) to its limit if the policy tilts the wrist; v5's posture-aware roll/pitch lock exists for this. Locking yaw breaks the tomato-sauce grasp.
 - `checkpoints (runs/*/ckpt.pt)` and `data/libero_object.npz` are not in git (size). Rebuild with the README commands.
