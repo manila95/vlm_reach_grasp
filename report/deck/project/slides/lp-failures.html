@@ -1,0 +1,20 @@
+<section id="lp-failures" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">The VLM finds the target; the learned grasp cannot see in new light</h2>
+<img src="/_blob/325324b274db9389a44d0d3359709f1f" data-video="/_blob/3c21616d2c9450571a3329113d98f687" alt="The same relit LIBERO-Plus scene: pi0.5 places the bbq sauce in the basket; our system reaches the right object but its wrist-camera grasp fails" style="width:1664px;height:520px;object-fit:contain;border-radius:8px;background:#14213D">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:16px">
+<h3 style="font-size:32px;font-weight:600">Target found: 100%</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">in every light and background scene</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:16px">
+<h3 style="font-size:32px;font-weight:600">Grasp fails: 282 of 297</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">wrist-only skill, 50 demos, no colour augmentation</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:16px">
+<h3 style="font-size:32px;font-weight:600">Basket off by 23–25 cm</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">depth proposals drift (≈ 7 cm elsewhere)</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">LIBERO-Plus task 2305 (light) · lesson for the segment study: the local skill must be photometrically robust, not only spatially local</p>
+<aside>Left: pi0.5-LIBERO places the bbq sauce. Right: our agent view and wrist view on the same scene. The arm reaches the right object, then the wrist-camera policy, trained on 50 demos per task with no colour or lighting augmentation, fails to grasp. The fix is planned as an ablation of the segment policy: photometric augmentation and a pretrained visual encoder. It is chosen on MimicGen, never tuned on these test tasks.</aside>
+</section>

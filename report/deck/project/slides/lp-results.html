@@ -1,0 +1,25 @@
+<section id="lp-results" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:36px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">LIBERO-Plus: ours wins on geometry and loses on appearance</h2>
+<div style="display:flex;gap:56px;align-items:start">
+<table style="font-size:27px;width:1000px;color:#1F2A3D">
+<tr><th style="width:46%;text-align:left">Perturbation (tasks)</th><th style="width:27%;text-align:right;color:#C4521F">Ours</th><th style="width:27%;text-align:right">π0.5-LIBERO</th></tr>
+<tr><td>Robot initial state (398)</td><td style="text-align:right"><b>98%</b></td><td style="text-align:right">69%</td></tr>
+<tr><td>Sensor noise (422)</td><td style="text-align:right"><b>99%</b></td><td style="text-align:right">95%</td></tr>
+<tr><td>Language (354)</td><td style="text-align:right">88%</td><td style="text-align:right">92%</td></tr>
+<tr><td>Object layout (403)</td><td style="text-align:right">82%</td><td style="text-align:right">89%</td></tr>
+<tr><td>Camera viewpoint (396)</td><td style="text-align:right">66%</td><td style="text-align:right">87%</td></tr>
+<tr><td>Background texture (248)</td><td style="text-align:right">19%</td><td style="text-align:right"><b>98%</b></td></tr>
+<tr><td>Light (297)</td><td style="text-align:right">1%</td><td style="text-align:right"><b>99%</b></td></tr>
+<tr style="background:#FCE9DE"><td><b>All 2,518</b></td><td style="text-align:right"><b>69.9%</b></td><td style="text-align:right"><b>89.1%</b></td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:16px;width:608px;background:#FFFFFF;border:1px solid #DCE3EC;border-top:8px solid #2A6FDB;border-radius:12px;padding:36px">
+<h3 style="font-size:32px;font-weight:600">Other checkpoints, in progress</h3>
+<p style="font-size:27px;line-height:1.45;color:#4A5568">MolmoAct2: <b>88.6%</b> (755 tasks)</p>
+<p style="font-size:27px;line-height:1.45;color:#4A5568">π0: 33% (945 tasks; only the background, robot-init and camera blocks so far)</p>
+<p style="font-size:27px;line-height:1.45;color:#4A5568">SmolVLA: 1.8% (512 tasks; 85% on standard scenes)</p>
+<p style="font-size:27px;line-height:1.45;color:#4A5568">π0-FAST: being fixed</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">LIBERO-Plus libero_object · benchmark protocol: one trial per task, its instruction, 280 steps · released checkpoints as is · ours strict zero-shot</p>
+<aside>LIBERO-Plus perturbs LIBERO along seven axes at five difficulty levels. Ours is the v5 LIBERO-Object system unchanged: VLM grounding per perturbed scene, scripted reach, the egocentric local grasp. The scripted reach makes the start pose irrelevant, which is why robot-init is 98% against 69%. Every client was checked on the standard scenes first: SmolVLA 17/20, MolmoAct2 20/20. Partial rows will change as the runs finish.</aside>
+</section>
