@@ -93,7 +93,12 @@ def main():
 
         class Client:
             def __init__(self): self.reconnect()
-            def reconnect(self): self.c = websocket_client_policy.WebsocketClientPolicy("localhost", A.port)
+            def reconnect(self):                    # the handshake times out while the server compiles for other clients: retry
+                for attempt in range(60):
+                    try: self.c = websocket_client_policy.WebsocketClientPolicy("localhost", A.port); return
+                    except Exception as e:
+                        if attempt == 59: raise
+                        print(f"connect retry {attempt}: {repr(e)[:80]}", flush=True); time.sleep(30)
             def infer(self, el): return self.c.infer(el)
         client = Client()
     elif A.method == "lerobot":
