@@ -44,6 +44,7 @@ def run_task(args):
         from vrg.pipeline import handoff_for
         HO_PRE, HORI_PRE = handoff_for(A.pre)
     env, task = make_env(tid)
+    if runner is not None: runner.env = env              # depth-input skills render the wrist depth live
     out = []
     for ep in eps:
         frames, n = [], [0]

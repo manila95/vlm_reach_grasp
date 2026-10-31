@@ -18,18 +18,29 @@ def _tint(rng, lo=0.7, hi=1.3):
     c = rng.uniform(lo, hi, 3); return c / c.max()
 
 
+FIELDS = ("light_diffuse", "light_ambient", "light_specular", "light_dir", "light_castshadow", "mat_rgba", "mat_texid", "mat_texrepeat")
+
+
+def _model(env):
+    m = env.sim.model; return m._model if hasattr(m, "_model") else m
+
+
+def restore_scene(env):
+    """Back to the unperturbed appearance (the first model seen; draws never compound)."""
+    mm = _model(env)
+    if not hasattr(env, "_vrg_base"):
+        env._vrg_base = {k: getattr(mm, k).copy() for k in FIELDS}
+        env._vrg_base["hl"] = (mm.vis.headlight.ambient.copy(), mm.vis.headlight.diffuse.copy())
+    B = env._vrg_base
+    for k in FIELDS: getattr(mm, k)[:] = B[k]
+    mm.vis.headlight.ambient[:], mm.vis.headlight.diffuse[:] = B["hl"]
+    return mm, B
+
+
 def perturb_scene(env, kind, seed):
     import mujoco
     if kind in (None, "", "none"): return
-    rng = np.random.default_rng(seed); m = env.sim.model; mm = m._model if hasattr(m, "_model") else m
-    if not hasattr(env, "_vrg_base"):          # remember the unperturbed model once, so draws never compound
-        env._vrg_base = {k: getattr(mm, k).copy() for k in ("light_diffuse", "light_ambient", "light_specular", "light_dir",
-                                                             "light_castshadow", "mat_rgba", "mat_texid", "mat_texrepeat")}
-        env._vrg_base["hl"] = (mm.vis.headlight.ambient.copy(), mm.vis.headlight.diffuse.copy())
-    B = env._vrg_base
-    for k in ("light_diffuse", "light_ambient", "light_specular", "light_dir", "light_castshadow", "mat_rgba", "mat_texid", "mat_texrepeat"):
-        getattr(mm, k)[:] = B[k]
-    mm.vis.headlight.ambient[:], mm.vis.headlight.diffuse[:] = B["hl"]
+    rng = np.random.default_rng(seed); mm, B = restore_scene(env)
     if kind in ("light", "both"):
         for i in range(mm.nlight):
             mm.light_diffuse[i] = B["light_diffuse"][i] * rng.uniform(0.15, 2.5) * _tint(rng)

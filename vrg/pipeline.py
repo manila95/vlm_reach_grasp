@@ -124,10 +124,15 @@ class PolicyRunner:
             from vrg.paths import draw_path
             ag = draw_path(ag, self.path_uv)
         f = {"agent": ag, "wrist": obs["robot0_eye_in_hand_image"], "proprio": pr}
+        if "wdepth" in self.cams:                     # depth-input skill: render the wrist depth live (set runner.env first)
+            from robosuite.utils.camera_utils import get_real_depth_map
+            from vrg.policy import encode_depth
+            _, d = self.env.sim.render(width=128, height=128, camera_name="robot0_eye_in_hand", depth=True)
+            f["wdepth"] = encode_depth(get_real_depth_map(self.env.sim, d))
         self.hist.append(f)
         while len(self.hist) < self.pol.n_obs: self.hist.appendleft(f)
         if not self.queue:
-            b = {k: torch.from_numpy(np.stack([h[k] for h in self.hist]))[None].to(self.dev) for k in ("agent", "wrist", "proprio")}
+            b = {k: torch.from_numpy(np.stack([h[k] for h in self.hist]))[None].to(self.dev) for k in self.cams + ("proprio",)}
             b["tid"] = torch.tensor([tid], device=self.dev)
             self.queue.extend(self.pol.act(b)[0].float().cpu().numpy())
         return self.queue.popleft()

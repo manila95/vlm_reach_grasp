@@ -22,6 +22,16 @@ class SpatialSoftmax(nn.Module):
         return torch.cat([(att * xs.flatten()).sum(-1), (att * ys.flatten()).sum(-1)], -1)  # B,2K
 
 
+DEPTH_MAX = 0.5   # m: wrist depth encoding for the depth-input skill (S5); 2 mm per level, farther than this saturates
+
+
+def encode_depth(d):
+    """metric depth (..., H, W) -> uint8 (..., H, W, 3), the image format the encoders take."""
+    import numpy as np
+    q = (np.clip(np.asarray(d, dtype=np.float32) / DEPTH_MAX, 0, 1) * 255).round().astype(np.uint8)
+    return np.repeat(q[..., None], 3, -1)
+
+
 class ImageEncoder(nn.Module):
     def __init__(self, out=128, crop=116, img_norm=False):
         super().__init__()

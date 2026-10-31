@@ -22,6 +22,8 @@ ap.add_argument("--mask_xy", action="store_true", help="drop absolute EEF x,y fr
 ap.add_argument("--aug", default="none", choices=["none", "photo", "conv", "photo_conv"], help="image augmentation (vrg/augment.py)")
 ap.add_argument("--img_norm", action="store_true", help="per-image channel standardisation in the encoder (train and test)")
 ap.add_argument("--seed", type=int, default=0)
+ap.add_argument("--dr", default=None, help="re-rendered randomised wrist views (vrg/rerender.py npz): S3")
+ap.add_argument("--p_dr", type=float, default=0.5, help="probability a sample's wrist frames come from a random re-render")
 ap.add_argument("--out", required=True)
 ap.add_argument("--device", default="cuda:0")
 A = ap.parse_args()
@@ -50,6 +52,17 @@ G = {"agent": torch.from_numpy(AG).to(dev), "wrist": torch.from_numpy(Z["wrist"]
      "proprio": torch.from_numpy(Z["proprio"]).to(dev), "action": torch.from_numpy(Z["action"]).to(dev),
      "tid": torch.from_numpy(Z["tid"]).long().to(dev)}
 if A.mask_xy: G["proprio"][:, :2] = 0
+DRMAP = None
+if A.dr or "wdepth" in cams:                              # re-rendered views / depth exist only on the local slices
+    from vrg.policy import encode_depth
+    RR = np.load(A.dr or "/scratch/kaustubh/vlm_reach_grasp/skills/rerender.npz")
+    DRMAP = torch.full((len(Z["action"]),), -1, dtype=torch.long, device=dev); DRMAP[torch.from_numpy(RR["idx"]).to(dev)] = torch.arange(len(RR["idx"]), device=dev)
+    if A.dr: G["wrist_dr"] = torch.from_numpy(RR["wrist_dr"]).to(dev)                        # (K, n, H, W, 3)
+    if "wdepth" in cams:
+        G["wdepth"] = torch.from_numpy(encode_depth(RR["depth"])).to(dev)                 # (n, H, W, 3), indexed via DRMAP
+    assert A.mode == "local", "re-render data covers only the local slices"
+    need = torch.maximum(idx - 1, starts)
+    assert (DRMAP[idx] >= 0).all() and (DRMAP[need] >= 0).all(), "re-render does not cover every sampled frame (check --post)"
 sel = torch.unique(torch.cat([torch.minimum(torch.maximum(idx[:, None] + torch.arange(-1, H - 1, device=dev), starts[:, None]), ends[:, None] - 1).flatten()]))
 stats = {"action_min": G["action"][sel].min(0).values.cpu(), "action_max": G["action"][sel].max(0).values.cpu(),
          "proprio_min": G["proprio"][sel].min(0).values.cpu(), "proprio_max": G["proprio"][sel].max(0).values.cpu()}
@@ -67,7 +80,17 @@ def batch(bs):
     t, s, e = idx[j], starts[j], ends[j]
     to = (t[:, None] + torch.arange(-(NO - 1), 1, device=dev)).clamp(min=s[:, None])  # obs frames
     ta = (t[:, None] + torch.arange(-(NO - 1), H - NO + 1, device=dev)).clamp(min=s[:, None], max=e[:, None] - 1)
-    obs = {c: G[c][to] if A.aug == "none" else augment(G[c][to], A.aug) for c in cams}; obs["proprio"] = G["proprio"][to]; obs["tid"] = conds[j]
+    obs = {}
+    for c in cams:
+        if c == "wdepth":
+            obs[c] = G["wdepth"][DRMAP[to]]; continue
+        x = G[c][to]
+        if c == "wrist" and A.dr:                         # replace with a randomised re-render of the same frames
+            r = DRMAP[to]; use = (torch.rand(len(j), device=dev) < A.p_dr) & (r >= 0).all(1)
+            v = torch.randint(0, G["wrist_dr"].shape[0], (len(j),), device=dev)
+            x = torch.where(use[:, None, None, None, None], G["wrist_dr"][v[:, None], r.clamp(min=0)], x)
+        obs[c] = x if A.aug == "none" else augment(x, A.aug)
+    obs["proprio"] = G["proprio"][to]; obs["tid"] = conds[j]
     return obs, G["action"][ta]
 
 
