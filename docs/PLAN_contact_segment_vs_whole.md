@@ -183,3 +183,6 @@ Its tasks are mostly pick-and-place, so this is lower priority for the contact-r
    policy (feasible on our GPUs).
 2. Is the real-Franka A/B in scope, and which contact-rich tasks (drawer, peg insertion, wiping, lid)?
 3. Start with Phase 0 → Phase 1 on MimicGen (recommended).
+
+## Added 2026-10-31 (from LIBERO-Plus)
+Our system scores 1% under light perturbations and 19% under background-texture perturbations (π0.5: 99% / 98%), while the VLM still finds the target. The wrist-only local skill is not photometrically robust. Ablation for the segment policies: photometric augmentation (colour jitter, brightness) and a pretrained visual encoder, evaluated on MimicGen D0/D1 with relit scenes. These are chosen on MimicGen, not on LIBERO-Plus tasks.

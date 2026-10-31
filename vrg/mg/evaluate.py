@@ -89,8 +89,8 @@ def reach(e, obs, T_goal, grip, eef_R, frames=None, tol=0.006, max_steps=250, sa
             a = np.zeros(7); a[:3] = np.clip(err_p / 0.05 * 1.5, -1, 1); a[3:6] = np.clip(err_r / 0.5, -1, 1); a[6] = grip
             obs, _, _, _ = e.step(a); steps += 1
             if frames is not None: frames.append(obs["agentview_image"])
-    ok = np.linalg.norm(T_goal[:3, 3] - eef(obs)) < 0.02
     reach.last_err = float(np.linalg.norm(T_goal[:3, 3] - eef(obs)))
+    ok = reach.last_err < getattr(reach, "fail_tol", 0.02)
     return obs, ok, steps
 
 
@@ -99,6 +99,9 @@ def main():
     ap.add_argument("--method", choices=["whole", "composed"], required=True); ap.add_argument("--episodes", type=int, default=100)
     ap.add_argument("--seed0", type=int, default=100000); ap.add_argument("--noise_pos", type=float, default=0.0); ap.add_argument("--noise_yaw", type=float, default=0.0)
     ap.add_argument("--pre", type=int, default=None, help="handoff = this many steps before contact (default: the run's --pre)")
+    ap.add_argument("--held_handoff", action="store_true", help="insertion handoff pose relative to the held object (default: hand pose)")
+    ap.add_argument("--handoff", choices=["hand", "heldpos"], default="hand", help="heldpos: hand orientation, held-object position")
+    ap.add_argument("--reach_tol", type=float, default=0.04, help="a reach that ends farther than this from its goal is a reach failure")
     ap.add_argument("--video", type=int, default=0); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
     A = ap.parse_args()
     import robomimic.utils.env_utils as EnvUtils, robomimic.utils.file_utils as FileUtils, robomimic.utils.obs_utils as ObsUtils
@@ -110,6 +113,7 @@ def main():
     env = EnvUtils.create_env_from_metadata(env_meta=em, render=False, render_offscreen=True, use_image_obs=True); e = env.env
     iface = getattr(MGI, TASKS[task][0])(env=e)
     pre = A.pre if A.pre is not None else pol.a.get("pre", 10)
+    reach.fail_tol = A.reach_tol            # the handoff is approximate (1-2 cm spread for grasps): let the policy absorb the rest
     if A.method == "composed": spec, H = handoff_offsets(train_ds, pre, len(json.load(open(f"{S}/segments/{train_ds}.json"))["spec"]))
     os.makedirs(A.out, exist_ok=True); resf = f"{A.out}/results.json"
     res = json.load(open(resf)) if os.path.exists(resf) else []; done = {r["episode"] for r in res}
@@ -130,11 +134,15 @@ def main():
             for k, (ref, signal) in enumerate(spec):
                 rec["phase"] = k
                 OP = iface.get_object_poses()
-                if H[k]["held"] and held:   # place the HELD object at its mean pose relative to the reference, given the current grasp
+                if A.held_handoff and H[k]["held"] and held:   # optional: place the HELD object at its mean pose relative to the reference
+                    # (off by default: on Square it made 8/20 transfer reaches fail and insertion 1/20 vs 5/20 hand-based; debug_handoff.py)
                     G = np.linalg.inv(iface.get_robot_eef_pose()) @ OP[H[k]["held"]]
                     T_goal = OP[ref] @ H[k]["T_held"] @ np.linalg.inv(G)
                 else:
                     T_goal = OP[ref] @ H[k]["T"]
+                    if A.handoff == "heldpos" and H[k]["held"] and held:   # keep the hand orientation; shift so the HELD object sits at
+                        G = np.linalg.inv(iface.get_robot_eef_pose()) @ OP[H[k]["held"]]   # its mean position relative to the reference
+                        T_goal = T_goal.copy(); T_goal[:3, 3] += (OP[ref] @ H[k]["T_held"])[:3, 3] - (T_goal @ G)[:3, 3]
                 if A.noise_pos or A.noise_yaw:
                     T_goal = T_goal.copy(); T_goal[:3, 3] += rng.normal(0, A.noise_pos, 3) * np.array([1, 1, 0.5])
                     T_goal[:3, :3] = Rot.from_euler("z", rng.normal(0, A.noise_yaw)).as_matrix() @ T_goal[:3, :3]

@@ -86,5 +86,14 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   C1 is still 13–30% vs P1's 90%, so composed numbers are withheld until fixed.
 - **Deliverables:** the study notebook and a project deck with embedded videos (claude.ai artifact; sources in `report/deck/project/`).
 
+- **LIBERO-Plus (2026-10-31): released VLAs vs our system** on 2,518 perturbed LIBERO-Object tasks, using the benchmark's protocol.
+  - **Clients:** openpi for π0.5, π0 and π0-FAST; a LeRobot server (`vrg/lplus/lerobot_server.py`) for SmolVLA and MolmoAct2.
+  - **Client check on standard scenes:** SmolVLA 17/20, MolmoAct2 20/20. MolmoAct2's checkpoint config needed translating to the current LeRobot fields.
+  - **Results:** π0.5 89.1%, ours (v5, strict zero-shot) 69.9%.
+  - **Ours wins on geometry:** robot initial states 98% vs 69%; sensor noise 99%.
+  - **Ours loses on appearance:** light 1% vs 99%; background textures 19% vs 98%. The VLM finds the target in every such scene, but the wrist-only local skill (50 demos per task, no colour augmentation) fails to grasp, and basket grounding drifts 23–25 cm.
+  - **Lesson for the segment study:** the local skill must be visually robust, not only spatially local.
+  - A grounding shard crashed on a random "Cannot place all objects" scene error and was resumed.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

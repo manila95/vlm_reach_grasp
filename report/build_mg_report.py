@@ -173,6 +173,18 @@ for c in CATS:
     rows.append([c, len(rs), f"{100*np.mean([r['success'] for r in rs]):.0f}%", sum(r.get('fail') == 'grasp' for r in rs), sum(r.get('fail') == 'place' for r in rs),
                  f"{100*np.mean([G.get(r['tid'], {}).get('obj_hit', False) for r in rs]):.0f}%", f"{100*np.median(be):.1f} cm" if be else '–', f"{100*np.mean(np.array(be) > 0.12):.0f}%" if be else '–'])
 table(rows, ['Category', 'n', 'Success', 'Grasp fails', 'Place fails', 'Target hit', 'Basket err (median)', 'Basket err > 12 cm'])"""))
+C.append(md(r"""**Reading (ours, final over all 2,518 tasks: 69.9%; π0.5-LIBERO 89.1%).**
+* **Where the modular design wins:**
+  * **Robot initial states:** 98% vs π0.5's 69%. The scripted reach makes the start pose irrelevant: the same mechanism behind the layout-shuffle result.
+  * **Sensor noise:** 99% vs 95%.
+* **Where it loses is appearance, not geometry:**
+  * **Light conditions:** 1% vs 99%. The VLM finds the target in every scene, but 282/297 episodes fail at the grasp.
+  * **Background textures:** 19% vs 98%, with 115 grasp failures.
+  * The cause: the learned local skill sees only the wrist camera, was trained on 50 demos per task without colour or lighting augmentation, and does not transfer to a relit or retextured table.
+  * The VLAs are pretrained on large, visually diverse data.
+* **The basket grounding also degrades under the same perturbations:** median error 23–25 cm vs ≈ 7 cm elsewhere. So the depth-cluster proposals need to be robust to appearance too.
+* **Camera viewpoints:** 66% vs 87%. The target is found in 84% of scenes, and most failures are at the place step.
+* **For the contact-segment study:** the local skill must be visually robust, not only spatially local. That means photometric augmentation or a pretrained visual encoder in the segment policy. This is now a planned ablation, and it is not tuned on these test tasks."""))
 
 C.append(md(r"""---
 ## 7. Next
