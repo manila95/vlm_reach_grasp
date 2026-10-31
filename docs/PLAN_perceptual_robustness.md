@@ -166,3 +166,18 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - **Grounding costs 12 points overall** (A→B), and all of Camera (70→99), Layout (73→93) and Language (90→99). Camera is a grounding problem, not a skill problem.
 - **The robot side is not the limit.** With perfect perception the modular system scores 98%, above π0.5's 89%. The whole gap to π0.5 is perception: grounding plus the skill's appearance robustness.
 - **The learned skill still beats the scripted grasp under VLM noise** (A 70 vs C 63), as on LIBERO. So the goal is to make it robust, not to replace it.
+
+**I4, failure taxonomy (full LIBERO-Plus run, ours; from the logged moved object vs target):**
+
+| Category | Grasp, nothing moved | Wrong object | Right object, not placed | Other |
+|---|---|---|---|---|
+| Light | 282 | 0 | 11 | 0 |
+| Background | 96 | 5 | 59 | 40 |
+| Camera | 0 | 54 | 73 | 9 |
+| Language | 0 | 30 | 14 | 0 |
+| Layout | 10 | 22 | 30 | 12 |
+
+- Light is pure perception: the skill never makes contact.
+- Background mixes the skill (96) and the basket (59 carried but not placed; basket error 23 cm).
+- Camera mixes wrong-object grounding (54) and an unexplained place miss with the right object (73; basket error only 3.5 cm). That needs videos (I5).
+- Language failures are mostly grounding (30 wrong object).
