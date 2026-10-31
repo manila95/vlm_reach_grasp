@@ -14,8 +14,9 @@ def get_suite():
 
 
 def target_name(language):
-    """'pick up the alphabet soup and place it in the basket' -> 'alphabet_soup'."""
-    m = re.match(r"pick up the (.+) and place it in the basket", language)
+    """'pick up the alphabet soup and place it in the basket' -> 'alphabet_soup'. Also accepts a task name with
+    underscores and trailing perturbation tags (LIBERO-Plus: 'pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_1')."""
+    m = re.match(r"pick[ _]up[ _]the[ _](.+?)[ _]and[ _]place[ _]it[ _]in[ _]the[ _]basket", language)
     return m.group(1).replace(" ", "_")
 
 

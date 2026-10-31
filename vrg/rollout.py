@@ -160,7 +160,7 @@ def run_task(args):
         disp = {k: float(np.linalg.norm(env.env.sim.data.body_xpos[env.env.obj_body_id[k]] - v)) for k, v in pos0.items()}
         moved = max(disp, key=disp.get)  # analysis only (privileged): which object did the robot actually move?
         out.append(dict(tid=tid, ep=ep, success=bool(done), fail=None if done else phase_fail, steps=n[0], sec=time.time() - t0,
-                        moved=moved if disp[moved] > 0.05 else None, target=target_name(task.language) + "_1"))
+                        moved=moved if disp[moved] > 0.05 else None, target=target_name(getattr(task, "name", task.language)) + "_1"))
         print(f"[{A.method}] task {tid} ep {ep}: success={done} fail={out[-1]['fail']} steps={n[0]}", flush=True)
         if A.hires and hi_frames:
             os.makedirs(f"{A.out}/hires", exist_ok=True)
