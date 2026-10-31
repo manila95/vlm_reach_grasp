@@ -85,6 +85,10 @@ def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--method", choices=["ours", "openpi", "lerobot"], required=True); ap.add_argument("--tasks", required=True)
     ap.add_argument("--port", type=int, default=8002); ap.add_argument("--out", required=True); ap.add_argument("--video_every", type=int, default=100)
     ap.add_argument("--wait", type=int, default=10)
+    ap.add_argument("--split", choices=["all", "dev", "test"], default="all", help="data/liberoplus_split.json (fixed before any tuning)")
+    ap.add_argument("--oracle", action="store_true", help="ours: ground-truth object/basket positions (attribution, E0)")
+    ap.add_argument("--skill", choices=["learned", "scripted"], default="learned", help="ours: learned egocentric grasp or scripted grasp (E0)")
+    ap.add_argument("--ckpt", default="runs/local_ego_50/ckpt.pt", help="ours: grasp-skill checkpoint")
     ap.add_argument("--grounding", default=f"{S}/liberoplus/grounding_all.pkl"); A = ap.parse_args()
     lo, hi = map(int, A.tasks.split("-")); os.makedirs(A.out, exist_ok=True); f = f"{A.out}/results_{lo}_{hi}.json"
     res = json.load(open(f)) if os.path.exists(f) else []; done = {r["tid"] for r in res}
@@ -106,11 +110,12 @@ def main():
         conn = MPClient(("127.0.0.1", A.port), authkey=b"vrg-lplus")
     else:
         from vrg.rollout import run_task, build_parser
-        RA = build_parser().parse_args(["--method", "hier_vlm", "--out", A.out, "--auto_retract", "--lock_ori", "auto", "--retries", "2",
-                                        "--j4_thresh=-1.0", "--ckpt", "runs/local_ego_50/ckpt.pt", "--grounding", A.grounding,
-                                        "--calib", "data/grounding.pkl", "--device", "cuda:0"])
+        RA = build_parser().parse_args(["--method", "hier_vlm" if A.skill == "learned" else "hier_scripted", "--out", A.out, "--auto_retract",
+                                        "--lock_ori", "auto", "--retries", "2", "--j4_thresh=-1.0", "--ckpt", A.ckpt, "--grounding", A.grounding,
+                                        "--calib", "data/grounding.pkl", "--device", "cuda:0"] + (["--oracle"] if A.oracle else []))
+    keep = None if A.split == "all" else set(json.load(open(f"{os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))}/data/liberoplus_split.json"))[A.split])
     for tid in range(lo, hi + 1):
-        if tid in done: continue
+        if tid in done or (keep is not None and tid not in keep): continue
         t0 = time.time(); vid = (tid - lo) % A.video_every == 0
         try:
             if A.method == "openpi":
