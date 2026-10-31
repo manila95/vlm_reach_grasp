@@ -1,0 +1,18 @@
+<section id="pi05" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:40px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">A generalist VLA in the same cell: π0.5-DROID, zero-shot</h2>
+<div style="display:flex;gap:56px;align-items:start">
+<div style="display:flex;flex-direction:column;gap:24px;width:860px">
+<table style="font-size:27px;width:860px;color:#1F2A3D">
+<tr><th style="width:70%;text-align:left">Setting (52 test episodes)</th><th style="width:30%;text-align:right">Success</th></tr>
+<tr><td>End to end, five embodiment-matched configs</td><td style="text-align:right">0/52 each</td></tr>
+<tr><td>Final grasp only, after our grounding + reach</td><td style="text-align:right">0/52</td></tr>
+<tr><td>Our scripted grasp from the same handoff</td><td style="text-align:right">82.7%</td></tr>
+<tr><td>Our modular pipeline (4B, reactive)</td><td style="text-align:right">69.2%</td></tr>
+</table>
+<p style="font-size:26px;line-height:1.45;color:#4A5568">Matching DROID’s side camera, wide field of view, joint-position actions and gripper length moved it from closing 20 cm above objects to touching them in half the episodes. It never lifted one.</p>
+</div>
+<img src="/_blob/31092153fd305975a82ad4ff1d81964d" data-video="/_blob/cd8a970c24bff9c246b2ce4dcde162d3" alt="pi0.5 joint-position model with wide DROID-like cameras reaching toward objects and closing the gripper above the sugar box without grasping it" style="width:748px;height:430px;object-fit:contain;border-radius:8px;background:#14213D">
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Franka in Isaac Lab · openpi checkpoints pi05_droid and pi05_droid_jointpos_polaris, served locally</p>
+<aside>Even when it starts 12 cm above the right object, π0.5 dips toward it and then re-plans its own reach. The gap is a combination: rendered images, approximate camera placement, a different gripper and unfamiliar objects. Using it requires fine-tuning on demonstrations from this setup.</aside>
+</section>

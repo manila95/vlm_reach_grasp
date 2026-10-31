@@ -1,0 +1,19 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-10-31T07:00:00Z"},
+  "lists": "css",
+  "title": "VLM Reach + Local Manipulation",
+  "order": ["cover", "idea", "libero-results", "libero-video", "franka-setup", "franka-vlm", "franka-videos", "failure-modes", "timing", "pi05", "contact-question", "contact-design", "mg-results", "mg-status", "novelty", "roadmap"],
+  "sections": {
+    "s1": {"description": "The idea: a VLM gets the robot to the object, imitation learns only the local manipulation", "start": "cover"},
+    "s2": {"description": "LIBERO proof of concept: robust to layout shuffles where end-to-end policies and VLAs collapse", "start": "libero-results"},
+    "s3": {"description": "Franka in Isaac Lab: toward the real arm, VLM scaling, failure modes, speed, and a pi0.5 test", "start": "franka-setup"},
+    "s4": {"description": "Contact-segment study: learning only the contact-rich phase on MimicGen, first results and status", "start": "contact-question"},
+    "s5": {"description": "Value, novelty and the roadmap to DROID and the real Franka", "start": "novelty"}
+  },
+  "faces": {
+    "source-serif-4": {"family": "Source Serif 4", "href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@400;600;700&display=swap"},
+    "ibm-plex-sans": {"family": "IBM Plex Sans", "href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"}
+  },
+  "designSystems": []
+}

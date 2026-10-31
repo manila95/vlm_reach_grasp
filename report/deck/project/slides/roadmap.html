@@ -1,0 +1,28 @@
+<section id="roadmap" data-transition="fade" style="background:#14213D;color:#F7F6F2;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Next components</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:14px;border-top:6px solid #E8915F;padding-top:24px">
+<p style="font-size:26px;font-weight:600;color:#E8915F">Now</p>
+<h3 style="font-size:34px;font-weight:600;line-height:1.2">MimicGen grid</h3>
+<p style="font-size:26px;line-height:1.45;color:#C9D3E3">Fix the transfer reach, validate C1 ≈ P1, then P2 / C1 / C2 over 3 seeds, data-efficiency and handoff sweeps.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;border-top:6px solid #6E9CE8;padding-top:24px">
+<p style="font-size:26px;font-weight:600;color:#6E9CE8">Next</p>
+<h3 style="font-size:34px;font-weight:600;line-height:1.2">LIBERO-Plus</h3>
+<p style="font-size:26px;line-height:1.45;color:#C9D3E3">Released VLAs (π0, OpenVLA-OFT, SmolVLA, MolmoAct) vs ours on 2,518 perturbed episodes.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;border-top:6px solid #6E9CE8;padding-top:24px">
+<p style="font-size:26px;font-weight:600;color:#6E9CE8">Then</p>
+<h3 style="font-size:34px;font-weight:600;line-height:1.2">DROID tier</h3>
+<p style="font-size:26px;line-height:1.45;color:#C9D3E3">A contact detector trained on sim labels; small VLA fine-tuned whole vs segments; PolaRiS / sim-evals.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:14px;border-top:6px solid #6E9CE8;padding-top:24px">
+<p style="font-size:26px;font-weight:600;color:#6E9CE8">Goal</p>
+<h3 style="font-size:34px;font-weight:600;line-height:1.2">Real Franka</h3>
+<p style="font-size:26px;line-height:1.45;color:#C9D3E3">A/B across DROID’s task distribution; then larger VLAs (MolmoAct, π0.5).</p>
+</div>
+</div>
+<p style="font-size:30px;line-height:1.45;color:#C9D3E3;width:1600px">Robot-side fixes from the Franka analysis run in parallel: split touching objects, collision-aware grasps, a correct width limit, and faster motion (≈ 4–5 s per pick).</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#8FA3BF">Value and roadmap · plan: docs/PLAN_contact_segment_vs_whole.md</p>
+<aside>Decided with you: a small VLA for the proof of concept, larger VLAs later; deployment on the real Franka across DROID's task distribution as the end goal; no VLA trained from scratch, released checkpoints evaluated as is.</aside>
+</section>

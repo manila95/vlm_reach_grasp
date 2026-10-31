@@ -1,0 +1,19 @@
+<section id="contact-question" data-transition="fade" style="background:#14213D;color:#F7F6F2;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px;display:flex;flex-direction:column;justify-content:center;gap:56px">
+<p style="font-size:28px;color:#E8915F;letter-spacing:2px;text-transform:uppercase;font-weight:600">The current study</p>
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:80px;font-weight:600;line-height:1.12;width:1600px">Does learning only the contact-rich phase generalize better than learning whole trajectories?</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:40px">
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:36px;font-weight:600;color:#E8915F">H1 · Generalization</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9D3E3">The segment policy, composed with VLM-guided reaching, beats a whole-trajectory policy under spatial, object and visual shifts.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:36px;font-weight:600;color:#E8915F">H2 · No loss in distribution</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9D3E3">With the same demos, network and training steps, both are on par where they were trained.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:12px">
+<h3 style="font-size:36px;font-weight:600;color:#E8915F">H3 · The reason</h3>
+<p style="font-size:28px;line-height:1.45;color:#C9D3E3">The gain comes from modelling only the contact phase, not just from starting close. Control C1 tests this.</p>
+</div>
+</div>
+<aside>Contact-rich means grasp, insert, open, turn, wipe, place: the part a scripted controller cannot do. Free-space motion between contact phases is handled by the VLM and a planned reach.</aside>
+</section>

@@ -20,6 +20,29 @@ right place, instead of learning whole trajectories from the same demonstrations
 * **Contact-rich tasks:** a scripted controller cannot do the contact phase, so the learned segment carries the result.
   This is the regime that tests H1.
 
+## Closest prior work and how this differs
+* **HITL-TAMP** (Mandlekar, Garrett, Xu, Fox, CoRL 2023). TAMP handles the free-space parts; humans teleoperate only the
+  contact-rich parts. Policies trained on those segments beat training on full demos, in robosuite.
+* **SkillMimicGen / SkillGen** (Garrett et al., 2024).
+  * It segments demos into alternating motion and skill segments, adapts skills in the object frame, and connects them
+    with motion planning.
+  * The deployed Hybrid Skill Policy alternates learned contact-rich skills with planned motion.
+  * Its stated guidance: learning should focus on the contact-rich segments, where motion planning is ineffective.
+
+**What is new here.** Both rely on TAMP with known object models and poses, are evaluated mainly on success and data
+efficiency in sim, and use small from-scratch policies. This project instead:
+1. replaces the planner's object knowledge with **open-world VLM grounding from RGB-D + language**, which DROID-scale
+   deployment needs;
+2. measures **generalization along standard shift axes** (MimicGen D0→D2, LIBERO-Plus/PRO, RoboCasa, PolaRiS), not only
+   in-distribution success;
+3. compares **segment-only vs whole-trajectory fine-tuning of pretrained VLAs** (small → large), including on real-world
+   DROID data;
+4. includes the **C1 control** (a whole-trajectory policy started at the same handoff) and egocentric inputs, to explain
+   *why* any gain occurs.
+
+SkillMimicGen's Hybrid Skill Policy, re-implemented with oracle object poses, is the natural upper reference for the
+composed system on MimicGen.
+
 ## The unit we learn: the contact phase
 * **Contact phase:** from a pre-contact handoff to the end of the interaction with one object or part.
   * The handoff is k steps, or d cm, before first contact with the task-relevant object.
@@ -128,7 +151,34 @@ Its tasks are mostly pick-and-place, so this is lower priority for the contact-r
 * **Sim-eval fidelity for DROID policies:** use joint-position models and DROID-matched scenes (PolaRiS / sim-evals).
   Do not use our own cell for that tier.
 
-## Decisions needed
+## Decisions (2026-10-30)
+1. **Models.** Start with a small VLA for the proof of concept, then move to larger VLAs.
+   * Proof of concept: our diffusion policy (fast grid) and SmolVLA (≈ 0.45 B; LeRobot).
+   * Larger: MolmoAct (AI2, ≈ 7 B, built on Molmo). It predicts depth tokens and an image-space trajectory trace
+     before its actions, so it is a natural comparison for "VLM reach + learned contact phase". Also π0.5 later.
+2. **Target deployment:** the real Franka, across DROID's task distribution. The sim tiers are stepping stones; the
+   DROID tier and the real A/B are the deliverable.
+3. **Start with Phase 0 → Phase 1 on MimicGen,** with a standard evaluation protocol:
+   * MimicGen/robomimic task definitions, horizons and success checks;
+   * cross-distribution: train D0, test D0/D1/D2;
+   * the MimicGen-paper setting (train and test on D1) as the in-distribution reference.
+
+4. **No VLA training from scratch (user, 2026-10-30).** Pretrained VLAs are evaluated as released. "Ours" is the VLM +
+   reach + a small imitation or conditional-imitation policy for the contact phase. This gives two comparisons:
+   * **(A) Controlled study (same architecture, small IL policies).** Whole-trajectory vs contact-segment, with controls
+     C1–C4, on MimicGen (D0 → D0/D1/D2) and LIBERO. This answers *whether learning only the contact phase helps*.
+   * **(B) Against the field.** Our composed system vs off-the-shelf pretrained VLA checkpoints (OpenVLA-OFT, π0 / π0.5,
+     SmolVLA, MolmoAct; each with its authors' benchmark fine-tune where released).
+     * Sim: **LIBERO + LIBERO-Plus / LIBERO-PRO perturbation suites**, the standard VLA generalization evaluation, with public checkpoints.
+     * DROID tier: released DROID VLAs (π0.5-DROID, π0-FAST-DROID, …) vs ours, in PolaRiS / sim-evals scenes, then the
+       real Franka. Ours on DROID uses a small segment policy trained on DROID contact segments.
+
+### Environment notes
+* MimicGen datasets must be replayed with **MuJoCo 2.3.2**. 2.3.7 (our LIBERO env) changes the arm dynamics.
+* So MimicGen runs in its own env, `/scratch/kaustubh/vlm_reach_grasp/envs/mimicgen` (source `mimicgen/env.sh`):
+  robosuite 1.4.1, robomimic d0b37cf, torch cu128.
+
+## Earlier open questions
 1. Model for the DROID tier: π0.5 (closest to the state of the art, but compute-heavy) vs SmolVLA / our diffusion
    policy (feasible on our GPUs).
 2. Is the real-Franka A/B in scope, and which contact-rich tasks (drawer, peg insertion, wiping, lid)?

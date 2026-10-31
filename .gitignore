@@ -18,3 +18,4 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 MUJOCO_LOG.TXT
+report/deck/media/

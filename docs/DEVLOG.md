@@ -68,5 +68,23 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - The next steps would be fine-tuning on our scripted demos, or using π0.5 only as the final grasp skill.
   - **The final-grasp variant was tested too (user's choice):** our grounding and reach, then π0.5 from the look or pre-grasp pose. Again 0/52 (the scripted grasp from the same handoff gets ≈ 80%). The policy dips toward the object, then re-plans its own reach and drifts 10–25 cm away. Fine-tuning remains the way to use it.
 
+## Contact-segment study (2026-10-29 → 31): `report/Contact_Segment_Study.ipynb`, plan in `docs/PLAN_contact_segment_vs_whole.md`
+- **Question (user).** Does learning only the contact-rich phase, with a VLM and a planned reach getting there, generalize better than whole-trajectory imitation?
+  - **Decisions:** a small VLA first, then larger ones (MolmoAct, π0.5); the end goal is the real Franka over DROID's task distribution; no VLA training from scratch (released checkpoints are evaluated as is).
+  - **Prior work to position against:** HITL-TAMP and SkillMimicGen.
+- **MimicGen setup:** its own env with MuJoCo 2.3.2 (2.3.7 changes the dynamics) and robosuite at MimicGen's commit (v1.4.1 broke Coffee and Mug Cleanup).
+- **Segmentation:** exact state replays and MimicGen's subtask specs give ground-truth contact phases.
+  - A DROID-style heuristic finds grasps well and insertions poorly, so the DROID tier needs a learned contact detector.
+  - Replay success flags are unreliable, because MimicGen post-processed its datasets.
+- **First grid (seed 0):** whole-trajectory policies score 66–90% on D0 and 0–11% on D1/D2.
+- **Composed results invalid so far.** The C1 control exposed the harness bugs:
+  - upside-down images;
+  - a 90° gap between MimicGen's and robosuite's end-effector frames;
+  - the transit height;
+  - a hand-relative insertion handoff.
+  
+  C1 is still 13–30% vs P1's 90%, so composed numbers are withheld until fixed.
+- **Deliverables:** the study notebook and a project deck with embedded videos (claude.ai artifact; sources in `report/deck/project/`).
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

@@ -89,10 +89,10 @@ class UNet1D(nn.Module):
 
 
 class DiffusionPolicy(nn.Module):
-    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist"), text_dim=0):
+    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist"), text_dim=0, crop=116):
         super().__init__()
         self.n_obs, self.horizon, self.n_act, self.cams = n_obs, horizon, n_act, cams
-        self.enc = nn.ModuleDict({c: ImageEncoder() for c in cams})
+        self.enc = nn.ModuleDict({c: ImageEncoder(crop=crop) for c in cams})
         self.task_emb = nn.Embedding(n_tasks, 64) if n_tasks else None
         self.text_proj = nn.Sequential(nn.Linear(text_dim, 128), nn.Mish(), nn.Linear(128, 64)) if text_dim else None
         cdim = n_obs * (128 * len(cams) + pdim) + (64 if n_tasks else 0) + (64 if text_dim else 0)

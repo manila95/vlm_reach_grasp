@@ -1,0 +1,20 @@
+<section id="franka-videos" data-transition="fade" style="background:#14213D;color:#F7F6F2;font-family:'IBM Plex Sans', Arial, sans-serif;padding:96px 128px 128px;display:flex;flex-direction:column;gap:36px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:56px;font-weight:600;line-height:1.15">Same scene, two configurations</h2>
+<div style="display:flex;flex-direction:column;gap:28px">
+<div style="display:flex;gap:40px;align-items:center">
+<img src="/_blob/1f6d2b9e353064e1277f5642da3ef105" data-video="/_blob/a6220a6cc7b6afac8be8566fa1371fb1" alt="Asked for the gelatin box, the 2B model grasps the mustard bottle while the 32B model picks the gelatin box" style="width:900px;height:359px;object-fit:contain;border-radius:8px">
+<div style="display:flex;flex-direction:column;gap:12px;width:724px">
+<h3 style="font-size:36px;font-weight:600;color:#E8915F">The VLM decides the outcome</h3>
+<p style="font-size:28px;line-height:1.4;color:#C9D3E3">Asked for the gelatin box, Qwen3-VL-2B points at the mustard bottle; 32B gets it right. The grasp is identical.</p>
+</div>
+</div>
+<div style="display:flex;gap:40px;align-items:center">
+<img src="/_blob/e44377ee26f15ed7a5be8ecbb37fad93" data-video="/_blob/dc606e45d0c555d7a0bd4748807f6ff8" alt="Isaac differential IK stalls above the pudding box with the hand tilted; our planned IK reaches it and lifts" style="width:900px;height:359px;object-fit:contain;border-radius:8px">
+<div style="display:flex;flex-direction:column;gap:12px;width:724px">
+<h3 style="font-size:36px;font-weight:600;color:#E8915F">Planned IK, not one-step tracking</h3>
+<p style="font-size:28px;line-height:1.4;color:#C9D3E3">Isaac’s differential IK stalls about 5 cm short with the hand tilted; IK at the goal plus a planned path gets there.</p>
+</div>
+</div>
+</div>
+<aside>Both clips are re-recordings of evaluation episodes picked by failure type; each rerun gave the same outcome as in the evaluation. A third comparison (with and without the wrist look) is in the notebook.</aside>
+</section>

@@ -1,0 +1,23 @@
+<section id="idea" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:56px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">The idea: split the task where learning matters</h2>
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:32px">
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;border:1px solid #DCE3EC;border-top:8px solid #2A6FDB;border-radius:12px;padding:40px">
+<p style="font-size:28px;font-weight:600;color:#2A6FDB">1 · Ground</p>
+<h3 style="font-size:40px;font-weight:600;line-height:1.2">A local VLM finds the target</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">RGB-D object proposals plus zoomed yes/no verification turn the instruction into a 3-D target. Zero-shot, no task-specific training.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;border:1px solid #DCE3EC;border-top:8px solid #2A6FDB;border-radius:12px;padding:40px">
+<p style="font-size:28px;font-weight:600;color:#2A6FDB">2 · Reach</p>
+<h3 style="font-size:40px;font-weight:600;line-height:1.2">A planned move goes to a handoff pose</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">The handoff pose sits just before contact, as an offset learned from demos in the target’s frame. It works at any location.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:16px;background:#FFFFFF;border:1px solid #DCE3EC;border-top:8px solid #E0662F;border-radius:12px;padding:40px">
+<p style="font-size:28px;font-weight:600;color:#C4521F">3 · Manipulate</p>
+<h3 style="font-size:40px;font-weight:600;line-height:1.2">A small policy learns only the local part</h3>
+<p style="font-size:28px;line-height:1.4;color:#4A5568">The policy uses egocentric inputs (wrist camera, pose relative to the handoff) and learns only the contact-rich phase: grasp, insert, open, place.</p>
+</div>
+</div>
+<p style="font-size:36px;line-height:1.35;font-family:'Source Serif 4', Georgia, serif;color:#14213D;width:1500px">Imitation then has to capture only the variance of the final manipulation, not where things are in the scene.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">The idea</p>
+<aside>Three components. The VLM handles “which object”, the planned reach handles “where it is”, and the learned policy handles only the last centimetres of contact-rich manipulation. The claim is that this split generalizes across layouts where end-to-end policies, which also have to learn where things are, collapse.</aside>
+</section>

@@ -1,0 +1,24 @@
+<section id="novelty" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:44px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Value and novelty</h2>
+<p style="font-size:30px;line-height:1.45;color:#4A5568;width:1620px">Closest prior work, <b>HITL-TAMP</b> (CoRL 2023) and <b>SkillMimicGen</b> (2024), already learns only contact-rich segments, with TAMP and motion planning in between. Both need object models and poses, and report mainly in-distribution success.</p>
+<div style="display:grid;grid-template-columns:1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #2A6FDB;border-radius:12px;padding:32px">
+<h3 style="font-size:32px;font-weight:600">Open-world grounding</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">A local VLM from RGB-D and language replaces known object models.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #2A6FDB;border-radius:12px;padding:32px">
+<h3 style="font-size:32px;font-weight:600">Generalization, measured</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Standard shift axes: MimicGen D0→D2, LIBERO-Plus / PRO, PolaRiS.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #E0662F;border-radius:12px;padding:32px">
+<h3 style="font-size:32px;font-weight:600">Pretrained VLAs, real data</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Segment-only vs whole-trajectory fine-tuning, small to large, on DROID.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:10px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #E0662F;border-radius:12px;padding:32px">
+<h3 style="font-size:32px;font-weight:600">Why it works</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">The C1 control and egocentric inputs separate “start close” from “learn less”.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Value and roadmap · practical value already shown: 4B VLM + scripted skills beat 32B one-shot; π0.5 does not transfer zero-shot</p>
+<aside>Practical value so far: on LIBERO the split system is the only one robust to layout shuffles. In the Franka cell, a small VLM queried several times beats a large one at an eighth of the memory, and the failure analysis turned into a concrete fix list.</aside>
+</section>

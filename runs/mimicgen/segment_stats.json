@@ -1,0 +1,260 @@
+{
+ "coffee_d0": {
+  "n_demos": 1000,
+  "spec": [
+   [
+    "coffee_pod",
+    "grasp"
+   ],
+   [
+    "coffee_machine",
+    null
+   ]
+  ],
+  "subtasks": [
+   {
+    "ref": "coffee_pod",
+    "signal": "grasp",
+    "contact_found": 1000,
+    "contact_to_end_median": 2.0,
+    "subtask_len_median": 74.0
+   },
+   {
+    "ref": "coffee_machine",
+    "signal": null,
+    "contact_found": 1000,
+    "contact_to_end_median": 88.0,
+    "subtask_len_median": 147.0
+   }
+  ],
+  "segment_frame_share_pre10": 0.49582306278850896,
+  "heuristic": {
+   "0:coffee_pod (grasp)": {
+    "found": 1.0,
+    "median_err": -5.0,
+    "within10": 0.999
+   },
+   "1:coffee_machine (place)": {
+    "found": 1.0,
+    "median_err": -17.0,
+    "within10": 0.161
+   }
+  }
+ },
+ "mug_cleanup_d0": {
+  "n_demos": 1000,
+  "spec": [
+   [
+    "drawer",
+    "open"
+   ],
+   [
+    "object",
+    "grasp"
+   ],
+   [
+    "drawer",
+    null
+   ]
+  ],
+  "subtasks": [
+   {
+    "ref": "drawer",
+    "signal": "open",
+    "contact_found": 1000,
+    "contact_to_end_median": 60.0,
+    "subtask_len_median": 102.5
+   },
+   {
+    "ref": "object",
+    "signal": "grasp",
+    "contact_found": 999,
+    "contact_to_end_median": 35.0,
+    "subtask_len_median": 76.0
+   },
+   {
+    "ref": "drawer",
+    "signal": null,
+    "contact_found": 999,
+    "contact_to_end_median": 84.0,
+    "subtask_len_median": 161.5
+   }
+  ],
+  "segment_frame_share_pre10": 0.6400915607921073,
+  "heuristic": {
+   "0:drawer (push)": {
+    "found": 1.0,
+    "median_err": 2.0,
+    "within10": 0.597
+   },
+   "1:object (grasp)": {
+    "found": 0.98998998998999,
+    "median_err": 19.0,
+    "within10": 0.2992992992992993
+   },
+   "2:drawer (place)": {
+    "found": 0.987987987987988,
+    "median_err": -2.0,
+    "within10": 0.8018018018018018
+   }
+  }
+ },
+ "square_d0": {
+  "n_demos": 1000,
+  "spec": [
+   [
+    "square_nut",
+    "grasp"
+   ],
+   [
+    "square_peg",
+    null
+   ]
+  ],
+  "subtasks": [
+   {
+    "ref": "square_nut",
+    "signal": "grasp",
+    "contact_found": 1000,
+    "contact_to_end_median": 4.0,
+    "subtask_len_median": 67.0
+   },
+   {
+    "ref": "square_peg",
+    "signal": null,
+    "contact_found": 1000,
+    "contact_to_end_median": 33.0,
+    "subtask_len_median": 76.0
+   }
+  ],
+  "segment_frame_share_pre10": 0.41811476638193346,
+  "heuristic": {
+   "0:square_nut (grasp)": {
+    "found": 0.944,
+    "median_err": -6.0,
+    "within10": 0.86
+   },
+   "1:square_peg (place)": {
+    "found": 0.998,
+    "median_err": 1.0,
+    "within10": 0.901
+   }
+  }
+ },
+ "threading_d0": {
+  "n_demos": 1000,
+  "spec": [
+   [
+    "needle",
+    "grasp"
+   ],
+   [
+    "tripod",
+    null
+   ]
+  ],
+  "subtasks": [
+   {
+    "ref": "needle",
+    "signal": "grasp",
+    "contact_found": 1000,
+    "contact_to_end_median": 2.0,
+    "subtask_len_median": 72.0
+   },
+   {
+    "ref": "tripod",
+    "signal": null,
+    "contact_found": 1000,
+    "contact_to_end_median": 69.0,
+    "subtask_len_median": 148.0
+   }
+  ],
+  "segment_frame_share_pre10": 0.41641723234806777,
+  "heuristic": {
+   "0:needle (grasp)": {
+    "found": 1.0,
+    "median_err": -6.0,
+    "within10": 1.0
+   },
+   "1:tripod (place)": {
+    "found": 1.0,
+    "median_err": -33.0,
+    "within10": 0.124
+   }
+  }
+ },
+ "three_piece_assembly_d0": {
+  "n_demos": 1000,
+  "spec": [
+   [
+    "piece_1",
+    "grasp_1"
+   ],
+   [
+    "base",
+    "insert_1"
+   ],
+   [
+    "piece_2",
+    "grasp_2"
+   ],
+   [
+    "piece_1",
+    null
+   ]
+  ],
+  "subtasks": [
+   {
+    "ref": "piece_1",
+    "signal": "grasp_1",
+    "contact_found": 1000,
+    "contact_to_end_median": 2.0,
+    "subtask_len_median": 71.0
+   },
+   {
+    "ref": "base",
+    "signal": "insert_1",
+    "contact_found": 1000,
+    "contact_to_end_median": 33.0,
+    "subtask_len_median": 85.0
+   },
+   {
+    "ref": "piece_2",
+    "signal": "grasp_2",
+    "contact_found": 1000,
+    "contact_to_end_median": 3.0,
+    "subtask_len_median": 78.0
+   },
+   {
+    "ref": "piece_1",
+    "signal": null,
+    "contact_found": 998,
+    "contact_to_end_median": 41.5,
+    "subtask_len_median": 102.0
+   }
+  ],
+  "segment_frame_share_pre10": 0.3697797710093705,
+  "heuristic": {
+   "0:piece_1 (grasp)": {
+    "found": 1.0,
+    "median_err": -6.0,
+    "within10": 0.996
+   },
+   "1:base (place)": {
+    "found": 1.0,
+    "median_err": -9.0,
+    "within10": 0.528
+   },
+   "2:piece_2 (grasp)": {
+    "found": 1.0,
+    "median_err": -5.0,
+    "within10": 0.962
+   },
+   "3:piece_1 (place)": {
+    "found": 1.0,
+    "median_err": -8.0,
+    "within10": 0.5110220440881763
+   }
+  }
+ }
+}
