@@ -1,0 +1,1802 @@
+[
+{
+"tid": 0,
+"success": true,
+"steps": 138,
+"language": "pick up the alphabet soup and place it in the basket table 1",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_1",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 54.79163718223572
+},
+{
+"tid": 1,
+"success": true,
+"steps": 139,
+"language": "pick up the alphabet soup and place it in the basket table 10",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_10",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 44.09862565994263
+},
+{
+"tid": 2,
+"success": true,
+"steps": 137,
+"language": "pick up the alphabet soup and place it in the basket table 12",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_12",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 43.128243923187256
+},
+{
+"tid": 3,
+"success": true,
+"steps": 137,
+"language": "pick up the alphabet soup and place it in the basket table 13",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_13",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 41.05697321891785
+},
+{
+"tid": 4,
+"success": true,
+"steps": 142,
+"language": "pick up the alphabet soup and place it in the basket table 14",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_14",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 51.28505277633667
+},
+{
+"tid": 5,
+"success": true,
+"steps": 143,
+"language": "pick up the alphabet soup and place it in the basket table 15",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_15",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 47.64914608001709
+},
+{
+"tid": 6,
+"success": true,
+"steps": 139,
+"language": "pick up the alphabet soup and place it in the basket table 16",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_16",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 56.49570345878601
+},
+{
+"tid": 7,
+"success": true,
+"steps": 138,
+"language": "pick up the alphabet soup and place it in the basket table 17",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_17",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 53.6107861995697
+},
+{
+"tid": 8,
+"success": true,
+"steps": 141,
+"language": "pick up the alphabet soup and place it in the basket table 18",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_18",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 58.77306604385376
+},
+{
+"tid": 9,
+"success": true,
+"steps": 136,
+"language": "pick up the alphabet soup and place it in the basket table 19",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_19",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 53.6965229511261
+},
+{
+"tid": 10,
+"success": true,
+"steps": 139,
+"language": "pick up the alphabet soup and place it in the basket table 2",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_2",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 50.54952383041382
+},
+{
+"tid": 11,
+"success": true,
+"steps": 139,
+"language": "pick up the alphabet soup and place it in the basket table 20",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_20",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 55.08444952964783
+},
+{
+"tid": 12,
+"success": true,
+"steps": 138,
+"language": "pick up the alphabet soup and place it in the basket table 21",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_21",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 59.39495801925659
+},
+{
+"tid": 13,
+"success": true,
+"steps": 136,
+"language": "pick up the alphabet soup and place it in the basket table 22",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_22",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 55.37593460083008
+},
+{
+"tid": 14,
+"success": true,
+"steps": 137,
+"language": "pick up the alphabet soup and place it in the basket table 24",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_24",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 49.39949917793274
+},
+{
+"tid": 15,
+"success": true,
+"steps": 136,
+"language": "pick up the alphabet soup and place it in the basket table 27",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_27",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 54.20160961151123
+},
+{
+"tid": 16,
+"success": true,
+"steps": 136,
+"language": "pick up the alphabet soup and place it in the basket table 28",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_28",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 52.99787926673889
+},
+{
+"tid": 17,
+"success": true,
+"steps": 137,
+"language": "pick up the alphabet soup and place it in the basket table 5",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_5",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 50.24050807952881
+},
+{
+"tid": 18,
+"success": true,
+"steps": 142,
+"language": "pick up the alphabet soup and place it in the basket table 8",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_8",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 52.205044746398926
+},
+{
+"tid": 19,
+"success": true,
+"steps": 142,
+"language": "pick up the alphabet soup and place it in the basket table 9",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_9",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 50.52674722671509
+},
+{
+"tid": 20,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 10",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_10",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 47.80595827102661
+},
+{
+"tid": 21,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 12",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_12",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 49.44489336013794
+},
+{
+"tid": 22,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 18",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_18",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 58.009743452072144
+},
+{
+"tid": 23,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 2",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_2",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 52.22210884094238
+},
+{
+"tid": 24,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 20",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_20",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 48.87012457847595
+},
+{
+"tid": 25,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 21",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_21",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 50.202425718307495
+},
+{
+"tid": 26,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 22",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_22",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 53.905619621276855
+},
+{
+"tid": 27,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 5",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_5",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 50.291319370269775
+},
+{
+"tid": 28,
+"success": true,
+"steps": 136,
+"language": "pick up the alphabet soup and place it in the basket tb 6",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_6",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 55.40513777732849
+},
+{
+"tid": 29,
+"success": true,
+"steps": 135,
+"language": "pick up the alphabet soup and place it in the basket tb 7",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_7",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 51.12004494667053
+},
+{
+"tid": 30,
+"success": true,
+"steps": 134,
+"language": "pick up the alphabet soup and place it in the basket tb 8",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_8",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 52.09558963775635
+},
+{
+"tid": 31,
+"success": true,
+"steps": 134,
+"language": "pick up the alphabet soup and place it in the basket tb 9",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_9",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 48.61182904243469
+},
+{
+"tid": 32,
+"success": true,
+"steps": 120,
+"language": "pick up the bbq sauce and place it in the basket table 1",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_1",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 43.9062385559082
+},
+{
+"tid": 33,
+"success": true,
+"steps": 114,
+"language": "pick up the bbq sauce and place it in the basket table 11",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_11",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 45.18546009063721
+},
+{
+"tid": 34,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 12",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_12",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 49.77027463912964
+},
+{
+"tid": 35,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 13",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_13",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 41.87184238433838
+},
+{
+"tid": 36,
+"success": true,
+"steps": 118,
+"language": "pick up the bbq sauce and place it in the basket table 14",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_14",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 43.20585656166077
+},
+{
+"tid": 37,
+"success": true,
+"steps": 118,
+"language": "pick up the bbq sauce and place it in the basket table 15",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_15",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 42.52826166152954
+},
+{
+"tid": 38,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket table 16",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_16",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 43.787373781204224
+},
+{
+"tid": 39,
+"success": true,
+"steps": 115,
+"language": "pick up the bbq sauce and place it in the basket table 17",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_17",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 38.247366428375244
+},
+{
+"tid": 40,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 18",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_18",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 50.16832089424133
+},
+{
+"tid": 41,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket table 19",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_19",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 49.52847409248352
+},
+{
+"tid": 42,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket table 2",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_2",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 49.65595507621765
+},
+{
+"tid": 43,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket table 20",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_20",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 50.361655950546265
+},
+{
+"tid": 44,
+"success": true,
+"steps": 124,
+"language": "pick up the bbq sauce and place it in the basket table 21",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_21",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 48.76607608795166
+},
+{
+"tid": 45,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 22",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_22",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 50.918272733688354
+},
+{
+"tid": 46,
+"success": true,
+"steps": 118,
+"language": "pick up the bbq sauce and place it in the basket table 23",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_23",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 45.04442238807678
+},
+{
+"tid": 47,
+"success": true,
+"steps": 118,
+"language": "pick up the bbq sauce and place it in the basket table 24",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_24",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 44.701178312301636
+},
+{
+"tid": 48,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 25",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_25",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 47.08295392990112
+},
+{
+"tid": 49,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 26",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_26",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 45.607534885406494
+},
+{
+"tid": 50,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 27",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_27",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 50.50441837310791
+},
+{
+"tid": 51,
+"success": true,
+"steps": 118,
+"language": "pick up the bbq sauce and place it in the basket table 28",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_28",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 43.85373139381409
+},
+{
+"tid": 52,
+"success": true,
+"steps": 124,
+"language": "pick up the bbq sauce and place it in the basket table 3",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_3",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 52.13459610939026
+},
+{
+"tid": 53,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket table 4",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_4",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 48.56060719490051
+},
+{
+"tid": 54,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 5",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_5",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 51.91294026374817
+},
+{
+"tid": 55,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 6",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_6",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 45.2003915309906
+},
+{
+"tid": 56,
+"success": true,
+"steps": 123,
+"language": "pick up the bbq sauce and place it in the basket table 7",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_7",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 50.50628042221069
+},
+{
+"tid": 57,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket table 9",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_table_9",
+"category": "Background Textures",
+"difficulty": 5,
+"sec": 49.38262867927551
+},
+{
+"tid": 58,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket tb 1",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_1",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 47.183598041534424
+},
+{
+"tid": 59,
+"success": true,
+"steps": 164,
+"language": "pick up the bbq sauce and place it in the basket tb 10",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_10",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 58.30036520957947
+},
+{
+"tid": 60,
+"success": true,
+"steps": 164,
+"language": "pick up the bbq sauce and place it in the basket tb 11",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_11",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 58.26596117019653
+},
+{
+"tid": 61,
+"success": true,
+"steps": 164,
+"language": "pick up the bbq sauce and place it in the basket tb 12",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_12",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 58.32572913169861
+},
+{
+"tid": 62,
+"success": true,
+"steps": 171,
+"language": "pick up the bbq sauce and place it in the basket tb 13",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_13",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 62.41331124305725
+},
+{
+"tid": 63,
+"success": true,
+"steps": 163,
+"language": "pick up the bbq sauce and place it in the basket tb 14",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_14",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 65.82963132858276
+},
+{
+"tid": 64,
+"success": true,
+"steps": 168,
+"language": "pick up the bbq sauce and place it in the basket tb 15",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_15",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 61.6145281791687
+},
+{
+"tid": 65,
+"success": true,
+"steps": 164,
+"language": "pick up the bbq sauce and place it in the basket tb 16",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_16",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 52.60182476043701
+},
+{
+"tid": 66,
+"success": true,
+"steps": 115,
+"language": "pick up the bbq sauce and place it in the basket tb 17",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_17",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 41.05895209312439
+},
+{
+"tid": 67,
+"success": true,
+"steps": 116,
+"language": "pick up the bbq sauce and place it in the basket tb 18",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_18",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 42.61215686798096
+},
+{
+"tid": 68,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket tb 19",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_19",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 42.67516255378723
+},
+{
+"tid": 69,
+"success": true,
+"steps": 166,
+"language": "pick up the bbq sauce and place it in the basket tb 2",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_2",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 57.552003622055054
+},
+{
+"tid": 70,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket tb 21",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_21",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 45.02241802215576
+},
+{
+"tid": 71,
+"success": true,
+"steps": 117,
+"language": "pick up the bbq sauce and place it in the basket tb 22",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_22",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 40.46869468688965
+},
+{
+"tid": 72,
+"success": true,
+"steps": 158,
+"language": "pick up the bbq sauce and place it in the basket tb 3",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_3",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 50.167704582214355
+},
+{
+"tid": 73,
+"success": true,
+"steps": 168,
+"language": "pick up the bbq sauce and place it in the basket tb 4",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_4",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 51.26339864730835
+},
+{
+"tid": 74,
+"success": true,
+"steps": 170,
+"language": "pick up the bbq sauce and place it in the basket tb 5",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_5",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 58.361530780792236
+},
+{
+"tid": 75,
+"success": false,
+"steps": 280,
+"language": "pick up the bbq sauce and place it in the basket tb 6",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_6",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 83.03166556358337
+},
+{
+"tid": 76,
+"success": true,
+"steps": 163,
+"language": "pick up the bbq sauce and place it in the basket tb 7",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_7",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 55.11048626899719
+},
+{
+"tid": 77,
+"success": true,
+"steps": 169,
+"language": "pick up the bbq sauce and place it in the basket tb 8",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_8",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 57.3618688583374
+},
+{
+"tid": 78,
+"success": true,
+"steps": 166,
+"language": "pick up the bbq sauce and place it in the basket tb 9",
+"name": "pick_up_the_bbq_sauce_and_place_it_in_the_basket_tb_9",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 53.65174126625061
+},
+{
+"tid": 79,
+"success": true,
+"steps": 151,
+"language": "pick up the butter and place it in the basket table 12",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_12",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 52.0599262714386
+},
+{
+"tid": 80,
+"success": true,
+"steps": 152,
+"language": "pick up the butter and place it in the basket table 14",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_14",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 42.81010341644287
+},
+{
+"tid": 81,
+"success": true,
+"steps": 150,
+"language": "pick up the butter and place it in the basket table 15",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_15",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 45.3496196269989
+},
+{
+"tid": 82,
+"success": true,
+"steps": 150,
+"language": "pick up the butter and place it in the basket table 17",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_17",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 37.24979591369629
+},
+{
+"tid": 83,
+"success": true,
+"steps": 149,
+"language": "pick up the butter and place it in the basket table 19",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_19",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 34.73285508155823
+},
+{
+"tid": 84,
+"success": true,
+"steps": 151,
+"language": "pick up the butter and place it in the basket table 2",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_2",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 36.66976356506348
+},
+{
+"tid": 85,
+"success": true,
+"steps": 152,
+"language": "pick up the butter and place it in the basket table 22",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_22",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 35.310285568237305
+},
+{
+"tid": 86,
+"success": true,
+"steps": 149,
+"language": "pick up the butter and place it in the basket table 24",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_24",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 60.34602499008179
+},
+{
+"tid": 87,
+"success": true,
+"steps": 152,
+"language": "pick up the butter and place it in the basket table 25",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_25",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 63.21091055870056
+},
+{
+"tid": 88,
+"success": true,
+"steps": 153,
+"language": "pick up the butter and place it in the basket table 26",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_26",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 60.55810594558716
+},
+{
+"tid": 89,
+"success": true,
+"steps": 151,
+"language": "pick up the butter and place it in the basket table 27",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_27",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 62.07943940162659
+},
+{
+"tid": 90,
+"success": true,
+"steps": 150,
+"language": "pick up the butter and place it in the basket table 3",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_3",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 60.06198048591614
+},
+{
+"tid": 91,
+"success": true,
+"steps": 152,
+"language": "pick up the butter and place it in the basket table 4",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_4",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 61.20982384681702
+},
+{
+"tid": 92,
+"success": true,
+"steps": 151,
+"language": "pick up the butter and place it in the basket table 5",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_5",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 61.416744232177734
+},
+{
+"tid": 93,
+"success": true,
+"steps": 149,
+"language": "pick up the butter and place it in the basket table 6",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_6",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 54.825870513916016
+},
+{
+"tid": 94,
+"success": true,
+"steps": 152,
+"language": "pick up the butter and place it in the basket table 7",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_7",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 57.403502225875854
+},
+{
+"tid": 95,
+"success": true,
+"steps": 153,
+"language": "pick up the butter and place it in the basket table 8",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_table_8",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 55.786141872406006
+},
+{
+"tid": 1259,
+"success": false,
+"steps": 280,
+"language": "pick up the yellow dairy product used for cooking and spreading and place it in the woven container for holding items",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_45_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 109.45169830322266
+},
+{
+"tid": 1260,
+"success": true,
+"steps": 147,
+"language": "grasp the solid dairy product and deposit it into the woven container",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 60.2801148891449
+},
+{
+"tid": 1261,
+"success": true,
+"steps": 147,
+"language": "hey could you put the butter in the basket",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_48_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 57.03418016433716
+},
+{
+"tid": 1262,
+"success": true,
+"steps": 126,
+"language": "grasp the dairy liquid container and deposit it in the woven carrier",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_1_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 51.09096646308899
+},
+{
+"tid": 1263,
+"success": true,
+"steps": 126,
+"language": "before we leave dont forget to pick up the milk and put it in the picnic basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 50.125670433044434
+},
+{
+"tid": 1264,
+"success": false,
+"steps": 280,
+"language": "grab the white beverage often consumed at breakfast and deposit it into the woven holder for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 104.62722253799438
+},
+{
+"tid": 1265,
+"success": true,
+"steps": 127,
+"language": "grasp the liquid dairy product and deposit it into the woven container",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 47.24595069885254
+},
+{
+"tid": 1266,
+"success": true,
+"steps": 127,
+"language": "grab the milk and put it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 45.14475202560425
+},
+{
+"tid": 1267,
+"success": true,
+"steps": 130,
+"language": "were organizing the kitchen your job is to pick up the milk and place it in the designated basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 44.270556688308716
+},
+{
+"tid": 1268,
+"success": true,
+"steps": 126,
+"language": "grasp the container of cows beverage and deposit it in the woven holder",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_7_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 47.72196054458618
+},
+{
+"tid": 1269,
+"success": true,
+"steps": 131,
+"language": "gather the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_9_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 49.43976950645447
+},
+{
+"tid": 1270,
+"success": true,
+"steps": 126,
+"language": "can you put the milk into the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 48.373886585235596
+},
+{
+"tid": 1271,
+"success": false,
+"steps": 280,
+"language": "grasp the cold dairy liquid container and position it within the woven carrying accessory",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 88.89493227005005
+},
+{
+"tid": 1272,
+"success": true,
+"steps": 127,
+"language": "collect the dairy product used in coffee and breakfast cereals and deposit it into the woven container for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 47.75898838043213
+},
+{
+"tid": 1273,
+"success": true,
+"steps": 135,
+"language": "the children need their milk pick it up from the counter and place it in their snack basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 59.204604387283325
+},
+{
+"tid": 1274,
+"success": true,
+"steps": 126,
+"language": "pick up the dairy liquid container and place it in the woven carrying implement",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 49.16659617424011
+},
+{
+"tid": 1275,
+"success": true,
+"steps": 128,
+"language": "retrieve the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 49.08972883224487
+},
+{
+"tid": 1276,
+"success": true,
+"steps": 124,
+"language": "could you please put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 46.90907287597656
+},
+{
+"tid": 1277,
+"success": false,
+"steps": 280,
+"language": "lift the white liquid container and set it into the woven carrier",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_17_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 97.04541110992432
+},
+{
+"tid": 1278,
+"success": true,
+"steps": 127,
+"language": "for our grocery organization please pick up the milk and transfer it to the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 50.12672305107117
+},
+{
+"tid": 1279,
+"success": false,
+"steps": 280,
+"language": "grasp the chilled white liquid container and deposit it into the woven carrying accessory",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_19_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 93.59758496284485
+},
+{
+"tid": 1280,
+"success": true,
+"steps": 128,
+"language": "to help with dinner setup pick up the milk from the fridge and put it in the serving basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 45.383403062820435
+},
+{
+"tid": 1281,
+"success": true,
+"steps": 167,
+"language": "please put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 61.73161005973816
+},
+{
+"tid": 1282,
+"success": true,
+"steps": 132,
+"language": "to complete this chore simply pick up the milk container and place it inside the laundry basket just kidding use the food basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_24_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 48.29236078262329
+},
+{
+"tid": 1283,
+"success": true,
+"steps": 129,
+"language": "grab the milk and deposit it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 53.670403242111206
+},
+{
+"tid": 1284,
+"success": true,
+"steps": 135,
+"language": "for proper storage pick up the open milk carton and place it in the refrigerator basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 46.56525707244873
+},
+{
+"tid": 1285,
+"success": true,
+"steps": 127,
+"language": "would you mind putting the milk into the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 46.34144902229309
+},
+{
+"tid": 1286,
+"success": true,
+"steps": 130,
+"language": "for breakfast preparation please pick up the milk container and place it in the breakfast basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 48.07116150856018
+},
+{
+"tid": 1287,
+"success": true,
+"steps": 128,
+"language": "could you please pick up the milk and put it in the basket its right there on the counter",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 46.67202091217041
+},
+{
+"tid": 1288,
+"success": true,
+"steps": 125,
+"language": "grasp the liquid dairy product and deposit it inside the woven container",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_31_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 48.2726845741272
+},
+{
+"tid": 1289,
+"success": true,
+"steps": 124,
+"language": "put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 50.98625874519348
+},
+{
+"tid": 1290,
+"success": true,
+"steps": 129,
+"language": "grab the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_35_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 51.8990957736969
+},
+{
+"tid": 1291,
+"success": true,
+"steps": 126,
+"language": "lift the milk and deposit it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_36_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 50.44477415084839
+},
+{
+"tid": 1292,
+"success": true,
+"steps": 127,
+"language": "our guests are arriving soon quickly pick up the milk and place it in the entertainment basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_37_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 51.59520101547241
+},
+{
+"tid": 1293,
+"success": true,
+"steps": 127,
+"language": "grab the milk and deposit it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_38_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 55.213916301727295
+},
+{
+"tid": 1294,
+"success": false,
+"steps": 280,
+"language": "pick up the white liquid commonly obtained from cows and place it in the woven container used for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_41_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 95.79887413978577
+},
+{
+"tid": 1295,
+"success": true,
+"steps": 130,
+"language": "could you put the milk in the basket for me",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_42_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 52.79244065284729
+},
+{
+"tid": 1296,
+"success": true,
+"steps": 130,
+"language": "the recipe calls for milk first pick it up from the shelf and place it in your mixing basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_43_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 50.5831618309021
+},
+{
+"tid": 1297,
+"success": true,
+"steps": 128,
+"language": "the shopping list is complete once you pick up the milk and add it to the basket with other items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_44_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 53.19156217575073
+},
+{
+"tid": 1298,
+"success": true,
+"steps": 185,
+"language": "grasp the chilled dairy beverage container and deposit it into the woven carrying holder",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_45_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 70.61744809150696
+},
+{
+"tid": 1299,
+"success": true,
+"steps": 162,
+"language": "collect the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_46_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 64.10782432556152
+},
+{
+"tid": 1300,
+"success": true,
+"steps": 126,
+"language": "could you ensure the milk ends up in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 54.715209007263184
+},
+{
+"tid": 1301,
+"success": true,
+"steps": 129,
+"language": "could you put the milk in the basket for me please",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_48_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 49.173349380493164
+},
+{
+"tid": 1302,
+"success": true,
+"steps": 126,
+"language": "pick up the dairy product that comes from cows and place it in the woven container for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_49_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 52.17427587509155
+},
+{
+"tid": 1303,
+"success": true,
+"steps": 127,
+"language": "as part of our kitchen cleanup i need you to pick up the milk and place it in the storage basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_50_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 52.20050621032715
+},
+{
+"tid": 1304,
+"success": true,
+"steps": 147,
+"language": "collect the chocolate dessert and set it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_1_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 55.31074261665344
+},
+{
+"tid": 1305,
+"success": true,
+"steps": 140,
+"language": "pick up the creamy dessert made from cocoa and place it in the woven container for carrying items",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 55.20977520942688
+},
+{
+"tid": 1306,
+"success": true,
+"steps": 154,
+"language": "were almost done shopping just pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 55.01378035545349
+},
+{
+"tid": 1307,
+"success": true,
+"steps": 143,
+"language": "grab the chocolate pudding and set it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 56.69509148597717
+},
+{
+"tid": 1308,
+"success": true,
+"steps": 142,
+"language": "pick up the dessert made from cocoa and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 55.77777647972107
+},
+{
+"tid": 1309,
+"success": true,
+"steps": 149,
+"language": "for our picnic later please pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 63.49510169029236
+},
+{
+"tid": 1310,
+"success": true,
+"steps": 142,
+"language": "collect the chocolate pudding and set it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_7_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 57.02357053756714
+},
+{
+"tid": 1311,
+"success": true,
+"steps": 143,
+"language": "can you put the chocolate pudding in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_8_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 48.12726092338562
+},
+{
+"tid": 1312,
+"success": true,
+"steps": 138,
+"language": "could you put the chocolate pudding in the basket for me",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_9_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 44.88748645782471
+},
+{
+"tid": 1313,
+"success": true,
+"steps": 143,
+"language": "as part of your chores today pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 49.30712056159973
+},
+{
+"tid": 1314,
+"success": true,
+"steps": 138,
+"language": "lift the creamy sweet dessert made with cocoa and milk and set it inside the woven container for carrying items",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 46.59704852104187
+},
+{
+"tid": 1315,
+"success": true,
+"steps": 147,
+"language": "gather the chocolate pudding and position it inside the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 55.68861413002014
+},
+{
+"tid": 1316,
+"success": true,
+"steps": 142,
+"language": "to complete your task pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 51.07912588119507
+},
+{
+"tid": 1317,
+"success": true,
+"steps": 146,
+"language": "could you put the chocolate pudding in the basket for me please",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 47.27056956291199
+},
+{
+"tid": 1318,
+"success": true,
+"steps": 142,
+"language": "can you put the chocolate pudding in the basket please",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 47.605326652526855
+},
+{
+"tid": 1319,
+"success": true,
+"steps": 142,
+"language": "collect the chocolate pudding and set it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_17_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 46.510448932647705
+},
+{
+"tid": 1320,
+"success": true,
+"steps": 143,
+"language": "im organizing the groceries could you pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 54.33947038650513
+},
+{
+"tid": 1321,
+"success": true,
+"steps": 143,
+"language": "please put the chocolate pudding in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_19_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 49.79366850852966
+},
+{
+"tid": 1322,
+"success": true,
+"steps": 143,
+"language": "before we leave remember to pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 50.99989891052246
+},
+{
+"tid": 1323,
+"success": true,
+"steps": 141,
+"language": "pick up the dessert made from cocoa and milk and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 46.407275676727295
+},
+{
+"tid": 1324,
+"success": true,
+"steps": 144,
+"language": "our shopping list says to pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_22_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 52.443663358688354
+},
+{
+"tid": 1325,
+"success": true,
+"steps": 140,
+"language": "pick up the dessert usually made from cocoa and milk and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_23_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 48.750789642333984
+},
+{
+"tid": 1326,
+"success": true,
+"steps": 141,
+"language": "lift the creamy cocoaflavored dessert and set it within the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_24_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 49.75850486755371
+},
+{
+"tid": 1327,
+"success": true,
+"steps": 138,
+"language": "pick up the creamy dessert made with cocoa and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 39.301849365234375
+},
+{
+"tid": 1328,
+"success": true,
+"steps": 142,
+"language": "lets prepare for the party by picking up the chocolate pudding and placing it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 44.80303120613098
+},
+{
+"tid": 1329,
+"success": true,
+"steps": 138,
+"language": "grasp the creamy dessert made with cocoa and place it inside the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 37.4615638256073
+},
+{
+"tid": 1330,
+"success": true,
+"steps": 141,
+"language": "pick up the creamy dessert confection made from cocoa and place it in the woven container for carrying items",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_28_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 34.29305911064148
+},
+{
+"tid": 1331,
+"success": true,
+"steps": 145,
+"language": "dont forget our dessert pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 36.98066329956055
+},
+{
+"tid": 1332,
+"success": true,
+"steps": 142,
+"language": "lift the chocolate pudding and position it inside the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 32.342607736587524
+},
+{
+"tid": 1333,
+"success": true,
+"steps": 144,
+"language": "grasp the creamy dessert flavored with cocoa and deposit it into the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_31_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 60.1245756149292
+},
+{
+"tid": 1334,
+"success": true,
+"steps": 141,
+"language": "the chocolate pudding looks delicious pick it up and place it in the basket would you",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_32_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 59.45522713661194
+},
+{
+"tid": 1335,
+"success": true,
+"steps": 143,
+"language": "lift the chocolate dessert and put it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 60.287105560302734
+},
+{
+"tid": 1336,
+"success": true,
+"steps": 138,
+"language": "grasp the creamy dessert often enjoyed after meals and deposit it into the woven container typically used for carrying items",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_34_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 60.54129600524902
+},
+{
+"tid": 1337,
+"success": true,
+"steps": 142,
+"language": "im making my famous dessert please pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_35_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 58.57899475097656
+},
+{
+"tid": 1338,
+"success": true,
+"steps": 142,
+"language": "the kids will love this pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_36_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 55.80683612823486
+},
+{
+"tid": 1339,
+"success": true,
+"steps": 142,
+"language": "pick up the sweet creamy dessert traditionally made from cocoa and place it inside the woven container typically used for carrying items",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_37_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 63.10494780540466
+},
+{
+"tid": 1340,
+"success": true,
+"steps": 144,
+"language": "pick up the creamy cocoabased dessert and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_38_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 57.392919063568115
+},
+{
+"tid": 1341,
+"success": true,
+"steps": 144,
+"language": "this is the last item we need pick up the chocolate pudding and place it in the basket",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_39_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 53.98989415168762
+},
+{
+"tid": 1342,
+"success": true,
+"steps": 140,
+"language": "pick up the creamy dessert made from cocoa and place it in the woven container",
+"name": "pick_up_the_chocolate_pudding_and_place_it_in_the_basket_language_40_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 54.13501000404358
+}
+]

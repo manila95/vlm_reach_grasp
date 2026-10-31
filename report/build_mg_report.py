@@ -132,7 +132,50 @@ In the composed method, a scripted reach moves to each subtask's handoff and the
 **Still open.** The C1 sanity check, the whole-trajectory policy started at its own handoff on D0, reaches only 13–30% on Square, against 90% from reset. Some reaches still end far from their goal. Until C1 approaches P1 in distribution, no composed number is reported. The first grid's composed numbers (near 0% for every policy) were invalid for reasons 1–2."""))
 
 C.append(md(r"""---
-## 6. Next
+## 6. Against the field: LIBERO-Plus (released VLA checkpoints vs our system)
+
+**Benchmark.** LIBERO-Plus (Fei et al., 2025) perturbs the LIBERO suites along 7 dimensions: object layout, camera viewpoint, robot initial state, language, lighting, background texture and sensor noise, each at several difficulty levels. We use its **LIBERO-Object** suite (2,518 perturbed tasks) with the benchmark's own protocol: one trial per task from initial state 0, the benchmark's instruction string, and 280 steps after a 10-step settle.
+
+**Methods.**
+* **Released checkpoints, evaluated as is** (no training on our side):
+  * π0.5-, π0- and π0-FAST-LIBERO via openpi, with a client identical to openpi's LIBERO example.
+  * SmolVLA-LIBERO (`HuggingFaceVLA/smolvla_libero`, 0.45 B) and MolmoAct2-LIBERO (`allenai/MolmoAct2-LIBERO-LeRobot`) via LeRobot. A small server (`vrg/lplus/lerobot_server.py`) replays lerobot-eval's exact observation and processor chain. MolmoAct2 uses its recommended 50-step settle.
+  * Check of the client on the 10 standard LIBERO-Object tasks (2 initial states each, `vrg/lplus/std_check.py`): SmolVLA 17/20 (published ≈ 90%), MolmoAct2 20/20.
+* **Ours:** the LIBERO-Object v5 system (VLM handoff + egocentric local grasp + scripted transport), with grounding recomputed on each perturbed scene and the standard-scene calibration (strict zero-shot)."""))
+C.append(code(r"""LP = f'{ROOT}/runs/liberoplus'
+LPM = [('π0.5-LIBERO (openpi)', 'pi05_libero'), ('π0-LIBERO (openpi)', 'pi0_libero'), ('π0-FAST-LIBERO (openpi)', 'pi0_fast_libero'),
+       ('SmolVLA-LIBERO (LeRobot)', 'smolvla_libero'), ('MolmoAct2-LIBERO (LeRobot)', 'molmoact2_libero'), ('Ours (VLM + reach + local grasp)', 'ours')]
+CATS = ['Objects Layout', 'Camera Viewpoints', 'Robot Initial States', 'Language Instructions', 'Light Conditions', 'Background Textures', 'Sensor Noise']
+rows = []
+for lab, name in LPM:
+    R = load(f'{LP}/{name}/results.json')
+    if not R: rows.append([lab, 'pending'] + [''] * len(CATS)); continue
+    by = collections.defaultdict(list)
+    for r in R: by[r.get('category')].append(r)
+    rows.append([lab, f"{fmt(R)} (n={len(R)})"] + [f"{100*sum(r['success'] for r in by[c])/len(by[c]):.0f}%" if by[c] else '–' for c in CATS])
+table(rows, ['Method', 'All perturbations'] + CATS)
+display(Markdown('Published LIBERO-Plus totals over all four suites, for reference: OpenVLA-OFT 69.6, π0 53.6, π0-FAST 61.6, OpenVLA 15.6.'))"""))
+C.append(code(r"""rows = []
+for lab, name in LPM:
+    R = load(f'{LP}/{name}/results.json')
+    if not R: continue
+    by = collections.defaultdict(list)
+    for r in R: by[r.get('difficulty')].append(r)
+    rows.append([lab] + [f"{100*sum(r['success'] for r in by[d])/len(by[d]):.0f}% (n={len(by[d])})" if by[d] else '–' for d in (1, 2, 3, 4, 5)])
+if rows: table(rows, ['Method', 'Level 1', 'Level 2', 'Level 3', 'Level 4', 'Level 5'])"""))
+C.append(md(r"""**Where our system fails.** Each failure is split by stage: grasp, or place (the scripted transport and release), next to the grounding quality on the same scenes. The target hit rate is whether the VLM picked the right object. The basket error is the distance between the grounded and true basket centres in the table plane. On standard scenes it is ≈ 7 cm, a fixed offset that the large basket absorbs."""))
+C.append(code(r"""R = load(f'{LP}/ours/results.json'); G = {g['tid']: g for g in load(f'{LP}/ours/grounding.json') or []}
+rows = []
+for c in CATS:
+    rs = [r for r in R if r.get('category') == c]
+    if not rs: continue
+    be = [G[r['tid']]['basket_err'] for r in rs if G.get(r['tid'], {}).get('basket_err') is not None]
+    rows.append([c, len(rs), f"{100*np.mean([r['success'] for r in rs]):.0f}%", sum(r.get('fail') == 'grasp' for r in rs), sum(r.get('fail') == 'place' for r in rs),
+                 f"{100*np.mean([G.get(r['tid'], {}).get('obj_hit', False) for r in rs]):.0f}%", f"{100*np.median(be):.1f} cm" if be else '–', f"{100*np.mean(np.array(be) > 0.12):.0f}%" if be else '–'])
+table(rows, ['Category', 'n', 'Success', 'Grasp fails', 'Place fails', 'Target hit', 'Basket err (median)', 'Basket err > 12 cm'])"""))
+
+C.append(md(r"""---
+## 7. Next
 1. Fix the transfer reach (video step-through; MimicGen-style interpolated transit). Validate with C1 ≈ P1 on D0, then re-run the composed grid, plus seeds 1–2, the data-efficiency (10 / 100 / 1000 demos) and handoff-length sweeps, and handoff noise.
 2. Re-run the two Three-Piece Assembly segment trainings (they ran out of GPU memory).
 3. Against the field: released LIBERO VLA checkpoints vs our system on LIBERO-Plus (2,518 perturbed LIBERO-Object episodes); environment in progress.

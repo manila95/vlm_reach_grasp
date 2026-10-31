@@ -1,0 +1,1672 @@
+[
+{
+"tid": 0,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 1",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_1",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 370.1066460609436
+},
+{
+"tid": 1,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 10",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_10",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 350.7526066303253
+},
+{
+"tid": 2,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 12",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_12",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 330.0685975551605
+},
+{
+"tid": 3,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 13",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_13",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 351.0096826553345
+},
+{
+"tid": 4,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 14",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_14",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 353.83297061920166
+},
+{
+"tid": 5,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 15",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_15",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 341.4699459075928
+},
+{
+"tid": 6,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 16",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_16",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 337.4997704029083
+},
+{
+"tid": 7,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 17",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_17",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 320.57408380508423
+},
+{
+"tid": 8,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 18",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_18",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 308.97687911987305
+},
+{
+"tid": 9,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 19",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_19",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 302.39466381073
+},
+{
+"tid": 10,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 2",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_2",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 299.6678171157837
+},
+{
+"tid": 11,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 20",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_20",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 299.1514208316803
+},
+{
+"tid": 12,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 21",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_21",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 295.58688259124756
+},
+{
+"tid": 13,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 22",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_22",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 288.7071509361267
+},
+{
+"tid": 14,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 24",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_24",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 280.44245314598083
+},
+{
+"tid": 15,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 27",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_27",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 288.91445088386536
+},
+{
+"tid": 16,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 28",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_28",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 294.40378880500793
+},
+{
+"tid": 17,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 5",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_5",
+"category": "Background Textures",
+"difficulty": 4,
+"sec": 296.7851016521454
+},
+{
+"tid": 18,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 8",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_8",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 295.71993494033813
+},
+{
+"tid": 19,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket table 9",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_table_9",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 295.6169867515564
+},
+{
+"tid": 20,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 10",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_10",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 298.33823800086975
+},
+{
+"tid": 21,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 12",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_12",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 300.49564695358276
+},
+{
+"tid": 22,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 18",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_18",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 302.2681362628937
+},
+{
+"tid": 23,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 2",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_2",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 302.06702733039856
+},
+{
+"tid": 24,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 20",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_20",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 305.9716374874115
+},
+{
+"tid": 25,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 21",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_21",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 304.906347990036
+},
+{
+"tid": 26,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 22",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_22",
+"category": "Background Textures",
+"difficulty": 1,
+"sec": 305.10827469825745
+},
+{
+"tid": 27,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 5",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_5",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 303.3814628124237
+},
+{
+"tid": 28,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 6",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_6",
+"category": "Background Textures",
+"difficulty": 3,
+"sec": 300.92792677879333
+},
+{
+"tid": 29,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 7",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_7",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 309.8435597419739
+},
+{
+"tid": 30,
+"success": false,
+"steps": 280,
+"language": "pick up the alphabet soup and place it in the basket tb 8",
+"name": "pick_up_the_alphabet_soup_and_place_it_in_the_basket_tb_8",
+"category": "Background Textures",
+"difficulty": 2,
+"sec": 371.47026777267456
+},
+{
+"tid": 419,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 245",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_245",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 384.56980085372925
+},
+{
+"tid": 420,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 255",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_255",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 354.8112151622772
+},
+{
+"tid": 421,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 265",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_265",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 338.8972637653351
+},
+{
+"tid": 422,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 275",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_275",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 352.1786208152771
+},
+{
+"tid": 423,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 285",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_285",
+"category": "Robot Initial States",
+"difficulty": 4,
+"sec": 353.0089867115021
+},
+{
+"tid": 424,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 295",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_295",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 344.92663073539734
+},
+{
+"tid": 425,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 305",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_305",
+"category": "Robot Initial States",
+"difficulty": 4,
+"sec": 341.578462600708
+},
+{
+"tid": 426,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 315",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_315",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 315.03330159187317
+},
+{
+"tid": 427,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 325",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_325",
+"category": "Robot Initial States",
+"difficulty": 1,
+"sec": 308.99349784851074
+},
+{
+"tid": 428,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 335",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_335",
+"category": "Robot Initial States",
+"difficulty": 4,
+"sec": 299.5816526412964
+},
+{
+"tid": 429,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 345",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_345",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 297.655380487442
+},
+{
+"tid": 430,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 355",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_355",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 301.73106956481934
+},
+{
+"tid": 431,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 365",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_365",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 295.43008518218994
+},
+{
+"tid": 432,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 375",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_375",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 290.12706685066223
+},
+{
+"tid": 433,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 385",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_385",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 283.25440216064453
+},
+{
+"tid": 434,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 395",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_395",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 287.56436347961426
+},
+{
+"tid": 435,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 405",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_405",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 295.9785933494568
+},
+{
+"tid": 436,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 415",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_415",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 298.7355782985687
+},
+{
+"tid": 437,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 425",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_425",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 297.8570330142975
+},
+{
+"tid": 438,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 435",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_435",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 295.50973439216614
+},
+{
+"tid": 439,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 445",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_445",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 299.3915274143219
+},
+{
+"tid": 440,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 455",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_455",
+"category": "Robot Initial States",
+"difficulty": 4,
+"sec": 300.8344430923462
+},
+{
+"tid": 441,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 465",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_465",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 305.2079153060913
+},
+{
+"tid": 442,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 475",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_475",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 303.52195262908936
+},
+{
+"tid": 443,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 485",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_485",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 308.2857549190521
+},
+{
+"tid": 444,
+"success": false,
+"steps": 280,
+"language": "pick up the ketchup and place it in the basket view 0 0 100 0 0 initstate 495",
+"name": "pick_up_the_ketchup_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_495",
+"category": "Robot Initial States",
+"difficulty": 5,
+"sec": 306.10170125961304
+},
+{
+"tid": 445,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 6",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_6",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 303.1273772716522
+},
+{
+"tid": 446,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 16",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_16",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 304.7843327522278
+},
+{
+"tid": 447,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 106",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_106",
+"category": "Robot Initial States",
+"difficulty": 2,
+"sec": 301.6868751049042
+},
+{
+"tid": 448,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 126",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_126",
+"category": "Robot Initial States",
+"difficulty": 3,
+"sec": 333.3759524822235
+},
+{
+"tid": 449,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 0 0 initstate 136",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_136",
+"category": "Robot Initial States",
+"difficulty": 1,
+"sec": 373.1688961982727
+},
+{
+"tid": 839,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 4 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_4_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 387.5460388660431
+},
+{
+"tid": 840,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 6 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_6_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 344.6468234062195
+},
+{
+"tid": 841,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 8 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_8_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 340.5809061527252
+},
+{
+"tid": 842,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 10 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_10_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 3,
+"sec": 353.06096959114075
+},
+{
+"tid": 843,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 350 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_350_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 350.2639000415802
+},
+{
+"tid": 844,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 352 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_352_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 343.8709361553192
+},
+{
+"tid": 845,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 354 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_354_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 340.9956021308899
+},
+{
+"tid": 846,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 356 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_356_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 314.2856750488281
+},
+{
+"tid": 847,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 0 0 100 350 358 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_0_0_100_350_358_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 309.47017788887024
+},
+{
+"tid": 848,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 285 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_285_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 298.77689814567566
+},
+{
+"tid": 849,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 285 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_285_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 297.41875076293945
+},
+{
+"tid": 850,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 286 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_286_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 3,
+"sec": 299.63589668273926
+},
+{
+"tid": 851,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 286 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_286_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 294.8834562301636
+},
+{
+"tid": 852,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 287 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_287_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 3,
+"sec": 289.40933656692505
+},
+{
+"tid": 853,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 287 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_287_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 282.6780867576599
+},
+{
+"tid": 854,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 288 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_288_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 288.5040566921234
+},
+{
+"tid": 855,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 288 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_288_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 295.0639023780823
+},
+{
+"tid": 856,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 289 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_289_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 297.6935684680939
+},
+{
+"tid": 857,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 289 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_289_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 297.8866677284241
+},
+{
+"tid": 858,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 290 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_290_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 297.9502303600311
+},
+{
+"tid": 859,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 290 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_290_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 299.6479825973511
+},
+{
+"tid": 860,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 291 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_291_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 299.99157786369324
+},
+{
+"tid": 861,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 291 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_291_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 304.39225578308105
+},
+{
+"tid": 862,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 292 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_292_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 304.6833415031433
+},
+{
+"tid": 863,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 292 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_292_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 2,
+"sec": 303.9694163799286
+},
+{
+"tid": 864,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 293 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_293_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 3,
+"sec": 306.1292712688446
+},
+{
+"tid": 865,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 293 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_293_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 304.75216841697693
+},
+{
+"tid": 866,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 294 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_294_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 304.1565544605255
+},
+{
+"tid": 867,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 294 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_294_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 303.0658688545227
+},
+{
+"tid": 868,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 295 0 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_295_0_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 5,
+"sec": 338.93808794021606
+},
+{
+"tid": 869,
+"success": false,
+"steps": 280,
+"language": "pick up the tomato sauce and place it in the basket view 295 15 100 0 0 initstate 0",
+"name": "pick_up_the_tomato_sauce_and_place_it_in_the_basket_view_295_15_100_0_0_initstate_0",
+"category": "Camera Viewpoints",
+"difficulty": 4,
+"sec": 373.8075921535492
+},
+{
+"tid": 1259,
+"success": false,
+"steps": 280,
+"language": "pick up the yellow dairy product used for cooking and spreading and place it in the woven container for holding items",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_45_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 380.1319761276245
+},
+{
+"tid": 1260,
+"success": false,
+"steps": 280,
+"language": "grasp the solid dairy product and deposit it into the woven container",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_47_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 345.0754954814911
+},
+{
+"tid": 1261,
+"success": false,
+"steps": 280,
+"language": "hey could you put the butter in the basket",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_language_48_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 336.25455260276794
+},
+{
+"tid": 1262,
+"success": false,
+"steps": 280,
+"language": "grasp the dairy liquid container and deposit it in the woven carrier",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_1_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 356.09886384010315
+},
+{
+"tid": 1263,
+"success": false,
+"steps": 280,
+"language": "before we leave dont forget to pick up the milk and put it in the picnic basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_2_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 347.89762330055237
+},
+{
+"tid": 1264,
+"success": false,
+"steps": 280,
+"language": "grab the white beverage often consumed at breakfast and deposit it into the woven holder for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_3_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 343.1398253440857
+},
+{
+"tid": 1265,
+"success": false,
+"steps": 280,
+"language": "grasp the liquid dairy product and deposit it into the woven container",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_4_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 335.3827245235443
+},
+{
+"tid": 1266,
+"success": false,
+"steps": 280,
+"language": "grab the milk and put it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_5_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 312.0017113685608
+},
+{
+"tid": 1267,
+"success": false,
+"steps": 280,
+"language": "were organizing the kitchen your job is to pick up the milk and place it in the designated basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_6_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 308.55878162384033
+},
+{
+"tid": 1268,
+"success": false,
+"steps": 280,
+"language": "grasp the container of cows beverage and deposit it in the woven holder",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_7_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 297.5855209827423
+},
+{
+"tid": 1269,
+"success": false,
+"steps": 280,
+"language": "gather the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_9_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 297.2964816093445
+},
+{
+"tid": 1270,
+"success": false,
+"steps": 280,
+"language": "can you put the milk into the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_10_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 298.14102363586426
+},
+{
+"tid": 1271,
+"success": false,
+"steps": 280,
+"language": "grasp the cold dairy liquid container and position it within the woven carrying accessory",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_11_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 291.46501207351685
+},
+{
+"tid": 1272,
+"success": false,
+"steps": 280,
+"language": "collect the dairy product used in coffee and breakfast cereals and deposit it into the woven container for carrying items",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_12_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 287.8326823711395
+},
+{
+"tid": 1273,
+"success": false,
+"steps": 280,
+"language": "the children need their milk pick it up from the counter and place it in their snack basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_13_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 280.6113004684448
+},
+{
+"tid": 1274,
+"success": false,
+"steps": 280,
+"language": "pick up the dairy liquid container and place it in the woven carrying implement",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_14_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 1,
+"sec": 289.99899339675903
+},
+{
+"tid": 1275,
+"success": true,
+"steps": 154,
+"language": "retrieve the milk and set it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_15_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 168.79189682006836
+},
+{
+"tid": 1276,
+"success": false,
+"steps": 280,
+"language": "could you please put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_16_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 295.4025173187256
+},
+{
+"tid": 1277,
+"success": false,
+"steps": 280,
+"language": "lift the white liquid container and set it into the woven carrier",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_17_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 296.7057809829712
+},
+{
+"tid": 1278,
+"success": false,
+"steps": 280,
+"language": "for our grocery organization please pick up the milk and transfer it to the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_18_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 295.4885947704315
+},
+{
+"tid": 1279,
+"success": false,
+"steps": 280,
+"language": "grasp the chilled white liquid container and deposit it into the woven carrying accessory",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_19_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 298.21678829193115
+},
+{
+"tid": 1280,
+"success": false,
+"steps": 280,
+"language": "to help with dinner setup pick up the milk from the fridge and put it in the serving basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_20_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 298.85829186439514
+},
+{
+"tid": 1281,
+"success": false,
+"steps": 280,
+"language": "please put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_21_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 302.90295815467834
+},
+{
+"tid": 1282,
+"success": false,
+"steps": 280,
+"language": "to complete this chore simply pick up the milk container and place it inside the laundry basket just kidding use the food basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_24_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 303.276184797287
+},
+{
+"tid": 1283,
+"success": false,
+"steps": 280,
+"language": "grab the milk and deposit it in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_25_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 306.9320662021637
+},
+{
+"tid": 1284,
+"success": false,
+"steps": 280,
+"language": "for proper storage pick up the open milk carton and place it in the refrigerator basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_26_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 5,
+"sec": 304.11705350875854
+},
+{
+"tid": 1285,
+"success": false,
+"steps": 280,
+"language": "would you mind putting the milk into the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_27_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 2,
+"sec": 302.96865010261536
+},
+{
+"tid": 1286,
+"success": false,
+"steps": 280,
+"language": "for breakfast preparation please pick up the milk container and place it in the breakfast basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_29_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 303.56518268585205
+},
+{
+"tid": 1287,
+"success": false,
+"steps": 280,
+"language": "could you please pick up the milk and put it in the basket its right there on the counter",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_30_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 301.2706253528595
+},
+{
+"tid": 1288,
+"success": false,
+"steps": 280,
+"language": "grasp the liquid dairy product and deposit it inside the woven container",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_31_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 4,
+"sec": 310.1085877418518
+},
+{
+"tid": 1289,
+"success": false,
+"steps": 280,
+"language": "put the milk in the basket",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_language_33_view_0_0_100_0_0_initstate_0",
+"category": "Language Instructions",
+"difficulty": 3,
+"sec": 372.12843132019043
+},
+{
+"tid": 1678,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 30",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_30",
+"category": "Sensor Noise",
+"difficulty": 4,
+"sec": 454.9095084667206
+},
+{
+"tid": 1687,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 42",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_42",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 994.7632467746735
+},
+{
+"tid": 1688,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 43",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_43",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 842.5958735942841
+},
+{
+"tid": 1689,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 44",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_44",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 601.6526374816895
+},
+{
+"tid": 1690,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 45",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_45",
+"category": "Sensor Noise",
+"difficulty": 3,
+"sec": 587.8067088127136
+},
+{
+"tid": 1691,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 46",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_46",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 573.3783926963806
+},
+{
+"tid": 1692,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 47",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_47",
+"category": "Sensor Noise",
+"difficulty": 4,
+"sec": 641.6982157230377
+},
+{
+"tid": 1693,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 48",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_48",
+"category": "Sensor Noise",
+"difficulty": 4,
+"sec": 637.2325687408447
+},
+{
+"tid": 1694,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 49",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_49",
+"category": "Sensor Noise",
+"difficulty": 4,
+"sec": 476.62709188461304
+},
+{
+"tid": 1695,
+"success": false,
+"steps": 280,
+"language": "pick up the butter and place it in the basket view 0 0 100 0 0 initstate 0 noise 50",
+"name": "pick_up_the_butter_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_50",
+"category": "Sensor Noise",
+"difficulty": 3,
+"sec": 479.910031080246
+},
+{
+"tid": 1696,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 2",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_2",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 358.9511308670044
+},
+{
+"tid": 1697,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 3",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_3",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 358.54795575141907
+},
+{
+"tid": 1698,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 4",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_4",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 356.37533831596375
+},
+{
+"tid": 1699,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 5",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_5",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 363.05621337890625
+},
+{
+"tid": 1700,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 6",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_6",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 355.94022488594055
+},
+{
+"tid": 1701,
+"success": false,
+"steps": 280,
+"language": "pick up the milk and place it in the basket view 0 0 100 0 0 initstate 0 noise 7",
+"name": "pick_up_the_milk_and_place_it_in_the_basket_view_0_0_100_0_0_initstate_0_noise_7",
+"category": "Sensor Noise",
+"difficulty": 2,
+"sec": 412.15687346458435
+},
+{
+"tid": 2098,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 25",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_25",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 369.38477396965027
+},
+{
+"tid": 2099,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 26",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_26",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 349.12451171875
+},
+{
+"tid": 2100,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 27",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_27",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 344.1433503627777
+},
+{
+"tid": 2101,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 28",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_28",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 321.80959010124207
+},
+{
+"tid": 2102,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 29",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_29",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 313.0436942577362
+},
+{
+"tid": 2103,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 3",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_3",
+"category": "Objects Layout",
+"difficulty": 2,
+"sec": 302.3119697570801
+},
+{
+"tid": 2104,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 30",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_30",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 301.02467370033264
+},
+{
+"tid": 2105,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 4",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_4",
+"category": "Objects Layout",
+"difficulty": 2,
+"sec": 303.2828252315521
+},
+{
+"tid": 2106,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 5",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_5",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 294.88534903526306
+},
+{
+"tid": 2107,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 6",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_6",
+"category": "Objects Layout",
+"difficulty": 1,
+"sec": 290.3498456478119
+},
+{
+"tid": 2108,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 7",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_7",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 284.69096159935
+},
+{
+"tid": 2109,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 8",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_8",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 288.0487611293793
+},
+{
+"tid": 2110,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket add 9",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_add_9",
+"category": "Objects Layout",
+"difficulty": 3,
+"sec": 296.3337666988373
+},
+{
+"tid": 2111,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level1 sample1",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level1_sample1",
+"category": "Objects Layout",
+"difficulty": 4,
+"sec": 297.74517154693604
+},
+{
+"tid": 2112,
+"success": true,
+"steps": 134,
+"language": "pick up the orange juice and place it in the basket level1 sample2",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level1_sample2",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 147.04877853393555
+},
+{
+"tid": 2113,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level1 sample3",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level1_sample3",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 294.8765559196472
+},
+{
+"tid": 2114,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level1 sample4",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level1_sample4",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 298.77833580970764
+},
+{
+"tid": 2115,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level2 sample1",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level2_sample1",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 300.9295859336853
+},
+{
+"tid": 2116,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level2 sample2",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level2_sample2",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 303.6393413543701
+},
+{
+"tid": 2117,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level2 sample3",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level2_sample3",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 303.7991325855255
+},
+{
+"tid": 2118,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level2 sample4",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level2_sample4",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 305.9903814792633
+},
+{
+"tid": 2119,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level3 sample1",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level3_sample1",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 304.1641252040863
+},
+{
+"tid": 2120,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level3 sample2",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level3_sample2",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 304.10176634788513
+},
+{
+"tid": 2121,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level3 sample3",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level3_sample3",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 305.60790038108826
+},
+{
+"tid": 2122,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level3 sample4",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level3_sample4",
+"category": "Objects Layout",
+"difficulty": 4,
+"sec": 301.7146272659302
+},
+{
+"tid": 2123,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level4 sample1",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level4_sample1",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 302.67192220687866
+},
+{
+"tid": 2124,
+"success": false,
+"steps": 280,
+"language": "pick up the orange juice and place it in the basket level4 sample2",
+"name": "pick_up_the_orange_juice_and_place_it_in_the_basket_level4_sample2",
+"category": "Objects Layout",
+"difficulty": 5,
+"sec": 366.3679208755493
+}
+]

@@ -1,0 +1,12458 @@
+[
+{
+"tid": 0,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 1,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 2,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 3,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 4,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 5,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 6,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 7,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 8,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 9,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 10,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 11,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 12,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 13,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 14,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 15,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 16,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 17,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 18,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 19,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 20,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 21,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 22,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 23,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 24,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 25,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 26,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 27,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 28,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 29,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 30,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 31,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2502887050566572
+},
+{
+"tid": 32,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 33,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 34,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 35,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 36,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 37,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 38,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 39,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 40,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 41,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 42,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 43,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 44,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 45,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 46,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 47,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 48,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 49,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 50,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 51,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 52,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 53,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 54,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 55,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 56,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 57,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 58,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 59,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 60,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 61,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 62,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 63,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 64,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 65,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 66,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 67,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 68,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 69,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 70,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 71,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 72,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 73,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 74,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 75,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 76,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 77,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 78,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 79,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 80,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 81,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 82,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 83,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 84,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 85,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 86,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 87,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 88,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 89,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 90,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 91,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440233
+},
+{
+"tid": 92,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 93,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 94,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 95,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 96,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 97,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 98,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 99,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 100,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 101,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 102,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 103,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 104,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 105,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 106,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 107,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 108,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 109,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 110,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 111,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 112,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 113,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 114,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 115,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 116,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 117,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 118,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 119,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 120,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2361318027058797
+},
+{
+"tid": 121,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.23613180270587966
+},
+{
+"tid": 122,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 123,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 124,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 125,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 126,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 127,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 128,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 129,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 130,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 131,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 132,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 133,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.28520171531506294
+},
+{
+"tid": 134,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 135,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.28520171531506294
+},
+{
+"tid": 136,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.28520171531506294
+},
+{
+"tid": 137,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 138,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 139,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 140,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 141,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 142,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 143,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 144,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 145,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 146,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 147,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 148,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 149,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 150,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 151,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 152,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 153,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 154,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 155,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 156,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 157,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 158,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 159,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 160,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 161,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 162,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 163,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 164,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 165,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 166,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 167,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 168,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 169,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 170,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 171,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 172,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 173,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 174,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 175,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 176,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 177,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 178,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 179,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 180,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 181,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 182,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 183,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 184,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 185,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 186,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 187,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 188,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 189,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 190,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 191,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 192,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 193,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 194,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 195,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 196,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 197,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 198,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 199,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 200,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 201,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 202,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 203,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 204,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 205,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 206,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 207,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 208,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 209,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 210,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 211,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 212,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 213,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.4864634722294701
+},
+{
+"tid": 214,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 215,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 216,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 217,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 218,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 219,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 220,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 221,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 222,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 223,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 224,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 225,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 226,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 227,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 228,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 229,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 230,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 231,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 232,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 233,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 234,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 235,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 236,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 237,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 238,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 239,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 240,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704753786881406
+},
+{
+"tid": 241,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 242,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 243,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 244,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 245,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 246,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 247,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 248,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 249,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 250,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 251,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 252,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 253,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 254,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 255,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 256,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 257,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 258,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 259,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 260,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 261,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 262,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 263,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 264,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 265,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 266,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 267,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 268,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 269,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 270,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 271,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 272,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 273,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 274,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 275,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 276,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 277,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 278,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 279,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 280,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 281,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 282,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 283,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 284,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 285,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 286,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 287,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 288,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 289,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477952365526
+},
+{
+"tid": 290,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 291,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 292,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 293,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 294,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 295,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 296,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 297,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 298,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 299,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 300,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 301,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 302,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 303,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 304,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 305,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 306,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 307,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 308,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 309,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 310,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 311,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 312,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 313,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 314,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 315,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 316,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 317,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 318,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 319,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 320,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 321,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 322,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 323,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 324,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 325,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 326,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 327,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 328,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 329,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 330,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 331,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 332,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 333,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 334,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 335,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 336,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 337,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 338,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 339,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 340,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 341,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 342,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 343,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 344,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 345,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 346,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 347,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 348,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 349,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 350,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 351,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 352,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 353,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 354,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 355,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 356,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 357,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 358,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 359,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 360,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 361,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 362,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 363,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 364,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 365,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 366,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 367,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 368,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 369,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 370,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 371,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 372,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 373,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 374,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 375,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 376,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 377,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 378,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 379,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 380,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 381,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 382,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 383,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 384,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 385,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 386,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 387,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 388,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 389,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 390,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 391,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 392,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 393,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 394,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 395,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 396,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 397,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 398,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 399,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 400,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 401,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 402,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 403,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 404,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 405,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 406,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 407,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 408,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 409,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 410,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 411,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 412,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 413,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 414,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 415,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 416,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 417,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 418,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 419,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 420,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 421,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 422,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 423,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 424,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 425,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 426,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 427,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 428,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 429,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 430,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 431,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 432,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 433,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 434,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 435,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 436,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 437,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 438,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 439,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 440,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 441,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 442,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 443,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 444,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 445,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 446,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 447,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 448,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 449,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 450,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 451,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 452,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 453,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 454,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 455,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 456,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 457,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 458,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 459,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 460,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 461,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 462,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 463,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 464,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 465,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 466,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 467,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 468,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 469,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 470,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 471,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 472,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 473,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 474,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 475,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 476,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 477,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 478,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 479,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 480,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 481,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 482,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 483,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 484,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 485,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 486,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 487,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 488,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 489,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 490,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 491,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 492,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 493,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 494,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 495,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 496,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 497,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 498,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 499,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 500,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 501,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 502,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 503,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 504,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 505,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 506,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 507,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 508,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 509,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 510,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 511,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 512,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 513,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 514,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 515,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 516,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 517,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 518,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 519,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440233
+},
+{
+"tid": 520,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 521,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 522,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 523,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 524,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 525,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 526,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 527,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 528,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 529,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 530,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 531,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 532,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 533,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 534,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 535,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 536,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 537,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 538,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 539,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 540,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 541,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 542,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 543,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 544,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 545,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 546,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 547,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 548,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 549,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 550,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 551,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 552,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 553,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 554,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 555,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 556,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 557,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 558,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 559,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 560,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 561,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 562,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 563,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 564,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 565,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 566,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 567,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 568,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 569,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 570,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 571,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 572,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 573,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 574,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 575,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 576,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 577,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 578,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 579,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 580,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 581,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 582,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 583,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 584,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 585,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 586,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 587,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 588,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 589,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 590,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 591,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 592,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 593,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 594,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 595,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 596,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 597,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 598,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 599,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 600,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 601,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 602,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 603,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 604,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 605,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 606,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 607,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 608,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 609,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 610,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 611,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 612,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 613,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 614,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 615,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 616,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 617,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 618,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 619,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 620,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 621,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 622,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 623,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 624,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 625,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 626,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 627,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 628,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 629,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 630,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 631,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 632,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 633,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 634,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 635,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 636,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 637,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 638,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 639,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 640,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 641,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 642,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 643,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 644,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 645,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 646,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0703309574591036
+},
+{
+"tid": 647,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.070248237153493
+},
+{
+"tid": 648,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07019778766618956
+},
+{
+"tid": 649,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07014965635406424
+},
+{
+"tid": 650,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07073590600707981
+},
+{
+"tid": 651,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07067540737322066
+},
+{
+"tid": 652,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07061542167010826
+},
+{
+"tid": 653,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04334422290704333
+},
+{
+"tid": 654,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04429256339177237
+},
+{
+"tid": 655,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04752527946010073
+},
+{
+"tid": 656,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05127316850161268
+},
+{
+"tid": 657,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05329993153768328
+},
+{
+"tid": 658,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05470736320520272
+},
+{
+"tid": 659,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05538946124691983
+},
+{
+"tid": 660,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05440137059550398
+},
+{
+"tid": 661,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05312311780049397
+},
+{
+"tid": 662,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05088021175346878
+},
+{
+"tid": 663,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04906371447045176
+},
+{
+"tid": 664,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04716646554733631
+},
+{
+"tid": 665,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04539798854818864
+},
+{
+"tid": 666,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04342203858648058
+},
+{
+"tid": 667,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07101307036834743
+},
+{
+"tid": 668,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07109308806205733
+},
+{
+"tid": 669,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07113623748993467
+},
+{
+"tid": 670,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07036100245580307
+},
+{
+"tid": 671,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07035462811968422
+},
+{
+"tid": 672,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07036557377198178
+},
+{
+"tid": 673,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07075817297906065
+},
+{
+"tid": 674,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07070407331489822
+},
+{
+"tid": 675,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05250638956265191
+},
+{
+"tid": 676,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0471153166007012
+},
+{
+"tid": 677,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.044488541156758064
+},
+{
+"tid": 678,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.042125860031454715
+},
+{
+"tid": 679,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04014680632502988
+},
+{
+"tid": 680,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07092687573719317
+},
+{
+"tid": 681,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03827919941078061
+},
+{
+"tid": 682,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03591512852715953
+},
+{
+"tid": 683,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03416355368825911
+},
+{
+"tid": 684,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.025227328433850338
+},
+{
+"tid": 685,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0186267862725549
+},
+{
+"tid": 686,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.016519085542141255
+},
+{
+"tid": 687,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07115095394920422
+},
+{
+"tid": 688,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07116088107931043
+},
+{
+"tid": 689,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07120967914130302
+},
+{
+"tid": 690,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07121039665771346
+},
+{
+"tid": 691,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07124837793665224
+},
+{
+"tid": 692,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07124164583339224
+},
+{
+"tid": 693,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07126425976189893
+},
+{
+"tid": 694,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07130691675425227
+},
+{
+"tid": 695,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07130351002126221
+},
+{
+"tid": 696,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07130665452676671
+},
+{
+"tid": 697,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07190451367284119
+},
+{
+"tid": 698,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07222799875581211
+},
+{
+"tid": 699,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07246612728997265
+},
+{
+"tid": 700,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07279585540172608
+},
+{
+"tid": 701,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07326425779765422
+},
+{
+"tid": 702,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07158277162008903
+},
+{
+"tid": 703,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07162577823799582
+},
+{
+"tid": 704,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07024137984436146
+},
+{
+"tid": 705,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015570092380597715
+},
+{
+"tid": 706,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07004580888862356
+},
+{
+"tid": 707,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.013536485441588256
+},
+{
+"tid": 708,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06982648812887707
+},
+{
+"tid": 709,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.011849966327117857
+},
+{
+"tid": 710,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06952804619348794
+},
+{
+"tid": 711,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01001776221612179
+},
+{
+"tid": 712,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06910005111293621
+},
+{
+"tid": 713,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008305156573805504
+},
+{
+"tid": 714,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06826618031329412
+},
+{
+"tid": 715,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.006501651413562219
+},
+{
+"tid": 716,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06621701294356831
+},
+{
+"tid": 717,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.004901252005112956
+},
+{
+"tid": 718,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06152508443310897
+},
+{
+"tid": 719,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0037734440613736353
+},
+{
+"tid": 720,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.055786599168176125
+},
+{
+"tid": 721,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0030787382040925715
+},
+{
+"tid": 722,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05051714106824018
+},
+{
+"tid": 723,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0030128604957800707
+},
+{
+"tid": 724,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04731920814573875
+},
+{
+"tid": 725,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0034862163042006433
+},
+{
+"tid": 726,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04446472310207713
+},
+{
+"tid": 727,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.004119081036746396
+},
+{
+"tid": 728,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04170644798006535
+},
+{
+"tid": 729,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.004716194967705442
+},
+{
+"tid": 730,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03897410341976046
+},
+{
+"tid": 731,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0054636396068514425
+},
+{
+"tid": 732,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03614048509195162
+},
+{
+"tid": 733,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0060890274154177795
+},
+{
+"tid": 734,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07136550723279468
+},
+{
+"tid": 735,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07136902904203302
+},
+{
+"tid": 736,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07140113988747537
+},
+{
+"tid": 737,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07142063288514873
+},
+{
+"tid": 738,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07143398689058045
+},
+{
+"tid": 739,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07143226098273604
+},
+{
+"tid": 740,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07145152076762099
+},
+{
+"tid": 741,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07146855320673397
+},
+{
+"tid": 742,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0714964195869657
+},
+{
+"tid": 743,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07485232541624133
+},
+{
+"tid": 744,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07533883766193793
+},
+{
+"tid": 745,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.075929910404264
+},
+{
+"tid": 746,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0765432716640573
+},
+{
+"tid": 747,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07732648519331249
+},
+{
+"tid": 748,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0735063981589236
+},
+{
+"tid": 749,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07355561230091025
+},
+{
+"tid": 750,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07370359681429112
+},
+{
+"tid": 751,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07412681975155014
+},
+{
+"tid": 752,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03130144253164317
+},
+{
+"tid": 753,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0066614741804417316
+},
+{
+"tid": 754,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.028971613647854826
+},
+{
+"tid": 755,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.007045078588772035
+},
+{
+"tid": 756,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.027020589085543487
+},
+{
+"tid": 757,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.007426738324858439
+},
+{
+"tid": 758,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.025338186634516743
+},
+{
+"tid": 759,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.007655606288336265
+},
+{
+"tid": 760,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.023941109536123557
+},
+{
+"tid": 761,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.022862194378052515
+},
+{
+"tid": 762,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008206389485207284
+},
+{
+"tid": 763,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.022105795750363755
+},
+{
+"tid": 764,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.00842548638745179
+},
+{
+"tid": 765,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02152391189763849
+},
+{
+"tid": 766,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008487835807238735
+},
+{
+"tid": 767,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.021050381573261286
+},
+{
+"tid": 768,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008651797289785728
+},
+{
+"tid": 769,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02081475889654162
+},
+{
+"tid": 770,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008728873590366401
+},
+{
+"tid": 771,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.020695757140119345
+},
+{
+"tid": 772,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.008566958160873965
+},
+{
+"tid": 773,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.020616208234479516
+},
+{
+"tid": 774,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.008480504171076684
+},
+{
+"tid": 775,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02079872337778579
+},
+{
+"tid": 776,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.008356463158115088
+},
+{
+"tid": 777,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.021134980189529588
+},
+{
+"tid": 778,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0081957718367148
+},
+{
+"tid": 779,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02161270230063287
+},
+{
+"tid": 780,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.008048843062087696
+},
+{
+"tid": 781,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07146090279137117
+},
+{
+"tid": 782,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07148514026513259
+},
+{
+"tid": 783,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07150244042017122
+},
+{
+"tid": 784,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07151231982656124
+},
+{
+"tid": 785,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07152793628845866
+},
+{
+"tid": 786,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07155359137295642
+},
+{
+"tid": 787,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07154988629403874
+},
+{
+"tid": 788,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07155592029297489
+},
+{
+"tid": 789,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07159351591027611
+},
+{
+"tid": 790,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07158658150794592
+},
+{
+"tid": 791,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08461831001190291
+},
+{
+"tid": 792,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08544216399342622
+},
+{
+"tid": 793,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08620652782681262
+},
+{
+"tid": 794,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08650724463325977
+},
+{
+"tid": 795,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08571597283866071
+},
+{
+"tid": 796,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08146487962879169
+},
+{
+"tid": 797,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08180678876938927
+},
+{
+"tid": 798,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08221620572306969
+},
+{
+"tid": 799,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08272242128418753
+},
+{
+"tid": 800,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.08332062565237128
+},
+{
+"tid": 801,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02112964454477098
+},
+{
+"tid": 802,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.007859255076800098
+},
+{
+"tid": 803,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02181536926606813
+},
+{
+"tid": 804,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.022633298869900283
+},
+{
+"tid": 805,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.007453967129439195
+},
+{
+"tid": 806,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.007267861084245016
+},
+{
+"tid": 807,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02445889632911633
+},
+{
+"tid": 808,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.007095602913309313
+},
+{
+"tid": 809,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.025506341296870585
+},
+{
+"tid": 810,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.006981765256918523
+},
+{
+"tid": 811,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.02664540733550186
+},
+{
+"tid": 812,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.006898269211912406
+},
+{
+"tid": 813,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.027875644389009524
+},
+{
+"tid": 814,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.00675432137712082
+},
+{
+"tid": 815,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.029388295734938404
+},
+{
+"tid": 816,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.030936585922548172
+},
+{
+"tid": 817,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.006796434045707021
+},
+{
+"tid": 818,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.032403613830898355
+},
+{
+"tid": 819,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.006778489013750151
+},
+{
+"tid": 820,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.03426298397654367
+},
+{
+"tid": 821,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.00683372646794742
+},
+{
+"tid": 822,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.03601551998704732
+},
+{
+"tid": 823,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0070080484726980615
+},
+{
+"tid": 824,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.03772530223282325
+},
+{
+"tid": 825,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.007092490794416031
+},
+{
+"tid": 826,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.03951034588507167
+},
+{
+"tid": 827,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.00725844466597221
+},
+{
+"tid": 828,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0716135288939018
+},
+{
+"tid": 829,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07160155451239852
+},
+{
+"tid": 830,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07163233277265621
+},
+{
+"tid": 831,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07163712318063177
+},
+{
+"tid": 832,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0716511453725521
+},
+{
+"tid": 833,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07166818310148027
+},
+{
+"tid": 834,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07166954407303346
+},
+{
+"tid": 835,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0716926073473965
+},
+{
+"tid": 836,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07171305257192928
+},
+{
+"tid": 837,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07171790868825835
+},
+{
+"tid": 838,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07034703783971548
+},
+{
+"tid": 839,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07027744454975789
+},
+{
+"tid": 840,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0702362308212195
+},
+{
+"tid": 841,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07016272154429834
+},
+{
+"tid": 842,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07010357808031037
+},
+{
+"tid": 843,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07068922158131107
+},
+{
+"tid": 844,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07062551224164357
+},
+{
+"tid": 845,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07058106951590479
+},
+{
+"tid": 846,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705225745259133
+},
+{
+"tid": 847,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07046423482605621
+},
+{
+"tid": 848,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07389568995058386
+},
+{
+"tid": 849,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06763679416815609
+},
+{
+"tid": 850,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07384175403313183
+},
+{
+"tid": 851,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06611234524265082
+},
+{
+"tid": 852,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07376160441058721
+},
+{
+"tid": 853,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0646601167797838
+},
+{
+"tid": 854,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07369023146615329
+},
+{
+"tid": 855,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06311815098311835
+},
+{
+"tid": 856,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07358947703630728
+},
+{
+"tid": 857,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.061796414885481404
+},
+{
+"tid": 858,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07348370575687614
+},
+{
+"tid": 859,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06071159812249029
+},
+{
+"tid": 860,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07337918635595742
+},
+{
+"tid": 861,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.05847747686893785
+},
+{
+"tid": 862,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07321741705824757
+},
+{
+"tid": 863,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.05644537289763539
+},
+{
+"tid": 864,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07306334794114615
+},
+{
+"tid": 865,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.054465645317338676
+},
+{
+"tid": 866,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07280082304727453
+},
+{
+"tid": 867,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0519844465916042
+},
+{
+"tid": 868,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07251166498559532
+},
+{
+"tid": 869,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.049504310791173324
+},
+{
+"tid": 870,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07216833568438143
+},
+{
+"tid": 871,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.04670291772676656
+},
+{
+"tid": 872,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07166712189205689
+},
+{
+"tid": 873,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.04459478899080663
+},
+{
+"tid": 874,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07103709434783165
+},
+{
+"tid": 875,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.04242146264095819
+},
+{
+"tid": 876,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0705033454954697
+},
+{
+"tid": 877,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.04100605276297788
+},
+{
+"tid": 878,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07171183831586651
+},
+{
+"tid": 879,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07170627602422996
+},
+{
+"tid": 880,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07171956688570989
+},
+{
+"tid": 881,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0717407523812776
+},
+{
+"tid": 882,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0717422670727958
+},
+{
+"tid": 883,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07175059904432192
+},
+{
+"tid": 884,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07177171014251407
+},
+{
+"tid": 885,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07178113402417106
+},
+{
+"tid": 886,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0717805874802136
+},
+{
+"tid": 887,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07179999797478459
+},
+{
+"tid": 888,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07028866061107625
+},
+{
+"tid": 889,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07022571625415436
+},
+{
+"tid": 890,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07015249345904903
+},
+{
+"tid": 891,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07001777371074458
+},
+{
+"tid": 892,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07063587094171096
+},
+{
+"tid": 893,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07058183016576322
+},
+{
+"tid": 894,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07053053256919671
+},
+{
+"tid": 895,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047104880423101
+},
+{
+"tid": 896,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07040968717310095
+},
+{
+"tid": 897,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07013059313974228
+},
+{
+"tid": 898,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04017342127999492
+},
+{
+"tid": 899,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0691677527372853
+},
+{
+"tid": 900,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.038803149311310944
+},
+{
+"tid": 901,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06801844211583928
+},
+{
+"tid": 902,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03716111574670371
+},
+{
+"tid": 903,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06628193369464361
+},
+{
+"tid": 904,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03564289962224106
+},
+{
+"tid": 905,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06475993965303686
+},
+{
+"tid": 906,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03428255913302317
+},
+{
+"tid": 907,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06346816420931019
+},
+{
+"tid": 908,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03256612066339801
+},
+{
+"tid": 909,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06220781468622512
+},
+{
+"tid": 910,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03088924584296415
+},
+{
+"tid": 911,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.060494911890517235
+},
+{
+"tid": 912,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02906706315191633
+},
+{
+"tid": 913,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05873780366123682
+},
+{
+"tid": 914,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.027769843868709215
+},
+{
+"tid": 915,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0571087548691482
+},
+{
+"tid": 916,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.026377662204702258
+},
+{
+"tid": 917,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05532255987573214
+},
+{
+"tid": 918,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02525990369137188
+},
+{
+"tid": 919,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05325506477942903
+},
+{
+"tid": 920,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02419118785909297
+},
+{
+"tid": 921,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.051053007453533125
+},
+{
+"tid": 922,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02324472733871786
+},
+{
+"tid": 923,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04918098186908705
+},
+{
+"tid": 924,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02220415908598926
+},
+{
+"tid": 925,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04759501630915203
+},
+{
+"tid": 926,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.021455341581523003
+},
+{
+"tid": 927,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07182554073493977
+},
+{
+"tid": 928,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07180418642560264
+},
+{
+"tid": 929,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07181559270366128
+},
+{
+"tid": 930,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07183892007356886
+},
+{
+"tid": 931,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07183959484644391
+},
+{
+"tid": 932,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07182825837936009
+},
+{
+"tid": 933,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07185382176801487
+},
+{
+"tid": 934,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07184063714120928
+},
+{
+"tid": 935,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07186162545001108
+},
+{
+"tid": 936,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07184934826046421
+},
+{
+"tid": 937,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07028146098161864
+},
+{
+"tid": 938,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07021704425363802
+},
+{
+"tid": 939,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0701399238226382
+},
+{
+"tid": 940,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0700263187267429
+},
+{
+"tid": 941,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07064255956008086
+},
+{
+"tid": 942,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07057674179387438
+},
+{
+"tid": 943,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07053939432523638
+},
+{
+"tid": 944,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045464286669346
+},
+{
+"tid": 945,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07040554000335668
+},
+{
+"tid": 946,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.042456783361960834
+},
+{
+"tid": 947,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.020952059503027032
+},
+{
+"tid": 948,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.041966392718558516
+},
+{
+"tid": 949,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.020225412399312994
+},
+{
+"tid": 950,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.041637200599752025
+},
+{
+"tid": 951,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.019538864549024666
+},
+{
+"tid": 952,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04142742967674636
+},
+{
+"tid": 953,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01875315006211494
+},
+{
+"tid": 954,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.041597623162211474
+},
+{
+"tid": 955,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.018020499340356606
+},
+{
+"tid": 956,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04133120382489266
+},
+{
+"tid": 957,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0174129146333566
+},
+{
+"tid": 958,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.041247489984631146
+},
+{
+"tid": 959,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.016684856461507924
+},
+{
+"tid": 960,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04082558280592888
+},
+{
+"tid": 961,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.016141480577015123
+},
+{
+"tid": 962,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04051809204577593
+},
+{
+"tid": 963,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015753136987743933
+},
+{
+"tid": 964,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.040363608895078465
+},
+{
+"tid": 965,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015359639469458144
+},
+{
+"tid": 966,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015051498534311388
+},
+{
+"tid": 967,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04067271430473167
+},
+{
+"tid": 968,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01480144044590477
+},
+{
+"tid": 969,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.040828975049259
+},
+{
+"tid": 970,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01474334704537961
+},
+{
+"tid": 971,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04146667792420876
+},
+{
+"tid": 972,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.014673845624378594
+},
+{
+"tid": 973,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04203706958359151
+},
+{
+"tid": 974,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.014780864503231829
+},
+{
+"tid": 975,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07187538934391514
+},
+{
+"tid": 976,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07189514705287209
+},
+{
+"tid": 977,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07189176239651522
+},
+{
+"tid": 978,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0719153464811222
+},
+{
+"tid": 979,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07189915638281826
+},
+{
+"tid": 980,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07191171029408742
+},
+{
+"tid": 981,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07192909024238624
+},
+{
+"tid": 982,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07192911507688574
+},
+{
+"tid": 983,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07192538621324089
+},
+{
+"tid": 984,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07194265581790124
+},
+{
+"tid": 985,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07011621911816815
+},
+{
+"tid": 986,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07070722763929672
+},
+{
+"tid": 987,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0706538934936104
+},
+{
+"tid": 988,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07059947530345914
+},
+{
+"tid": 989,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.043293016805196066
+},
+{
+"tid": 990,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.014549916738127935
+},
+{
+"tid": 991,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.043932633117675826
+},
+{
+"tid": 992,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.014662840654367834
+},
+{
+"tid": 993,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04453130578660322
+},
+{
+"tid": 994,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.014923731152996741
+},
+{
+"tid": 995,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.045320499737920183
+},
+{
+"tid": 996,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015391291087720534
+},
+{
+"tid": 997,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.046143800852707716
+},
+{
+"tid": 998,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.015706856352786312
+},
+{
+"tid": 999,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0470737365967123
+},
+{
+"tid": 1000,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.016394898012303715
+},
+{
+"tid": 1001,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.048214529182843475
+},
+{
+"tid": 1002,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01682758060141251
+},
+{
+"tid": 1003,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04935588973814462
+},
+{
+"tid": 1004,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01741306630416632
+},
+{
+"tid": 1005,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05074767072681154
+},
+{
+"tid": 1006,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.018157479820931573
+},
+{
+"tid": 1007,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05217620580154756
+},
+{
+"tid": 1008,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.01879604463602326
+},
+{
+"tid": 1009,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05401536284897232
+},
+{
+"tid": 1010,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.019437038477174796
+},
+{
+"tid": 1011,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02027875279880471
+},
+{
+"tid": 1012,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.058768733832393415
+},
+{
+"tid": 1013,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0212112156667799
+},
+{
+"tid": 1014,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02205499064243636
+},
+{
+"tid": 1015,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.02314212416126631
+},
+{
+"tid": 1016,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07192612266585194
+},
+{
+"tid": 1017,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07193570266151103
+},
+{
+"tid": 1018,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07194764183467159
+},
+{
+"tid": 1019,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0719628284322493
+},
+{
+"tid": 1020,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07196394237805531
+},
+{
+"tid": 1021,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07196453250169796
+},
+{
+"tid": 1022,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07197012062621665
+},
+{
+"tid": 1023,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07198497820456115
+},
+{
+"tid": 1024,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07197989421772369
+},
+{
+"tid": 1025,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07199029451975913
+},
+{
+"tid": 1026,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045901973807947
+},
+{
+"tid": 1027,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07033796825362457
+},
+{
+"tid": 1028,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07028561915258771
+},
+{
+"tid": 1029,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0702289721194657
+},
+{
+"tid": 1030,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07079541052184989
+},
+{
+"tid": 1031,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0707201708843084
+},
+{
+"tid": 1032,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07068154392033493
+},
+{
+"tid": 1033,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06766568140779315
+},
+{
+"tid": 1034,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.026151500758850674
+},
+{
+"tid": 1035,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06849297953482784
+},
+{
+"tid": 1036,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.068960746646509
+},
+{
+"tid": 1037,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03568753543228128
+},
+{
+"tid": 1038,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.03922672623655188
+},
+{
+"tid": 1039,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07022307244789439
+},
+{
+"tid": 1040,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04055758555371357
+},
+{
+"tid": 1041,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.04382191073833561
+},
+{
+"tid": 1042,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1043,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1044,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1045,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1046,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1047,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1048,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1049,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1050,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1051,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1052,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1053,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1054,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1055,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1056,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1057,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1058,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1059,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1060,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1061,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477952365526
+},
+{
+"tid": 1062,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477952365526
+},
+{
+"tid": 1063,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1064,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1065,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1066,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1067,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1068,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1069,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1070,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1071,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1072,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1073,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1074,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1075,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1076,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1077,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1078,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1079,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1080,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1081,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1082,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1083,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1084,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1085,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1086,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1087,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1088,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1089,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1090,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1091,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1092,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1093,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1094,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1095,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1096,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1097,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1098,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1099,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1100,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1101,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1102,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1103,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1104,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1105,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1106,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1107,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1108,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1109,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1110,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1111,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1112,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1113,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1114,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1115,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1116,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1117,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1118,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1119,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1120,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1121,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1122,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1123,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1124,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1125,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1126,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1127,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1128,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1129,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1130,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1131,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1132,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1133,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1134,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.3034023862634239
+},
+{
+"tid": 1135,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1136,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1137,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1138,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1139,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1140,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1141,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1142,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.23435720145883118
+},
+{
+"tid": 1143,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1144,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1145,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1146,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1147,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1148,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1149,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1150,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1151,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1152,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1153,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1154,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1155,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1156,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1157,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1158,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1159,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1160,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1161,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1162,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1163,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1164,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1165,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1166,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1167,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1168,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.28520171531506294
+},
+{
+"tid": 1169,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1170,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1171,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1172,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1173,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1174,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1175,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1176,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1177,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1178,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1179,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1180,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1181,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1182,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1183,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1184,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1185,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1186,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1187,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1188,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1189,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1190,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1191,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1192,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1193,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1194,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1195,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1196,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1197,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1198,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1199,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1200,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704753786881406
+},
+{
+"tid": 1201,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704753786881406
+},
+{
+"tid": 1202,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1203,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1204,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1205,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1206,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1207,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1208,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1209,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1210,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1211,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1212,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1213,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1214,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1215,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1216,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1217,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1218,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1219,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1220,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704753786881406
+},
+{
+"tid": 1221,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1222,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1223,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1224,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1225,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1226,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1227,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1228,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1229,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1230,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1231,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1232,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1233,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1234,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1235,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1236,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1237,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1238,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1239,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1240,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440233
+},
+{
+"tid": 1241,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1242,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1243,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1244,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1245,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1246,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1247,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1248,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1249,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24585775057917178
+},
+{
+"tid": 1250,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1251,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1252,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1253,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1254,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1255,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1256,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1257,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1258,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1259,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1260,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1261,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1262,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1263,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1264,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1265,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1266,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1267,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1268,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1269,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1270,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1271,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1272,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1273,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1274,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1275,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1276,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1277,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1278,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1279,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1280,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1281,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1282,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1283,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1284,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 1285,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1286,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 1287,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1288,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1289,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1290,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1291,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1292,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1293,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1294,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1295,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1296,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2528435590203358
+},
+{
+"tid": 1297,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1298,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1299,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1300,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1301,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1302,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1303,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1304,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1305,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1306,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1307,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1308,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1309,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1310,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1311,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1312,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1313,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1314,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1315,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1316,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1317,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1318,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1319,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1320,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1321,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1322,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1323,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1324,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1325,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1326,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1327,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1328,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1329,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1330,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1331,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1332,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1333,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1334,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1335,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1336,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1337,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1338,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1339,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1340,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1341,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1342,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1343,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1344,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1345,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1346,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1347,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1348,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1349,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1350,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1351,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1352,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1353,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.5028563827379451
+},
+{
+"tid": 1354,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1355,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1356,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1357,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1358,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1359,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1360,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1361,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1362,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1363,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1364,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1365,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1366,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1367,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1368,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1369,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1370,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1371,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1372,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1373,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1374,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1375,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1376,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1377,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1378,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1379,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1380,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1381,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1382,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1383,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1384,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1385,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1386,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1387,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1388,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1389,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1390,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1391,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1392,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1393,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1394,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1395,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1396,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1397,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1398,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1399,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477952365526
+},
+{
+"tid": 1400,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1401,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1402,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1403,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1404,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1405,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1406,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1407,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1408,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1409,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1410,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1411,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1412,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1413,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1414,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1415,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1416,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1417,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1418,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1419,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477952365526
+},
+{
+"tid": 1420,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1421,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1422,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1423,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1424,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1425,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1426,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1427,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1428,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1429,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1430,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1431,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1432,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1433,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1434,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1435,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1436,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1437,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044779523655262
+},
+{
+"tid": 1438,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1439,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1440,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1441,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1442,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1443,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1444,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1445,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1446,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1447,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1448,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1449,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1450,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1451,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1452,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1453,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1454,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1455,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1456,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1457,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1458,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1459,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1460,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1461,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1462,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1463,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1464,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1465,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1466,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1467,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1468,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1469,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1470,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1471,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1472,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1473,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1474,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1475,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1476,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1477,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1478,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1479,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1480,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1481,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048917926442896
+},
+{
+"tid": 1482,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1483,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1484,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1485,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1486,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1487,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1488,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1489,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1490,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1491,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1492,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1493,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1494,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1495,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1496,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1497,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1498,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1499,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1500,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1501,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1502,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1503,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1504,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1505,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1506,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1507,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1508,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1509,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1510,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1511,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1512,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1513,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1514,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1515,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1516,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1517,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1518,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1519,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1520,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1521,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704815601134874
+},
+{
+"tid": 1522,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1523,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048156011348738
+},
+{
+"tid": 1524,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1525,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1526,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1527,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1528,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1529,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1530,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1531,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1532,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1533,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1534,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1535,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1536,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1537,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1538,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1539,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1540,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1541,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1542,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1543,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1544,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1545,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1546,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1547,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1548,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1549,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1550,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1551,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1552,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1553,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1554,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1555,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1556,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1557,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1558,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1559,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1560,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1561,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1562,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1563,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1564,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051636952489612
+},
+{
+"tid": 1565,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1566,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1567,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1568,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1569,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1570,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1571,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1572,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1573,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1574,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1575,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1576,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1577,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1578,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1579,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1580,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1581,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1582,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1583,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1584,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1585,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1586,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1587,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1588,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1589,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1590,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1591,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1592,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1593,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1594,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1595,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1596,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1597,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1598,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1599,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1600,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1601,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1602,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1603,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1604,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1605,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1606,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1607,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07042973837621666
+},
+{
+"tid": 1608,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1609,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1610,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1611,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1612,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1613,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1614,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1615,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1616,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1617,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1618,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1619,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1620,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704753786881406
+},
+{
+"tid": 1621,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1622,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1623,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1624,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1625,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1626,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1627,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1628,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1629,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1630,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1631,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1632,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1633,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1634,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1635,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1636,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1637,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1638,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1639,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1640,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1641,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1642,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1643,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1644,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1645,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1646,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1647,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1648,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1649,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1650,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1651,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07047537868814059
+},
+{
+"tid": 1652,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1653,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1654,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1655,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1656,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1657,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1658,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1659,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1660,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1661,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1662,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1663,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1664,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1665,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1666,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1667,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1668,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1669,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1670,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1671,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1672,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1673,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1674,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1675,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1676,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1677,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1678,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1679,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440233
+},
+{
+"tid": 1680,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1681,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1682,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1683,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1684,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1685,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1686,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1687,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1688,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440233
+},
+{
+"tid": 1689,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1690,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1691,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1692,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1693,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1694,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1695,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07039552392440235
+},
+{
+"tid": 1696,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1697,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1698,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1699,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1700,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1701,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1702,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1703,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1704,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1705,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1706,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1707,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1708,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1709,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1710,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1711,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1712,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1713,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1714,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1715,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1716,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1717,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1718,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1719,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1720,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1721,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1722,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1723,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1724,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1725,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1726,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1727,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1728,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1729,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1730,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925826
+},
+{
+"tid": 1731,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1732,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1733,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1734,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07038619499925827
+},
+{
+"tid": 1735,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1736,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1737,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1738,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1739,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1740,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1741,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1742,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1743,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1744,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1745,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1746,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1747,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1748,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1749,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1750,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1751,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1752,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1753,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1754,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1755,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1756,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1757,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1758,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1759,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1760,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1761,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1762,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1763,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1764,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1765,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1766,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1767,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1768,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1769,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1770,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1771,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1772,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1773,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1774,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1775,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1776,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044776842312764
+},
+{
+"tid": 1777,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1778,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1779,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1780,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1781,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1782,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1783,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1784,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1785,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1786,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1787,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1788,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1789,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1790,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1791,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1792,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1793,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1794,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1795,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1796,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1797,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1798,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1799,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1800,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1801,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1802,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1803,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1804,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1805,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1806,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1807,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1808,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1809,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1810,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1811,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1812,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1813,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1814,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1815,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1816,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1817,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705243437122861
+},
+{
+"tid": 1818,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1819,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1820,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1821,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1822,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1823,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1824,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1825,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06951728500140823
+},
+{
+"tid": 1826,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1827,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1828,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1829,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1830,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1831,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1832,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1833,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1834,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06927048228859888
+},
+{
+"tid": 1835,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06960267381865229
+},
+{
+"tid": 1836,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1837,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1838,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06951728500140823
+},
+{
+"tid": 1839,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0702953066802612
+},
+{
+"tid": 1840,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07054379629449374
+},
+{
+"tid": 1841,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07053819462156173
+},
+{
+"tid": 1842,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705372246374416
+},
+{
+"tid": 1843,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07036213663178612
+},
+{
+"tid": 1844,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037791582603488
+},
+{
+"tid": 1845,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048466054592285
+},
+{
+"tid": 1846,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.36126385239023373
+},
+{
+"tid": 1847,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0698290512924276
+},
+{
+"tid": 1848,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06992039381615583
+},
+{
+"tid": 1849,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07048232379937001
+},
+{
+"tid": 1850,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0701464537821202
+},
+{
+"tid": 1851,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041866679815194
+},
+{
+"tid": 1852,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0706908240321103
+},
+{
+"tid": 1853,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07032501612693584
+},
+{
+"tid": 1854,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07009914073079396
+},
+{
+"tid": 1855,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05787079625119164
+},
+{
+"tid": 1856,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07056580700034436
+},
+{
+"tid": 1857,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07054907332162454
+},
+{
+"tid": 1858,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07087579497973404
+},
+{
+"tid": 1859,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1860,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1861,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06911346642346894
+},
+{
+"tid": 1862,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1863,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1864,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1865,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1866,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1867,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06951728500140823
+},
+{
+"tid": 1868,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1869,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06970892594677779
+},
+{
+"tid": 1870,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1871,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1872,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1873,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037277526025226
+},
+{
+"tid": 1874,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037277526025226
+},
+{
+"tid": 1875,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1876,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1877,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1878,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1879,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1880,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1881,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1882,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1883,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07059481351221647
+},
+{
+"tid": 1884,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07027616862553167
+},
+{
+"tid": 1885,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07055853841476248
+},
+{
+"tid": 1886,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07049319215595283
+},
+{
+"tid": 1887,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07044220480249248
+},
+{
+"tid": 1888,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07021808380386481
+},
+{
+"tid": 1889,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07065677903100553
+},
+{
+"tid": 1890,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07017121390339798
+},
+{
+"tid": 1891,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07030795365284773
+},
+{
+"tid": 1892,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07014237366740929
+},
+{
+"tid": 1893,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.06996491169298487
+},
+{
+"tid": 1894,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07075487776763072
+},
+{
+"tid": 1895,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07057893645929826
+},
+{
+"tid": 1896,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07059065381172083
+},
+{
+"tid": 1897,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06959441202619882
+},
+{
+"tid": 1898,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06982842800849107
+},
+{
+"tid": 1899,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07085048948327631
+},
+{
+"tid": 1900,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06885792285158551
+},
+{
+"tid": 1901,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07205347152671408
+},
+{
+"tid": 1902,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037729381148937
+},
+{
+"tid": 1903,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1904,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1905,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1906,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1907,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.070401988595858
+},
+{
+"tid": 1908,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1909,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1910,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1911,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1912,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0698715188379438
+},
+{
+"tid": 1913,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1914,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1915,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1916,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1917,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1918,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037277526025226
+},
+{
+"tid": 1919,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1920,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1921,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1922,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1923,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1924,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1925,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1926,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1927,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07030218191916224
+},
+{
+"tid": 1928,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07050984261317135
+},
+{
+"tid": 1929,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704477601176982
+},
+{
+"tid": 1930,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07034438319666317
+},
+{
+"tid": 1931,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07049090483447114
+},
+{
+"tid": 1932,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.2384209487063312
+},
+{
+"tid": 1933,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.24000206587323578
+},
+{
+"tid": 1934,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07071100454162937
+},
+{
+"tid": 1935,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07072580977656297
+},
+{
+"tid": 1936,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07035065621083421
+},
+{
+"tid": 1937,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07014293252756953
+},
+{
+"tid": 1938,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07070220095673249
+},
+{
+"tid": 1939,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0698227558371955
+},
+{
+"tid": 1940,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07043824471513245
+},
+{
+"tid": 1941,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07056323725969851
+},
+{
+"tid": 1942,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07063547004496981
+},
+{
+"tid": 1943,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07072644841794726
+},
+{
+"tid": 1944,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0708601509273904
+},
+{
+"tid": 1945,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07032960102433385
+},
+{
+"tid": 1946,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05296921523855774
+},
+{
+"tid": 1947,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1948,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1949,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07041878935995749
+},
+{
+"tid": 1950,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1951,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1952,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1953,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1954,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995749
+},
+{
+"tid": 1955,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1956,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1957,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06884300999506775
+},
+{
+"tid": 1958,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1959,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07025929416686554
+},
+{
+"tid": 1960,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1961,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1962,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1963,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 1964,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995749
+},
+{
+"tid": 1965,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07050879261261743
+},
+{
+"tid": 1966,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07049682528146502
+},
+{
+"tid": 1967,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07033868056561851
+},
+{
+"tid": 1968,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045830432029848
+},
+{
+"tid": 1969,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07071889265781152
+},
+{
+"tid": 1970,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07057086197202743
+},
+{
+"tid": 1971,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07034601361960335
+},
+{
+"tid": 1972,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07005070330895112
+},
+{
+"tid": 1973,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07067945896122826
+},
+{
+"tid": 1974,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0704367825310263
+},
+{
+"tid": 1975,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07070008899734447
+},
+{
+"tid": 1976,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.42886624889715425
+},
+{
+"tid": 1977,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.0698874798485717
+},
+{
+"tid": 1978,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07055467893430774
+},
+{
+"tid": 1979,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07071935845473223
+},
+{
+"tid": 1980,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07082604658161584
+},
+{
+"tid": 1981,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07069629912417993
+},
+{
+"tid": 1982,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07057775722555502
+},
+{
+"tid": 1983,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07098382218686573
+},
+{
+"tid": 1984,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.05443556084148313
+},
+{
+"tid": 1985,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1986,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06926147778128292
+},
+{
+"tid": 1987,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1988,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1989,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1990,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 1991,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06926147778128292
+},
+{
+"tid": 1992,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0703521541307912
+},
+{
+"tid": 1993,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037695212192827
+},
+{
+"tid": 1994,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.3859065286044459
+},
+{
+"tid": 1995,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.41734108827665484
+},
+{
+"tid": 1996,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07043446046598092
+},
+{
+"tid": 1997,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0706290003820979
+},
+{
+"tid": 1998,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.3019948077807599
+},
+{
+"tid": 1999,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07032428727535195
+},
+{
+"tid": 2000,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07072395559847397
+},
+{
+"tid": 2001,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07052355501912347
+},
+{
+"tid": 2002,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.3215484252152186
+},
+{
+"tid": 2003,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07047387011736249
+},
+{
+"tid": 2004,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06330862691847236
+},
+{
+"tid": 2005,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06991668120566098
+},
+{
+"tid": 2006,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07021079175089302
+},
+{
+"tid": 2007,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0705555086048792
+},
+{
+"tid": 2008,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07040569927703448
+},
+{
+"tid": 2009,
+"obj_hit": false,
+"error": null,
+"basket_err": 0.07091688173370267
+},
+{
+"tid": 2010,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041486272342247
+},
+{
+"tid": 2011,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07082292616127081
+},
+{
+"tid": 2012,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995749
+},
+{
+"tid": 2013,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07032394719263833
+},
+{
+"tid": 2014,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 2015,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041878935995748
+},
+{
+"tid": 2016,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0693689888725375
+},
+{
+"tid": 2017,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07051169750419067
+},
+{
+"tid": 2018,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07043520120844506
+},
+{
+"tid": 2019,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0703512761168508
+},
+{
+"tid": 2020,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07053803172538142
+},
+{
+"tid": 2021,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07033985644188501
+},
+{
+"tid": 2022,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07037616042699223
+},
+{
+"tid": 2023,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07033308929941166
+},
+{
+"tid": 2024,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07017530592766676
+},
+{
+"tid": 2025,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07021804199502767
+},
+{
+"tid": 2026,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07023727604445805
+},
+{
+"tid": 2027,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0707353059602359
+},
+{
+"tid": 2028,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07035773743761287
+},
+{
+"tid": 2029,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07086146492070933
+},
+{
+"tid": 2030,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07043252058519667
+},
+{
+"tid": 2031,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06872669313194768
+},
+{
+"tid": 2032,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07009325102813564
+},
+{
+"tid": 2033,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06951091328839391
+},
+{
+"tid": 2034,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07085734907620266
+},
+{
+"tid": 2035,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07079927661084362
+},
+{
+"tid": 2036,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07015548279685883
+},
+{
+"tid": 2037,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2038,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2039,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2040,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2041,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2042,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2043,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2044,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06926147778128292
+},
+{
+"tid": 2045,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06964459560229598
+},
+{
+"tid": 2046,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06949539868947295
+},
+{
+"tid": 2047,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06951728500140823
+},
+{
+"tid": 2048,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2049,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2050,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2051,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2052,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2053,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2054,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.06960267381865229
+},
+{
+"tid": 2055,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2056,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2057,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2058,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2059,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2060,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2061,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045444646959298
+},
+{
+"tid": 2062,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07052288805198527
+},
+{
+"tid": 2063,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07033803950980527
+},
+{
+"tid": 2064,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.29018937843354453
+},
+{
+"tid": 2065,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.3001769616662935
+},
+{
+"tid": 2066,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07008938983215515
+},
+{
+"tid": 2067,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07041439651185905
+},
+{
+"tid": 2068,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.41887389027535527
+},
+{
+"tid": 2069,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07065702943990648
+},
+{
+"tid": 2070,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07062261897599972
+},
+{
+"tid": 2071,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07045269859902484
+},
+{
+"tid": 2072,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07043100323208673
+},
+{
+"tid": 2073,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0703558393215976
+},
+{
+"tid": 2074,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.07078596090772461
+},
+{
+"tid": 2075,
+"obj_hit": true,
+"error": null,
+"basket_err": 0.0694547708050694
+}
+]
