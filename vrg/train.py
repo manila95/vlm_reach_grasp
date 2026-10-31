@@ -7,6 +7,7 @@
 import argparse, json, os, time, copy
 import numpy as np, torch
 from vrg.policy import DiffusionPolicy
+from vrg.augment import augment
 
 ap = argparse.ArgumentParser()
 ap.add_argument("--mode", choices=["local", "full", "saycan", "hamster"], required=True)
@@ -18,11 +19,14 @@ ap.add_argument("--cams", default="agent,wrist")
 ap.add_argument("--pre", type=int, default=None, help="local: start the slice this many steps before the grasp (default: dataset ts = 20)")
 ap.add_argument("--post", type=int, default=6, help="local: extra steps past lift included")
 ap.add_argument("--mask_xy", action="store_true", help="drop absolute EEF x,y from proprio (egocentric policy)")
+ap.add_argument("--aug", default="none", choices=["none", "photo", "conv", "photo_conv"], help="image augmentation (vrg/augment.py)")
+ap.add_argument("--img_norm", action="store_true", help="per-image channel standardisation in the encoder (train and test)")
+ap.add_argument("--seed", type=int, default=0)
 ap.add_argument("--out", required=True)
 ap.add_argument("--device", default="cuda:0")
 A = ap.parse_args()
 os.makedirs(A.out, exist_ok=True); json.dump(vars(A), open(f"{A.out}/args.json", "w"), indent=1)
-dev = torch.device(A.device); torch.manual_seed(0); np.random.seed(0)
+dev = torch.device(A.device); torch.manual_seed(A.seed); np.random.seed(A.seed)
 cams = tuple(A.cams.split(","))
 
 Z = np.load("data/libero_object.npz"); meta = json.load(open("data/libero_object_meta.json"))
@@ -51,7 +55,7 @@ stats = {"action_min": G["action"][sel].min(0).values.cpu(), "action_max": G["ac
          "proprio_min": G["proprio"][sel].min(0).values.cpu(), "proprio_max": G["proprio"][sel].max(0).values.cpu()}
 torch.save(stats, f"{A.out}/stats.pt")
 
-pol = DiffusionPolicy(stats, n_obs=NO, horizon=H, n_tasks={"full": 10, "saycan": 11}.get(A.mode, 0), cams=cams).to(dev)
+pol = DiffusionPolicy(stats, n_obs=NO, horizon=H, n_tasks={"full": 10, "saycan": 11}.get(A.mode, 0), cams=cams, img_norm=A.img_norm).to(dev)
 ema = copy.deepcopy(pol).eval(); [p.requires_grad_(False) for p in ema.parameters()]
 opt = torch.optim.AdamW(pol.parameters(), lr=A.lr, weight_decay=1e-6)
 sched = torch.optim.lr_scheduler.LambdaLR(opt, lambda s: min(1, s / 500) * 0.5 * (1 + np.cos(np.pi * s / A.steps)))
@@ -63,12 +67,16 @@ def batch(bs):
     t, s, e = idx[j], starts[j], ends[j]
     to = (t[:, None] + torch.arange(-(NO - 1), 1, device=dev)).clamp(min=s[:, None])  # obs frames
     ta = (t[:, None] + torch.arange(-(NO - 1), H - NO + 1, device=dev)).clamp(min=s[:, None], max=e[:, None] - 1)
-    obs = {c: G[c][to] for c in cams}; obs["proprio"] = G["proprio"][to]; obs["tid"] = conds[j]
+    obs = {c: G[c][to] if A.aug == "none" else augment(G[c][to], A.aug) for c in cams}; obs["proprio"] = G["proprio"][to]; obs["tid"] = conds[j]
     return obs, G["action"][ta]
 
 
-t0 = time.time(); log = open(f"{A.out}/log.txt", "a")
-for step in range(1, A.steps + 1):
+t0 = time.time(); log = open(f"{A.out}/log.txt", "a"); step0 = 1
+if os.path.exists(f"{A.out}/state.pt"):                # resume
+    st = torch.load(f"{A.out}/state.pt", map_location=dev, weights_only=False)
+    pol.load_state_dict(st["pol"]); ema.load_state_dict(st["ema"]); opt.load_state_dict(st["opt"]); sched.load_state_dict(st["sched"])
+    step0 = st["step"] + 1; print("resumed at", step0, flush=True)
+for step in range(step0, A.steps + 1):
     obs, act = batch(A.bs)
     with torch.autocast("cuda", dtype=torch.bfloat16):
         loss = pol.loss(obs, act)
@@ -82,3 +90,4 @@ for step in range(1, A.steps + 1):
         print(msg, flush=True); log.write(msg + "\n"); log.flush()
     if step % 20000 == 0 or step == A.steps:
         torch.save({"ema": ema.state_dict(), "args": vars(A)}, f"{A.out}/ckpt.pt")
+        torch.save({"pol": pol.state_dict(), "ema": ema.state_dict(), "opt": opt.state_dict(), "sched": sched.state_dict(), "step": step}, f"{A.out}/state.pt")

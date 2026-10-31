@@ -23,9 +23,9 @@ class SpatialSoftmax(nn.Module):
 
 
 class ImageEncoder(nn.Module):
-    def __init__(self, out=128, crop=116):
+    def __init__(self, out=128, crop=116, img_norm=False):
         super().__init__()
-        self.crop = crop
+        self.crop = crop; self.img_norm = img_norm   # img_norm: per-image, per-channel standardisation (removes global light)
         self.net = nn.Sequential(resnet18_gn(), SpatialSoftmax(512, 32), nn.Linear(64, out), nn.ReLU())
 
     def forward(self, x):  # x uint8 B,H,W,3
@@ -36,7 +36,8 @@ class ImageEncoder(nn.Module):
             x = x[..., i:i + c, j:j + c]
         else:
             o = (H - c) // 2; x = x[..., o:o + c, o:o + c]
-        x = (x - 0.5) / 0.25
+        if self.img_norm: x = (x - x.mean(dim=(2, 3), keepdim=True)) / (x.std(dim=(2, 3), keepdim=True) + 1e-3)
+        else: x = (x - 0.5) / 0.25
         return self.net(x)
 
 
@@ -89,10 +90,10 @@ class UNet1D(nn.Module):
 
 
 class DiffusionPolicy(nn.Module):
-    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist"), text_dim=0, crop=116):
+    def __init__(self, stats, n_obs=2, horizon=16, n_act=8, adim=7, pdim=8, n_tasks=0, cams=("agent", "wrist"), text_dim=0, crop=116, img_norm=False):
         super().__init__()
         self.n_obs, self.horizon, self.n_act, self.cams = n_obs, horizon, n_act, cams
-        self.enc = nn.ModuleDict({c: ImageEncoder(crop=crop) for c in cams})
+        self.enc = nn.ModuleDict({c: ImageEncoder(crop=crop, img_norm=img_norm) for c in cams})
         self.task_emb = nn.Embedding(n_tasks, 64) if n_tasks else None
         self.text_proj = nn.Sequential(nn.Linear(text_dim, 128), nn.Mish(), nn.Linear(128, 64)) if text_dim else None
         cdim = n_obs * (128 * len(cams) + pdim) + (64 if n_tasks else 0) + (64 if text_dim else 0)

@@ -37,11 +37,14 @@ def shuffle_layout(env, seed, language):
     env.sim.forward()
 
 
-def reset_episode(env, tid, ep, shuffle=False):
+def reset_episode(env, tid, ep, shuffle=False, perturb=None):
     env.reset()
     obs = env.set_init_state(get_suite().get_task_init_states(tid)[ep])
     if shuffle:
         shuffle_layout(env, 7919 * tid + ep, get_suite().get_task(tid).language)
+    if perturb:                                  # appearance-only dev perturbations (vrg/perturb.py), seeded per episode
+        from vrg.perturb import perturb_scene
+        perturb_scene(env, perturb, 104729 * tid + ep + 1)
     for _ in range(SETTLE):
         obs, *_ = env.step(DUMMY)
     return obs
@@ -103,7 +106,8 @@ class PolicyRunner:
         ck = torch.load(ckpt, map_location=device, weights_only=False)
         stats = torch.load(os.path.join(os.path.dirname(ckpt), "stats.pt"))
         a = ck["args"]; self.cams = tuple(a["cams"].split(","))
-        self.pol = DiffusionPolicy(stats, n_tasks={"full": 10, "saycan": 11}.get(a["mode"], 0), cams=self.cams).to(device)
+        self.pol = DiffusionPolicy(stats, n_tasks={"full": 10, "saycan": 11}.get(a["mode"], 0), cams=self.cams,
+                                   img_norm=a.get("img_norm", False)).to(device)
         self.mode = a["mode"]; self.path_uv = None
         self.pol.load_state_dict(ck["ema"]); self.pol.eval(); self.dev = device
         self.mask_xy = a.get("mask_xy", False)

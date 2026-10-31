@@ -95,5 +95,11 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - **Lesson for the segment study:** the local skill must be visually robust, not only spatially local.
   - A grounding shard crashed on a random "Cannot place all objects" scene error and was resumed.
 
+- **E0 attribution on a fixed LIBERO-Plus dev split (505 tasks).** GT grounding + scripted grasp: 98% (π0.5 89%); GT + learned skill: 82%; current system: 70%.
+  - Light: GT + learned 5% vs GT + scripted 100%, so the skill's perception is the cause (not the handoff: its error is 1.6 cm, as in successes).
+  - Camera, layout and language losses are grounding.
+  - Plan: `docs/PLAN_perceptual_robustness.md`. Augmentation (photometric, RandConv, per-image normalisation) and our own light/texture perturbation dev set (`vrg/perturb.py`) are running.
+  - Standard LIBERO was re-cloned to /scratch (`env.sh`: `LIBERO_CONFIG_PATH`), since the old copy lived in the deleted Spatial-Forcing folder.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

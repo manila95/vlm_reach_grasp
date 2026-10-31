@@ -146,3 +146,23 @@ Prediction under H1: on Light, B ≈ A (low) while C ≫ A. If not, I1 is not th
 | E4 | one 2,000-task test run |
 
 Total ≈ 1.5–2 days of compute alongside the running queues.
+
+## Results log
+
+**E0, attribution (2026-10-31; LIBERO-Plus dev split, 505 tasks; success %):**
+
+| Category | A VLM + learned | B GT + learned | C VLM + scripted | D GT + scripted | π0.5 |
+|---|---|---|---|---|---|
+| Light | 2 | 5 | 20 | 100 | 100 |
+| Background | 24 | 45 | 47 | 100 | 98 |
+| Camera | 70 | 99 | 52 | 100 | 89 |
+| Layout | 73 | 93 | 62 | 87 | 87 |
+| Language | 90 | 99 | 82 | 100 | 92 |
+| Robot init | 99 | 99 | 82 | 99 | 65 |
+| Sensor noise | 100 | 100 | 82 | 100 | 96 |
+| **All** | **70** | **82** | **63** | **98** | **89** |
+
+- **I1 is confirmed.** With perfect grounding the learned skill still gets 5% under light (scripted 100%) and 45% under background (scripted 100%).
+- **Grounding costs 12 points overall** (A→B), and all of Camera (70→99), Layout (73→93) and Language (90→99). Camera is a grounding problem, not a skill problem.
+- **The robot side is not the limit.** With perfect perception the modular system scores 98%, above π0.5's 89%. The whole gap to π0.5 is perception: grounding plus the skill's appearance robustness.
+- **The learned skill still beats the scripted grasp under VLM noise** (A 70 vs C 63), as on LIBERO. So the goal is to make it robust, not to replace it.
