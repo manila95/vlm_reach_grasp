@@ -211,3 +211,14 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 
 - I3 is solved at its root. The median is pulled toward the camera-facing side, so it needs a calibration that only holds for one viewpoint. The box centre is unbiased and viewpoint-invariant, so no calibration is needed.
 - Decision: use the box centre for both targets (G4). It is to be confirmed on the LIBERO-Plus dev split, since its camera changes and clutter are larger than our orbit.
+
+**E3, verification on own dev scenes:** every scheme (G0–G3) picks the right basket 100% and the right object 98–100% under light, texture and both. Our perturbations do not reproduce the LIBERO-Plus basket failure, so verification is not its cause.
+
+**I2 root cause (diagnosis on 5 LIBERO-Plus dev light scenes; not tuning):**
+- The basket estimate is identical across the five lightings, so lighting does not cause it.
+- In these layouts two small items stand in front of the robot's pedestal. In the depth proposals they merge with it into 25 cm-tall clusters, and the VLM picks one of those crops as "the basket". The real basket is proposed correctly.
+- Fix, **grounding v6**: a robot self-filter (the robot's own pixels removed before proposing; on a real arm, the standard model-based self-filter) and box centres (E3b).
+- On the failing scene, v6 proposals are clean and the basket proposal lands 0.1 cm from the truth.
+- Queued:
+  - v6 re-grounding of standard (calibration, eval, shuffled) and all LIBERO-Plus scenes;
+  - E4a, the v5 skill with v6 grounding on the dev split, which isolates the grounding gain.
