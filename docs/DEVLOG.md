@@ -101,5 +101,7 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - Plan: `docs/PLAN_perceptual_robustness.md`. Augmentation (photometric, RandConv, per-image normalisation) and our own light/texture perturbation dev set (`vrg/perturb.py`) are running.
   - Standard LIBERO was re-cloned to /scratch (`env.sh`: `LIBERO_CONFIG_PATH`), since the old copy lived in the deleted Spatial-Forcing folder.
 
+- **LIBERO-Plus baselines.** π0-LIBERO is complete at 52.1% (paper: 53.6 over four suites), after a client retry fix (5/8 shards had died on a handshake timeout). π0-FAST is excluded: malformed action tokens on our Blackwell/JAX setup, 0/5 even on standard scenes.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

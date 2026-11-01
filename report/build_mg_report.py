@@ -140,11 +140,11 @@ C.append(md(r"""---
 * **Released checkpoints, evaluated as is** (no training on our side):
   * π0.5-, π0- and π0-FAST-LIBERO via openpi, with a client identical to openpi's LIBERO example.
   * SmolVLA-LIBERO (`HuggingFaceVLA/smolvla_libero`, 0.45 B) and MolmoAct2-LIBERO (`allenai/MolmoAct2-LIBERO-LeRobot`) via LeRobot. A small server (`vrg/lplus/lerobot_server.py`) replays lerobot-eval's exact observation and processor chain. MolmoAct2 uses its recommended 50-step settle.
+  * π0-FAST-LIBERO is **excluded**. On our GPUs (Blackwell, JAX 0.5.3) its server returns malformed action tokens ("Error decoding tokens"), and it scores 0/5 even on standard LIBERO-Object scenes (published ≈ 96%). π0 and π0.5 run correctly through the same client.
   * Check of the client on the 10 standard LIBERO-Object tasks (2 initial states each, `vrg/lplus/std_check.py`): SmolVLA 17/20 (published ≈ 90%), MolmoAct2 20/20.
 * **Ours:** the LIBERO-Object v5 system (VLM handoff + egocentric local grasp + scripted transport), with grounding recomputed on each perturbed scene and the standard-scene calibration (strict zero-shot)."""))
 C.append(code(r"""LP = f'{ROOT}/runs/liberoplus'
-LPM = [('π0.5-LIBERO (openpi)', 'pi05_libero'), ('π0-LIBERO (openpi)', 'pi0_libero'), ('π0-FAST-LIBERO (openpi)', 'pi0_fast_libero'),
-       ('SmolVLA-LIBERO (LeRobot)', 'smolvla_libero'), ('MolmoAct2-LIBERO (LeRobot)', 'molmoact2_libero'), ('Ours (VLM + reach + local grasp)', 'ours')]
+LPM = [('π0.5-LIBERO (openpi)', 'pi05_libero'), ('π0-LIBERO (openpi)', 'pi0_libero'), ('SmolVLA-LIBERO (LeRobot)', 'smolvla_libero'), ('MolmoAct2-LIBERO (LeRobot)', 'molmoact2_libero'), ('Ours (VLM + reach + local grasp)', 'ours')]
 CATS = ['Objects Layout', 'Camera Viewpoints', 'Robot Initial States', 'Language Instructions', 'Light Conditions', 'Background Textures', 'Sensor Noise']
 rows = []
 for lab, name in LPM:
