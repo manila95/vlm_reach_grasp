@@ -45,7 +45,7 @@ def main():
                 else: dr[v - 1].append(np.stack(frames))
             restore_scene(env); idx.append(gidx)
         env.close(); print(tid, t.language, "clean re-render vs dataset: mean abs diff", round(np.mean(diffs[-len(ms):]), 2), flush=True)
-    np.savez(A.out, idx=np.concatenate(idx), wrist_dr=np.stack([np.concatenate(x) for x in dr]), depth=np.concatenate(dep), kinds=np.array(KINDS))
+    np.savez(A.out, idx=np.concatenate(idx), wrist_dr=np.stack([np.concatenate(x) for x in dr]), depth=np.stack(dep), kinds=np.array(KINDS))
     print("RERENDER DONE", len(np.concatenate(idx)), "frames; clean diff mean", np.mean(diffs), flush=True)
 
 

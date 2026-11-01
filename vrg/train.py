@@ -59,7 +59,7 @@ if A.dr or "wdepth" in cams:                              # re-rendered views / 
     DRMAP = torch.full((len(Z["action"]),), -1, dtype=torch.long, device=dev); DRMAP[torch.from_numpy(RR["idx"]).to(dev)] = torch.arange(len(RR["idx"]), device=dev)
     if A.dr: G["wrist_dr"] = torch.from_numpy(RR["wrist_dr"]).to(dev)                        # (K, n, H, W, 3)
     if "wdepth" in cams:
-        G["wdepth"] = torch.from_numpy(encode_depth(RR["depth"])).to(dev)                 # (n, H, W, 3), indexed via DRMAP
+        G["wdepth"] = torch.from_numpy(encode_depth(np.asarray(RR["depth"]).reshape(-1, 128, 128))).to(dev)                 # (n, H, W, 3), indexed via DRMAP
     assert A.mode == "local", "re-render data covers only the local slices"
     need = torch.maximum(idx - 1, starts)
     assert (DRMAP[idx] >= 0).all() and (DRMAP[need] >= 0).all(), "re-render does not cover every sampled frame (check --post)"
