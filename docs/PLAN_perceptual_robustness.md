@@ -181,3 +181,20 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - Background mixes the skill (96) and the basket (59 carried but not placed; basket error 23 cm).
 - Camera mixes wrong-object grounding (54) and an unexplained place miss with the right object (73; basket error only 3.5 cm). That needs videos (I5).
 - Language failures are mostly grounding (30 wrong object).
+
+**E2, wave 1 (own dev set, GT grounding, 200 episodes per cell; 2026-11-01):**
+
+| Skill | Clean | Light | Texture | Both |
+|---|---|---|---|---|
+| v5 | 99.0 | 33.0 | 27.0 | 12.5 |
+| photo | 91.5 | 95.5 | 77.5 | 80.0 |
+| conv | 87.5 | 90.0 | 82.5 | 75.5 |
+| photo+conv | 94.5 | 93.5 | 84.5 | 83.5 |
+| norm | **99.0** | 95.0 | 80.0 | 68.0 |
+| norm+photo | 96.0 | 97.0 | 80.0 | 74.5 |
+| re-render (dr) | 89.5 | 91.5 | 93.0 | **94.0** |
+
+- Every variant fixes most of the light failure.
+- Only norm passes the clean gate (v5 CI 96.4–99.7).
+- The clean drops are concentrated in milk (task 7): a tall carton that catches the basket rim at release, depending on grasp height. Milk is fragile for every skill (v5 25–55% under perturbation). So single-seed differences are inflated.
+- Before deciding: second seeds of norm, photo+conv and dr. Still to come: dr+photo, depth, RGB-D, norm+dr. The depth runs were relaunched after a shape bug.
