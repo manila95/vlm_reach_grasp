@@ -178,7 +178,7 @@ def build_parser():
     ap = argparse.ArgumentParser()
     ap.add_argument("--method", required=True, choices=["hier_vlm", "hier_scripted", "full", "saycan", "hamster"])
     ap.add_argument("--shuffle", action="store_true", help="OOD: permute object positions")
-    ap.add_argument("--perturb", default=None, choices=["light", "texture", "both"], help="appearance dev perturbation (vrg/perturb.py)")
+    ap.add_argument("--perturb", default=None, choices=["light", "texture", "both", "camera"], help="appearance / viewpoint dev perturbation (vrg/perturb.py)")
     ap.add_argument("--calib", default=None, help="grounding file whose calibration scenes define the bias (default: --grounding)")
     ap.add_argument("--hires", type=int, default=0, help="also save presentation videos at this resolution")
     ap.add_argument("--eps", default="", help="comma-separated episode indices (overrides the eval list)")

@@ -7,6 +7,8 @@ or assets are used), so selecting on these scenes does not tune on the LIBERO-Pl
   texture: table / floor / wall materials: plain random colour (texture removed), or their texture swapped among the
            scene's surface textures, each tinted by a random colour; texture repeat x U(0.5, 3)
   both:    light + texture
+  camera:  the agentview camera orbits a point 1 m along its line of sight: yaw U(-25, 25) deg, elevation U(-10, 10) deg,
+           distance x U(0.85, 1.15) (geometry of the grounding view only; the wrist camera is unchanged)
 """
 import numpy as np
 
@@ -18,7 +20,8 @@ def _tint(rng, lo=0.7, hi=1.3):
     c = rng.uniform(lo, hi, 3); return c / c.max()
 
 
-FIELDS = ("light_diffuse", "light_ambient", "light_specular", "light_dir", "light_castshadow", "mat_rgba", "mat_texid", "mat_texrepeat")
+FIELDS = ("light_diffuse", "light_ambient", "light_specular", "light_dir", "light_castshadow", "mat_rgba", "mat_texid", "mat_texrepeat",
+          "cam_pos", "cam_quat")
 
 
 def _model(env):
@@ -50,6 +53,15 @@ def perturb_scene(env, kind, seed):
             mm.light_dir[i] = [np.sin(th) * np.cos(ph), np.sin(th) * np.sin(ph), -np.cos(th)]
             mm.light_castshadow[i] = rng.random() < 0.5
         s = rng.uniform(0.3, 1.5); mm.vis.headlight.ambient[:] = B["hl"][0] * s; mm.vis.headlight.diffuse[:] = B["hl"][1] * s
+    if kind == "camera":
+        from scipy.spatial.transform import Rotation as Rot
+        i = mujoco.mj_name2id(mm, mujoco.mjtObj.mjOBJ_CAMERA, "agentview")
+        pos = B["cam_pos"][i].copy(); q = B["cam_quat"][i]; R = Rot.from_quat([q[1], q[2], q[3], q[0]])
+        fwd = R.apply([0, 0, -1]); piv = pos + 1.0 * fwd
+        yaw = Rot.from_euler("z", rng.uniform(-25, 25), degrees=True)
+        right = R.apply([1, 0, 0]); el = Rot.from_rotvec(right * np.deg2rad(rng.uniform(-10, 10)))
+        Rn = yaw * el; off = Rn.apply(pos - piv) * rng.uniform(0.85, 1.15)
+        mm.cam_pos[i] = piv + off; x, y, z, w = (Rn * R).as_quat(); mm.cam_quat[i] = [w, x, y, z]
     if kind in ("texture", "both"):
         tex = [mujoco.mj_name2id(mm, mujoco.mjtObj.mjOBJ_TEXTURE, n) for n in SURF_TEX]; tex = [t for t in tex if t >= 0]
         for n in SURF_MATS:
