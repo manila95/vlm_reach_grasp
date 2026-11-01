@@ -66,11 +66,14 @@ def backproject(depth, K, T):
     return (P @ T.T)[..., :3]
 
 
-def propose(depth, K, T, z_floor=0.004, z_max=0.25, cell=0.006, min_px=150):
-    """Class-agnostic object proposals: points above the floor plane, clustered in a bird's-eye occupancy grid."""
+def propose(depth, K, T, z_floor=0.004, z_max=0.25, cell=0.006, min_px=150, exclude=None, center="median"):
+    """Class-agnostic object proposals: points above the floor plane, clustered in a bird's-eye occupancy grid.
+    Grounding v6 (docs/PLAN_perceptual_robustness.md): exclude = robot self-filter mask; center="box" = bird's-eye box
+    centre, which is unbiased and viewpoint-invariant (the median is pulled 7 cm toward the camera-facing side)."""
     from scipy import ndimage
     P = backproject(depth, K, T)
     m = (P[..., 2] > z_floor) & (P[..., 2] < z_max) & (np.abs(P[..., 0]) < 0.45) & (np.abs(P[..., 1]) < 0.45)
+    if exclude is not None: m &= ~exclude
     ij = np.floor((P[..., :2] + 0.45) / cell).astype(int); n = int(0.9 / cell) + 1
     occ = np.zeros((n, n), bool); occ[ij[m][:, 0], ij[m][:, 1]] = True
     lab, k = ndimage.label(ndimage.binary_closing(occ, iterations=1))
@@ -80,7 +83,8 @@ def propose(depth, K, T, z_floor=0.004, z_max=0.25, cell=0.006, min_px=150):
         vs, us = np.nonzero(pix_lab == c)
         if len(vs) < min_px: continue
         pts = P[vs, us]
-        props.append(dict(box=[us.min(), vs.min(), us.max(), vs.max()], xy=np.median(pts[:, :2], 0),
+        xy = (pts[:, :2].min(0) + pts[:, :2].max(0)) / 2 if center == "box" else np.median(pts[:, :2], 0)
+        props.append(dict(box=[us.min(), vs.min(), us.max(), vs.max()], xy=xy,
                           top=np.percentile(pts[:, 2], 98), npx=len(vs), extent=np.ptp(pts[:, :2], 0)))
     return props
 
@@ -107,8 +111,8 @@ def yes_score(self, img, text):
 Grounder.yes_score = yes_score
 
 
-def ground_propose_verify(g, img, depth, K, T, name):
-    props = propose(depth, K, T)
+def ground_propose_verify(g, img, depth, K, T, name, exclude=None, center="median"):
+    props = propose(depth, K, T, exclude=exclude, center=center)
     q = ('This is a close-up of one item in a robot workspace. Is this item the %s? '
          'Read any label on the packaging. Answer Yes or No.' % name)
     for p in props:

@@ -57,6 +57,19 @@ def render_rgbd(env, cam="agentview", res=VLM_RES):
     return rgb[::-1].copy(), depth[::-1].copy(), CU.get_camera_intrinsic_matrix(env.sim, cam, res, res), CU.get_camera_extrinsic_matrix(env.sim, cam)
 
 
+ROBOT_PREFIXES = ("robot0_", "gripper0_", "mount0_")
+
+
+def robot_mask(env, cam="agentview", res=VLM_RES):
+    """Pixels showing the robot itself (arm, gripper, mount), as render_rgbd's image: the robot self-filter of grounding v6.
+    On a real arm this is the standard self-filter from the robot model and joint angles; in sim it is a segmentation render."""
+    import mujoco
+    seg = env.sim.render(width=res, height=res, camera_name=cam, segmentation=True)[::-1]
+    m = env.sim.model; mm = m._model if hasattr(m, "_model") else m
+    ids = [i for i in range(mm.ngeom) if (mujoco.mj_id2name(mm, mujoco.mjtObj.mjOBJ_GEOM, i) or "").startswith(ROBOT_PREFIXES)]
+    return (seg[..., 0] == int(mujoco.mjtObj.mjOBJ_GEOM)) & np.isin(seg[..., 1], ids)
+
+
 def unproject(depth, K, T, u, v, r=2):
     d = float(np.median(depth[int(v) - r:int(v) + r + 1, int(u) - r:int(u) + r + 1]))
     return (T @ np.array([(u - K[0, 2]) * d / K[0, 0], (v - K[1, 2]) * d / K[1, 1], d, 1]))[:3]

@@ -9,13 +9,14 @@ handled. Ground truth is stored for analysis only. Output: <out>/ground_<lo>_<hi
 import argparse, os, pickle, time
 import numpy as np
 from vrg.common import get_suite, make_env, target_name
-from vrg.pipeline import reset_episode, render_rgbd
+from vrg.pipeline import reset_episode, render_rgbd, robot_mask
 from vrg.vlm import Grounder, ground_propose_verify
 
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--tasks", required=True); ap.add_argument("--model", default="Qwen/Qwen3-VL-8B-Instruct")
-    ap.add_argument("--device", default="cuda:0"); ap.add_argument("--out", required=True); A = ap.parse_args()
+    ap.add_argument("--device", default="cuda:0")
+    ap.add_argument("--v6", action="store_true", help="grounding v6: robot self-filter + box centres (docs/PLAN_perceptual_robustness.md)"); ap.add_argument("--out", required=True); A = ap.parse_args()
     lo, hi = map(int, A.tasks.split("-")); os.makedirs(A.out, exist_ok=True); f = f"{A.out}/ground_{lo}_{hi}.pkl"
     res = pickle.load(open(f, "rb")) if os.path.exists(f) else {}
     g = Grounder(A.model, device=A.device); suite = get_suite()
@@ -26,13 +27,13 @@ def main():
             env, t = make_env(tid)
             pick, place, raw = g.parse_target(t.language)
             obs = reset_episode(env, tid, 0)
-            img, depth, K, T = render_rgbd(env)
+            img, depth, K, T = render_rgbd(env); V6 = dict(exclude=robot_mask(env), center="box") if A.v6 else {}
             tgt = target_name(t.name) + "_1"
             r = dict(tid=tid, ep=0, pick=pick, place=place, calib=False, language=t.language, name=t.name,
                      gt_obj=obs[tgt + "_pos"].copy() if tgt + "_pos" in obs else None, gt_basket=obs.get("basket_1_pos"),
                      gt_all={k[:-4]: obs[k].copy() for k in obs if k.endswith("_pos") and "_to_" not in k and not k.startswith("robot")})
             for key, name in (("obj", pick), ("basket", place)):
-                best, props = ground_propose_verify(g, img, depth, K, T, name)
+                best, props = ground_propose_verify(g, img, depth, K, T, name, **V6)
                 r[key + "_box"] = [float(x) for x in best["box"]] if best else None
                 r[key] = np.array([*best["xy"], best["top"] / 2]) if best else None
             cands = {k: v for k, v in r["gt_all"].items() if k != "basket_1"}
