@@ -198,3 +198,16 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - Only norm passes the clean gate (v5 CI 96.4–99.7).
 - The clean drops are concentrated in milk (task 7): a tall carton that catches the basket rim at release, depending on grasp height. Milk is fragile for every skill (v5 25–55% under perturbation). So single-seed differences are inflated.
 - Before deciding: second seeds of norm, photo+conv and dr. Still to come: dr+photo, depth, RGB-D, norm+dr. The depth runs were relaunched after a shape bug.
+
+**E3b, basket/object centre estimators (own dev scenes, depth only; residual xy error after each estimator's clean-scene bias):**
+
+| Target | Estimator | Bias | Clean (median) | Camera orbit (median / p90) |
+|---|---|---|---|---|
+| Basket | median of points (current) | 7.1 cm | 0.0 cm | 0.5 / 2.7 cm |
+| Basket | bird's-eye box centre | 0.1 cm | 0.0 cm | 0.1 / 0.1 cm |
+| Basket | rim-band box centre | 0.1 cm | 0.0 cm | 0.1 / 0.1 cm |
+| Object | median | 1.6 cm | 0.5 cm | 0.6 / 1.1 cm |
+| Object | box centre | 0.1 cm | 0.1 cm | 0.1 / 0.2 cm |
+
+- I3 is solved at its root. The median is pulled toward the camera-facing side, so it needs a calibration that only holds for one viewpoint. The box centre is unbiased and viewpoint-invariant, so no calibration is needed.
+- Decision: use the box centre for both targets (G4). It is to be confirmed on the LIBERO-Plus dev split, since its camera changes and clutter are larger than our orbit.
