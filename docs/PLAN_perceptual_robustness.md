@@ -278,3 +278,19 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
   - With only the wrist view, colour randomisation seems to remove the fine cues the insertion relies on.
 - To confirm before concluding: a seed-1 replication (queued), the missing Square cells (GPU OOM, re-running), and possibly the re-render recipe, which kept clean precision on LIBERO.
 - The v7 run's grounding shards failed (OOM, segfault) and were repaired. Gate so far: shuffled 82.5% (v5 78); standard pending. The test split runs only after both gates.
+
+## E8: grounding study (requested 2026-11-02)
+
+**Question 1: is grounding really the main remaining failure?** Control queued: the selected skill with GT grounding on the dev split (E0 condition B with the new skill). The gap between it and the 80% system is the grounding share; the gap from it to 98% (GT + scripted) is the skill's.
+
+**Question 2: which models and strategies ground best?** All scored offline on cached dev scenes (identical image, depth, v6 proposals; GT for scoring only).
+- Models:
+  - Qwen3-VL 2B / 4B / 8B / 32B (local);
+  - Gemini Robotics-ER 2 preview, Gemini 3.8 Flash, Gemini 3.1 Pro preview, Gemini 4 Argon, Gemma 4 31B (API).
+- Strategies:
+  - **verify** (current, Qwen only);
+  - **marks** (numbered boxes plus the full instruction);
+  - **recursive**: ranked marks, then zoomed-crop rounds with the full instruction until two rounds agree, else a majority of three.
+- Size cascades (escalate 2B → 8B → 32B when a model's strategies disagree) are computed offline from the per-model results.
+- Metrics: pick / place accuracy per category, calls and seconds per scene.
+- The best method then runs closed-loop on the dev split. A test-split run of a new grounding is reported separately from v7, with its selection done on dev only.
