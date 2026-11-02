@@ -310,3 +310,28 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - Grounding is now 16 of the remaining 18 points (96 → 80). The skill costs 2 (98 → 96).
 - Its 22 GT-grounding failures are mostly minor place misses.
 - With perfect grounding the system beats π0.5 (89). Improving grounding (E8) is the lever.
+
+**Attribution method and noise floor (2026-11-02).**
+Two views of every system's losses on the dev split:
+1. Controlled swaps: VLM loss = (skill + GT) − system; skill and robot loss = 100 − (skill + GT).
+2. Per-episode blame from logged positions. In order:
+   - wrong object chosen → VLM;
+   - basket off by more than 5 cm → VLM;
+   - nothing or a neighbour grasped with correct positions → skill;
+   - otherwise transport / release.
+
+v7 (dev, one run): 55 failures = 19 VLM wrong object + 15 VLM basket (language, parser v2 receptacle phrases) + **0 skill** + 21 with near-perfect positions (≤ 0.4 cm, height too).
+
+Replicates on the 80 camera tasks:
+
+| Run | Success | Right-object fails | Wrong-object fails |
+|---|---|---|---|
+| v7 run 1 | 79% | 11 | 6 |
+| v7 run 2 | 89% | 2 | 6 |
+| v7 run 3 | 90% | 1 | 6 |
+| GT run 1 | 98% | 2 | 0 |
+| GT run 2 | 94% | 5 | 0 |
+
+- Right-object failures are run-to-run noise. They land on different tasks each run; the floor is 1–6% per category per run (unseeded diffusion sampling, contact physics).
+- Wrong-object failures repeat exactly (deterministic grounding), so they are the VLM's.
+- Final attribution averages replicates; single runs can swing a category by about 10 points.
