@@ -120,14 +120,14 @@ def run_scene(be, strategy, sc, rng):
         ranked, pl, r1 = marks_round(be, sc, order, ranked=True); calls = 1
         if not ranked: return None, pl, calls, {"raw": r1[-300:]}
         cands = list(dict.fromkeys(ranked))[:3]
-        if len(cands) == 1: return cands[0], pl, calls, {"rounds": [cands[0]]}
+        if len(cands) == 1: return cands[0], pl, calls, {"rounds": [int(cands[0])], "raw": r1[-300:]}
         votes = [cands[0]]                                   # round 1: the top-ranked mark
         for perm in (list(range(len(cands))), list(rng.permutation(len(cands)))):
             c, _ = crops_round(be, sc, cands, perm); calls += 1   # rounds 2-3: zoomed crops, full instruction
             if c is not None: votes.append(c)
             if len(votes) >= 2 and votes.count(votes[-1]) >= 2: break   # two rounds agree: stop
         best = max(set(votes), key=votes.count)
-        return best, pl, calls, {"rounds": [int(v) for v in votes]}
+        return best, pl, calls, {"rounds": [int(v) for v in votes], "raw": r1[-300:]}
     raise ValueError(strategy)
 
 
