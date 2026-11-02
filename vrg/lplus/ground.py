@@ -16,7 +16,7 @@ from vrg.vlm import Grounder, ground_propose_verify
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--tasks", required=True); ap.add_argument("--model", default="Qwen/Qwen3-VL-8B-Instruct")
     ap.add_argument("--device", default="cuda:0")
-    ap.add_argument("--v6", action="store_true", help="grounding v6: robot self-filter + box centres (docs/PLAN_perceptual_robustness.md)"); ap.add_argument("--out", required=True); A = ap.parse_args()
+    ap.add_argument("--parser", type=int, default=1, help="2: grounding v7 parser (identifying pick, canonical place)"); ap.add_argument("--v6", action="store_true", help="grounding v6: robot self-filter + box centres (docs/PLAN_perceptual_robustness.md)"); ap.add_argument("--out", required=True); A = ap.parse_args()
     lo, hi = map(int, A.tasks.split("-")); os.makedirs(A.out, exist_ok=True); f = f"{A.out}/ground_{lo}_{hi}.pkl"
     res = pickle.load(open(f, "rb")) if os.path.exists(f) else {}
     g = Grounder(A.model, device=A.device); suite = get_suite()
@@ -25,7 +25,7 @@ def main():
         t0 = time.time(); env, t = None, suite.get_task(tid)
         try:
             env, t = make_env(tid)
-            pick, place, raw = g.parse_target(t.language)
+            pick, place, raw = g.parse_target(t.language, version=A.parser)
             obs = reset_episode(env, tid, 0)
             img, depth, K, T = render_rgbd(env); V6 = dict(exclude=robot_mask(env), center="box") if A.v6 else {}
             tgt = target_name(t.name) + "_1"

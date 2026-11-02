@@ -13,14 +13,14 @@ HOLDOUT_EPS = [e for e in range(50) if e % 10 != 0][20:]  # 25/task, untouched b
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(); ap.add_argument("--model", default="Qwen/Qwen3-VL-8B-Instruct")
     ap.add_argument("--out", default="data/grounding.pkl"); ap.add_argument("--shuffle", action="store_true"); ap.add_argument("--holdout", action="store_true")
-    ap.add_argument("--v6", action="store_true", help="grounding v6: robot self-filter + box centres (docs/PLAN_perceptual_robustness.md)")
+    ap.add_argument("--parser", type=int, default=1, help="2: grounding v7 parser (identifying pick, canonical place)"); ap.add_argument("--v6", action="store_true", help="grounding v6: robot self-filter + box centres (docs/PLAN_perceptual_robustness.md)")
     ap.add_argument("--perturb", default=None, help="vrg/perturb.py kind for the grounded scenes"); A = ap.parse_args()
     g = Grounder(A.model); res = {}
     os.makedirs("logs/grounding", exist_ok=True)
     suite = get_suite()
     for tid in range(suite.n_tasks):
         env, t = make_env(tid)
-        pick, place, raw = g.parse_target(t.language)          # VLM decomposes the instruction
+        pick, place, raw = g.parse_target(t.language, version=A.parser)          # VLM decomposes the instruction
         for ep in CALIB_EPS + (HOLDOUT_EPS if A.holdout else EVAL_EPS):
             obs = reset_episode(env, tid, ep, A.shuffle, A.perturb)
             img, depth, K, T = render_rgbd(env); V6 = dict(exclude=robot_mask(env), center="box") if A.v6 else {}

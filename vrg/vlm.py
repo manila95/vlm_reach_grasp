@@ -39,6 +39,11 @@ class Grounder:
                  "object's name." % instruction)
         r = self.ask(np.zeros((64, 64, 3), np.uint8), q)
         d = json.loads(re.search(r"\{.*\}", r, re.S).group(0))
+        if version == 2:                        # canonicalise the receptacle to its kind (one common noun)
+            k = self.ask(np.zeros((64, 64, 3), np.uint8), "In the phrase \"%s\", which single word names the container or object "
+                         "something is put into? Answer with that one word from the phrase." % d["place"])
+            k = re.sub(r"[^a-z ]", "", k.strip().lower()).strip().split()
+            if k: d["place"] = k[0]
         return d["pick"], d["place"], r
 
     def point(self, img, name):
