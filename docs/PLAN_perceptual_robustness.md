@@ -294,3 +294,19 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - Size cascades (escalate 2B → 8B → 32B when a model's strategies disagree) are computed offline from the per-model results.
 - Metrics: pick / place accuracy per category, calls and seconds per scene.
 - The best method then runs closed-loop on the dev split. A test-split run of a new grounding is reported separately from v7, with its selection done on dev only.
+
+**E8 question 1 answered (control, 2026-11-02):** the selected skill with GT grounding scores **96%** on the dev split.
+
+| Category | Selected skill + GT | Selected skill + v6 |
+|---|---|---|
+| Light | 93 | 25 |
+| Background | 96 | 82 |
+| Camera | 98 | 86 |
+| Layout | 96 | 72 |
+| Language | 97 | 90 |
+| Robot init | 96 | 97 |
+| Sensor | 96 | 96 |
+
+- Grounding is now 16 of the remaining 18 points (96 → 80). The skill costs 2 (98 → 96).
+- Its 22 GT-grounding failures are mostly minor place misses.
+- With perfect grounding the system beats π0.5 (89). Improving grounding (E8) is the lever.
