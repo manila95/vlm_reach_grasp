@@ -222,3 +222,19 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - Queued:
   - v6 re-grounding of standard (calibration, eval, shuffled) and all LIBERO-Plus scenes;
   - E4a, the v5 skill with v6 grounding on the dev split, which isolates the grounding gain.
+
+**E4a, grounding v6 with the v5 skill (LIBERO-Plus dev split, 505 tasks):**
+- All: 70 → 75% (perfect grounding: 82).
+- Camera 70 → 92, background 24 → 35, layout 73 → 76; language unchanged (90).
+- Standard scenes: object hit 98.5 → 99%, shuffled 98%; raw basket error 7.0 → 0.1 cm. No regression.
+- The remaining grounding gap (layout, language) is wrong-object identification by the VLM.
+
+**E2, waves 2–4 (own dev set; clean / light / texture / both):**
+- norm+dr: 96.0 / 96.5 / 97.5 / 98.5, the most robust. Clean is one episode under the gate.
+- drphoto: 95.5 / – / 95.0 / 95.0.
+- depth: 94.0 / – / 93.5 / 95.0.
+- RGB-D: 97.5 / 67.0 / 83.0 / 73.5 (its RGB stream is unaugmented).
+- Second seeds:
+  - photoconv: 99.0 / 99.0 / 88.5 / 87.5;
+  - norm: 99.0 / 96.5 / 79.5 / 78.0.
+- Queued: second seeds of norm+dr and drphoto. The decision follows the two-seed rule.
