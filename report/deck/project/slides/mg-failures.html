@@ -1,0 +1,20 @@
+<section id="mg-failures" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Where they fail: whole policies at first contact, ours at precision</h2>
+<img src="/_blob/6d3ca305d75eeb91a94fc605f7343233" alt="Stacked bars of episode outcomes for C1 and P2 on D0 and D1 for Square and Three-Piece: C1's first-contact failures grow on D1, P2's outcome profile stays the same" style="width:1664px;height:478px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Whole: first contact breaks</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">On D1, C1's nut grasp fails 62% (28% on D0), Three-Piece's 1st insertion 81%, Mug's drawer 46%.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Ours: same profile D0 → D1</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">P2's failures sit in the final insertion on both. Its ceiling is precision, not location.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Limits</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Threading needs a global view (wrist-only 7% vs 72% with the agent view). Coffee D1: pod insertion fails for every policy.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Composed episodes, 3 seeds pooled · reach failures (planned reach ends > 4 cm from the handoff) stay ≤ 17% everywhere</p>
+<aside>Each composed episode fails in a specific phase: the reach to a handoff, or a learned skill for a subtask. The whole-trajectory policy, even when we place it exactly at the handoff, fails the very first contact on wider placements: it has only seen those contacts at the trained positions. The segment policy's outcome distribution barely moves between D0 and D1, which is what "invariant to placement" means operationally. Its remaining losses are precision insertions, which more data or a better handoff should improve. Two honest limits: Threading's needle insertion needs to see where the hole is relative to the needle, which the wrist camera alone does not show, and Coffee's pod insertion fails off-distribution for everyone.</aside>
+</section>

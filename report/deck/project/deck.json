@@ -3,7 +3,7 @@
   "createdOnFiles": {"v": 1, "at": "2026-10-31T07:00:00Z"},
   "lists": "css",
   "title": "VLM Reach + Local Manipulation",
-  "order": ["cover", "idea", "libero-results", "libero-video", "franka-setup", "franka-vlm", "franka-videos", "failure-modes", "timing", "pi05", "contact-question", "contact-design", "mg-results", "mg-status", "lp-results", "lp-failures", "lp-attribution", "robust-skill", "grounding-v6", "novelty", "roadmap"],
+  "order": ["cover", "idea", "libero-results", "libero-video", "franka-setup", "franka-vlm", "franka-videos", "failure-modes", "timing", "pi05", "contact-question", "contact-design", "mg-results", "mg-failures", "mg-status", "lp-results", "lp-difficulty", "lp-failures", "lp-attribution", "robust-skill", "skill-detail", "grounding-v6", "grounding-remaining", "novelty", "roadmap"],
   "sections": {
     "s1": {"description": "The idea: a VLM gets the robot to the object, imitation learns only the local manipulation", "start": "cover"},
     "s2": {"description": "LIBERO proof of concept: robust to layout shuffles where end-to-end policies and VLAs collapse", "start": "libero-results"},

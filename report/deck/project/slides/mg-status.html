@@ -4,23 +4,23 @@
 <div style="display:flex;flex-direction:column;gap:22px;width:860px">
 <div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #E0662F;border-radius:12px;padding:28px">
 <h3 style="font-size:32px;font-weight:600">P2 18% vs P1 2% on D1</h3>
-<p style="font-size:26px;line-height:1.4;color:#4A5568">On Square P2 is flat across D0, D1, D2 (25, 28, 27%): the LIBERO shuffle result again, on a standard benchmark.</p>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Square is flat across D0, D1, D2 (22, 26, 22%; 3 seeds): the LIBERO shuffle result again, on a standard benchmark.</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #2A6FDB;border-radius:12px;padding:28px">
 <h3 style="font-size:32px;font-weight:600">Not just “start close”: C1 4%</h3>
 <p style="font-size:26px;line-height:1.4;color:#4A5568">The whole-trajectory policy started at the same handoff still fails off-distribution.</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #2A6FDB;border-radius:12px;padding:28px">
-<h3 style="font-size:32px;font-weight:600">Not just “learn less”: C2 6%, P2b 5%</h3>
+<h3 style="font-size:32px;font-weight:600">Not just “learn less”: C2 5%, P2b 6%</h3>
 <p style="font-size:26px;line-height:1.4;color:#4A5568">Segment policies that see the agent view collapse too. The egocentric input carries the transfer.</p>
 </div>
 </div>
 <div style="display:flex;flex-direction:column;gap:20px;width:756px">
 <img src="/_blob/2a5e88dd4476a0460cbed18901f5e174" data-video="/_blob/75f86c3c7c759d99e29e687a37d9d37b" alt="Square: the whole-trajectory policy inserts the nut on D0 but fails on D1 where the nut and peg are placed elsewhere" style="width:756px;height:418px;object-fit:contain;border-radius:8px;background:#14213D">
 <p style="font-size:26px;line-height:1.4;color:#4A5568">P1 on Square: D0 success, D1 failure.</p>
-<p style="font-size:26px;line-height:1.4;color:#C4521F"><b>The price:</b> D0 drops (79% → 37%). Composition costs as much (C1 42%), and Threading needs more than the wrist view (P2 6%).</p>
+<p style="font-size:26px;line-height:1.4;color:#C4521F"><b>The price:</b> D0 drops (80% → 34%). Composition alone costs 36 points (C1 44%); Threading needs more than the wrist view.</p>
 </div>
 </div>
-<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Contact-segment study · harness bugs found by the C1 control (image flip, 90° gripper frame, transit height, held-object handoff) are fixed · notebook §5</p>
-<aside>Three controls separate the explanations. C1 tests whether starting near the object is enough: it is not. C2 and P2b test whether learning only the segment is enough: not with global views. Only the segment policy with egocentric inputs keeps its success off-distribution. The in-distribution drop is the open problem: half of it is composition (C1 loses 37 points on D0 too), and insertion-style handoffs are hard to start from. Next: seeds 1 and 2, a data-efficiency sweep, and photometric augmentation (see LIBERO-Plus).</aside>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Contact-segment study · 3 seeds · harness bugs found by the C1 control (image flip, 90° gripper frame, transit height, held-object handoff) are fixed · notebook §5</p>
+<aside>Three controls separate the explanations. C1 tests whether starting near the object is enough: it is not. C2 and P2b test whether learning only the segment is enough: not with global views. Only the segment policy with egocentric inputs keeps its success off-distribution. The in-distribution drop is the open problem: most of it is composition (C1 loses 36 points on D0 with the same policy as P1), the rest is that insertion-style handoffs are hard to start from. Next: data-efficiency sweep, handoff noise, and the photometric recipe from LIBERO-Plus (E5, running).</aside>
 </section>

@@ -1,0 +1,20 @@
+<section id="lp-difficulty" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">The VLAs degrade with difficulty; our robot side does not</h2>
+<img src="/_blob/cea9d194c821c5b6173beb439b61174f" alt="Line charts of success versus LIBERO-Plus difficulty level 1 to 5. Overall the VLAs decline from about 97 to 75 percent; for robot initial state ours stays near 100 while pi0.5 falls to 48 and MolmoAct2 to 31." style="width:1664px;height:520px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Start pose: flat at 97–100%</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">π0.5 falls 100 → 48, MolmoAct2 92 → 31. The scripted reach removes the start pose.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Language: flat at 85–90%</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">The VLM parses any phrasing; the VLAs peak at 91–98% but vary by level.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Camera, layout: all degrade</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Ours falls 89 → 44 (camera) and 92 → 70 (layout) with v5 grounding; v6 targets this.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">LIBERO-Plus, 2,518 tasks · success % by difficulty level · ours = v5 (before the robustness fixes)</p>
+<aside>Difficulty levels are defined per category by LIBERO-Plus; the overall curve mixes categories, so ours dips at level 3 where the light and background tasks concentrate. The robot-initial-state panel is the clearest structural difference: the end-to-end policies must generalise their whole motion to a new start pose, while our system plans the reach and only starts learning at the handoff. π0 (grey) was trained differently and is weak across the board on this suite.</aside>
+</section>

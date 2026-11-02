@@ -1,0 +1,29 @@
+<section id="grounding-remaining" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">After v6, grounding fails only by naming the wrong object</h2>
+<div style="display:flex;gap:48px;align-items:start">
+<table style="font-size:26px;width:820px;color:#1F2A3D">
+<tr><th style="width:40%;text-align:left">Dev failures</th><th style="width:30%;text-align:right">v5 grounding</th><th style="width:30%;text-align:right">v6</th></tr>
+<tr><td>Camera: right object, place miss</td><td style="text-align:right">18</td><td style="text-align:right"><b>0</b></td></tr>
+<tr><td>Camera: wrong object</td><td style="text-align:right">6</td><td style="text-align:right">6</td></tr>
+<tr><td>Layout: right object, place miss</td><td style="text-align:right">9</td><td style="text-align:right">4</td></tr>
+<tr><td>Layout: wrong object</td><td style="text-align:right">8</td><td style="text-align:right">7</td></tr>
+<tr><td>Language: wrong object</td><td style="text-align:right">6</td><td style="text-align:right">7</td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:20px;width:796px">
+<div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #E0662F;border-radius:12px;padding:26px">
+<h3 style="font-size:30px;font-weight:600">The parse drops the clue</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">“the spread often used on bagels” → “spread” → butter. “the condiment used for grilling” → “grill seasoning” → pudding.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #E0662F;border-radius:12px;padding:26px">
+<h3 style="font-size:30px;font-weight:600">Look-alikes from new angles</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Ketchup, tomato sauce, pudding taken for bbq sauce when the label faces away.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;background:#FFFFFF;border:1px solid #DCE3EC;border-left:8px solid #2A6FDB;border-radius:12px;padding:26px">
+<h3 style="font-size:30px;font-weight:600">Next fixes</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Verify against the full instruction; pooled multi-view votes (99% when they agree on the Franka).</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">LIBERO-Plus dev split (505 tasks), v5 skill · counts of failed episodes by type, from the logged moved object vs target</p>
+<aside>v6 fixed all 18 camera place misses: they were releases over the basket's near rim caused by the viewpoint-dependent basket centre. What remains is about 20 wrong-object episodes out of 505. Two mechanisms: the instruction parser turns a descriptive phrase into a generic name and loses the identifying clue; and from new camera angles same-shaped bottles are confused when the label is not visible. Both fixes exist in our Franka track: asking the VLM against the full description, and pooling several grounding modes and views.</aside>
+</section>

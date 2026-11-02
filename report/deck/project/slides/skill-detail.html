@@ -1,0 +1,20 @@
+<section id="skill-detail" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Perception failures went from 380 in 800 episodes to 1</h2>
+<img src="/_blob/ed18bc57a703f48913ae9dddd97adc06" alt="Heatmap of success per task for five grasp-skill variants under combined light and texture perturbation. v5 is 0 to 25 percent on every task; re-render plus colour is 85 to 100 percent." style="width:1664px;height:437px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">The fix is the input</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">v5: 380 grasps never touched the object. Chosen skill: 1. Robust on every task, not on average.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">What is left: placing</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">13 of its 21 failures place the right object badly: tall items (milk, bbq) catch the basket rim.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Depth is invariant, not enough</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">No light failures, but 65–70% on tomato sauce even on clean scenes: geometry alone is ambiguous there.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Own dev set, GT grounding · failure counts pooled over clean, light, texture and both (800 episodes per skill)</p>
+<aside>Failure types are read from the logged moved object versus the target: "nothing moved" means the grasp never made contact, which is a perception failure since the handoff is the same. Normalisation alone removes global brightness changes but not texture changes (cream cheese 30%, tomato sauce 50% under both). Colour plus texture augmentation is close, but re-rendering the demos under random lights and materials gives physically consistent shadows and highlights, and is the only variant that stays at 85–100% on every task. The remaining place failures come from the scripted release over the basket, independent of the skill. Depth-only cause on tomato sauce is not yet diagnosed.</aside>
+</section>
