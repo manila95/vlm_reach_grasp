@@ -24,10 +24,19 @@ class Grounder:
         out = self.model.generate(**inp, max_new_tokens=max_new_tokens, do_sample=False)
         return self.proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0]
 
-    def parse_target(self, instruction):
-        """Ask the VLM which object must be picked and where it must go (task decomposition)."""
+    def parse_target(self, instruction, version=1):
+        """Ask the VLM which object must be picked and where it must go (task decomposition).
+        version 2 (grounding v7, docs/PLAN_perceptual_robustness.md): name each as the physical object a person would point
+        to, keep identifying details (product names, or the description when the object is only described), and drop IDs,
+        numbers or codes that are not part of the object's name (LIBERO-Plus strings carry such metadata: "basket light 14")."""
         q = ("A robot receives the instruction: \"%s\". Answer in JSON with keys "
              "\"pick\" (the object to grasp) and \"place\" (the receptacle), using short noun phrases." % instruction)
+        if version == 2:
+            q = ("A robot receives the instruction: \"%s\". Answer in JSON with keys \"pick\" (the object to grasp) and "
+                 "\"place\" (the receptacle). Name each as the physical object a person would point to, as a noun phrase that "
+                 "identifies it: keep product names and identifying details, and if the object is only described, keep the "
+                 "description that identifies it. Leave out IDs, numbers, codes or any other text that is not part of the "
+                 "object's name." % instruction)
         r = self.ask(np.zeros((64, 64, 3), np.uint8), q)
         d = json.loads(re.search(r"\{.*\}", r, re.S).group(0))
         return d["pick"], d["place"], r

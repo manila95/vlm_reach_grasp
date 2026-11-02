@@ -252,3 +252,17 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - **Selected: re-rendered views + photometric augmentation**, using the checkpoint with the better dev score (seed 1: 98 / 98.5 / 95.5 / 97). This is selection on the dev set only.
 - Depth alone: 94 / – / 93.5 / 95 (invariant but weaker). RGB-D is fragile to light because its RGB stream is unaugmented.
 - E4 queued: the selected skill with grounding v6 on standard and shuffled LIBERO-Object (gates vs v5 97.5 / 78), then the LIBERO-Plus dev split.
+
+**E4 on the dev split (selected skill + grounding v6):**
+- All: 80% (v5 70; v6 grounding with the v5 skill 75).
+- Background 24 → 82, camera 70 → 86, light 2 → 25. Robot init 97, sensor 96, language 90, layout 72.
+- Regression gates:
+  - standard LIBERO-Object 96.5% (v5 97.5; 193 vs 195 of 200, within noise);
+  - shuffled 81.5% (v5 78).
+- Under light the failure type flipped: the grasp now succeeds, but 39/60 fail at the place step with the right object (basket estimate 37.5 cm off).
+
+**Correction of the I2 diagnosis (2026-11-02).**
+- The light and background basket failures were **not** caused by the robot pedestal. LIBERO-Plus instruction strings carry generator metadata ("...in the basket light 14", "basket table 15", "basket level1 sample3"). Parser v1 copied it into the place name, so grounding asked "is this the basket light 14?".
+- On the same light scene, asking "basket" scores the true basket +10.5 against ≤ −8 for every other proposal.
+- The pedestal merge was real but not decisive. v6's measured gain comes from the box centre (camera 70 → 92, whose instructions are clean).
+- Fix, **grounding v7** (parser v2): pick = an identifying noun phrase (keeps product names and identifying descriptions, which also targets the language clue-loss); place = the receptacle's kind in one or two words; locations, numbers and codes ignored. It is validated on standard instructions and the dev split only.

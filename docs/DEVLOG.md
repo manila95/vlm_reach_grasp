@@ -103,5 +103,10 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
 
 - **LIBERO-Plus baselines.** π0-LIBERO is complete at 52.1% (paper: 53.6 over four suites), after a client retry fix (5/8 shards had died on a handshake timeout). π0-FAST is excluded: malformed action tokens on our Blackwell/JAX setup, 0/5 even on standard scenes.
 
+- **Correction (2026-11-02):** the LIBERO-Plus light and background basket errors came from instruction metadata ("basket light 14") that the parser copied into the grounding query, not from the robot pedestal.
+  - Grounding v6's real gain is the box centre (camera 70 → 92).
+  - Parser v2 (grounding v7) fixes the metadata problem.
+  - E4 (re-rendered + colour skill, v6 grounding): dev 70 → 80%; standard 96.5%, shuffled 81.5% (v5 97.5 / 78).
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).
