@@ -1,20 +1,20 @@
 <section id="grounding-v6" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:28px">
-<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">The basket error was the robot's own pedestal, not the light</h2>
-<img src="/_blob/387ba32affe0574da486da5a52a6aa09" alt="Depth proposals before and after the robot self-filter: before, two small items merge with the robot pedestal into tall boxes; after, they are separate and the basket is found" style="width:1664px;height:420px;object-fit:contain;border-radius:8px;background:#14213D">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Two grounding bugs: a biased centre and a polluted query</h2>
+<img src="/_blob/387ba32affe0574da486da5a52a6aa09" alt="Depth proposals before and after the robot self-filter: before, two small items merge with the robot pedestal into tall boxes; after, they are separate" style="width:1664px;height:400px;object-fit:contain;border-radius:8px;background:#14213D">
 <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:16px">
+<h3 style="font-size:30px;font-weight:600">v6: box centres</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">The median centre was pulled 7 cm toward the camera. Box centre: 0.1 cm, any viewpoint. Camera 70 → 92%.</p>
+</div>
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:16px">
-<h3 style="font-size:32px;font-weight:600">Cause</h3>
-<p style="font-size:26px;line-height:1.4;color:#4A5568">Small items in front of the pedestal merged with it; the VLM took one as the basket.</p>
+<h3 style="font-size:30px;font-weight:600">The real light bug</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Instructions end in metadata (“basket light 14”); the parser asked the VLM for that. With “basket”: +10.5 vs ≤ −8.</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:16px">
-<h3 style="font-size:32px;font-weight:600">Fix: grounding v6</h3>
-<p style="font-size:26px;line-height:1.4;color:#4A5568">Robot self-filter, and box centres: 7 cm bias → 0.1 cm, viewpoint-invariant.</p>
-</div>
-<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:16px">
-<h3 style="font-size:32px;font-weight:600">Dev: 70 → 75%</h3>
-<p style="font-size:26px;line-height:1.4;color:#4A5568">Camera 70 → 92, background 24 → 35; standard scenes unchanged (99% hit).</p>
+<h3 style="font-size:30px;font-weight:600">v7: parser v2</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Pick keeps identifying details; place = the receptacle word. Dev: 502/505 → “basket”, rest container/hamper.</p>
 </div>
 </div>
-<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Left: v5 depth proposals (red) · right: v6 · LIBERO-Plus dev split, v5 skill · remaining grounding gap: wrong-object picks under layout and language changes</p>
-<aside>The basket estimate was identical across five different lightings of the same layout, which ruled out light. The robot self-filter is the standard practice on real arms (mask the robot from depth using its model and joint angles). The old median centre was pulled toward the camera-facing side, so it needed a calibration that only held for one viewpoint; the box centre needs none.</aside>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Image: v5 vs v6 depth proposals (robot self-filter) · correction: an earlier version of this slide blamed the pedestal for the light failures</p>
+<aside>Correction. I first attributed the light and background basket errors to small items merging with the robot pedestal in the depth proposals; the self-filter fixes that merge, but it was not why the wrong proposal was chosen. LIBERO-Plus instruction strings carry generator metadata after the receptacle ("basket light 14", "basket table 15", "level1 sample3"), and parser v1 copied it into the grounding query. On the same scene, the VLM picks the true basket with a large margin when asked for "basket". v6's validated gain is the box centre: camera tasks, whose instructions are clean, went from 70 to 92% on the dev split. Parser v2 (grounding v7) asks for an identifying pick phrase and extracts the receptacle word; it was checked on the dev-split instructions only.</aside>
 </section>
