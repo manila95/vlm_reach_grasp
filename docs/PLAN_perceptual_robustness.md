@@ -266,3 +266,15 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
 - On the same light scene, asking "basket" scores the true basket +10.5 against ≤ −8 for every other proposal.
 - The pedestal merge was real but not decisive. v6's measured gain comes from the box centre (camera 70 → 92, whose instructions are clean).
 - Fix, **grounding v7** (parser v2): pick = an identifying noun phrase (keeps product names and identifying descriptions, which also targets the language clue-loss); place = the receptacle's kind in one or two words; locations, numbers and codes ignored. It is validated on standard instructions and the dev split only.
+
+**E5 interim (seed 0; colour + texture augmentation in MimicGen; success %, plain → augmented):**
+- **Whole-trajectory P1:**
+  - Clean D0 is unchanged (Square 86 → 88, Coffee 88 → 89, Three-Piece 75 → 77).
+  - Relit D0 rises 3–10×: Square light/texture/both 14/11/1 → 53/78/40; Coffee 13/14/4 → 56/64/36.
+  - D1/D2 stay at about 0. Augmentation does not fix placement generalisation.
+- **Segment P2 (wrist only):** mixed.
+  - Mug: clean 28 → 40, relit 7/2/2 → 22/29/15.
+  - Coffee: clean 79 → 39. Three-Piece: clean 48 → 7, with final-insertion failures 31 → 74%.
+  - With only the wrist view, colour randomisation seems to remove the fine cues the insertion relies on.
+- To confirm before concluding: a seed-1 replication (queued), the missing Square cells (GPU OOM, re-running), and possibly the re-render recipe, which kept clean precision on LIBERO.
+- The v7 run's grounding shards failed (OOM, segfault) and were repaired. Gate so far: shuffled 82.5% (v5 78); standard pending. The test split runs only after both gates.
