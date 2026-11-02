@@ -15,6 +15,7 @@ import numpy as np, torch
 S = "/scratch/kaustubh/vlm_reach_grasp/mimicgen"
 ap = argparse.ArgumentParser()
 ap.add_argument("--dataset", required=True); ap.add_argument("--mode", choices=["whole", "segment"], required=True)
+ap.add_argument("--aug", default="none", choices=["none", "photo", "conv", "photo_conv"], help="image augmentation (vrg/augment.py), E5")
 ap.add_argument("--cams", default="agent,wrist"); ap.add_argument("--proprio", choices=["abs", "rel"], default="abs")
 ap.add_argument("--pre", type=int, default=10, help="segment mode: steps before first contact where the learned phase starts")
 ap.add_argument("--demos", type=int, default=1000); ap.add_argument("--steps", type=int, default=60000); ap.add_argument("--bs", type=int, default=128)
@@ -24,6 +25,7 @@ A = ap.parse_args()
 os.makedirs(A.out, exist_ok=True); json.dump(vars(A), open(f"{A.out}/args.json", "w"), indent=1)
 torch.manual_seed(A.seed); np.random.seed(A.seed); dev = torch.device(A.device); cams = tuple(A.cams.split(","))
 from vrg.policy import DiffusionPolicy
+from vrg.augment import augment
 H, NO = 16, 2
 
 # ---------------------------------------------------------------- data
@@ -80,7 +82,7 @@ def batch(bs):
     t, s, e = idx[j], starts[j], ends[j]
     to = (t[:, None] + torch.arange(-(NO - 1), 1, device=dev)).clamp(min=s[:, None])
     ta = (t[:, None] + torch.arange(-(NO - 1), H - NO + 1, device=dev)).clamp(min=s[:, None], max=e[:, None] - 1)
-    obs = {c: G[c][to] for c in cams}; obs["proprio"] = proprio(to, anchor[j]); obs["tid"] = conds[j]
+    obs = {c: G[c][to] if A.aug == "none" else augment(G[c][to], A.aug) for c in cams}; obs["proprio"] = proprio(to, anchor[j]); obs["tid"] = conds[j]
     return obs, ACT[ta]
 
 

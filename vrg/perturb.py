@@ -12,8 +12,8 @@ or assets are used), so selecting on these scenes does not tune on the LIBERO-Pl
 """
 import numpy as np
 
-SURF_MATS = ("floorplane", "table_texture", "table_mat", "walls_mat", "living_room")
-SURF_TEX = ("texplane", "tex-table", "tex-wall", "textable", "tex-living_room")
+SURF_MATS = ("floorplane", "table_texture", "table_mat", "walls_mat", "living_room", "table_ceramic", "table_legs_metal")   # LIBERO + robosuite/MimicGen
+SURF_TEX = ("texplane", "tex-table", "tex-wall", "textable", "tex-living_room", "tex-ceramic", "tex-light-gray-plaster")
 
 
 def _tint(rng, lo=0.7, hi=1.3):

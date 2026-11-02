@@ -102,6 +102,7 @@ def main():
     ap.add_argument("--held_handoff", action="store_true", help="insertion handoff pose relative to the held object (default: hand pose)")
     ap.add_argument("--handoff", choices=["hand", "heldpos"], default="hand", help="heldpos: hand orientation, held-object position")
     ap.add_argument("--reach_tol", type=float, default=0.04, help="a reach that ends farther than this from its goal is a reach failure")
+    ap.add_argument("--perturb", default=None, choices=["light", "texture", "both"], help="appearance dev perturbation (vrg/perturb.py), E5")
     ap.add_argument("--video", type=int, default=0); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
     A = ap.parse_args()
     import robomimic.utils.env_utils as EnvUtils, robomimic.utils.file_utils as FileUtils, robomimic.utils.obs_utils as ObsUtils
@@ -120,7 +121,11 @@ def main():
     rng = np.random.default_rng(12345)
     for i in range(A.episodes):
         if i in done: continue
-        np.random.seed(A.seed0 + i); obs = e.reset(); t0 = time.time(); frames = [] if i < A.video else None
+        np.random.seed(A.seed0 + i); obs = e.reset()
+        if A.perturb:                                       # render-only; refresh the observation images afterwards
+            from vrg.perturb import perturb_scene
+            perturb_scene(e, A.perturb, 104729 * 97 + A.seed0 + i); obs = e._get_observations(force_update=True)
+        t0 = time.time(); frames = [] if i < A.video else None
         rec = dict(episode=i, seed=A.seed0 + i, method=A.method, variant=A.variant, success=False, phase=0, fail=None, steps=0)
         if A.method == "whole":
             pol.reset()
