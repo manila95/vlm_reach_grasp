@@ -238,3 +238,17 @@ Total ≈ 1.5–2 days of compute alongside the running queues.
   - photoconv: 99.0 / 99.0 / 88.5 / 87.5;
   - norm: 99.0 / 96.5 / 79.5 / 78.0.
 - Queued: second seeds of norm+dr and drphoto. The decision follows the two-seed rule.
+
+**E2 decision (2026-11-02, two-seed rule).**
+
+| Variant | Clean (seed mean) | Perturbed mean | Clean gate (≥ 96.4) |
+|---|---|---|---|
+| dr + photo | 96.75 | 96.2 | pass |
+| photo + conv | 96.75 | 89.4 | pass |
+| norm + dr | 95.25 | 95.7 | fail |
+| dr | 93.25 | 93.5 | fail |
+| norm | 99.0 | 82.8 | pass |
+
+- **Selected: re-rendered views + photometric augmentation**, using the checkpoint with the better dev score (seed 1: 98 / 98.5 / 95.5 / 97). This is selection on the dev set only.
+- Depth alone: 94 / – / 93.5 / 95 (invariant but weaker). RGB-D is fragile to light because its RGB stream is unaugmented.
+- E4 queued: the selected skill with grounding v6 on standard and shuffled LIBERO-Object (gates vs v5 97.5 / 78), then the LIBERO-Plus dev split.
