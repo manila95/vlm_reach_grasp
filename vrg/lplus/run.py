@@ -122,7 +122,10 @@ def main():
             if A.method == "openpi":
                 r = run_openpi(tid, client, video_dir=f"{A.out}/videos" if vid else None, wait=A.wait)
             elif A.method == "lerobot":
-                r = run_lerobot(tid, conn, video_dir=f"{A.out}/videos" if vid else None, wait=A.wait)
+                try: r = run_lerobot(tid, conn, video_dir=f"{A.out}/videos" if vid else None, wait=A.wait)
+                except ValueError as e:              # LIBERO-Plus sensor-noise tasks assume 256 px renders: retry at 256
+                    if "broadcast" not in str(e): raise
+                    r = run_lerobot(tid, conn, video_dir=f"{A.out}/videos" if vid else None, wait=A.wait, size=256); r["size"] = 256
             else:
                 RA.video = 1 if vid else 0
                 r = run_task((tid, [0], RA))[0]; r["tid"] = tid
