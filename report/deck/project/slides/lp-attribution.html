@@ -1,0 +1,27 @@
+<section id="lp-attribution" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">With perfect perception the system scores 98%, above π0.5</h2>
+<div style="display:flex;gap:48px;align-items:start">
+<table style="font-size:27px;width:1100px;color:#1F2A3D">
+<tr><th style="width:28%;text-align:left">Dev split (505)</th><th style="width:18%;text-align:right">VLM + learned</th><th style="width:18%;text-align:right">GT + learned</th><th style="width:18%;text-align:right">GT + scripted</th><th style="width:18%;text-align:right">π0.5</th></tr>
+<tr><td>Light</td><td style="text-align:right">2</td><td style="text-align:right"><b>5</b></td><td style="text-align:right"><b>100</b></td><td style="text-align:right">100</td></tr>
+<tr><td>Background</td><td style="text-align:right">24</td><td style="text-align:right">45</td><td style="text-align:right">100</td><td style="text-align:right">98</td></tr>
+<tr><td>Camera</td><td style="text-align:right"><b>70</b></td><td style="text-align:right"><b>99</b></td><td style="text-align:right">100</td><td style="text-align:right">89</td></tr>
+<tr><td>Layout</td><td style="text-align:right">73</td><td style="text-align:right">93</td><td style="text-align:right">87</td><td style="text-align:right">87</td></tr>
+<tr><td>Language</td><td style="text-align:right">90</td><td style="text-align:right">99</td><td style="text-align:right">100</td><td style="text-align:right">92</td></tr>
+<tr><td>Robot init</td><td style="text-align:right">99</td><td style="text-align:right">99</td><td style="text-align:right">99</td><td style="text-align:right">65</td></tr>
+<tr style="background:#FCE9DE"><td><b>All</b></td><td style="text-align:right"><b>70</b></td><td style="text-align:right"><b>82</b></td><td style="text-align:right"><b>98</b></td><td style="text-align:right"><b>89</b></td></tr>
+</table>
+<div style="display:flex;flex-direction:column;gap:22px;width:516px">
+<div style="display:flex;flex-direction:column;gap:8px;border-top:6px solid #E0662F;padding-top:16px">
+<h3 style="font-size:32px;font-weight:600">Light: the skill</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Perfect grounding barely helps (5%); a scripted grasp gets 100%. The handoff error is the same as in successes.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:8px;border-top:6px solid #2A6FDB;padding-top:16px">
+<h3 style="font-size:32px;font-weight:600">Camera: grounding</h3>
+<p style="font-size:26px;line-height:1.4;color:#4A5568">Perfect grounding alone lifts it from 70 to 99.</p>
+</div>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Attribution on a fixed 20% dev split of LIBERO-Plus (stratified, chosen before any fix) · the other 80% is held out for one final run</p>
+<aside>Swap one component at a time. GT means the simulator's object and basket positions instead of the VLM's. The robot side (reach, transport, scripted grasp) is not the limit: with perfect perception it reaches 98%. So the whole gap to π0.5 is perception, split between the learned grasp's appearance robustness and grounding.</aside>
+</section>
