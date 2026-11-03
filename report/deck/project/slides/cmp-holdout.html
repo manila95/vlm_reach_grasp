@@ -1,0 +1,20 @@
+<section id="cmp-holdout" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Does it hold out of sample? Gemini yes, local Qwen-32B partly</h2>
+<img src="/_blob/a709ba782946ea0d04e1ed22d11f8be5" alt="Dumbbell chart of dev versus test success: Gemini Flash 94.7 to 94.0, Qwen-32B 94.5 to 91.0, Qwen-8B 89.1 to 88.3, pi0.5 88.5 to 89.3, MolmoAct2 89.3 to 87.8" style="width:1664px;height:460px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Gemini: −0.7 points</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">94.7 on dev, 94.0 on test: the gain is real.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #F2A97E;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Qwen-32B: −3.5 points</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Camera dropped 89 → 78: dev selection was optimistic.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">VLAs move ±1.5</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Their dev–test differences set the expected sampling noise.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Grey: dev split (505, used to choose the grounder) · coloured: held-out test split (2,013, each system run once)</p>
+<aside>The grounder was chosen on the dev split among eleven options, so its dev number is optimistic by construction; the test split measures what holds. Gemini Flash with recursive querying lost 0.7 points, inside the 1–1.5 point dev–test variation the VLAs themselves show. Qwen-32B lost 3.5 points, concentrated in camera viewpoints, so on the test split the local model is level with π0.5 rather than ahead. This is why the claim on the next slide names Gemini and not the local model.</aside>
+</section>

@@ -1,0 +1,20 @@
+<section id="cmp-h2h" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Head to head on the same tasks: 199 wins, 104 losses</h2>
+<img src="/_blob/cd7df27a5fc4fad07f062a6fea6a43b8" alt="Diverging bars per category: tasks only ours with Gemini grounding solves (orange) versus tasks only pi0.5 solves (navy); robot init 91 vs 11, camera 40 vs 26, layout 24 vs 29, total 199 vs 104" style="width:1664px;height:490px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Paired p = 5 × 10⁻⁸</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">McNemar on the 303 tasks where exactly one system succeeds.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Most of the margin: start pose</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">91 vs 11: 80 of the net 95. Camera (40 vs 26) and sensor (19 vs 10) add most of the rest.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Complementary failures</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">π0.5 still solves 104 tasks we miss, mostly layout, camera, language.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Test split · ours = Gemini 3.8 Flash recursive grounding + robust skill · tasks where both succeed or both fail are not shown</p>
+<aside>A paired comparison removes task difficulty from the picture: each bar counts tasks one system solves and the other does not. The modular system's lead comes mostly from the start-pose perturbation, which our planned reach handles by construction, and from camera changes, where Gemini's grounding is robust. π0.5 keeps an edge in layout and in the remaining appearance cases. That complementarity suggests further gains from using a VLA as a fallback skill when our grounding is unsure. For comparison, the local Qwen-32B version wins 177 and loses 142 (p = 0.057), and the Qwen-8B version 170 vs 190 (p = 0.32).</aside>
+</section>

@@ -1,0 +1,20 @@
+<section id="cmp-categories" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Where: the VLM fixes language; the reach owns the start pose</h2>
+<img src="/_blob/cb4ddd1e7bbf351b867a45d3c5c59258" alt="Heatmap of test-split success per perturbation type for three versions of ours and three VLAs; bold marks the best per column" style="width:1664px;height:510px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Language 69 → 89 → 95</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Each stronger VLM reads paraphrases better; Gemini beats the VLAs' 93.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Start pose 95–97 vs 64–70</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Independent of the VLM: the planned reach makes it irrelevant.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Still behind: layout, background</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Layout 88 vs 89–90; background 95 vs 98–99; light 98 vs 99.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Test split, success % per LIBERO-Plus perturbation type · bold: best in column (within 1 point)</p>
+<aside>Reading down the columns: the three versions of ours differ only in language and camera, which are grounding problems; robot init, sensor, background and light are set by the skill and the reach and are the same across VLMs. Camera is the column where the VLM choice matters most besides language: 78 with Qwen-32B, 91 with Gemini. Layout is the one category where every version of ours stays slightly below the VLAs: clutter makes same-looking objects hard to tell apart. π0 is weak on start pose and camera; the newer VLAs learned to handle camera changes but not start-pose changes.</aside>
+</section>
