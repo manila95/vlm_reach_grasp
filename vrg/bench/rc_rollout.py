@@ -39,6 +39,10 @@ class Runner:
         f = {"proprio": ego_proprio(s16)[0] if self.mode.startswith("local") else s16[0]}
         names = {"left": "robot0_agentview_left", "right": "robot0_agentview_right", "wrist": "robot0_eye_in_hand"}
         for c in self.cams:
+            if c == "wdepth":   # wrist depth rendered live at 128 px, encoded as in training
+                from vrg.bench.robocasa_env import render_rgbd
+                from vrg.policy import encode_depth
+                f[c] = encode_depth(render_rgbd(self.env, "robot0_eye_in_hand", res=128)[1]); continue
             im = img128(o, names[c])
             if c == "left" and self.path_uv is not None: im = draw_path(im[::-1], self.path_uv)[::-1]
             f[c] = im
@@ -139,8 +143,8 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
                 if a[6] <= 0: z_close = None
                 if z_close is not None and z > z_close + LIFT_DONE:
                     skill = "place"; r.reset(); r.emb = TXT[pl["place_text"]]; PH[0] = f'skill: "{pl["place_text"]}"'
-    else:  # ours / ours_scripted (no learned skill: demo-mean grasp and release geometry)
-        scripted = A.method == "ours_scripted"
+    else:  # ours / ours_lpick (learned pick, scripted place) / ours_scripted (no learned skill: demo-mean grasp and release geometry)
+        scripted = A.method == "ours_scripted"; scripted_place = A.method in ("ours_scripted", "ours_lpick")
         g = G[(split, task, ep)]; S = STATS[task]; bp, R = base_pose(o)
         PO, PQ = (S["pick_off40"], S["pick_quat40"]) if A.pick_pre == 40 else (S["pick_off"], S["pick_quat"])   # match the skill's training start
         place_pt, place_src = place_target(g, o, S)
@@ -189,7 +193,7 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
             move_to(over, S["place_quat"], grip=1.0, max_steps=100, tol=0.02)
             move_to(ph, S["place_quat"], grip=1.0, max_steps=60)
             held_place = OU.check_obj_grasped(env, "obj")
-            if scripted:   # descend to the demo-mean release pose above the place target; [5] then opens and retreats
+            if scripted_place:   # descend to the demo-mean release pose above the place target; [5] then opens and retreats
                 PH[0] = "[4] scripted place"
                 bp, R = base_pose(o); move_to(place_pt + R @ S["release_off"], S["place_quat"], grip=1.0, max_steps=50, tol=0.01, gain=0.6)
             else:
@@ -226,7 +230,7 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", required=True, choices=["ours", "ours_scripted", "e2e", "saycan", "hamster"])
+    ap.add_argument("--method", required=True, choices=["ours", "ours_scripted", "ours_lpick", "e2e", "saycan", "hamster"])
     ap.add_argument("--split", required=True); ap.add_argument("--eps", default="0-49"); ap.add_argument("--tasks", default=",".join(TASKS))
     ap.add_argument("--ckpt", default=None); ap.add_argument("--pick_ckpt", default=None); ap.add_argument("--place_ckpt", default=None)
     ap.add_argument("--grounding", default=f"{ROOT}/grounding.pkl"); ap.add_argument("--retries", type=int, default=1)
@@ -235,16 +239,18 @@ def main():
     ap.add_argument("--video", type=int, default=1); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
     A = ap.parse_args(); os.makedirs(A.out, exist_ok=True)
     lo, hi = map(int, A.eps.split("-")); dev = A.device
-    G = pickle.load(open(A.grounding, "rb")) if A.method in ("ours", "ours_scripted", "hamster", "saycan") else {}
+    G = pickle.load(open(A.grounding, "rb")) if A.method in ("ours", "ours_scripted", "ours_lpick", "hamster", "saycan") else {}
     TXT = pickle.load(open(f"{ROOT}/text_emb.pkl", "rb")) if A.method in ("e2e", "saycan") else {}
     BIAS = json.load(open(A.bias)) if A.bias else {}; A.bias_tbl = BIAS
     STATS = json.load(open(f"{ROOT}/handoff_stats.json")); STATS = {t: {k: np.array(v) for k, v in d.items()} for t, d in STATS.items()}
     runners = ({"pick": Runner(A.pick_ckpt, dev), "place": Runner(A.place_ckpt, dev)} if A.method == "ours" else
+               {"pick": Runner(A.pick_ckpt, dev)} if A.method == "ours_lpick" else
                {} if A.method == "ours_scripted" else {"main": Runner(A.ckpt, dev)})
     import imageio
     res = []
     for task in A.tasks.split(","):
         genv = make(task, A.split, episode_seed(A.split, lo)); env = raw(genv)
+        for rn in runners.values(): rn.env = env      # depth-input skills render the wrist depth live
         for ep in range(lo, hi + 1):
             frames = []
 

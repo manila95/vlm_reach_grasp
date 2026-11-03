@@ -10,6 +10,7 @@ modes
 import argparse, json, os, pickle, time, copy, re
 import numpy as np, torch
 from vrg.policy import DiffusionPolicy
+from vrg.augment import augment
 from vrg.bench.robocasa_env import TASKS
 
 ROOT = "/scratch/kaustubh/vlm_reach_grasp/robocasa"
@@ -46,8 +47,8 @@ def hamster_images(Z, meta, res=128):
     return out
 
 
-def load(tasks, mode, post, n_demos, pre=0):
-    D, metas, n0 = {k: [] for k in ["left", "right", "wrist", "proprio", "action", "text_key"]}, [], 0
+def load(tasks, mode, post, n_demos, pre=0, depth=False, rgb=True):
+    D, metas, n0 = {k: [] for k in ["left", "right", "wrist", "proprio", "action", "text_key", "didx", "wdepth"]}, [], 0
     starts, ends, idx, conds = [], [], [], []
     for task in tasks:
         Z = np.load(f"{ROOT}/train/{task}_pretrain.npz"); meta = json.load(open(f"{ROOT}/train/{task}_pretrain_meta.json"))
@@ -55,7 +56,11 @@ def load(tasks, mode, post, n_demos, pre=0):
         keep = np.zeros(len(Z["state"]), bool)
         for m in meta: keep[m["start"]:m["start"] + m["T"]] = True
         remap = np.cumsum(keep) - 1
-        need = ("wrist",) if mode.startswith("local") else ("left", "right", "wrist")
+        if depth:   # wrist depth of the grasp-slice frames (vrg.bench.rc_render_depth), encoded as the policy's uint8 image; rows addressed via didx
+            from vrg.policy import encode_depth
+            W = np.load(f"{ROOT}/train/{task}_pretrain_wdepth.npz"); gi = W["gidx"]; ok = keep[gi]
+            D["didx"].append(n0 + remap[gi[ok]]); D["wdepth"].append(encode_depth(W["depth"][ok].astype(np.float32)))
+        need = (("wrist",) if rgb else ()) if mode.startswith("local") else ("left", "right", "wrist")
         for k in need:
             v = hamster_images(Z, meta) if (mode == "hamster" and k == "left") else Z[k]
             D[k].append(v[keep]); del v
@@ -83,14 +88,20 @@ if __name__ == "__main__":
     ap.add_argument("--steps", type=int, default=60000); ap.add_argument("--bs", type=int, default=128)
     ap.add_argument("--lr", type=float, default=1e-4); ap.add_argument("--post", type=int, default=6)
     ap.add_argument("--pre", type=int, default=0, help="local_pick: start slices this many steps before the grasp (0: dataset ts = tg-20)")
+    ap.add_argument("--cams", default="", help="local modes: wrist (default), wdepth, or wrist,wdepth")
+    ap.add_argument("--aug", default="none", choices=["none", "photo", "conv", "photo_conv"], help="image augmentation of the RGB cameras (vrg/augment.py)")
     ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
     A = ap.parse_args(); os.makedirs(A.out, exist_ok=True); json.dump(vars(A), open(f"{A.out}/args.json", "w"), indent=1)
     dev = torch.device(A.device); torch.manual_seed(0)
-    D, metas, idx, starts, ends, conds = load(A.tasks.split(","), A.mode, A.post, A.n_demos, A.pre)
-    cams = ("wrist",) if A.mode.startswith("local") else ("left", "right", "wrist")
+    cams = tuple(A.cams.split(",")) if A.cams else (("wrist",) if A.mode.startswith("local") else ("left", "right", "wrist"))
+    D, metas, idx, starts, ends, conds = load(A.tasks.split(","), A.mode, A.post, A.n_demos, A.pre, depth="wdepth" in cams, rgb="wrist" in cams or not A.mode.startswith("local"))
+    cams_rgb = tuple(c for c in cams if c != "wdepth")
     use_text = A.mode in ("e2e", "saycan")
     print(A.mode, "samples", len(idx), "frames", len(D["action"]), "demos", len(metas), flush=True)
     G = {c: torch.from_numpy(D[c]).to(dev) for c in cams}
+    DRMAP = None
+    if "wdepth" in cams:
+        DRMAP = torch.full((len(D["action"]),), -1, dtype=torch.long, device=dev); DRMAP[torch.from_numpy(D["didx"]).to(dev)] = torch.arange(len(D["didx"]), device=dev)
     G["proprio"] = torch.from_numpy(D["proprio"]).to(dev); G["action"] = torch.from_numpy(D["action"]).to(dev)
     del D; import gc; gc.collect()  # host copies are no longer needed once the data is on the GPU
     TXT = None
@@ -114,7 +125,13 @@ if __name__ == "__main__":
         j = torch.randint(0, len(idx), (bs,), device=dev); t, s, e = idx[j], starts[j], ends[j]
         to = (t[:, None] + torch.arange(-(NO - 1), 1, device=dev)).clamp(min=s[:, None])
         ta = (t[:, None] + torch.arange(-(NO - 1), H - NO + 1, device=dev)).clamp(min=s[:, None], max=e[:, None] - 1)
-        obs = {c: G[c][to] for c in cams}; obs["proprio"] = G["proprio"][to]
+        obs = {}
+        for c in cams:
+            if c == "wdepth":
+                r = DRMAP[to]; assert (r >= 0).all(), "frame without rendered depth"; obs[c] = G[c][r]
+            else:
+                x = G[c][to]; obs[c] = augment(x, A.aug) if A.aug != "none" else x
+        obs["proprio"] = G["proprio"][to]
         if TXT is not None: obs["text"] = TXT[cid[j]]
         return obs, G["action"][ta]
 

@@ -54,7 +54,7 @@ if __name__ == "__main__":
     res = pickle.load(open(out, "rb")) if os.path.exists(out) else {}
     vocab = sorted({m["target"].replace("_", " ") for f in glob.glob(f"{ROOT}/train/*_meta.json") for m in json.load(open(f))})
     print("saycan vocab", len(vocab), flush=True)
-    g = Grounder()
+    g = Grounder(os.environ.get("VRG_VLM", "Qwen/Qwen3-VL-8B-Instruct")) if os.environ.get("VRG_VLM") else Grounder()
     scenes = sys.argv[2] if len(sys.argv) > 2 else f"{ROOT}/scenes"   # e.g. grounding_dev.pkl + scenes_dev
     for f in sorted(glob.glob(f"{scenes}/*/*.pkl")):
         s = pickle.load(open(f, "rb")); key = (s["split"], s["task"], s["ep"])
@@ -67,9 +67,9 @@ if __name__ == "__main__":
         r["pick_err"] = None if bp is None else float(np.linalg.norm(bp["point"] - s["gt"]["obj"]))
         r["pick_hit"] = bp is not None and (nearest(s["gt"], bp["point"])[0] == "obj" or r["pick_err"] < 0.05)
         from vrg.bench.rc_train import place_clause
-        r["saycan"] = dict(saycan_plan(g, s, lang, vocab), place_text=place_clause(lang))
+        if not os.environ.get("VRG_NO_SAYCAN"): r["saycan"] = dict(saycan_plan(g, s, lang, vocab), place_text=place_clause(lang))
         res[key] = r
-        print(key, pick, "|", place, "| hit", r["pick_hit"], "| saycan:", r["saycan"]["choice"], flush=True)
+        print(key, pick, "|", place, "| hit", r["pick_hit"], "| saycan:", r.get("saycan", {}).get("choice"), flush=True)
         pickle.dump(res, open(out, "wb"))
     for sp in ("pretrain", "target"):
         v = [r["pick_hit"] for k, r in res.items() if k[0] == sp]; print(sp, "pick grounding", sum(v), "/", len(v))
