@@ -1,13 +1,13 @@
 <section id="loss-attribution" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
 <h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Where the loss comes from: now almost only the VLM</h2>
-<img src="/_blob/b54fcde5232f27d86a14631e10118cf1" alt="Stacked bars of dev-split tasks: v5 has 12 points lost to VLM grounding and 16 to the grasp policy; with the robust skill the grasp loss is about 2; with Qwen-32B or Gemini grounding the VLM loss falls to about 2" style="width:1664px;height:450px;object-fit:contain">
+<img src="/_blob/44103a66fe2a636513f234c32bfdc9f3" alt="Stacked bars of dev-split tasks: v5 loses 11.3 points to VLM grounding and 16.0 to the grasp policy; with the robust skill the grasp loss is 1.4; with Qwen-32B or Gemini grounding the VLM loss falls to 1.6-1.8" style="width:1664px;height:450px;object-fit:contain">
 <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
 <h3 style="font-size:30px;font-weight:600">How it is measured</h3>
 <p style="font-size:24px;line-height:1.4;color:#4A5568">Swap one part for a perfect one on the same 505 tasks: GT grounding (VLM), then a scripted grasp (policy).</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:14px">
-<h3 style="font-size:30px;font-weight:600">Grasp policy: 16 → 2</h3>
+<h3 style="font-size:30px;font-weight:600">Grasp policy: 16 → 1.4</h3>
 <p style="font-size:24px;line-height:1.4;color:#4A5568">Per episode, the robust skill caused 0 of v7's 55 failures. v5's caused most.</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #9AA5B4;padding-top:14px">
