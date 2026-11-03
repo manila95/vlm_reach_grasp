@@ -118,5 +118,9 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
     - Qwen cannot read numbered marks (62%).
     - Test runs of the two grounders declared on dev: Gemini 3.8 Flash recursive **94.0%** (significantly above π0.5 89.3, McNemar p = 5e-8); local Qwen-32B 91.0% (p = 0.057).
 
+- **Execution time (2026-11-03).** Clean measurement on idle GPUs, 45 dev tasks: per successful episode ours takes 7.2 s with Qwen-8B grounding, 9.1 s with local Qwen-32B and 16.0 s with Gemini Flash recursive, against π0.5 9.0 s, π0 9.1 s, MolmoAct2 11.3 s and SmolVLA 59 s.
+  - Our grasp policy costs 0.14 s per episode (5 calls × 27 ms); the VLM is the cost (1.2 / 3.0 / 9.9 s per scene).
+  - Logged wall-clock times from the success runs are not usable: runs shared GPUs and servers at different loads.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).

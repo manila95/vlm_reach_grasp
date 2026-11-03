@@ -1,0 +1,20 @@
+<section id="cmp-pareto" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:24px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Success vs time: Gemini buys +4.7 points for +7 s</h2>
+<img src="/_blob/447476034d1eba122d6b70f9be61048c" alt="Scatter of test success versus execution time: ours with Qwen-8B at 7.2 s and 88.3 percent, Qwen-32B 9.1 s and 91.0, Gemini Flash 16.0 s and 94.0; pi0.5 9.0 s and 89.3; MolmoAct2 11.3 s and 87.8; pi0 9.1 s and 52.2" style="width:1664px;height:510px;object-fit:contain">
+<div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #F2A97E;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Local 32B: same time as π0.5</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">91.0% at 9.1 s vs 89.3% at 9.0 s: ahead, but not significant (p = 0.057).</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Gemini: 1.8× the time</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">94.0% at 16.0 s: the accuracy gain is real (p = 5·10⁻⁸), and so is the extra latency.</p>
+</div>
+<div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #1F2A3D;padding-top:14px">
+<h3 style="font-size:30px;font-weight:600">Not yet in the numbers</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">Grounding could overlap the reach; VLAs could pipeline. GPU memory: Qwen-32B ≈ 62 GB, π0.5 ≈ 9 GB.</p>
+</div>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Time per successful episode on idle GPUs (45 dev tasks); success on the held-out test split (2,013 tasks) · SmolVLA (59 s, 2.2%) is off the chart</p>
+<aside>Reading the trade-off: the fastest system is ours with Qwen-8B (7.2 s, a tie with π0.5 in accuracy). Moving the VLM up the size ladder buys accuracy at the price of grounding time: Qwen-32B adds about 2 s and 2.7 points, Gemini Flash with recursive querying adds about 9 s and 5.7 points, relative to Qwen-8B. All three of our systems share the same 0.14 s policy and the same robot motion. Two things are deliberately left out of the time totals: our grounding is serial here (the robot waits), but it only needs the first image, so a real deployment could run it while the arm moves toward the workspace; and the VLAs are measured with blocking inference, while their servers can overlap chunk inference with execution. A dev-split run of Gemini 4 Argon with numbered marks (offline grounding accuracy 98.6%) takes 3.6 s per scene instead of 9.9 s, so a faster API model may move the Gemini point left; it has no test-split run yet.</aside>
+</section>

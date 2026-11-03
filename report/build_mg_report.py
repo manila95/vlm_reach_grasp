@@ -226,6 +226,12 @@ for n, v in sorted(E8.items(), key=lambda kv: -kv[1]['both']):
     rows.append([n.replace('__', ' · '), f"{100*v['both']:.1f}%", f"{v['sec']:.1f}", f"{100*np.mean([r['success'] for r in cl]):.1f}%" if len(cl) >= 500 else '–'])
 table(rows, ['Grounder · strategy', 'Offline: right object and basket', 's / scene', 'Closed-loop success (dev)'])
 display(Markdown('Perfect grounding with the same skill: %.1f%%; π0.5 on the same dev tasks: %.1f%%.' % (sr(GT), sr(dsr('pi05_libero')))))"""))
+C.append(md(r"""**Execution time.** Measured on idle GPUs over 45 LIBERO-Plus dev tasks (every 12th task), one model served at a time, first server call excluded.
+Time per successful episode = simulated robot motion (steps at 20 Hz) + model inference, with inference assumed to block the robot; our VLM grounding runs once per episode.
+Success is from the held-out test split, not from these 45 tasks. Gemini times include network latency."""))
+C.append(code(r"""T = load(f'{LP}/timing_table.json')
+table([[t['label'], f"{t['success']:.1f}%", f"{t['robot']:.1f}", f"{t['policy']:.2f}", f"{t['vlm']:.1f}", f"{t['total']:.1f}"] for t in T],
+      ['System', 'Test success', 'Robot motion (s)', 'Policy inference (s)', 'VLM grounding (s)', 'Total (s)'])"""))
 C.append(md(r"""---
 ## 7. Next
 1. Fix the transfer reach (video step-through; MimicGen-style interpolated transit). Validate with C1 ≈ P1 on D0, then re-run the composed grid, plus seeds 1–2, the data-efficiency (10 / 100 / 1000 demos) and handoff-length sweeps, and handoff noise.
