@@ -10,9 +10,13 @@ MODEL = "Qwen/Qwen3-VL-8B-Instruct"
 
 class Grounder:
     def __init__(self, model=MODEL, device="cuda:0"):
-        from transformers import AutoProcessor, Qwen3VLForConditionalGeneration
-        self.model = Qwen3VLForConditionalGeneration.from_pretrained(
-            model, dtype=torch.bfloat16, device_map=device).eval()
+        from transformers import AutoProcessor
+        if "Qwen3-VL" in model:       # the original wrapper, unchanged
+            from transformers import Qwen3VLForConditionalGeneration
+            self.model = Qwen3VLForConditionalGeneration.from_pretrained(model, dtype=torch.bfloat16, device_map=device).eval(); self.kw = {}
+        else:                         # newer natively multimodal models (Qwen3.5 / 3.6 / 3.8): thinking off, answers only
+            from transformers import AutoModelForImageTextToText
+            self.model = AutoModelForImageTextToText.from_pretrained(model, dtype=torch.bfloat16, device_map=device).eval(); self.kw = {"enable_thinking": False}
         self.proc = AutoProcessor.from_pretrained(model)
 
     @torch.no_grad()
@@ -20,7 +24,7 @@ class Grounder:
         msgs = [{"role": "user", "content": [{"type": "image", "image": Image.fromarray(img)},
                                              {"type": "text", "text": text}]}]
         inp = self.proc.apply_chat_template(msgs, tokenize=True, add_generation_prompt=True,
-                                            return_dict=True, return_tensors="pt").to(self.model.device)
+                                            return_dict=True, return_tensors="pt", **self.kw).to(self.model.device)
         out = self.model.generate(**inp, max_new_tokens=max_new_tokens, do_sample=False)
         return self.proc.batch_decode(out[:, inp["input_ids"].shape[1]:], skip_special_tokens=True)[0]
 
@@ -114,7 +118,7 @@ def zoom(img, box, margin=0.5, out=448, min_side=80):
 @torch.no_grad()
 def yes_score(self, img, text):
     msgs = [{"role": "user", "content": [{"type": "image", "image": Image.fromarray(img)}, {"type": "text", "text": text}]}]
-    inp = self.proc.apply_chat_template(msgs, tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors="pt").to(self.model.device)
+    inp = self.proc.apply_chat_template(msgs, tokenize=True, add_generation_prompt=True, return_dict=True, return_tensors="pt", **self.kw).to(self.model.device)
     logits = self.model(**inp).logits[0, -1].float()
     tok = self.proc.tokenizer
     y = [tok.encode(w, add_special_tokens=False)[0] for w in ("Yes", "yes")]
