@@ -335,3 +335,18 @@ Replicates on the 80 camera tasks:
 - Right-object failures are run-to-run noise. They land on different tasks each run; the floor is 1–6% per category per run (unseeded diffusion sampling, contact physics).
 - Wrong-object failures repeat exactly (deterministic grounding), so they are the VLM's.
 - Final attribution averages replicates; single runs can swing a category by about 10 points.
+
+**E4 final: LIBERO-Plus test split (2,013 tasks, run once, 2026-11-02).**
+
+| Method | All [95% CI] |
+|---|---|
+| **Ours v7** (selected skill + grounding v7, Qwen3-VL-8B) | **88.3 [87–90]** |
+| Ours v5 | 69.8 |
+| π0.5 | 89.3 [88–91] |
+| MolmoAct2 | 87.8 |
+| π0 | 52.2 |
+| SmolVLA | 2.2 |
+
+- Ours v7 by category: robot init 97 (π0.5 70), sensor 95, language 69, layout 88, camera 79, background 95, light 97.
+- Tied with π0.5 and MolmoAct2 within CIs, without VLA pretraining on robot data.
+- The remaining losses are grounding (language, camera). E8b tests stronger grounders closed-loop on dev; a grounder chosen there gets its own single test run.
