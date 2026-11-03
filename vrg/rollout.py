@@ -44,9 +44,10 @@ def run_task(args):
         from vrg.pipeline import handoff_for
         HO_PRE, HORI_PRE = handoff_for(A.pre)
     env, task = make_env(tid)
-    if runner is not None: runner.env = env              # depth-input skills render the wrist depth live
+    if runner is not None: runner.env = env; runner.infer_sec = 0.0; runner.infer_calls = 0      # depth-input skills render the wrist depth live
     out = []
     for ep in eps:
+        if runner is not None: runner.infer_sec = 0.0; runner.infer_calls = 0   # per-episode model-time counters
         frames, n = [], [0]
         obs = reset_episode(env, tid, ep, A.shuffle, getattr(A, "perturb", None))
         pos0 = {k[:-4]: obs[k].copy() for k in obs if k.endswith("_pos") and "_to_" not in k and not k.startswith("robot") and not k.startswith("basket")}
@@ -161,6 +162,7 @@ def run_task(args):
         disp = {k: float(np.linalg.norm(env.env.sim.data.body_xpos[env.env.obj_body_id[k]] - v)) for k, v in pos0.items()}
         moved = max(disp, key=disp.get)  # analysis only (privileged): which object did the robot actually move?
         out.append(dict(tid=tid, ep=ep, success=bool(done), fail=None if done else phase_fail, steps=n[0], sec=time.time() - t0,
+                        infer_sec=getattr(runner, "infer_sec", 0.0), infer_calls=getattr(runner, "infer_calls", 0),
                         moved=moved if disp[moved] > 0.05 else None, target=target_name(getattr(task, "name", task.language)) + "_1"))
         print(f"[{A.method}] task {tid} ep {ep}: success={done} fail={out[-1]['fail']} steps={n[0]}", flush=True)
         if A.hires and hi_frames:

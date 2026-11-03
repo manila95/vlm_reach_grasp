@@ -36,7 +36,7 @@ def run_openpi(tid, client, video_dir=None, max_steps=280, wait=10, replan=5):
     suite = get_suite(); t = suite.get_task(tid)
     env = OffScreenRenderEnv(bddl_file_name=os.path.join(get_libero_path("bddl_files"), t.problem_folder, t.bddl_file), camera_heights=256, camera_widths=256)
     env.seed(7); env.reset(); obs = env.set_init_state(suite.get_task_init_states(tid)[0])
-    plan, frames, done, step = collections.deque(), [], False, 0
+    plan, frames, done, step = collections.deque(), [], False, 0; tm = dict(sec=0.0, calls=0)
     for step in range(max_steps + wait):
         if step < wait: obs, _, done, _ = env.step([0.0] * 6 + [-1.0]); continue
         img = image_tools.convert_to_uint8(image_tools.resize_with_pad(np.ascontiguousarray(obs["agentview_image"][::-1, ::-1]), 224, 224))
@@ -46,7 +46,8 @@ def run_openpi(tid, client, video_dir=None, max_steps=280, wait=10, replan=5):
             el = {"observation/image": img, "observation/wrist_image": wimg, "prompt": str(t.language),
                   "observation/state": np.concatenate((obs["robot0_eef_pos"], quat2axisangle(obs["robot0_eef_quat"]), obs["robot0_gripper_qpos"]))}
             for attempt in range(4):              # the server's first call compiles (> websocket keepalive): reconnect and retry
-                try: plan.extend(client.infer(el)["actions"][:replan]); break
+                try:
+                    t_c = time.perf_counter(); plan.extend(client.infer(el)["actions"][:replan]); tm["sec"] += time.perf_counter() - t_c; tm["calls"] += 1; break
                 except Exception:
                     if attempt == 3: raise
                     time.sleep(10); client.reconnect()
@@ -55,7 +56,7 @@ def run_openpi(tid, client, video_dir=None, max_steps=280, wait=10, replan=5):
     env.close()
     if video_dir and frames:
         import imageio; os.makedirs(video_dir, exist_ok=True); imageio.mimsave(f"{video_dir}/t{tid}_{'ok' if done else 'fail'}.mp4", frames, fps=20)
-    return dict(tid=tid, success=bool(done), steps=step + 1, language=t.language, name=t.name)
+    return dict(tid=tid, success=bool(done), steps=step + 1, language=t.language, name=t.name, infer_sec=tm["sec"], infer_calls=tm["calls"])
 
 
 def run_lerobot(tid, conn, video_dir=None, max_steps=280, wait=10, size=360):
@@ -66,25 +67,26 @@ def run_lerobot(tid, conn, video_dir=None, max_steps=280, wait=10, size=360):
     env = OffScreenRenderEnv(bddl_file_name=os.path.join(get_libero_path("bddl_files"), t.problem_folder, t.bddl_file), camera_heights=size, camera_widths=size)
     env.seed(7); env.reset(); obs = env.set_init_state(suite.get_task_init_states(tid)[0])
     for _ in range(wait): obs, _, done, _ = env.step([0.0] * 6 + [-1.0])
-    conn.send({"cmd": "reset"}); conn.recv(); frames, done, step = [], False, 0
+    conn.send({"cmd": "reset"}); conn.recv(); frames, done, step = [], False, 0; tm = dict(sec=0.0, calls=0)
     keys = ("agentview_image", "robot0_eye_in_hand_image", "robot0_eef_pos", "robot0_eef_quat", "robot0_gripper_qpos",
             "robot0_gripper_qvel", "robot0_joint_pos", "robot0_joint_vel")
     for step in range(max_steps):
         o = {k: obs[k] for k in keys}; o["eef_mat"] = env.env.robots[0].controller.ee_ori_mat.copy()
         if video_dir is not None: frames.append(obs["agentview_image"][::-1, ::-1])
-        conn.send({"cmd": "act", "obs": o, "task": str(t.language)}); a = conn.recv()
+        t_c = time.perf_counter(); conn.send({"cmd": "act", "obs": o, "task": str(t.language)}); a = conn.recv(); tm["sec"] += time.perf_counter() - t_c; tm["calls"] += 1
         obs, _, done, _ = env.step(np.asarray(a, dtype=np.float64).tolist())
         if done: break
     env.close()
     if video_dir and frames:
         import imageio; os.makedirs(video_dir, exist_ok=True); imageio.mimsave(f"{video_dir}/t{tid}_{'ok' if done else 'fail'}.mp4", frames, fps=20)
-    return dict(tid=tid, success=bool(done), steps=step + 1, language=t.language, name=t.name)
+    return dict(tid=tid, success=bool(done), steps=step + 1, language=t.language, name=t.name, infer_sec=tm["sec"], infer_calls=tm["calls"])
 
 
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument("--method", choices=["ours", "openpi", "lerobot"], required=True); ap.add_argument("--tasks", required=True)
     ap.add_argument("--port", type=int, default=8002); ap.add_argument("--out", required=True); ap.add_argument("--video_every", type=int, default=100)
     ap.add_argument("--wait", type=int, default=10)
+    ap.add_argument("--every", type=int, default=1, help="timing runs: keep every n-th task of the split")
     ap.add_argument("--split", choices=["all", "dev", "test"], default="all", help="data/liberoplus_split.json (fixed before any tuning)")
     ap.add_argument("--oracle", action="store_true", help="ours: ground-truth object/basket positions (attribution, E0)")
     ap.add_argument("--skill", choices=["learned", "scripted"], default="learned", help="ours: learned egocentric grasp or scripted grasp (E0)")
@@ -116,7 +118,7 @@ def main():
                                         "--calib", A.calib, "--device", "cuda:0"] + (["--oracle"] if A.oracle else []))
     keep = None if A.split == "all" else set(json.load(open(f"{os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))}/data/liberoplus_split.json"))[A.split])
     for tid in range(lo, hi + 1):
-        if tid in done or (keep is not None and tid not in keep): continue
+        if tid in done or (keep is not None and tid not in keep) or (A.every > 1 and tid % A.every != 0): continue
         t0 = time.time(); vid = (tid - lo) % A.video_every == 0
         try:
             if A.method == "openpi":

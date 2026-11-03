@@ -1,5 +1,5 @@
 """Hierarchical VLM -> reach -> learned grasp -> transport controller for LIBERO-Object."""
-import collections, json
+import collections, json, time
 import numpy as np, torch
 from robosuite.utils import camera_utils as CU
 from robosuite.utils.transform_utils import quat2axisangle, quat2mat, axisangle2quat, mat2quat, quat_multiply, quat_inverse
@@ -123,7 +123,7 @@ class PolicyRunner:
                                    img_norm=a.get("img_norm", False)).to(device)
         self.mode = a["mode"]; self.path_uv = None
         self.pol.load_state_dict(ck["ema"]); self.pol.eval(); self.dev = device
-        self.mask_xy = a.get("mask_xy", False)
+        self.mask_xy = a.get("mask_xy", False); self.infer_sec = 0.0; self.infer_calls = 0
         self.reset()
 
     def reset(self):
@@ -145,9 +145,12 @@ class PolicyRunner:
         self.hist.append(f)
         while len(self.hist) < self.pol.n_obs: self.hist.appendleft(f)
         if not self.queue:
+            t0 = time.perf_counter()
             b = {k: torch.from_numpy(np.stack([h[k] for h in self.hist]))[None].to(self.dev) for k in self.cams + ("proprio",)}
             b["tid"] = torch.tensor([tid], device=self.dev)
             self.queue.extend(self.pol.act(b)[0].float().cpu().numpy())
+            if str(self.dev).startswith("cuda"): torch.cuda.synchronize()
+            self.infer_sec += time.perf_counter() - t0; self.infer_calls += 1      # model time, for the execution-time metric
         return self.queue.popleft()
 
 
