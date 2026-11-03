@@ -3,8 +3,8 @@
 <img src="/_blob/819e6d204e5a77864a823452b40c09ee" alt="Horizontal bars of closed-loop dev success for eleven grounding models and strategies with the same robust skill; Gemini 3.8 Flash recursive 94.7 and Qwen3-VL 32B verify 94.5 lead, near the 96.2 perfect-grounding line; Qwen 8B with numbered marks is lowest at 62.2" style="width:1664px;height:520px;object-fit:contain">
 <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:28px">
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #E0662F;padding-top:14px">
-<h3 style="font-size:30px;font-weight:600">Local 32B ≈ best API model</h3>
-<p style="font-size:24px;line-height:1.4;color:#4A5568">Qwen-32B verify 94.5 vs Gemini Flash recursive 94.7: deployable offline on the Franka.</p>
+<h3 style="font-size:30px;font-weight:600">Beats π0.5 on the same tasks</h3>
+<p style="font-size:24px;line-height:1.4;color:#4A5568">94.5–94.7 vs 88.5, paired McNemar p ≤ 0.0005; local Qwen-32B as good as Gemini.</p>
 </div>
 <div style="display:flex;flex-direction:column;gap:6px;border-top:6px solid #2A6FDB;padding-top:14px">
 <h3 style="font-size:30px;font-weight:600">Recursion helps weaker models</h3>
@@ -16,5 +16,5 @@
 </div>
 </div>
 <p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">E8b · dev split, identical candidates, skill and calibration; only the grounder changes · test runs for Qwen-32B and Gemini Flash recursive (declared on dev) are running</p>
-<aside>Offline grounding accuracy (right object and right basket) on the same scenes: Gemini 3.8 Flash recursive 98.8%, Gemini 4 Argon 98.6%, Qwen-32B verify 96.8%, Robotics-ER 2 recursive 96.2%, Qwen-4B verify 93.3%, Qwen-2B verify 87.9%, Qwen marks 56–65%. Cost per scene: Argon marks 4 s, Flash recursive 9.5 s, Qwen-4B verify 2.9 s, Qwen-32B verify 13 s. Language is where Gemini helps most (96–97% closed-loop vs 75% for Qwen-8B): it reads the full instruction instead of a shortened name. Gemini 3.1 Pro and Gemma 4 31B are incomplete (slow on the API). Size cascades need a better uncertainty signal: Qwen's own disagreement escalates almost always.</aside>
+<aside>Offline grounding accuracy (right object and right basket) on the same scenes: Gemini 3.8 Flash recursive 98.8%, Gemini 4 Argon 98.6%, Qwen-32B verify 96.8%, Robotics-ER 2 recursive 96.2%, Qwen-4B verify 93.3%, Qwen-2B verify 87.9%, Qwen marks 56–65%. Cost per scene: Argon marks 4 s, Flash recursive 9.5 s, Qwen-4B verify 2.9 s, Qwen-32B verify 13 s. Language is where Gemini helps most (96–97% closed-loop vs 75% for Qwen-8B): it reads the full instruction instead of a shortened name. Gemini 3.1 Pro and Gemma 4 31B are incomplete (slow on the API). Size cascades need a better uncertainty signal: Qwen's own disagreement escalates almost always. Paired comparison with π0.5 on the same 505 dev tasks: Gemini Flash recursive wins 54 tasks π0.5 loses and loses 23 it wins (McNemar p = 0.0005); Qwen-32B 50 vs 20 (p = 0.0004); v7 with Qwen-8B 48 vs 45 (p = 0.84, a tie). The grounder was chosen on this split, so the test-split runs (declared in advance) are the confirmation.</aside>
 </section>
