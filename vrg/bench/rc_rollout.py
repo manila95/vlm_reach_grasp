@@ -139,26 +139,38 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
                 if a[6] <= 0: z_close = None
                 if z_close is not None and z > z_close + LIFT_DONE:
                     skill = "place"; r.reset(); r.emb = TXT[pl["place_text"]]; PH[0] = f'skill: "{pl["place_text"]}"'
-    else:  # ours
+    else:  # ours / ours_scripted (no learned skill: demo-mean grasp and release geometry)
+        scripted = A.method == "ours_scripted"
         g = G[(split, task, ep)]; S = STATS[task]; bp, R = base_pose(o)
         PO, PQ = (S["pick_off40"], S["pick_quat40"]) if A.pick_pre == 40 else (S["pick_off"], S["pick_quat"])   # match the skill's training start
         place_pt, place_src = place_target(g, o, S)
+        if scripted and g["pick"] is not None and A.bias_tbl:      # remove the surface-point offset (dev-calibrated, per task)
+            g = dict(g, pick=g["pick"] - R @ np.array(A.bias_tbl.get(task, A.bias_tbl["_all"])))
         if g["pick"] is None: fail = "grounding"
         else:
             PH[0] = "[1] VLM-guided base alignment + reach (scripted)"
             align_base(g["pick"]); bp, R = base_pose(o)
             reach_via(g["pick"] + R @ PO, PQ)
             bp, R = base_pose(o); reach_err = float(np.linalg.norm(o["robot0_eef_pos"] - (g["pick"] + R @ PO)))
-            PH[0] = "[2] learned egocentric pick"
-            rp = runners["pick"]; z_close = None
+            PH[0] = "[2] scripted grasp" if scripted else "[2] learned egocentric pick"
+            rp = None if scripted else runners["pick"]; z_close = None
             for attempt in range(1 + A.retries):
-                rp.reset(); z_close = None
-                for _ in range(GRASP_MAX):
-                    if done[0] or n[0] >= H: break
-                    a7 = rp(o); step(full_action(a7)); z = o["robot0_base_to_eef_pos"][2]
-                    if a7[6] > 0 and z_close is None: z_close = z
-                    if a7[6] <= 0: z_close = None
-                    if z_close is not None and z > z_close + LIFT_DONE: break
+                if scripted:   # descend to the demo-mean grasp pose, close, lift (z_close = height at closing, as the learned skill reports it)
+                    bp, R = base_pose(o); move_to(g["pick"] + R @ S["grasp_off"], PQ, grip=-1.0, max_steps=60, tol=0.008, gain=0.6)
+                    op = env.sim.data.body_xpos[env.obj_body_id["obj"]].copy(); bp_, R_ = base_pose(o)
+                    dbg = dict(eef_minus_obj_base=(R_.T @ (o["robot0_eef_pos"] - op)).round(3).tolist(), pick_minus_obj_base=(R_.T @ (g["pick"] - op)).round(3).tolist())
+                    for _ in range(15): step(np.r_[np.zeros(6), 1, np.zeros(4), -1])
+                    dbg["width_closed"] = round(float(o["robot0_gripper_qpos"][0] - o["robot0_gripper_qpos"][1]), 4)
+                    z_close = o["robot0_base_to_eef_pos"][2]
+                    move_to(o["robot0_eef_pos"] + np.array([0, 0, LIFT_DONE + 0.03]), None, grip=1.0, max_steps=40, tol=0.02)
+                else:
+                    rp.reset(); z_close = None
+                    for _ in range(GRASP_MAX):
+                        if done[0] or n[0] >= H: break
+                        a7 = rp(o); step(full_action(a7)); z = o["robot0_base_to_eef_pos"][2]
+                        if a7[6] > 0 and z_close is None: z_close = z
+                        if a7[6] <= 0: z_close = None
+                        if z_close is not None and z > z_close + LIFT_DONE: break
                 width = o["robot0_gripper_qpos"][0] - o["robot0_gripper_qpos"][1]
                 if z_close is not None and width > 0.006: break
                 move_to(o["robot0_eef_pos"] + np.array([0, 0, 0.06]), PQ, grip=-1.0, max_steps=20)
@@ -177,13 +189,17 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
             move_to(over, S["place_quat"], grip=1.0, max_steps=100, tol=0.02)
             move_to(ph, S["place_quat"], grip=1.0, max_steps=60)
             held_place = OU.check_obj_grasped(env, "obj")
-            PH[0] = "[4] learned egocentric place"
-            rq = runners["place"]; rq.reset(); opened = 0
-            for _ in range(PLACE_MAX):
-                if done[0] or n[0] >= H: break
-                a7 = rq(o); step(full_action(a7))
-                opened = opened + 1 if a7[6] <= 0 else 0
-                if opened >= 6: break
+            if scripted:   # descend to the demo-mean release pose above the place target; [5] then opens and retreats
+                PH[0] = "[4] scripted place"
+                bp, R = base_pose(o); move_to(place_pt + R @ S["release_off"], S["place_quat"], grip=1.0, max_steps=50, tol=0.01, gain=0.6)
+            else:
+                PH[0] = "[4] learned egocentric place"
+                rq = runners["place"]; rq.reset(); opened = 0
+                for _ in range(PLACE_MAX):
+                    if done[0] or n[0] >= H: break
+                    a7 = rq(o); step(full_action(a7))
+                    opened = opened + 1 if a7[6] <= 0 else 0
+                    if opened >= 6: break
             PH[0] = "[5] release + retreat (scripted)"
             # finish opening in place before moving: retreating while the fingers still hold the object drags it out
             w_prev = None
@@ -205,23 +221,26 @@ def run_episode(A, task, split, ep, env, genv, runners, G, TXT, STATS, rec):
     moved = max(disp, key=disp.get)
     return dict(task=task, split=split, ep=ep, success=bool(done[0]), fail=None if done[0] else (fail or "timeout"),
                 steps=n[0], moved=moved if disp[moved] > 0.05 else None, target="obj", lang=env.get_ep_meta()["lang"],
-                place_src=locals().get("place_src"), reach_err=locals().get("reach_err"))
+                place_src=locals().get("place_src"), reach_err=locals().get("reach_err"), dbg=locals().get("dbg"))
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--method", required=True, choices=["ours", "e2e", "saycan", "hamster"])
+    ap.add_argument("--method", required=True, choices=["ours", "ours_scripted", "e2e", "saycan", "hamster"])
     ap.add_argument("--split", required=True); ap.add_argument("--eps", default="0-49"); ap.add_argument("--tasks", default=",".join(TASKS))
     ap.add_argument("--ckpt", default=None); ap.add_argument("--pick_ckpt", default=None); ap.add_argument("--place_ckpt", default=None)
     ap.add_argument("--grounding", default=f"{ROOT}/grounding.pkl"); ap.add_argument("--retries", type=int, default=1)
     ap.add_argument("--pick_pre", type=int, default=20, choices=[20, 40], help="handoff pose: 20 or 40 steps before grasp (local_pick --pre)")
+    ap.add_argument("--bias", default=None, help="ours_scripted: pick-point bias json from rc_pick_bias (dev episodes)")
     ap.add_argument("--video", type=int, default=1); ap.add_argument("--out", required=True); ap.add_argument("--device", default="cuda:0")
     A = ap.parse_args(); os.makedirs(A.out, exist_ok=True)
     lo, hi = map(int, A.eps.split("-")); dev = A.device
-    G = pickle.load(open(A.grounding, "rb")) if A.method in ("ours", "hamster", "saycan") else {}
+    G = pickle.load(open(A.grounding, "rb")) if A.method in ("ours", "ours_scripted", "hamster", "saycan") else {}
     TXT = pickle.load(open(f"{ROOT}/text_emb.pkl", "rb")) if A.method in ("e2e", "saycan") else {}
+    BIAS = json.load(open(A.bias)) if A.bias else {}; A.bias_tbl = BIAS
     STATS = json.load(open(f"{ROOT}/handoff_stats.json")); STATS = {t: {k: np.array(v) for k, v in d.items()} for t, d in STATS.items()}
-    runners = {"pick": Runner(A.pick_ckpt, dev), "place": Runner(A.place_ckpt, dev)} if A.method == "ours" else {"main": Runner(A.ckpt, dev)}
+    runners = ({"pick": Runner(A.pick_ckpt, dev), "place": Runner(A.place_ckpt, dev)} if A.method == "ours" else
+               {} if A.method == "ours_scripted" else {"main": Runner(A.ckpt, dev)})
     import imageio
     res = []
     for task in A.tasks.split(","):
