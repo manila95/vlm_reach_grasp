@@ -1,0 +1,15 @@
+<section id="vla-comparison" data-transition="fade" style="background:#F7F6F2;color:#1F2A3D;font-family:'IBM Plex Sans', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:32px">
+<h2 style="font-family:'Source Serif 4', Georgia, serif;font-size:64px;font-weight:600;line-height:1.15">Same score, different machine: what each approach needs and where it breaks</h2>
+<table style="font-size:25px;width:1664px;color:#1F2A3D">
+<tr><th style="width:22%;text-align:left"></th><th style="width:26%;text-align:left;color:#C4521F">Ours (VLM + reach + local skill)</th><th style="width:26%;text-align:left">π0.5-LIBERO</th><th style="width:26%;text-align:left">MolmoAct2-LIBERO</th></tr>
+<tr><td><b>Robot training</b></td><td>50 demos per task, only the grasp segment; a 78 M-param diffusion policy</td><td>large robot + web pretraining, then LIBERO fine-tuning</td><td>large pretraining, then LIBERO fine-tuning</td></tr>
+<tr><td><b>Language / scene</b></td><td>off-the-shelf VLM, zero-shot, swappable</td><td>inside the policy</td><td>inside the policy</td></tr>
+<tr><td><b>Test split</b></td><td>88.3% (v7, Qwen-8B)</td><td>89.3%</td><td>87.8%</td></tr>
+<tr><td><b>Strong on</b></td><td>start pose 97, sensor 95, light 97</td><td>appearance (light, background, language)</td><td>appearance, language</td></tr>
+<tr><td><b>Weak on</b></td><td>language, camera: grounding</td><td>start pose 70</td><td>start pose 64</td></tr>
+<tr><td><b>To improve</b></td><td>swap the VLM: 89 → 95% on dev, no robot data</td><td>more robot data and fine-tuning</td><td>more robot data and fine-tuning</td></tr>
+</table>
+<p style="font-size:28px;line-height:1.45;color:#4A5568;width:1664px">The modular system's errors are <b>attributable</b>: we can say which part failed and fix it in isolation. Upgrading the VLM alone took the dev split from 89 to 95%, with the same 50-demo skill.</p>
+<p style="position:absolute;left:128px;bottom:64px;width:1664px;font-size:24px;color:#5A6473">Numbers: LIBERO-Plus test split (2,013 tasks) except "to improve" (dev split, 505 tasks) · VLA checkpoints evaluated as released</p>
+<aside>The comparison is not about who has the bigger model. The VLAs learn perception, language and control together from large robot datasets; their failures under start-pose changes show that motion generalisation is the hard part for them. Our system learns only the local contact skill from 50 demos and plans the rest, so start-pose changes cost nothing, and its perception is an off-the-shelf VLM that can be replaced. The price is that every perception error passes straight through: our language and camera losses are grounding mistakes, which the next VLM generation already fixes. On the real Franka, the same split lets us use a local Qwen model (no API) and a wrist RGB-D skill.</aside>
+</section>

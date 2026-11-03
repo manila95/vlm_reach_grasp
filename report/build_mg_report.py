@@ -186,6 +186,39 @@ C.append(md(r"""**Reading (ours, final over all 2,518 tasks: 69.9%; π0.5-LIBERO
 * **Camera viewpoints:** 66% vs 87%. The target is found in 84% of scenes, and most failures are at the place step.
 * **For the contact-segment study:** the local skill must be visually robust, not only spatially local. That means photometric augmentation or a pretrained visual encoder in the segment policy. This is now a planned ablation, and it is not tuned on these test tasks."""))
 
+C.append(md(r"""### 6b. Final comparison, loss attribution and grounding models
+
+**Test split (2,013 tasks, held out, run once after the regression gates).** The final system v7 combines:
+- the re-rendered + colour augmented wrist skill;
+- grounding v7: robot self-filter, box centres, parser v2, with Qwen3-VL-8B.
+
+Everything was selected on our own dev scenes and the 20% dev split.
+
+**Attribution on the dev split.** VLM loss = (skill + GT grounding) − system; grasp-policy loss = (GT + scripted grasp) − (skill + GT).
+- Repeated runs set the noise floor: right-object failures move between tasks (1–6% per category per run), while wrong-object failures repeat exactly.
+
+**Grounding study.** Every model × strategy on identical cached scenes (offline accuracy), then closed-loop with the same robust skill (E8b)."""))
+C.append(code(r"""test = set(load(f'{ROOT}/data/liberoplus_split.json')['test']); dev = set(load(f'{ROOT}/data/liberoplus_split.json')['dev'])
+M = [('Ours v7 (final)', 'ours_v7_test'), ('Ours v5', 'ours'), ('π0.5-LIBERO', 'pi05_libero'), ('MolmoAct2-LIBERO', 'molmoact2_libero'), ('π0-LIBERO', 'pi0_libero'), ('SmolVLA-LIBERO', 'smolvla_libero')]
+rows = []
+for lab, name in M:
+    R = [r for r in load(f'{LP}/{name}/results.json') if r['tid'] in test]
+    rows.append([lab, fmt(R)] + [f"{100*np.mean([r['success'] for r in R if r['category'] == c]):.0f}%" for c in CATS])
+table(rows, ['Test split (2,013)', 'All'] + CATS)"""))
+C.append(code(r"""def dsr(name): R = {r['tid']: r for r in load(f'{LP}/{name}/results.json') if r['tid'] in dev}; return R
+GT, CEIL = dsr('e4_oracle_newskill'), dsr('e0_D_oracle_scripted'); GT5 = dsr('e0_B_oracle_learned')
+sr = lambda R: 100 * np.mean([r['success'] for r in R.values()])
+rows = [['v5 (start)', f"{sr(dsr('ours')):.1f}", f"{sr(GT5) - sr(dsr('ours')):.1f}", f"{sr(CEIL) - sr(GT5):.1f}", f"{100 - sr(CEIL):.1f}"]]
+for lab, name in [('v7 (Qwen-8B)', 'ours_v7_dev'), ('Qwen-32B verify', 'e8b_qwen-Qwen_Qwen3-VL-32B-Instruct__verify'), ('Gemini 3.8 Flash recursive', 'e8b_gemini-gemini-3.8-flash__recursive'), ('Gemini 4 Argon marks', 'e8b_gemini-gemini-4-argon__marks')]:
+    R = dsr(name); rows.append([lab, f'{sr(R):.1f}', f'{sr(GT) - sr(R):.1f}', f'{sr(CEIL) - sr(GT):.1f}', f'{100 - sr(CEIL):.1f}'])
+table(rows, ['Dev split (505)', 'Success', 'Lost to VLM grounding', 'Lost to grasp policy', 'Robot side / noise'])"""))
+C.append(code(r"""E8 = load(f'{LP}/e8_grounding_study.json'); rows = []
+for n, v in sorted(E8.items(), key=lambda kv: -kv[1]['both']):
+    if v['n'] < 505: continue
+    cl = load(f'{LP}/e8b_{n}/results.json'); cl = [r for r in cl if r['tid'] in dev] if cl else []
+    rows.append([n.replace('__', ' · '), f"{100*v['both']:.1f}%", f"{v['sec']:.1f}", f"{100*np.mean([r['success'] for r in cl]):.1f}%" if len(cl) >= 500 else '–'])
+table(rows, ['Grounder · strategy', 'Offline: right object and basket', 's / scene', 'Closed-loop success (dev)'])
+display(Markdown('Perfect grounding with the same skill: %.1f%%; π0.5 on the same dev tasks: %.1f%%.' % (sr(GT), sr(dsr('pi05_libero')))))"""))
 C.append(md(r"""---
 ## 7. Next
 1. Fix the transfer reach (video step-through; MimicGen-style interpolated transit). Validate with C1 ≈ P1 on D0, then re-run the composed grid, plus seeds 1–2, the data-efficiency (10 / 100 / 1000 demos) and handoff-length sweeps, and handoff noise.

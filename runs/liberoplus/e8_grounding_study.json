@@ -1,0 +1,361 @@
+{
+ "gemini-gemini-3.1-pro-preview__marks": {
+  "n": 161,
+  "pick": 0.9627329192546584,
+  "place": 1.0,
+  "both": 0.9627329192546584,
+  "sec": 14.063908541424674,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.9591836734693877,
+   "Language Instructions": 0.8333333333333334,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "gemini-gemini-3.1-pro-preview__recursive": {
+  "n": 336,
+  "pick": 0.9672619047619048,
+  "place": 0.9732142857142857,
+  "both": 0.9404761904761905,
+  "sec": 69.8459285071918,
+  "calls": 1.2232142857142858,
+  "per_category": {
+   "Background Textures": 0.9591836734693877,
+   "Camera Viewpoints": 0.8625,
+   "Language Instructions": 0.9571428571428572,
+   "Robot Initial States": 0.9615384615384616,
+   "Sensor Noise": 0.9830508474576272
+  }
+ },
+ "gemini-gemini-3.8-flash__marks": {
+  "n": 505,
+  "pick": 0.9742574257425742,
+  "place": 1.0,
+  "both": 0.9742574257425742,
+  "sec": 6.044404948111808,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 0.9125,
+   "Language Instructions": 0.9859154929577465,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9390243902439024,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "gemini-gemini-3.8-flash__recursive": {
+  "n": 505,
+  "pick": 0.9900990099009901,
+  "place": 0.998019801980198,
+  "both": 0.9881188118811881,
+  "sec": 9.516887906990428,
+  "calls": 1.9762376237623762,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 0.9875,
+   "Language Instructions": 0.9859154929577465,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9512195121951219,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "gemini-gemini-4-argon__marks": {
+  "n": 505,
+  "pick": 0.9861386138613861,
+  "place": 0.9900990099009901,
+  "both": 0.9861386138613861,
+  "sec": 4.053031295833021,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 1.0,
+   "Language Instructions": 1.0,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9146341463414634,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "gemini-gemini-4-argon__recursive": {
+  "n": 505,
+  "pick": 0.9841584158415841,
+  "place": 0.9900990099009901,
+  "both": 0.9841584158415841,
+  "sec": 8.409051983427293,
+  "calls": 1.99009900990099,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 1.0,
+   "Language Instructions": 0.9859154929577465,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9146341463414634,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "gemini-gemini-robotics-er-2-preview__marks": {
+  "n": 505,
+  "pick": 0.9465346534653465,
+  "place": 0.994059405940594,
+  "both": 0.9425742574257425,
+  "sec": 3.6356221255689563,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.9795918367346939,
+   "Camera Viewpoints": 0.8625,
+   "Language Instructions": 0.9577464788732394,
+   "Light Conditions": 0.9833333333333333,
+   "Objects Layout": 0.9024390243902439,
+   "Robot Initial States": 0.9620253164556962,
+   "Sensor Noise": 0.9761904761904762
+  }
+ },
+ "gemini-gemini-robotics-er-2-preview__recursive": {
+  "n": 505,
+  "pick": 0.9722772277227723,
+  "place": 0.9881188118811881,
+  "both": 0.9623762376237623,
+  "sec": 5.467028120720741,
+  "calls": 1.5584158415841585,
+  "per_category": {
+   "Background Textures": 0.9795918367346939,
+   "Camera Viewpoints": 0.925,
+   "Language Instructions": 0.9859154929577465,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9024390243902439,
+   "Robot Initial States": 0.9746835443037974,
+   "Sensor Noise": 0.9880952380952381
+  }
+ },
+ "gemini-gemma-4-31b-it__marks": {
+  "n": 161,
+  "pick": 0.8136645962732919,
+  "place": 1.0,
+  "both": 0.8136645962732919,
+  "sec": 68.09710084429439,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.8979591836734694,
+   "Language Instructions": 0.64,
+   "Robot Initial States": 0.7058823529411765,
+   "Sensor Noise": 0.8867924528301887
+  }
+ },
+ "gemini-gemma-4-31b-it__recursive": {
+  "n": 138,
+  "pick": 0.8260869565217391,
+  "place": 0.9710144927536232,
+  "both": 0.8115942028985508,
+  "sec": 66.55551935106084,
+  "calls": 1.0289855072463767,
+  "per_category": {
+   "Background Textures": 0.875,
+   "Camera Viewpoints": 0.7692307692307693,
+   "Robot Initial States": 0.7792207792207793
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-2B-Instruct__marks": {
+  "n": 505,
+  "pick": 0.592079207920792,
+  "place": 0.9465346534653465,
+  "both": 0.5623762376237624,
+  "sec": 1.621758514347643,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.7142857142857143,
+   "Camera Viewpoints": 0.525,
+   "Language Instructions": 0.647887323943662,
+   "Light Conditions": 0.6,
+   "Objects Layout": 0.35365853658536583,
+   "Robot Initial States": 0.5822784810126582,
+   "Sensor Noise": 0.5952380952380952
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-2B-Instruct__recursive": {
+  "n": 505,
+  "pick": 0.691089108910891,
+  "place": 0.9366336633663367,
+  "both": 0.6534653465346535,
+  "sec": 0.6510974359984445,
+  "calls": 1.7861386138613862,
+  "per_category": {
+   "Background Textures": 0.7551020408163265,
+   "Camera Viewpoints": 0.5875,
+   "Language Instructions": 0.7323943661971831,
+   "Light Conditions": 0.7,
+   "Objects Layout": 0.47560975609756095,
+   "Robot Initial States": 0.7215189873417721,
+   "Sensor Noise": 0.6666666666666666
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-2B-Instruct__verify": {
+  "n": 505,
+  "pick": 0.9584158415841584,
+  "place": 0.9168316831683169,
+  "both": 0.8792079207920792,
+  "sec": 11.682530012225161,
+  "calls": 16.53861386138614,
+  "per_category": {
+   "Background Textures": 0.5102040816326531,
+   "Camera Viewpoints": 0.8625,
+   "Language Instructions": 0.7464788732394366,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9146341463414634,
+   "Robot Initial States": 0.9873417721518988,
+   "Sensor Noise": 1.0
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-32B-Instruct__marks": {
+  "n": 505,
+  "pick": 0.6752475247524753,
+  "place": 0.9663366336633663,
+  "both": 0.6554455445544555,
+  "sec": 2.229059345415323,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.7959183673469388,
+   "Camera Viewpoints": 0.6,
+   "Language Instructions": 0.7183098591549296,
+   "Light Conditions": 0.7166666666666667,
+   "Objects Layout": 0.5487804878048781,
+   "Robot Initial States": 0.6455696202531646,
+   "Sensor Noise": 0.6428571428571429
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-32B-Instruct__recursive": {
+  "n": 352,
+  "pick": 0.6732954545454546,
+  "place": 0.8664772727272727,
+  "both": 0.5823863636363636,
+  "sec": 3.0024321539835497,
+  "calls": 1.0085227272727273,
+  "per_category": {
+   "Camera Viewpoints": 0.5818181818181818,
+   "Language Instructions": 0.5774647887323944,
+   "Light Conditions": 0.7,
+   "Objects Layout": 0.45121951219512196,
+   "Sensor Noise": 0.6309523809523809
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-32B-Instruct__verify": {
+  "n": 505,
+  "pick": 0.9702970297029703,
+  "place": 0.994059405940594,
+  "both": 0.9683168316831683,
+  "sec": 13.296345849556499,
+  "calls": 16.53861386138614,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 0.9125,
+   "Language Instructions": 0.9436619718309859,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9390243902439024,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-4B-Instruct__marks": {
+  "n": 505,
+  "pick": 0.6534653465346535,
+  "place": 0.9623762376237623,
+  "both": 0.6316831683168317,
+  "sec": 0.8347553739453306,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.7755102040816326,
+   "Camera Viewpoints": 0.5625,
+   "Language Instructions": 0.676056338028169,
+   "Light Conditions": 0.65,
+   "Objects Layout": 0.5487804878048781,
+   "Robot Initial States": 0.6455696202531646,
+   "Sensor Noise": 0.6309523809523809
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-4B-Instruct__recursive": {
+  "n": 505,
+  "pick": 0.6217821782178218,
+  "place": 0.4079207920792079,
+  "both": 0.201980198019802,
+  "sec": 0.6322861997207793,
+  "calls": 1.007920792079208,
+  "per_category": {
+   "Background Textures": 0.46938775510204084,
+   "Camera Viewpoints": 0.1625,
+   "Language Instructions": 0.2112676056338028,
+   "Light Conditions": 0.31666666666666665,
+   "Objects Layout": 0.23170731707317074,
+   "Robot Initial States": 0.11392405063291139,
+   "Sensor Noise": 0.047619047619047616
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-4B-Instruct__verify": {
+  "n": 505,
+  "pick": 0.9643564356435643,
+  "place": 0.9643564356435643,
+  "both": 0.9326732673267327,
+  "sec": 2.928027595859943,
+  "calls": 16.53861386138614,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 0.9,
+   "Language Instructions": 0.7464788732394366,
+   "Light Conditions": 1.0,
+   "Objects Layout": 0.9024390243902439,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-8B-Instruct__marks": {
+  "n": 505,
+  "pick": 0.6594059405940594,
+  "place": 0.9861386138613861,
+  "both": 0.6514851485148515,
+  "sec": 1.9164149289083954,
+  "calls": 1.0,
+  "per_category": {
+   "Background Textures": 0.7755102040816326,
+   "Camera Viewpoints": 0.6,
+   "Language Instructions": 0.7323943661971831,
+   "Light Conditions": 0.7166666666666667,
+   "Objects Layout": 0.5487804878048781,
+   "Robot Initial States": 0.6582278481012658,
+   "Sensor Noise": 0.6071428571428571
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-8B-Instruct__recursive": {
+  "n": 505,
+  "pick": 0.6574257425742575,
+  "place": 0.041584158415841586,
+  "both": 0.0,
+  "sec": 0.7661311229856888,
+  "calls": 1.003960396039604,
+  "per_category": {
+   "Background Textures": 0.0,
+   "Camera Viewpoints": 0.0,
+   "Language Instructions": 0.0,
+   "Light Conditions": 0.0,
+   "Objects Layout": 0.0,
+   "Robot Initial States": 0.0,
+   "Sensor Noise": 0.0
+  }
+ },
+ "qwen-Qwen_Qwen3-VL-8B-Instruct__verify": {
+  "n": 263,
+  "pick": 0.9885931558935361,
+  "place": 0.9695817490494296,
+  "both": 0.9581749049429658,
+  "sec": 16.67185609422256,
+  "calls": 16.288973384030417,
+  "per_category": {
+   "Background Textures": 1.0,
+   "Camera Viewpoints": 1.0,
+   "Language Instructions": 0.68,
+   "Objects Layout": 0.8333333333333334,
+   "Robot Initial States": 1.0,
+   "Sensor Noise": 1.0
+  }
+ }
+}

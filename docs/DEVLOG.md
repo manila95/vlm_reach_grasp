@@ -108,5 +108,15 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - Parser v2 (grounding v7) fixes the metadata problem.
   - E4 (re-rendered + colour skill, v6 grounding): dev 70 → 80%; standard 96.5%, shuffled 81.5% (v5 97.5 / 78).
 
+- **Final LIBERO-Plus result (2026-11-02).** v7 scores 88.3% [87–90] on the held-out 2,013-task test split, run once after the regression gates (standard 97.0%, shuffled 82.5%). That ties π0.5 (89.3) and MolmoAct2 (87.8); v5 was 69.8.
+  - v7 = the re-rendered + colour augmented wrist skill, plus grounding v7: robot self-filter, box centres, parser v2 (receptacle word, identifying pick), Qwen3-VL-8B.
+  - **Attribution (dev):**
+    - VLM grounding loss 7.1, grasp policy 1.4, robot / noise 2.4 (v5: 11.3 / 16.0 / 2.4).
+    - Replicates set the noise floor at 1–6% per category per run. Wrong-object picks repeat exactly.
+  - **E8 grounding study:** Qwen3-VL 2B–32B and Gemini models (Robotics-ER 2, 3.8 Flash, 4 Argon, 3.1 Pro, Gemma 4) × verify / numbered marks / recursive.
+    - Closed-loop with the same skill: Gemini 3.8 Flash recursive 94.7, Qwen-32B verify 94.5 (local), Argon 94.3 (perfect grounding 96.2).
+    - Qwen cannot read numbered marks (62%).
+    - Test runs of the two grounders declared on dev are running.
+
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).
