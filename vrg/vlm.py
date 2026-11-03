@@ -112,6 +112,7 @@ def zoom(img, box, margin=0.5, out=448, min_side=80):
     s = max(x1 - x0, y1 - y0, min_side) * (1 + margin)
     H, W = img.shape[:2]
     a, b = int(max(cx - s / 2, 0)), int(max(cy - s / 2, 0)); c, d = int(min(cx + s / 2, W)), int(min(cy + s / 2, H))
+    if d - b < 2 or c - a < 2: a, b, c, d = 0, 0, W, H      # degenerate box (small models): use the whole image
     return np.array(Image.fromarray(img[b:d, a:c]).resize((out, int(out * (d - b) / max(c - a, 1))), Image.BICUBIC))
 
 
