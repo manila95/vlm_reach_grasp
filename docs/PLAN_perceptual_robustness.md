@@ -350,3 +350,14 @@ Replicates on the 80 camera tasks:
 - Ours v7 by category: robot init 97 (π0.5 70), sensor 95, language 69, layout 88, camera 79, background 95, light 97.
 - Tied with π0.5 and MolmoAct2 within CIs, without VLA pretraining on robot data.
 - The remaining losses are grounding (language, camera). E8b tests stronger grounders closed-loop on dev; a grounder chosen there gets its own single test run.
+
+**E9: confirmatory test runs (2026-11-03; grounders declared on dev).**
+
+| System | Test split | Paired vs π0.5 (89.3) |
+|---|---|---|
+| Ours + Gemini 3.8 Flash recursive | **94.0% [92.9–94.9]** (dev 94.7) | wins 199, loses 104, McNemar p = 5e-8 |
+| Ours + Qwen3-VL-32B verify (local) | 91.0% [89.7–92.2] (dev 94.5) | 177 vs 142, p = 0.057 |
+
+- The Gemini system's categories: robot init 95, sensor 97, language 95, layout 88, camera 91, background 95, light 98. The remaining weak spots are layout and camera.
+- Qwen-32B's camera score fell from 89 (dev) to 78 (test).
+- A stronger VLM alone (same skill) takes the system from a tie with π0.5 to a significant win.

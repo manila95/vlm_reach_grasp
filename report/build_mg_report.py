@@ -188,7 +188,7 @@ C.append(md(r"""**Reading (ours, final over all 2,518 tasks: 69.9%; π0.5-LIBERO
 
 C.append(md(r"""### 6b. Final comparison, loss attribution and grounding models
 
-**Test split (2,013 tasks, held out, run once after the regression gates).** The final system v7 combines:
+**Test split (2,013 tasks, held out; every system run once).** v7 ran first after the regression gates; the two stronger grounders (Gemini 3.8 Flash recursive, Qwen3-VL-32B verify) were declared on the dev split before their test runs. The final system v7 combines:
 - the re-rendered + colour augmented wrist skill;
 - grounding v7: robot self-filter, box centres, parser v2, with Qwen3-VL-8B.
 
@@ -199,12 +199,19 @@ Everything was selected on our own dev scenes and the 20% dev split.
 
 **Grounding study.** Every model × strategy on identical cached scenes (offline accuracy), then closed-loop with the same robust skill (E8b)."""))
 C.append(code(r"""test = set(load(f'{ROOT}/data/liberoplus_split.json')['test']); dev = set(load(f'{ROOT}/data/liberoplus_split.json')['dev'])
-M = [('Ours v7 (final)', 'ours_v7_test'), ('Ours v5', 'ours'), ('π0.5-LIBERO', 'pi05_libero'), ('MolmoAct2-LIBERO', 'molmoact2_libero'), ('π0-LIBERO', 'pi0_libero'), ('SmolVLA-LIBERO', 'smolvla_libero')]
+M = [('Ours + Gemini 3.8 Flash recursive', 'ours_e9_gemini-gemini-3.8-flash__recursive'), ('Ours + Qwen3-VL-32B verify (local)', 'ours_e9_qwen-Qwen_Qwen3-VL-32B-Instruct__verify'), ('Ours v7 (Qwen-8B)', 'ours_v7_test'), ('Ours v5', 'ours'), ('π0.5-LIBERO', 'pi05_libero'), ('MolmoAct2-LIBERO', 'molmoact2_libero'), ('π0-LIBERO', 'pi0_libero'), ('SmolVLA-LIBERO', 'smolvla_libero')]
 rows = []
 for lab, name in M:
     R = [r for r in load(f'{LP}/{name}/results.json') if r['tid'] in test]
     rows.append([lab, fmt(R)] + [f"{100*np.mean([r['success'] for r in R if r['category'] == c]):.0f}%" for c in CATS])
-table(rows, ['Test split (2,013)', 'All'] + CATS)"""))
+table(rows, ['Test split (2,013)', 'All'] + CATS)
+import math
+P = {r['tid']: r['success'] for r in load(f'{LP}/pi05_libero/results.json') if r['tid'] in test}; out = []
+for lab, name in M[:3]:
+    A = {r['tid']: r['success'] for r in load(f'{LP}/{name}/results.json') if r['tid'] in test}
+    b = sum(A[t] and not P[t] for t in A); c = sum(P[t] and not A[t] for t in A); n = b + c
+    out.append(f"{lab}: wins {b} tasks π0.5 loses, loses {c} it wins, McNemar p = {min(1, 2 * sum(math.comb(n, i) for i in range(min(b, c) + 1)) / 2 ** n):.2g}")
+display(Markdown('Paired comparison with π0.5 on the same test tasks:\n\n' + '\n'.join('* ' + o for o in out)))"""))
 C.append(code(r"""def dsr(name): R = {r['tid']: r for r in load(f'{LP}/{name}/results.json') if r['tid'] in dev}; return R
 GT, CEIL = dsr('e4_oracle_newskill'), dsr('e0_D_oracle_scripted'); GT5 = dsr('e0_B_oracle_learned')
 sr = lambda R: 100 * np.mean([r['success'] for r in R.values()])

@@ -116,7 +116,7 @@ This project was developed with Claude Code over two sessions (2026-10-07/08). T
   - **E8 grounding study:** Qwen3-VL 2B–32B and Gemini models (Robotics-ER 2, 3.8 Flash, 4 Argon, 3.1 Pro, Gemma 4) × verify / numbered marks / recursive.
     - Closed-loop with the same skill: Gemini 3.8 Flash recursive 94.7, Qwen-32B verify 94.5 (local), Argon 94.3 (perfect grounding 96.2).
     - Qwen cannot read numbered marks (62%).
-    - Test runs of the two grounders declared on dev are running.
+    - Test runs of the two grounders declared on dev: Gemini 3.8 Flash recursive **94.0%** (significantly above π0.5 89.3, McNemar p = 5e-8); local Qwen-32B 91.0% (p = 0.057).
 
 ## Open next steps
 Learned target-relative reach (replace the scripted reach), re-grounding at phase boundaries (the VLM is currently queried once), straight-line (norm-scaled) reach, a learned place skill, layout-randomized training for the baselines, multiple seeds, harder suites (LIBERO-90, RoboCasa).
