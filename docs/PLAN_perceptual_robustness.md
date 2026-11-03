@@ -361,3 +361,16 @@ Replicates on the 80 camera tasks:
 - The Gemini system's categories: robot init 95, sensor 97, language 95, layout 88, camera 91, background 95, light 98. The remaining weak spots are layout and camera.
 - Qwen-32B's camera score fell from 89 (dev) to 78 (test).
 - A stronger VLM alone (same skill) takes the system from a tie with π0.5 to a significant win.
+
+**Scripted vs learned grasp with real grounders (2026-11-03; dev split, 505 tasks, closed-loop).**
+
+| Grounder | Learned skill | Scripted grasp | Paired (McNemar) |
+|---|---|---|---|
+| Perfect (GT) | 96.2 | **97.6** | — |
+| Gemini 3.8 Flash recursive | **94.7** | 92.5 | 28 vs 17, p = 0.14 |
+| Qwen3-VL-32B verify | **94.5** | 91.1 | 26 vs 9, p = 0.006 |
+| Qwen3-VL-8B (v7) | 89.1 | 88.7 | 21 vs 19, p = 0.87 |
+
+- The scripted grasp does not beat the learned skill with real grounding. Even with perfect positions it tops out at 97.6% (layout 86.6%, clutter collisions).
+- Its extra losses with real grounders are not localisation error: xy error is 0.1–0.2 cm and height error about 0.1 cm (after the standard-scene calibration). Mostly layout (87 → 78 with Gemini) and robot init (99 → 92). The remaining gap to scripted + GT (97.6) is not explained, possibly sub-millimetre sensitivity or run-to-run noise (replicates not run).
+- Exploratory hybrid (scripted when the nearest other candidate is ≥ 12 cm from the target, learned otherwise), computed from the dev runs above: Gemini 96.2 (learned 94.7), Qwen-32B 95.2 (learned 94.5). The threshold was picked on dev among six values, the gain is about 8 tasks, and the oracle choice of the better skill per task gives 98.0 / 96.2. Not significant; it needs a declared threshold and a test-split run before any claim.
